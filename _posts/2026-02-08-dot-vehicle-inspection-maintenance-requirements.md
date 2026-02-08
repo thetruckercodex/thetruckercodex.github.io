@@ -22,8 +22,8 @@ In addition to inspections, carriers must maintain detailed records of vehicle m
 
 These records must be retained for the period required by FMCSA regulations and be made available during compliance reviews and audits. Missing or incomplete maintenance documentation is treated as a compliance failure, even if the vehicle appears to be in good condition.
 
-For record-related requirements, see:
-[DOT Recordkeeping Requirements for Truck Drivers](/dot-recordkeeping-requirements/)
+For record-related requirements, see: [DOT Recordkeeping and Document Retention Requirements](/dot-recordkeeping-document-retention/)
+
 
 ## How Inspections and Maintenance Are Enforced
 
