@@ -1,47 +1,75 @@
 ---
 layout: post
-title: "Electronic Logging Devices (ELD): Compliance Basics"
-permalink: /electronic-logging-device-eld-compliance/
+title: "Electronic Logging Device (ELD) Compliance Requirements"
 category: hos-eld
+permalink: /electronic-logging-device-eld-compliance/
+description: "An overview of Electronic Logging Device (ELD) compliance requirements under 49 CFR Part 395 and how log accuracy affects enforcement risk."
 ---
 ELD compliance is primarily a process problem: how logs are reviewed, corrected, and supported—not whether a device is installed. Log accuracy failures can trigger roadside violations and audit escalation.
 
+## Introduction
 
-Electronic Logging Devices (ELDs) are a core enforcement tool used by the FMCSA to monitor Hours of Service (HOS) compliance. Most interstate commercial truck drivers are required to use ELDs to automatically record driving time and duty status.
+Electronic Logging Devices (ELDs) are regulated under **49 CFR Part 395**, which governs Hours-of-Service compliance. ELD errors, inaccurate entries, or misuse can trigger roadside violations and Out-of-Service determinations.
 
-ELD-related violations frequently result in citations during roadside inspections and can trigger audits if patterns of non-compliance are identified.
+ELD compliance is not limited to device installation; it requires accurate operational management.
 
-## What Is an Electronic Logging Device?
+---
 
-An Electronic Logging Device is a system that records a driver’s driving time by synchronizing with the vehicle’s engine. ELDs replace paper logs for most drivers and are designed to improve accuracy and reduce falsification of records.
+## Core Compliance Requirements
 
-ELDs automatically capture driving status, engine hours, vehicle movement, and location data. Drivers are still responsible for ensuring that logs are accurate and properly certified.
+ELD compliance includes:
 
-For broader context, see:
-[Hours of Service (HOS): Rules Every Truck Driver Must Know](/hours-of-service-rules/)
+- Accurate recording of duty status  
+- Proper annotation of edits  
+- Retention of required records  
+- Transfer capability during roadside inspection  
 
-## Who Is Required to Use an ELD?
+Drivers remain responsible for log accuracy even when using automated systems.
 
-Most drivers who are required to maintain Records of Duty Status (RODS) must use an ELD. This includes interstate drivers operating commercial motor vehicles unless a specific exemption applies.
+---
 
-Common exemptions include short-haul operations, certain older vehicles, and limited-use scenarios. However, exemptions are narrowly defined, and drivers must fully qualify to rely on them.
+## Common Enforcement Findings
 
-Operating without a required ELD or claiming an invalid exemption is treated as a compliance violation.
+Roadside inspections frequently identify:
 
-## How ELD Compliance Is Enforced
+- Unassigned driving time  
+- Failure to certify logs  
+- Improper use of personal conveyance  
+- Exceeding drive time limits  
 
-ELD compliance is enforced during roadside inspections, audits, and compliance reviews. Inspectors review ELD records, data transfer capability, and supporting documents to verify accuracy.
+Drive time exceedances are discussed in our [Hours-of-Service Violations Guide](/hours-of-service-violations-out-of-service/).
 
-Logs must be transferable to enforcement officers upon request, and drivers must be able to demonstrate basic ELD operation. Malfunctions must be documented and addressed within required timeframes.
+---
 
-For audit-related enforcement, see:
-[DOT Audits: What Triggers a Compliance Audit?](/dot-compliance-audit-triggers/)
+## Enforcement Impact
 
-## Common ELD Compliance Issues
+ELD-related violations may result in:
 
-Common ELD violations include failure to transfer logs, inaccurate duty status entries, missing certifications, and operating with an unregistered or malfunctioning device.
+- Immediate driver Out-of-Service orders  
+- CSA Driver BASIC score impact  
+- Audit review triggers  
+- Increased inspection frequency  
 
-Many violations occur because drivers do not review logs regularly or fail to correct errors promptly. Consistent log review and understanding ELD operation are essential for maintaining compliance.
+Repeated log accuracy issues signal systemic compliance weaknesses.
 
-For related enforcement patterns, see:
-[Common DOT Violations and How to Avoid Them](/common-dot-violations/)
+---
+
+## Preventive Compliance Controls
+
+To reduce ELD-related enforcement exposure:
+
+1. Review log entries daily.  
+2. Understand exception provisions before use.  
+3. Resolve unassigned drive time promptly.  
+4. Retain required documentation supporting edits.  
+5. Train drivers on regulatory limits.
+
+Driver qualification and recordkeeping integration is addressed in our [Driver Qualification File Requirements](/driver-qualification-file-requirements/).
+
+---
+
+## Related Compliance Topics
+
+- [Hours-of-Service Violations Overview](/hours-of-service-violations-out-of-service/)  
+- [Driver Qualification File Requirements](/driver-qualification-file-requirements/)  
+- [DOT Compliance Audit Triggers](/dot-compliance-audit-triggers/)
