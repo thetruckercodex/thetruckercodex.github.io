@@ -2,6 +2,7 @@
 layout: post
 title: "Common DOT Violations and How to Avoid Them"
 permalink: /common-dot-violations/
+category: audits-violations
 ---
 
 Common DOT violations are rarely caused by a single serious mistake. In most cases, violations result from repeated documentation errors, inconsistent records, or failure to follow basic compliance procedures.
