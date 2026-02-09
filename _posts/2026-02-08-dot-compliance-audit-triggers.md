@@ -5,6 +5,8 @@ category: audits-violations
 permalink: /dot-compliance-audit-triggers/
 description: "An analysis of common DOT compliance audit triggers and how enforcement reviews are initiated under federal oversight frameworks."
 ---
+DOT audits are rarely random events. They are usually triggered by patterns—inspection history, CSA indicators, crash trends, or documentation weaknesses that accumulate over time.
+
 
 ## Introduction
 
