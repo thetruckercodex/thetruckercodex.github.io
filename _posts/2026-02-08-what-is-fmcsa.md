@@ -14,7 +14,7 @@ Understanding the FMCSA’s role—and how it differs from the Department of Tra
 
 The FMCSA operates under the U.S. Department of Transportation and is responsible for reducing crashes, injuries, and fatalities involving commercial motor vehicles. It establishes and enforces federal motor carrier safety regulations and conducts audits, compliance reviews, and oversight activities to promote safe operation.
 
-Official source: https://www.fmcsa.dot.gov/
+Official source: [FMCSA Official Website](https://www.fmcsa.dot.gov/)
 
 In practice, the FMCSA is the agency connected to safety audits, roadside inspection standards, driver qualification requirements, hours-of-service enforcement, and carrier safety records.
 
