@@ -12,7 +12,7 @@ Brake defects are among the most common vehicle out-of-service triggers because 
 
 Brake system violations remain one of the leading causes of vehicle Out-of-Service (OOS) orders during roadside inspections in the United States. Under **49 CFR Part 393**, commercial motor vehicles must meet mandatory equipment and performance standards, including braking system requirements.
 
-[Official Reference]({{ site.fmcsa_regs_393 }})
+fmcsa_regs_393: "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-393"
 
 Unlike minor documentation errors, brake deficiencies are treated as high-risk safety violations because they directly affect stopping capability and crash severity.
 
