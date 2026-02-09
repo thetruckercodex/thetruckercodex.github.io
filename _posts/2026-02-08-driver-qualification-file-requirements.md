@@ -4,6 +4,7 @@ title: "Driver Qualification File (DQF): Requirements Explained"
 permalink: /driver-qualification-file-requirements/
 category: dqf
 ---
+DQF deficiencies are among the most common audit findings because they drift quietly—expired medicals, missing annual reviews, and incomplete onboarding files. Treat DQF as a recurring system, not a static folder.
 
 The Driver Qualification File (DQF) is a mandatory compliance record required by the FMCSA for most commercial motor vehicle drivers. It documents whether a driver is legally qualified to operate a commercial vehicle and is one of the first items reviewed during audits and inspections.
 
