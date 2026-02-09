@@ -2,6 +2,7 @@
 layout: post
 title: "DOT Recordkeeping and Document Retention Requirements"
 permalink: /dot-recordkeeping-document-retention/
+category: recordkeeping
 ---
 
 DOT recordkeeping and document retention requirements are a foundational part of FMCSA compliance. Even when drivers operate safely, missing or improperly retained documents can result in violations during roadside inspections and audits.
