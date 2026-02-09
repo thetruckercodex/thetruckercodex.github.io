@@ -4,6 +4,8 @@ title: "Electronic Logging Devices (ELD): Compliance Basics"
 permalink: /electronic-logging-device-eld-compliance/
 category: hos-eld
 ---
+ELD compliance is primarily a process problem: how logs are reviewed, corrected, and supported—not whether a device is installed. Log accuracy failures can trigger roadside violations and audit escalation.
+
 
 Electronic Logging Devices (ELDs) are a core enforcement tool used by the FMCSA to monitor Hours of Service (HOS) compliance. Most interstate commercial truck drivers are required to use ELDs to automatically record driving time and duty status.
 
