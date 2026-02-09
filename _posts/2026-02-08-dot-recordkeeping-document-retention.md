@@ -5,6 +5,8 @@ category: recordkeeping
 permalink: /dot-recordkeeping-document-retention/
 description: "An overview of DOT recordkeeping requirements and document retention standards affecting audits and compliance reviews."
 ---
+Recordkeeping problems often create enforcement exposure even when operations are otherwise compliant. A simple retention system and periodic file audits reduce audit volatility dramatically.
+
 
 ## Introduction
 
