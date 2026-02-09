@@ -2,6 +2,7 @@
 layout: post
 title: "Driver Qualification File (DQF): Requirements Explained"
 permalink: /driver-qualification-file-requirements/
+category: dqf
 ---
 
 The Driver Qualification File (DQF) is a mandatory compliance record required by the FMCSA for most commercial motor vehicle drivers. It documents whether a driver is legally qualified to operate a commercial vehicle and is one of the first items reviewed during audits and inspections.
