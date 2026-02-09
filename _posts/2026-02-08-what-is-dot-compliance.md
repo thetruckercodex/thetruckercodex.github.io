@@ -8,24 +8,29 @@ description: "What DOT compliance means in real operations: the major compliance
 
 DOT compliance refers to the full set of federal safety regulations that commercial truck drivers and motor carriers must follow in the United States. These rules are not optional, and failure to comply can result in fines, out-of-service orders, or enforcement actions.
 
-At its core, DOT compliance exists to support road safety, driver accountability, and safe vehicle operation. Most trucking safety compliance requirements are enforced by the FMCSA (Federal Motor Carrier Safety Administration), an agency within the U.S. Department of Transportation.  
-Official source: https://www.fmcsa.dot.gov/ :contentReference[oaicite:4]{index=4}
+At its core, DOT compliance exists to support road safety, driver accountability, and safe vehicle operation. Most day-to-day trucking compliance requirements are enforced by the Federal Motor Carrier Safety Administration (FMCSA), an agency within the U.S. Department of Transportation.
+
+Official source: [FMCSA Official Website](https://www.fmcsa.dot.gov/)
 
 ## What Does DOT Compliance Include?
 
 DOT compliance covers several core operational areas:
 
-1) **Driver qualification and documentation**  
+### 1) Driver Qualification and Documentation
+
 A central component is the Driver Qualification File (DQF), which contains documentation proving that a driver is legally qualified to operate a commercial motor vehicle. See **[Driver Qualification File (DQF) Requirements](/driver-qualification-file-requirements/)**.
 
-2) **Vehicle inspection, repair, and maintenance**  
+### 2) Vehicle Inspection, Repair, and Maintenance
+
 Commercial vehicles must be inspected regularly, defects must be corrected, and records must be documented and retained. These records are routinely examined during roadside inspections and audits. See **[Vehicle Inspection and Maintenance Requirements Guide](/vehicle-inspection-and-maintenance-requirements/)**.
 
-3) **Hours of service and log accuracy**  
-Hours of Service (HOS) rules limit driving time to reduce fatigue risk and are enforced through ELD/RODS data during inspections. See **[Hours-of-Service Rules Guide](/hours-of-service-rules/)**.
+### 3) Hours of Service and Log Accuracy
 
-4) **Recordkeeping and retention discipline**  
-Compliance is often won or lost on documentation quality and retention. See **[DOT Recordkeeping and Document Retention Requirements](/dot-recordkeeping-document-retention/)**.
+Hours-of-Service (HOS) rules limit driving time to reduce fatigue risk and are enforced through ELD/RODS data during inspections. See **[Hours-of-Service Rules Guide](/hours-of-service-rules/)**.
+
+### 4) Recordkeeping and Retention Discipline
+
+Compliance is often won or lost on documentation quality and retention discipline. See **[DOT Recordkeeping and Document Retention Requirements](/dot-recordkeeping-document-retention/)**.
 
 ## Why DOT Compliance Matters for Truck Drivers
 
