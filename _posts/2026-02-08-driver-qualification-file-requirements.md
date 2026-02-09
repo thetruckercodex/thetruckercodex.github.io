@@ -9,7 +9,7 @@ DQF deficiencies are among the most common audit findings because they drift qui
 
 ## Introduction
 
-Driver Qualification Files (DQFs) are governed by **49 CFR Part 391**, which establishes qualification standards for commercial drivers. Incomplete or outdated DQFs are a frequent finding during DOT compliance audits.
+Driver Qualification Files (DQFs) are governed by [49 CFR Part 391](https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-391), which establishes qualification standards for commercial drivers. Incomplete or outdated DQFs are a frequent finding during DOT compliance audits.
 
 Unlike mechanical violations, DQF deficiencies are documentation-based but carry significant regulatory consequences.
 
@@ -19,13 +19,13 @@ Unlike mechanical violations, DQF deficiencies are documentation-based but carry
 
 A compliant DQF typically includes:
 
-- Driver application for employment  
-- Motor vehicle record (MVR) documentation  
-- Medical examiner’s certificate  
-- Road test certificate or equivalent  
-- Annual review documentation  
+- **Driver application for employment**
+- **Motor vehicle record (MVR) documentation**
+- **Medical examiner’s certificate**
+- **Road test certificate or equivalent**
+- **Annual review documentation**
 
-Specific qualification standards are detailed in 49 CFR §391.
+Specific qualification standards and the complete list of mandatory documents are detailed in the official [49 CFR §391 Subpart F](https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-391/subpart-F).
 
 ---
 
@@ -63,11 +63,7 @@ HOS enforcement exposure is addressed in our [Hours-of-Service Violations Overvi
 
 To reduce DQF-related audit risk:
 
-1. Track medical certificate expiration dates.  
-2. Conduct annual MVR reviews on schedule.  
-3. Maintain organized digital or physical files.  
-4. Separate active and archived driver records.  
-5. Perform periodic internal compliance audits.
+1. **Track medical certificate expiration dates.** 2. **Conduct annual MVR reviews on schedule.** 3. **Maintain organized digital or physical files.** 4. **Separate active and archived driver records.** 5. **Perform periodic internal compliance audits.**
 
 DQF oversight should operate as a recurring compliance system rather than a static file repository.
 
