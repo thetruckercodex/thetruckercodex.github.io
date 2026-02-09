@@ -2,6 +2,7 @@
 layout: post
 title: "Hours of Service (HOS): Rules Every Truck Driver Must Know"
 permalink: /hours-of-service-rules/
+category: hos-eld
 ---
 
 Hours of Service (HOS) regulations are among the most strictly enforced FMCSA rules for commercial truck drivers. These regulations limit how long drivers may operate a commercial motor vehicle and require specific rest periods to reduce fatigue-related accidents.
