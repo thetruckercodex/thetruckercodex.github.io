@@ -5,6 +5,7 @@ category: audits-violations
 permalink: /common-dot-violations-how-to-avoid/
 description: "An overview of the most common DOT violations during roadside inspections and practical compliance controls owner-operators can use to reduce enforcement risk."
 ---
+Most DOT violations are preventable and tend to repeat for the same operational reasons—inspection gaps, documentation drift, and missed thresholds. This guide maps the most common findings to practical controls you can run daily.
 
 ## Introduction
 
