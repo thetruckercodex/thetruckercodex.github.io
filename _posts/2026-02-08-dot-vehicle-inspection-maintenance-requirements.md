@@ -2,6 +2,7 @@
 layout: post
 title: "DOT Vehicle Inspection and Maintenance Requirements"
 permalink: /dot-vehicle-inspection-maintenance-requirements/
+category: maintenance
 ---
 
 DOT vehicle inspection and maintenance requirements are a core part of FMCSA compliance for commercial motor vehicles. These rules exist to ensure that trucks operating on public roads are safe, properly maintained, and free of defects that could cause accidents or mechanical failures.
