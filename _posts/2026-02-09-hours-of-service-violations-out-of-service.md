@@ -5,6 +5,7 @@ category: hos-eld
 permalink: /hours-of-service-violations-out-of-service/
 description: "Hours-of-Service violations under 49 CFR Part 395 remain one of the most common driver out-of-service triggers. Learn how enforcement works and how to reduce HOS compliance risk."
 ---
+Hours-of-Service violations are one of the fastest ways to get a driver placed out-of-service during a roadside inspection. This guide breaks down the most common triggers, what officers look for, and the controls that prevent repeat violations.
 
 ## Introduction
 
