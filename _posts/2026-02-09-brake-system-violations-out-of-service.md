@@ -5,7 +5,7 @@ category: maintenance
 permalink: /brake-system-violations-out-of-service/
 description: "Brake system violations are among the leading causes of vehicle out-of-service orders during roadside inspections. Understand enforcement thresholds and how to reduce compliance risk."
 ---
-
+Brake defects are among the most common vehicle out-of-service triggers because they are easy to verify and hard to excuse. This article explains what typically causes OOS decisions and the preventive checks that reduce exposure.
 ## Introduction
 
 Brake system violations remain one of the leading causes of vehicle **Out-of-Service (OOS)** orders during roadside inspections in the United States. Under **49 CFR Part 393**, commercial motor vehicles must meet strict brake performance and component standards. When those standards are not met, enforcement action is often immediate.
