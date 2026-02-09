@@ -2,6 +2,7 @@
 layout: post
 title: "What Is DOT Compliance? A Simple Guide for Truck Drivers"
 permalink: /what-is-dot-compliance/
+category: basics
 ---
 
 DOT compliance refers to the full set of federal safety regulations that commercial truck drivers and motor carriers must follow in the United States. These rules are not optional, and failure to comply can result in fines, out-of-service orders, or enforcement actions.
