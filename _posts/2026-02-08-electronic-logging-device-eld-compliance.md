@@ -2,6 +2,7 @@
 layout: post
 title: "Electronic Logging Devices (ELD): Compliance Basics"
 permalink: /electronic-logging-device-eld-compliance/
+category: hos-eld
 ---
 
 Electronic Logging Devices (ELDs) are a core enforcement tool used by the FMCSA to monitor Hours of Service (HOS) compliance. Most interstate commercial truck drivers are required to use ELDs to automatically record driving time and duty status.
