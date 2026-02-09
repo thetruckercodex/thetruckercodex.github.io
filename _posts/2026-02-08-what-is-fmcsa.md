@@ -2,6 +2,7 @@
 layout: post
 title: "What Is FMCSA and What Does It Regulate?"
 permalink: /what-is-fmcsa/
+category: basics
 ---
 
 The Federal Motor Carrier Safety Administration (FMCSA) is the U.S. government agency responsible for regulating commercial motor vehicle safety. While many drivers refer broadly to “DOT rules,” most trucking compliance requirements are enforced by the FMCSA.
