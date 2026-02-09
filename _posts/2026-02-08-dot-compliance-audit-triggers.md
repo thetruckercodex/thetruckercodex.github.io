@@ -2,6 +2,7 @@
 layout: post
 title: "DOT Audits: What Triggers a Compliance Audit?"
 permalink: /dot-compliance-audit-triggers/
+category: audits-violations
 ---
 
 DOT compliance audits are formal reviews conducted by the FMCSA to evaluate whether a motor carrier is operating in compliance with federal safety regulations. Audits are not random in the way many drivers assume; most are triggered by specific risk signals and enforcement indicators.
