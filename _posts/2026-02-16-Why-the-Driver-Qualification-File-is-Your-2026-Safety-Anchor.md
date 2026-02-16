@@ -52,6 +52,9 @@ To stand before a DOT investigator with absolute confidence, your records must b
 6.  **Clearinghouse Documentation:** Evidence of a "Full" pre-employment query and subsequent "Annual" limited queries for all drivers.
 
 ---
+> [!TIP]
+> ### Build Your DQF Framework in Minutes
+> Managing 2026 Driver Qualification Files manually is a high-stakes gamble. Our **TCX - DQF Pack** provides the exact digital structure and updated templates required to meet NRII and Clearinghouse-II standards. Eliminate the guesswork and secure your files today via our [Secure Etsy Storefront](https://thetruckercodex.etsy.com).
 
 ## From Paper Folders to Digital Integrity
 
