@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Jurisprudence of English Language Proficiency: Analytical Standards and Enforcement Nuances"
-category: driver-compliance
+category: audits-violations
 permalink: /english-language-proficiency-roadside-assessment/
 description: "A litigation-grade analysis of 49 CFR § 391.11(b)(2) enforcement. This review examines the structured assessment protocols, the interplay between inspector discretion and CVSA OOS criteria, and the strategic SMS impact for motor carriers in 2026."
 ---
