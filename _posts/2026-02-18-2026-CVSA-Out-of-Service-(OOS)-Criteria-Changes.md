@@ -86,8 +86,7 @@ The 2026 CVSA changes signal a shift toward **absolute objective enforcement**. 
 
 At **The Trucker Codex**, we provide the tools to ensure you are always *Audit-Ready*. Prepare your fleet for the April 1st transition before the inspector hands your driver the "Green Paper."
 
-**[GET THE 2026 ROADSIDE INSPECTION POCKET GUIDE – SECURE YOUR CSA SCORE]**
-**[READ MORE: 2026 NON-DOMICILED CDL CHANGES & COMPLIANCE]**
+**[GET THE 2026 ROADSIDE INSPECTION POCKET GUIDE – SECURE YOUR CSA SCORE](https://www.etsy.com/shop/Atelier52)** **[READ MORE: 2026 NON-DOMICILED CDL CHANGES & COMPLIANCE](/non-domiciled-cdl-compliance-2026/)**
 
 ---
 *Disclaimer: This guide is for educational purposes and based on the 2026 CVSA North American Standard Out-of-Service Criteria. Always refer to the official CVSA handbook for legal compliance.*
