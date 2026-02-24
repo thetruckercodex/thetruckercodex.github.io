@@ -14,9 +14,7 @@ For professional CDL drivers and owner operators, the inspection itself is proce
 
 ## The Structural Reality of a DOT Roadside Stop
 
-Under the NAS inspection system, enforcement officers conduct standardized inspection levels. A technical overview of inspection levels is detailed here:
-
-- [DOT Roadside Inspections: Levels Explained](/dot-roadside-inspections-levels/)
+Under the NAS inspection system, enforcement officers conduct standardized inspection levels.
 
 The majority of roadside contacts fall into:
 
@@ -47,10 +45,11 @@ Professional inspection management requires:
 2. Neutral, non-confrontational responses  
 3. Immediate post-inspection documentation  
 
-This aligns with broader enforcement emphasis trends outlined in:
+This aligns with broader enforcement emphasis trends, including:
 
 - [English Language Proficiency (ELP) Roadside Assessment](/english-language-proficiency-roadside-assessment/)
 - [2026 CVSA Out-of-Service (OOS) Criteria Updates](/cvsa-2026-oos-criteria-changes/)
+- [Driver Qualification File (DQF) Compliance](/dqf/)
 
 The regulatory direction increasingly emphasizes structured driver competency.
 
@@ -79,63 +78,33 @@ Extended inspection time increases exposure.
 
 ---
 
-## Roadside Events and Downstream Exposure
-
-Roadside documentation does not end at the roadside.
-
-Inspection interactions may later influence:
-
-- FMCSA Compliance Reviews  
-- Safety Rating determinations  
-- Litigation discovery  
-- Insurance underwriting analysis  
-
-These intersections connect directly with:
-
-- [Driver Qualification File (DQF) Compliance](/dqf/)
-- [Recordkeeping & Retention Standards](/recordkeeping-retention/)
-- [Hours-of-Service (HOS) Oversight](/hos-eld/)
-
-Structured roadside documentation integrates into the broader compliance ecosystem.
-
-Improvised stops create undocumented risk.
-
----
-
 ## A Structured Operational Framework
 
 To address this operational gap, The Trucker Codex developed a structured, printable inspection preparedness framework designed specifically for CDL drivers and owner operators.
 
-**DOT Roadside Inspection Printable Kit | CDL Driver Forms and Checklist | Owner Operator Communication Guide**
+### DOT Roadside Inspection Printable Kit
+
+This kit provides:
+
+- Structured inspection checklist  
+- CDL driver communication guide  
+- Owner operator documentation forms  
+- Post-inspection logging framework  
+- Compact field edition (A5 printable)
 
 This is not legal advice.  
 It is not an enforcement defense manual.  
-It is a documentation control system.
+It is a documentation control framework.
 
-The kit includes:
+Access the full printable kit here:
 
-- Roadside Interaction Overview  
-- Roadside Readiness Snapshot  
-- Document Presentation Sequence Guide  
-- Communication Reference Sheet  
-- Roadside Interaction Log  
-- Immediate Post-Inspection Notes  
-- Carrier Follow-Up Summary  
-- Internal Corrective Action Record  
-- Inspection Level Reference Snapshot  
-- Compact Field Edition (A5 printable format)
-
-Designed for real-world roadside deployment.
-
-Available here:
-
-👉 https://thetruckercodex.etsy.com/listing/4462603012/dot-roadside-inspection-printable-kit
+👉 [DOT Roadside Inspection Printable Kit – CDL Driver Forms & Checklist](https://thetruckercodex.etsy.com/listing/4462603012/dot-roadside-inspection-printable-kit)
 
 ---
 
 ## Strategic Conclusion
 
-The inspection environment is becoming increasingly structured.
+The inspection environment is increasingly structured.
 
 Drivers who mirror enforcement structure reduce disruption.
 
