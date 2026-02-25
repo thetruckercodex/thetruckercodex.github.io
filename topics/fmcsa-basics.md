@@ -13,6 +13,3 @@ permalink: /topics/fmcsa-basics/
     </li>
   {% endfor %}
 </ul>
-
-<br>
-[← All Topics](/topics/)
