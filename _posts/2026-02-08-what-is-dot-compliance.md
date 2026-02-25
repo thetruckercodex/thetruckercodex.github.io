@@ -51,7 +51,6 @@ Many violations occur due to misunderstanding the rule framework or relying on o
 
 For practical enforcement-focused reading, start here: **[Common DOT Violations and How to Avoid Them](/common-dot-violations-how-to-avoid/)**.
 
-{% include cta-final.html %}
 
 ## Related Compliance Topics
 
