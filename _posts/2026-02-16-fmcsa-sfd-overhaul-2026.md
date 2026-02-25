@@ -55,7 +55,6 @@ The SFD overhaul is a mirror reflecting the true health of your operation. In 20
 At *The Trucker Codex*, we believe that knowledge is the ultimate control. By understanding the mechanics of the Safety Fitness Determination, you move from being a subject of regulation to a master of compliance. Ensure your fleet’s story, as told through its data, is one of excellence.
 
 ---
-{% include cta-final.html %}
 
 ## Related Strategic Resources
 
