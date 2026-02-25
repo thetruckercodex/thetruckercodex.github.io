@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "FMCSA Drug & Alcohol Clearinghouse: A Guide for Modern Truckers"
-category: driver-qualification
+category: dqf
 permalink: /fmcsa-clearinghouse-guide/
 description: "Everything truck drivers and fleet managers need to know about the FMCSA Clearinghouse, registration, and maintaining a clean driving status."
 ---
