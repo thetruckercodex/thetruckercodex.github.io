@@ -6,7 +6,7 @@ permalink: /topics/
 
 ## Browse Compliance Topics
 
-- [FMCSA & DOT Basics](/topics/basics/)
+- [FMCSA & DOT Basics](/topics/compliance-basics/)
 - [HOS & ELD](/topics/hos-eld/)
 - [Driver Qualification File (DQF)](/topics/dqf/)
 - [Vehicle Inspection & Maintenance](/topics/maintenance/)
