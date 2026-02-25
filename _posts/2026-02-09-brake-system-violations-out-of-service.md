@@ -16,7 +16,7 @@ Official reference: [49 CFR Part 393 - Parts and Accessories Necessary for Safe 
 
 Unlike minor documentation errors, brake deficiencies are treated as high-risk safety violations because they directly affect stopping capability and crash severity.
 
-For a broader overview of vehicle compliance requirements, see our **[Vehicle Inspection and Maintenance Requirements Guide](/vehicle-inspection-and-maintenance-requirements/)**.
+For a broader overview of vehicle compliance requirements, see our **[Vehicle Inspection and Maintenance Requirements Guide](/dot-vehicle-inspection-maintenance-requirements/)**.
 
 ## What Inspectors Evaluate
 
