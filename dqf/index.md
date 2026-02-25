@@ -50,6 +50,8 @@ Failure to maintain any of these elements may trigger:
 - Increased insurance risk exposure
 
 ---
+**Primary DQF Master Guide (2026):**  
+[The Ultimate Guide to 2026 Driver Qualification: Mastering NRII and the New OOS Mandates](/driver-qualification-file-requirements/)
 
 ## Related Compliance Articles
 
