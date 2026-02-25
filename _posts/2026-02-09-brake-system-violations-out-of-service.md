@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Brake System Violations: Why They Lead Vehicle Out-of-Service Orders"
-category: maintenance
+category: inspections-maintenance
 permalink: /brake-system-violations-out-of-service/
 description: "Brake defects are among the most common vehicle out-of-service triggers. What inspectors check, why OOS decisions happen, and the preventive controls that reduce exposure."
 ---
