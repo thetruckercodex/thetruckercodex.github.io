@@ -1,3 +1,7 @@
+{% assign cat = page.category | default: page.categories[0] %}
+{% assign cta = site.data.cta_map[cat] %}
+
+{% if cta and cta.link and cta.title %}
 <hr style="margin-top: 56px; margin-bottom: 36px; opacity: 0.22;">
 
 <h3 style="margin: 0 0 18px 0;">Implementation Framework</h3>
@@ -8,11 +12,10 @@ Operational stability, however, depends on standardized execution.
 </p>
 
 <p style="max-width: 720px; margin: 0 0 18px 0;">
-For operators requiring a structured, audit-ready compliance system, the field implementation layer is available below:
+If you intend to implement this framework in real operations — not merely understand it — the structured field version is available below.
 </p>
 
 <p style="margin: 0;">
-→ <a href="{{ include.link }}" target="_blank" rel="noopener noreferrer">
-{{ include.title }}
-</a>
+→ <a href="{{ cta.link }}" target="_blank" rel="noopener noreferrer">{{ cta.title }}</a>
 </p>
+{% endif %}
