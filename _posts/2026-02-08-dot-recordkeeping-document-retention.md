@@ -71,7 +71,6 @@ To maintain compliant record systems:
 
 Documentation discipline reduces audit volatility and enforcement exposure.
 
-{% include cta-final.html %}
 ---
 
 ## Related Compliance Topics
