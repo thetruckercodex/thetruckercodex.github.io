@@ -8,7 +8,7 @@ description: "A comprehensive 2026 master guide to DOT Driver Qualification File
 
 In the high-stakes theater of American logistics, the **driver qualification files** (DQF) represent the ultimate bridge between operational reality and regulatory safety. As we move through 2026, the Federal Motor Carrier Safety Administration (FMCSA) has fundamentally re-engineered what it means to be a "qualified driver." What was once a static folder in a filing cabinet is now a dynamic, digital record synchronized with federal databases in real-time.
 
-For the modern fleet manager, a incomplete DQF is no longer just a paperwork error—it is a primary [audit trigger](/dot-compliance-audit-triggers/) that can lead to immediate Out-of-Service (OOS) orders and crippling civil penalties. This guide serves as the definitive architecture for building and maintaining a 2026-compliant DQF system.
+For the modern fleet manager, an incomplete DQF is no longer just a paperwork error—it is a primary [audit trigger](/dot-compliance-audit-triggers/) that can lead to immediate Out-of-Service (OOS) orders and crippling civil penalties. This guide serves as the definitive architecture for building and maintaining a 2026-compliant DQF system.
 
 ---
 
