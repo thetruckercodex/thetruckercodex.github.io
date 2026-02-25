@@ -1,9 +1,7 @@
 ---
 layout: post
 title: "The Ultimate Guide to 2026 Driver Qualification..."
-categories:
-  - fmcsa-basics
-  - dqf
+category: dqf
 permalink: /driver-qualification-file-requirements/
 description: "A comprehensive 2026 master guide to DOT Driver Qualification Files. Covering NRII medical standards, Clearinghouse-II state downgrades, and full recordkeeping checklists."
 ---
