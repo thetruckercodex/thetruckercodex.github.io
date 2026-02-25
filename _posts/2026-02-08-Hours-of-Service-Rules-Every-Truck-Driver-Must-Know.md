@@ -52,7 +52,6 @@ Managing HOS requires a structured approach:
 3. **Log Certification:** Review and certify your logs daily to ensure accuracy.
 
 ---
-{% include cta-final.html %}
 
 ## Related Compliance Topics
 
