@@ -69,7 +69,6 @@ To reduce enforcement exposure:
 Maintenance compliance should be treated as a structured operational system, not an occasional check.
 
 ---
-{% include cta-final.html %}
 
 ## Related Compliance Topics
 
