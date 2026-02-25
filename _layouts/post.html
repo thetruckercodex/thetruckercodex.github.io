@@ -2,25 +2,65 @@
 layout: default
 ---
 
-<article class="post">
-  <h1>{{ page.title }}</h1>
-  {% if page.category %}
-<p style="margin-top:-10px; margin-bottom:20px; font-size:14px;">
-Filed under: 
-<a href="/topics/{{ page.category }}/">
-{{ page.category | replace: "-", " " | capitalize }}
-</a>
-</p>
+{% assign cat = page.category | default: page.categories[0] %}
+{% assign chosen_id = page.cta_product | default: site.data.cta_defaults[cat] %}
+{% assign chosen = site.data.cta_products[chosen_id] %}
+
+{% capture _content %}{{ content }}{% endcapture %}
+
+{%- comment -%}
+MID CTA: first H2 immediately after its closing </h2>
+{%- endcomment -%}
+{% if chosen and chosen.link and chosen.title and _content contains "<h2" %}
+  {% capture mid_block %}{% include cta-mid.html link=chosen.link title=chosen.title %}{% endcapture %}
+  {% assign _tmp = _content | split: "</h2>" %}
+  {% if _tmp.size > 1 %}
+    {% capture _content %}
+      {{ _tmp[0] }}</h2>
+      {{ mid_block }}
+      {{ _tmp[1] }}
+      {% for part in _tmp offset:2 %}
+        </h2>{{ part }}
+      {% endfor %}
+    {% endcapture %}
+  {% endif %}
 {% endif %}
 
+{%- comment -%}
+FINAL CTA: place it BEFORE "Related Compliance Analyses" if present;
+otherwise place it BEFORE "Written on" line if present;
+otherwise append to end.
+{%- endcomment -%}
+{% if chosen and chosen.link and chosen.title %}
+  {% capture final_block %}{% include cta-final.html link=chosen.link title=chosen.title %}{% endcapture %}
 
-  <div class="entry">
-    {{ content }}
-  </div>
+  {% if _content contains "Related Compliance Analyses" %}
+    {% assign _parts = _content | split: "Related Compliance Analyses" %}
+    {% capture _content %}
+      {{ _parts[0] }}
+      {{ final_block }}
+      Related Compliance Analyses
+      {{ _parts[1] }}
+      {% for p in _parts offset:2 %}
+        Related Compliance Analyses{{ p }}
+      {% endfor %}
+    {% endcapture %}
+  {% elsif _content contains "Written on" %}
+    {% assign _parts = _content | split: "Written on" %}
+    {% capture _content %}
+      {{ _parts[0] }}
+      {{ final_block }}
+      Written on{{ _parts[1] }}
+      {% for p in _parts offset:2 %}
+        Written on{{ p }}
+      {% endfor %}
+    {% endcapture %}
+  {% else %}
+    {% capture _content %}
+      {{ _content }}
+      {{ final_block }}
+    {% endcapture %}
+  {% endif %}
+{% endif %}
 
-  <div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
-  </div>
-
-  {% include disqus.html %}
-</article>
+{{ _content }}
