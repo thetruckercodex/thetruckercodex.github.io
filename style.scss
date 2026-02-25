@@ -287,3 +287,8 @@ footer {
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";
+.tcx-cta { margin: 20px 0; max-width: 720px; }
+.tcx-cta__title { margin: 0 0 10px 0; }
+.tcx-cta__lead { margin: 0 0 10px 0; }
+.tcx-cta__link { margin: 0; }
+.tcx-cta a { text-decoration: underline; }
