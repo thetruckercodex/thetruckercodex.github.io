@@ -84,16 +84,29 @@ img { max-width: 100%; }
   margin-bottom: 50px;
 }
 
+/* === FIX: Masthead layout (no overlap) === */
 .masthead {
   padding: 20px 0;
   border-bottom: 1px solid $lightGray;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+}
+
+/* disable legacy floats ONLY inside masthead */
+.masthead .site-avatar,
+.masthead .site-info,
+.masthead nav {
+  float: none;
 }
 
 .site-avatar {
-  float: left;
   width: 70px;
   height: 70px;
   margin-right: 15px;
+  flex: 0 0 auto;
 }
 
 .site-avatar img {
@@ -101,7 +114,8 @@ img { max-width: 100%; }
 }
 
 .site-info {
-  float: left;
+  flex: 1 1 auto;
+  min-width: 0;
 }
 
 .site-name {
@@ -120,10 +134,11 @@ img { max-width: 100%; }
 }
 
 nav {
-  float: right;
-  margin-top: 23px;
+  margin-top: 0;
   font-family: $helveticaNeue;
   font-size: 18px;
+  white-space: nowrap;
+  flex: 0 0 auto;
 }
 
 nav a {
@@ -131,6 +146,25 @@ nav a {
   color: $darkGray;
   font-weight: 300;
   letter-spacing: 1px;
+}
+
+/* Responsive: nav drops below to avoid collisions */
+@media (max-width: 760px) {
+  .masthead {
+    flex-wrap: wrap;
+  }
+
+  nav {
+    width: 100%;
+    white-space: normal;
+    margin-top: 10px;
+  }
+
+  nav a {
+    margin-left: 0;
+    margin-right: 16px;
+    display: inline-block;
+  }
 }
 
 .posts > .post {
@@ -162,6 +196,7 @@ footer {
 
 @import "highlights";
 @import "svg-icons";
+
 /* === FIX: Post title links should NOT be blue === */
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   color: inherit !important;
@@ -172,7 +207,8 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   color: inherit !important;
   text-decoration: none !important;
 }
-/* === FIX: Clear floats in masthead/header === */
+
+/* === FIX: Clear floats in masthead/header (legacy safety) === */
 .clearfix::after {
   content: "";
   display: table;
@@ -185,6 +221,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   display: table;
   clear: both;
 }
+
 #main {
   clear: both;
 }
