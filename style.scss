@@ -197,3 +197,13 @@ footer {
 
 @import "highlights";
 @import "svg-icons";
+/* === FIX: Post title links should NOT be blue === */
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+.site-name a {
+  color: inherit !important;
+  text-decoration: none !important;
+}
