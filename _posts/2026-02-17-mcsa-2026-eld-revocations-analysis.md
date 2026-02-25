@@ -83,6 +83,7 @@ These changes mean that by **April 15, 2026** (the day after the revocation dead
 **A:** No. The "8 days in 30" exemption (§ 395.8(a)(1)(iii)(A)) is for drivers who are normally exempt but occasionally travel long-haul. The 60-day revocation grace period is a separate, standalone administrative exception.
 
 ---
+{% include cta-final.html %}
 
 ## 6. Action Plan for Motor Carriers
 
@@ -96,9 +97,7 @@ To remain audit-ready, carriers must take the following steps before the **April
 
 ---
 
-## Final Takeaway
 
-Compliance in 2026 is about more than just logging miles; it is about documenting your defense against a shifting regulatory tide. The April 14 deadline is a "hard wall." By integrating the [**Trucker Codex Compliance Systems**](https://www.etsy.com/listing/4458962278/eld-revoked-2026-emergency-kit-fmcsa) into your daily operations, you ensure that even when technology fails or vendors are revoked, your business continues to move.
 
 ---
 *Sources: Federal Motor Carrier Safety Administration (FMCSA) 2026 Industry Notices; 49 CFR Part 395; Commercial Vehicle Safety Alliance (CVSA) 2026 OOSC Amendments.*
