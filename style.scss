@@ -290,5 +290,42 @@ footer {
 .tcx-cta { margin: 20px 0; max-width: 720px; }
 .tcx-cta__title { margin: 0 0 10px 0; }
 .tcx-cta__lead { margin: 0 0 10px 0; }
+/* === TCX CTA Typography Lock === */
+.tcx-cta {
+  max-width: 720px;
+  margin: 18px 0;
+  padding: 0;
+
+  /* Hard lock: CTA içindeki tüm metinler post temasından etkilenmesin */
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+.tcx-cta * {
+  font-size: inherit;
+  line-height: inherit;
+  font-weight: inherit;
+}
+
+.tcx-cta__title {
+  margin: 0 0 10px 0;
+  font-size: 20px;
+  line-height: 1.25;
+  font-weight: 700;
+}
+
+.tcx-cta__lead {
+  margin: 0 0 10px 0;
+}
+
+.tcx-cta__link {
+  margin: 0;
+}
+
+.tcx-cta__link a {
+  font-weight: 700;
+  text-decoration: underline;
+}
 .tcx-cta__link { margin: 0; }
 .tcx-cta a { text-decoration: underline; }
