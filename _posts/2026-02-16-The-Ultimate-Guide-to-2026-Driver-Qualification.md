@@ -72,10 +72,7 @@ The road in 2026 is less forgiving than ever. The integration of state and feder
 
 At *The Trucker Codex*, we believe that knowledge is power, but execution is everything. Your DQF system is the anchor of your safety culture—ensure it is heavy, well-maintained, and ready to hold when the storm of an audit arrives.
 
-> [!TIP]
-> ### Build Your 2026 DQF Framework in Minutes
-> Transitioning to digital recordkeeping doesn't have to be a multi-month project. Our **TCX - DQF Pack** provides the exact digital structure and updated templates required to meet these 2026 standards. [Deploy the System via Etsy](https://thetruckercodex.etsy.com).
-
+{% include cta-final.html %}
 ---
 
 ## Related Strategic Resources
