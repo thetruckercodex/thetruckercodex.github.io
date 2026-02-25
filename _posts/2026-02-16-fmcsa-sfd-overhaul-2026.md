@@ -63,4 +63,4 @@ At *The Trucker Codex*, we believe that knowledge is the ultimate control. By un
 - [Mastering ELD Compliance & Technology](/electronic-logging-device-eld-compliance/)
 - [The Science of Hours of Service (HOS) Rules](/hours-of-service-rules/)
 - [Understanding DOT Recordkeeping & Retention](/dot-recordkeeping-document-retention/)
-- [Official FMCSA Safety Fitness Determination Guidance](https://www.fmcsa.dot.gov/safety/safety-fitness-determination-sfd)
+- [Official FMCSA Safety Fitness Determination Guidance](https://www.fmcsa.dot.gov/regulations/safety-fitness-determinations)
