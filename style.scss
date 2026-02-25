@@ -84,29 +84,23 @@ img { max-width: 100%; }
   margin-bottom: 50px;
 }
 
-/* === FIX: Masthead layout (no overlap) === */
 .masthead {
   padding: 20px 0;
   border-bottom: 1px solid $lightGray;
-
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 18px;
 }
 
-/* disable legacy floats ONLY inside masthead */
-.masthead .site-avatar,
-.masthead .site-info,
-.masthead nav {
-  float: none;
+/* === FIX: Proper clearfix for floated masthead children === */
+.masthead::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .site-avatar {
+  float: left;
   width: 70px;
   height: 70px;
   margin-right: 15px;
-  flex: 0 0 auto;
 }
 
 .site-avatar img {
@@ -114,8 +108,7 @@ img { max-width: 100%; }
 }
 
 .site-info {
-  flex: 1 1 auto;
-  min-width: 0;
+  float: left;
 }
 
 .site-name {
@@ -134,11 +127,10 @@ img { max-width: 100%; }
 }
 
 nav {
-  margin-top: 0;
+  float: right;
+  margin-top: 23px;
   font-family: $helveticaNeue;
   font-size: 18px;
-  white-space: nowrap;
-  flex: 0 0 auto;
 }
 
 nav a {
@@ -148,16 +140,13 @@ nav a {
   letter-spacing: 1px;
 }
 
-/* Responsive: nav drops below to avoid collisions */
+/* === FIX: On narrow widths, prevent nav/title collisions === */
 @media (max-width: 760px) {
-  .masthead {
-    flex-wrap: wrap;
-  }
-
   nav {
-    width: 100%;
-    white-space: normal;
-    margin-top: 10px;
+    float: none;
+    margin-top: 12px;
+    clear: both;
+    font-size: 16px;
   }
 
   nav a {
@@ -189,7 +178,6 @@ footer {
   text-align: center;
 }
 
-
 /*********************/
 /* IMPORTS AT BOTTOM */
 /*********************/
@@ -206,22 +194,4 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 .site-name a {
   color: inherit !important;
   text-decoration: none !important;
-}
-
-/* === FIX: Clear floats in masthead/header (legacy safety) === */
-.clearfix::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* (Ek emniyet) wrapper da collapse olmasın */
-.wrapper-masthead::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-#main {
-  clear: both;
 }
