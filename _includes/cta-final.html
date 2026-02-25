@@ -1,9 +1,29 @@
 {% assign cat = page.category | default: page.categories[0] %}
-{% assign cta = site.data.cta_map[cat] %}
+{% assign node = site.data.cta_map[cat] %}
 
-{% if cta and cta.link and cta.title %}
+{% assign chosen_title = nil %}
+{% assign chosen_link  = nil %}
+
+{%- if node -%}
+
+  {%- if node.products -%}
+    {%- assign chosen_id = page.cta_product | default: node.default -%}
+    {%- assign chosen = node.products[chosen_id] -%}
+    {%- if chosen and chosen.title and chosen.link -%}
+      {%- assign chosen_title = chosen.title -%}
+      {%- assign chosen_link  = chosen.link -%}
+    {%- endif -%}
+  {%- else -%}
+    {%- if node.title and node.link -%}
+      {%- assign chosen_title = node.title -%}
+      {%- assign chosen_link  = node.link -%}
+    {%- endif -%}
+  {%- endif -%}
+
+{%- endif -%}
+
+{% if chosen_title and chosen_link %}
 <div style="margin: 18px 0 18px 0; padding: 0;">
-
   <h3 style="margin: 0 0 10px 0;">Implementation Framework</h3>
 
   <p style="max-width: 720px; margin: 0 0 10px 0;">
@@ -16,8 +36,7 @@
   </p>
 
   <p style="margin: 0;">
-    → <a href="{{ cta.link }}" target="_blank" rel="noopener noreferrer">{{ cta.title }}</a>
+    → <a href="{{ chosen_link }}" target="_blank" rel="noopener noreferrer">{{ chosen_title }}</a>
   </p>
-
 </div>
 {% endif %}
