@@ -59,6 +59,7 @@ An inspection is as much about **attitude** as it is about equipment.
 If you pass a Level I or Level V inspection with **zero** defects, you may receive a CVSA decal. This sticker is valid for three months and signals to other officers that your truck was recently vetted and found safe. In many cases, having a fresh decal will get you "waved through" scales while others are pulled in.
 
 ---
+{% include cta-final.html %}
 
 ## Related Compliance Topics
 - [DOT Vehicle Inspection and Maintenance Requirements](/dot-vehicle-inspection-maintenance/)
