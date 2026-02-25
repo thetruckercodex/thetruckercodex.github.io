@@ -38,8 +38,16 @@
     </div>
 
     <div id="main" role="main" class="container">
-      {{ content }}
-    </div>
+  {{ content }}
+
+  {% if page.layout == "post" and page.cta != false %}
+    {% assign cta = site.data.cta_map[page.category] %}
+    {% if cta and cta.link and cta.title %}
+      {% include cta-final.html link=cta.link title=cta.title %}
+    {% endif %}
+  {% endif %}
+
+</div>
 
     <div class="wrapper-footer">
       <div class="container">
