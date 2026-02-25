@@ -148,7 +148,7 @@ A structured DQF system should support:
 For carriers implementing broader DOT compliance systems across DQF, maintenance, HOS, audit defense, and enforcement preparedness:
 
 → Explore structured compliance resources:  
-https://thetruckercodex.etsy.com
+[The Trucker Codex](https://thetruckercodex.etsy.com)
 
 ---
 
