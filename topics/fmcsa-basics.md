@@ -8,10 +8,9 @@ permalink: /topics/fmcsa-basics/
 
 <ul>
   {% for post in site.posts %}
-    {% if post.category == "fmcsa-basics" or post.categories contains "fmcsa-basics" %}
-      <li>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-      </li>
+    {% capture post_data %}{{ post.category }} {{ post.categories | join: ' ' }}{% endcapture %}
+    {% if post_data contains "fmcsa-basics" %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endif %}
   {% endfor %}
 </ul>
