@@ -78,7 +78,6 @@ Disorganization extends inspection time.
 Extended inspection time increases exposure.
 
 ---
-{% include cta-final.html %}
 
 ## Strategic Conclusion
 
