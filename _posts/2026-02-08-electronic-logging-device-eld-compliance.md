@@ -67,7 +67,6 @@ To reduce ELD-related enforcement exposure:
 Driver qualification and recordkeeping integration is addressed in our [Driver Qualification File Requirements](/driver-qualification-file-requirements/).
 
 ---
-{% include cta-final.html %}
 
 ## Related Compliance Topics
 
