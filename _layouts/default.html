@@ -38,7 +38,27 @@
     </div>
 
     <div id="main" role="main" class="container">
-  {{ content }}
+
+  {% if page.layout == "post" %}
+    {% capture _content %}{{ content }}{% endcapture %}
+
+    {% if _content contains "<h2" %}
+      {% assign _parts = _content | split: "<h2" %}
+      {{ _parts[0] }}
+      <h2{{ _parts[1] | split: "</h2>" | first }}</h2>
+      {% include cta-mid.html %}
+      {{ "<h2" | append: (_parts[1] | split: "</h2>" | last) }}
+      {% for p in _parts offset:2 %}
+        {{ "<h2" | append: p }}
+      {% endfor %}
+    {% else %}
+      {{ _content }}
+      {% include cta-mid.html %}
+    {% endif %}
+
+  {% else %}
+    {{ content }}
+  {% endif %}
 
 </div>
 
