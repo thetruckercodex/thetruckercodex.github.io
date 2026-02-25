@@ -83,7 +83,6 @@ These changes mean that by **April 15, 2026** (the day after the revocation dead
 **A:** No. The "8 days in 30" exemption (§ 395.8(a)(1)(iii)(A)) is for drivers who are normally exempt but occasionally travel long-haul. The 60-day revocation grace period is a separate, standalone administrative exception.
 
 ---
-{% include cta-final.html %}
 
 ## 6. Action Plan for Motor Carriers
 
