@@ -74,8 +74,6 @@ Driver-side compliance issues such as log accuracy are handled separately in our
 
 Brake compliance should be treated as a risk management discipline rather than a reactive repair issue.
 
-{% include cta-final.html %}
-
 ## Related Compliance Topics
 
 - **[Hours-of-Service Violations Overview](/hours-of-service-violations-out-of-service/)**
