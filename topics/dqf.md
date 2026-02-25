@@ -7,10 +7,12 @@ permalink: /topics/dqf/
 ### Articles in This Topic
 
 <ul>
-  {% for post in site.categories['dqf'] %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
+  {% for post in site.posts %}
+    {% if post.category == "dqf" or post.categories contains "dqf" %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+    {% endif %}
   {% endfor %}
 </ul>
 
