@@ -45,7 +45,7 @@ In a civil trial following a high-speed collision, plaintiff attorneys frequentl
 
 The withdrawal of the speed limiter NPRM does not exist in isolation. It reflects a broader shift toward emphasizing **Human Competency** over mechanical constraints. This emphasis is evident in the refined enforcement of [English Language Proficiency (ELP)](/english-language-proficiency-roadside-assessment/) and the structured [Driver Qualification File (DQF)](/dqf/) requirements.
 
-When mechanical limiters are absent, the burden of safety shifts entirely to the driver's training and the carrier's oversight of [Hours-of-Service (HOS)](/hos-eld/). High-speed operations naturally reduce the margin for error, making log integrity and driver fitness even more critical. A driver operating at 75 mph (where legal by state law) has a vastly different fatigue profile than one at 60 mph. Carriers must adjust their internal [Recordkeeping & Retention](/recordkeeping-retention/) to account for the increased risks associated with high-speed lanes.
+When mechanical limiters are absent, the burden of safety shifts entirely to the driver's training and the carrier's oversight of [Hours-of-Service (HOS)](/hours-of-service-rules/). High-speed operations naturally reduce the margin for error, making log integrity and driver fitness even more critical. A driver operating at 75 mph (where legal by state law) has a vastly different fatigue profile than one at 60 mph. Carriers must adjust their internal [Recordkeeping & Retention](/recordkeeping-retention/) to account for the increased risks associated with high-speed lanes.
 
 ---
 
