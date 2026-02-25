@@ -62,7 +62,6 @@ With the "Federal Mandate" myth dispelled, carriers should focus on a multi-laye
 The July 2025 withdrawal of the Speed Limiter NPRM was a victory for operational flexibility, but it placed a greater responsibility on the shoulders of the carrier. In the absence of a federal ceiling, safety is no longer a mechanical setting—it is a behavioral standard. "The Trucker Codex" approach emphasizes that while the law may not mandate a limiter, the science of safety and the reality of litigation often do. Carriers that master the balance between speed and security will continue to lead the industry in both profitability and compliance.
 
 ---
-{% include cta-final.html %}
 
 ## Related Compliance Analyses
 
