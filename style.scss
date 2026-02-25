@@ -155,41 +155,6 @@ footer {
   text-align: center;
 }
 
-/*********************/
-/* CTA – CLEAN LOCK  */
-/*********************/
-
-.tcx-cta {
-  margin: 20px 0;
-  max-width: 720px;
-  font-family: $helvetica;
-  font-size: 16px;
-  line-height: 1.6;
-  color: $darkGray;
-}
-
-.tcx-cta__title {
-  margin: 0 0 10px 0;
-  font-family: $helveticaNeue;
-  font-size: 20px;
-  font-weight: 700;
-  color: $darkerGray;
-}
-
-.tcx-cta__lead {
-  margin: 0 0 10px 0;
-}
-
-.tcx-cta__link {
-  margin: 0;
-}
-
-.tcx-cta__link a,
-.tcx-cta__a {
-  font-weight: 700;
-  text-decoration: underline;
-  color: $blue;
-}
 
 /*********************/
 /* IMPORTS AT BOTTOM */
