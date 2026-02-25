@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Understanding DOT Roadside Inspections: Levels and Survival Strategies"
-category: inspections-maintenance
+category: maintenance
 permalink: /dot-roadside-inspections-levels/
 description: "A comprehensive breakdown of the different levels of DOT roadside inspections and how to prepare your vehicle and paperwork for success."
 ---
