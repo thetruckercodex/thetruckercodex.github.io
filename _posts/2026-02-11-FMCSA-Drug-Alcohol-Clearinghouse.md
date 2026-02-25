@@ -47,7 +47,6 @@ A clean Clearinghouse record is your most valuable asset. Carriers are increasin
 - **Data Accuracy:** It is your responsibility to check your record annually to ensure no clerical errors are impacting your livelihood.
 
 ---
-{% include cta-final.html %}
 
 ## Compliance Controls
 
