@@ -1,10 +1,18 @@
+---
+layout: page
+title: "FMCSA & DOT Basics"
+permalink: /topics/fmcsa-basics/
+---
+
+### Articles in This Topic
+
 <ul>
-  {% for post in site.posts %}
-    {% assign all_categories = post.categories | join: " " %}
-    {% if all_categories contains "fmcsa-basics" or post.category == "fmcsa-basics" %}
-      <li>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-      </li>
-    {% endif %}
+  {% for post in site.categories['fmcsa-basics'] %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
   {% endfor %}
 </ul>
+
+<br>
+[← All Topics](/topics/)
