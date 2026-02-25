@@ -62,5 +62,5 @@ If you pass a Level I or Level V inspection with **zero** defects, you may recei
 
 ## Related Compliance Topics
 - [DOT Vehicle Inspection and Maintenance Requirements](/dot-vehicle-inspection-maintenance-requirements/)
-- [Electronic Logging Devices (ELD): Compliance Basics](/eld-compliance-basics/)
+- [Electronic Logging Devices (ELD): Compliance Basics](/electronic-logging-device-eld-compliance-requirements/)
 - [Hours-of-Service (HOS): Rules Every Driver Must Know](/hours-of-service-rules/)
