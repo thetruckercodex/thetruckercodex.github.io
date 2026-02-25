@@ -2,20 +2,22 @@
 {% assign cta = site.data.cta_map[cat] %}
 
 {% if cta and cta.link and cta.title %}
-<hr style="margin-top: 56px; margin-bottom: 36px; opacity: 0.22;">
+<div style="margin: 18px 0 18px 0; padding: 0;">
 
-<h3 style="margin: 0 0 18px 0;">Implementation Framework</h3>
+  <h3 style="margin: 0 0 10px 0;">Implementation Framework</h3>
 
-<p style="max-width: 720px; margin: 0 0 14px 0;">
-Understanding the regulatory structure is foundational.
-Operational stability, however, depends on standardized execution.
-</p>
+  <p style="max-width: 720px; margin: 0 0 10px 0;">
+    Understanding the regulatory structure is foundational.
+    Operational stability, however, depends on standardized execution.
+  </p>
 
-<p style="max-width: 720px; margin: 0 0 18px 0;">
-If you intend to implement this framework in real operations — not merely understand it — the structured field version is available below.
-</p>
+  <p style="max-width: 720px; margin: 0 0 10px 0;">
+    If you intend to implement this framework in real operations — not merely understand it — the structured field version is available below.
+  </p>
 
-<p style="margin: 0;">
-→ <a href="{{ cta.link }}" target="_blank" rel="noopener noreferrer">{{ cta.title }}</a>
-</p>
+  <p style="margin: 0;">
+    → <a href="{{ cta.link }}" target="_blank" rel="noopener noreferrer">{{ cta.title }}</a>
+  </p>
+
+</div>
 {% endif %}
