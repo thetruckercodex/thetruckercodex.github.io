@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "DOT Roadside Inspection Communication: Structured Preparedness vs. Improvised Stops"
-category: audits-violations
+category: recordkeeping
 permalink: /dot-roadside-communication-structure/
 description: "A technical breakdown of DOT roadside inspection structure, documentation sequencing, and communication control strategies for CDL drivers and owner operators."
 ---
