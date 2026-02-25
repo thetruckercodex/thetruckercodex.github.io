@@ -1,10 +1,5 @@
----
-layout: page
-title: Driver Qualification File (DQF)
-permalink: /topics/dqf/
----
-
-{% assign posts = site.posts | where: "category", "dqf" %}
-{% for post in posts %}
-- [{{ post.title }}]({{ post.url }})
-{% endfor %}
+<ul>
+  {% for post in site.categories.dqf %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
