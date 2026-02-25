@@ -47,6 +47,8 @@ FMCSA compliance directly affects a carrier’s safety profile, inspection histo
 
 For owner-operators and small fleets, compliance responsibilities often fall directly on the driver or a small administrative function. Understanding FMCSA’s scope and maintaining clean documentation reduces preventable enforcement risk.
 
+{% include cta-final.html %}
+
 ## Related Compliance Topics
 
 - **[DOT Audits: What Triggers a Compliance Audit?](/dot-compliance-audit-triggers/)**
