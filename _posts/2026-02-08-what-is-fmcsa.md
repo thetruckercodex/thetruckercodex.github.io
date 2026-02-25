@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "What Is FMCSA and What Does It Regulate?"
-category: basics
+category: fmcsa-basics
 permalink: /what-is-fmcsa/
 description: "A practical explanation of what the FMCSA is, what it regulates, and why it matters for drivers, owner-operators, and small fleets."
 ---
