@@ -2,7 +2,7 @@
 ---
 layout: page
 title: "FMCSA & DOT Basics"
-permalink: /topics/basics/
+permalink: permalink: /topics/fmcsa-basics/
 ---
 
 FMCSA and DOT compliance form the foundation of trucking regulation in the United States.
