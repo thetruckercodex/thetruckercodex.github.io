@@ -329,3 +329,44 @@ footer {
 }
 .tcx-cta__link { margin: 0; }
 .tcx-cta a { text-decoration: underline; }
+/* === TCX CTA: nuclear reset (scoped) === */
+.tcx-cta, .tcx-cta * {
+  all: unset;
+}
+
+.tcx-cta {
+  display: block;
+  margin: 18px 0;
+  max-width: 720px;
+
+  /* inherit overall site typography */
+  font-family: inherit;
+  color: inherit;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.tcx-cta__title {
+  display: block;
+  margin: 0 0 10px 0;
+  font-size: 20px;
+  line-height: 1.25;
+  font-weight: 700;
+}
+
+.tcx-cta__lead {
+  display: block;
+  margin: 0 0 10px 0;
+}
+
+.tcx-cta__link {
+  display: block;
+  margin: 0;
+}
+
+.tcx-cta__a {
+  display: inline;
+  font-weight: 700;
+  text-decoration: underline;
+  cursor: pointer;
+}
