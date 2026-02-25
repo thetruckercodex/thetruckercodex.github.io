@@ -75,7 +75,7 @@ Federal law does not permit carriers to treat onboarding as an administrative fo
 **The Trucker Codex** approach emphasizes that regulations provide the checklist, but discipline provides the protection. Carriers that master the pre-dispatch compliance window reduce SMS risk and strengthen litigation defensibility.
 
 ---
-{% include cta-final.html %}
+
 
 ## Related Compliance Analyses
 
