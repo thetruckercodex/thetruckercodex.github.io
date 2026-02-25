@@ -73,7 +73,6 @@ To reduce HOS-related enforcement exposure:
 Driver compliance should be managed as part of an integrated system alongside documentation requirements such as the [Driver Qualification File Requirements](/driver-qualification-file-requirements/).
 
 ---
-{% include cta-final.html %}
 
 ## Related Compliance Topics
 
