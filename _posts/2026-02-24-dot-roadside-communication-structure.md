@@ -78,30 +78,6 @@ Extended inspection time increases exposure.
 
 ---
 
-## A Structured Operational Framework
-
-To address this operational gap, The Trucker Codex developed a structured, printable inspection preparedness framework designed specifically for CDL drivers and owner operators.
-
-### DOT Roadside Inspection Printable Kit
-
-This kit provides:
-
-- Structured inspection checklist  
-- CDL driver communication guide  
-- Owner operator documentation forms  
-- Post-inspection logging framework  
-- Compact field edition (A5 printable)
-
-This is not legal advice.  
-It is not an enforcement defense manual.  
-It is a documentation control framework.
-
-Access the full printable kit here:
-
-👉 [DOT Roadside Inspection Printable Kit – CDL Driver Forms & Checklist](https://thetruckercodex.etsy.com/listing/4462603012/dot-roadside-inspection-printable-kit)
-
----
-
 ## Strategic Conclusion
 
 The inspection environment is increasingly structured.
