@@ -81,7 +81,7 @@ Carriers must prepare by:
 In the era of "The Trucker Codex," compliance is not just about avoiding tickets; it is about mastering the technicalities that keep your fleet moving. 
 
 ---
-{% include cta-final.html %}
+
 
 ## Related Strategic Analyses
 
