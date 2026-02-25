@@ -1,20 +1,25 @@
-{% unless page.__tcx_final_cta_rendered %}
-  {% assign page.__tcx_final_cta_rendered = true %}
-  {% if include.link and include.title %}
-  <div class="tcx-cta">
-    <div class="tcx-cta__title">Implementation Framework</div>
+{% if include.link and include.title %}
+<div class="tcx-cta">
 
-    <div class="tcx-cta__lead">
-      Understanding the regulatory structure is foundational. Operational stability, however, depends on standardized execution.
-    </div>
-
-    <div class="tcx-cta__lead">
-      If you intend to implement this framework in real operations — not merely understand it — the structured field version is available below.
-    </div>
-
-    <div class="tcx-cta__link">
-      → <a class="tcx-cta__a" href="{{ include.link }}" target="_blank" rel="noopener noreferrer">{{ include.title }}</a>
-    </div>
+  <div class="tcx-cta__title">
+    Implementation Framework
   </div>
-  {% endif %}
-{% endunless %}
+
+  <div class="tcx-cta__lead">
+    Understanding the regulatory structure is foundational.
+    Operational stability, however, depends on standardized execution.
+  </div>
+
+  <div class="tcx-cta__lead">
+    If you intend to implement this framework in real operations — not merely understand it —
+    the structured field version is available below.
+  </div>
+
+  <div class="tcx-cta__link">
+    → <a href="{{ include.link }}" target="_blank" rel="noopener noreferrer">
+      {{ include.title }}
+    </a>
+  </div>
+
+</div>
+{% endif %}
