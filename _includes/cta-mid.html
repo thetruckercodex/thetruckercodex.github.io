@@ -1,13 +1,16 @@
-{% unless page.__tcx_mid_cta_rendered %}
-  {% assign page.__tcx_mid_cta_rendered = true %}
-  {% if include.link and include.title %}
-  <div class="tcx-cta">
-    <div class="tcx-cta__lead">
-      If you want to operationalize this article as a repeatable control — not just understand it — use the structured field implementation layer:
-    </div>
-    <div class="tcx-cta__link">
-      → <a class="tcx-cta__a" href="{{ include.link }}" target="_blank" rel="noopener noreferrer">{{ include.title }}</a>
-    </div>
+{% if include.link and include.title %}
+<div class="tcx-cta">
+
+  <div class="tcx-cta__lead">
+    If you want to operationalize this article as a repeatable control — not just understand it —
+    use the structured field implementation layer:
   </div>
-  {% endif %}
-{% endunless %}
+
+  <div class="tcx-cta__link">
+    → <a href="{{ include.link }}" target="_blank" rel="noopener noreferrer">
+      {{ include.title }}
+    </a>
+  </div>
+
+</div>
+{% endif %}
