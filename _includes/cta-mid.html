@@ -1,0 +1,16 @@
+{% assign cat = page.category | default: page.categories[0] %}
+{% assign cta = site.data.cta_map[cat] %}
+
+{% if cta and cta.link and cta.title %}
+<div style="margin: 22px 0 22px 0;">
+
+  <p style="max-width: 720px; margin: 0 0 10px 0;">
+    If you want to operationalize this article as a repeatable control — not just understand it — use the structured field implementation layer:
+  </p>
+
+  <p style="margin: 0;">
+    → <a href="{{ cta.link }}" target="_blank" rel="noopener noreferrer">{{ cta.title }}</a>
+  </p>
+
+</div>
+{% endif %}
