@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "What Is DOT Compliance? A Simple Guide for Truck Drivers"
-category: fmcsa-basics
+category: basics
 permalink: /what-is-dot-compliance/
 description: "What DOT compliance means in real operations: the major compliance areas, why it matters, and the most common failure modes for drivers and small carriers."
 ---
