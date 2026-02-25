@@ -47,6 +47,7 @@ To survive a 2026 focused review, your [dot compliance audit triggers](/dot-comp
 - **Verified Credentials:** Ensuring every driver’s medical and drug-test status is current via the [driver qualification file](/driver-qualification-file-requirements/) system.
 
 ---
+> **Compliance Note:** As the FMCSA transitions to dynamic performance monitoring, maintaining a static folder is no longer sufficient for a 'Satisfactory' rating. To align your carrier records with these new Safety Fitness Determination standards, you can utilize our structured [Audit & Safety Module](https://www.etsy.com/listing/1743118556/dot-audit-safety-module-fmcsa-compliance), designed specifically for continuous compliance readiness.
 
 ## Conclusion: The Era of Accountability
 
