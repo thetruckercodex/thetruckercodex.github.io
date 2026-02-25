@@ -22,7 +22,7 @@ A central component is the Driver Qualification File (DQF), which contains docum
 
 ### 2) Vehicle Inspection, Repair, and Maintenance
 
-Commercial vehicles must be inspected regularly, defects must be corrected, and records must be documented and retained. These records are routinely examined during roadside inspections and audits. See **[Vehicle Inspection and Maintenance Requirements Guide](/vehicle-inspection-and-maintenance-requirements/)**.
+Commercial vehicles must be inspected regularly, defects must be corrected, and records must be documented and retained. These records are routinely examined during roadside inspections and audits. See **[Vehicle Inspection and Maintenance Requirements Guide](/dot-vehicle-inspection-maintenance-requirements/)**.
 
 ### 3) Hours of Service and Log Accuracy
 
