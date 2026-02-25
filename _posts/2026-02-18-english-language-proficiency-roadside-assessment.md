@@ -82,6 +82,7 @@ The recent shifts in federal enforcement, such as the withdrawal of the Speed Li
 Understanding the procedural nuances of ELP enforcement is essential for any carrier aiming to maintain an elite safety rating. By recognizing the role of inspector discretion and the functional nature of § 391.11(b)(2) assessments, safety managers can transform a potential vulnerability into a strategic compliance advantage. Mastery of the road begins with mastery of the rules that govern communication.
 
 ---
+{% include cta-final.html %}
 
 ## Related Strategic Analyses
 
