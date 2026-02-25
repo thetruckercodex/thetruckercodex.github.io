@@ -59,4 +59,4 @@ A clean Clearinghouse record is your most valuable asset. Carriers are increasin
 ## Related Compliance Topics
 - [Driver Qualification File (DQF) Requirements](/driver-qualification-file-requirements/)
 - [What Triggers a DOT Compliance Audit?](/dot-compliance-audit-triggers/)
-- [Common DOT Violations and How to Avoid Them](/common-dot-violations/)
+- [Common DOT Violations and How to Avoid Them](/common-dot-violations-how-to-avoid/)
