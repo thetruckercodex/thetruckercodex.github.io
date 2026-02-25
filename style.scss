@@ -172,3 +172,16 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   color: inherit !important;
   text-decoration: none !important;
 }
+/* === FIX: Clear floats in masthead/header === */
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* (Ek emniyet) wrapper da collapse olmasın */
+.wrapper-masthead::after {
+  content: "";
+  display: table;
+  clear: both;
+}
