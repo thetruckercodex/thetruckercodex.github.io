@@ -56,5 +56,5 @@ Managing HOS requires a structured approach:
 ## Related Compliance Topics
 
 - [Hours-of-Service Violations and OOS Orders](/hours-of-service-violations-out-of-service/)
-- [Electronic Logging Device (ELD) Compliance Guide](/eld-compliance-guide/)
+- [Electronic Logging Device (ELD) Compliance Guide](/electronic-logging-device-eld-compliance/)
 - [DOT Compliance Audit Triggers](/dot-compliance-audit-triggers/)
