@@ -3,7 +3,7 @@ layout: page
 title: Audits & Violations
 permalink: /topics/audits-violations/
 ---
-description: "Cornerstone compliance hub analyzing 2026 FMCSA enforcement architecture, Safety Fitness Determination overhaul, Out-of-Service logic, and audit trigger matrix structure."
+"Cornerstone compliance hub analyzing 2026 FMCSA enforcement architecture, Safety Fitness Determination overhaul, Out-of-Service logic, and audit trigger matrix structure."
 ---
 
 FMCSA enforcement in 2026 is not episodic. It is data-driven, layered, and structurally interconnected.
