@@ -3,7 +3,7 @@ layout: page
 title: Audits & Violations
 permalink: /topics/audits-violations/
 ---
-"Cornerstone compliance hub analyzing 2026 FMCSA enforcement architecture, Safety Fitness Determination overhaul, Out-of-Service logic, and audit trigger matrix structure."
+Cornerstone compliance hub analyzing 2026 FMCSA enforcement architecture, Safety Fitness Determination overhaul, Out-of-Service logic, and audit trigger matrix structure.
 ---
 
 FMCSA enforcement in 2026 is not episodic. It is data-driven, layered, and structurally interconnected.
@@ -160,12 +160,12 @@ Audits are typically triggered by **risk convergence**, not isolated infractions
 Below is a simplified structural model:
 
 | Primary Signal | Secondary Correlate | Likely Intervention |
-|----------------|--------------------|---------------------|
-| Acute HOS violation | High HOS percentile | Focused Investigation |
-| Repeated OOS events | Vehicle Maintenance BASIC spike | Onsite Audit |
-| DQF documentation gaps | New Entrant status | Targeted Review |
-| Clearinghouse violation | Crash involvement | Comprehensive Investigation |
-| Patterned complaints | Recordkeeping failure | Offsite Investigation |
+|-------------------------|-------------------------------------|-----------------------------|
+| Acute HOS violation     | High HOS percentile                 | Focused Investigation       |
+| Repeated OOS events     | Vehicle Maintenance BASIC spike     | Onsite Audit                |
+| DQF documentation gaps  | New Entrant status                  | Targeted Review             |
+| Clearinghouse violation | Crash involvement                   | Comprehensive Investigation |
+| Patterned complaints    | Recordkeeping failure               | Offsite Investigation       |
 
 Audit escalation probability increases when:
 
@@ -209,5 +209,5 @@ Audits & Violations are not isolated events.
 They are systemic risk signals.
 
 This page is informational and does not constitute legal advice.
-```
+
 
