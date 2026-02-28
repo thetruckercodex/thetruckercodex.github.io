@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: thetruckercodex/thetruckercodex.github.io
-  branch: main # or master
+  branch: master
 
 media_folder: "assets/images" # Where your images will be stored
 public_folder: "/assets/images"
