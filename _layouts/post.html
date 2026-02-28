@@ -7,7 +7,7 @@ layout: default
 
   {% if page.image %}
     <div class="featured-image">
-      <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" style="width:100%; height:auto; border-radius: 8px; margin-bottom: 25px; display: block;">
+      <img src="{{ page.image | relative_url }}" alt="{{ page.image_alt | default: page.title }}" style="width:100%; height:auto; border-radius: 8px; margin-bottom: 25px; display: block;">
     </div>
   {% endif %}
 
