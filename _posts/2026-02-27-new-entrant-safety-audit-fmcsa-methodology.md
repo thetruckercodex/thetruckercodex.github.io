@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "New Entrant Safety Audit: FMCSA's Scoring Methodology and the 16 Automatic Failure Regulations"
-category: compliance-audits
+category: audits-violations
 permalink: /new-entrant-safety-audit-fmcsa-methodology/
 description: "A technical breakdown of the FMCSA New Entrant Safety Audit under 49 CFR Part 385 Subpart D — covering the 5-factor scoring model, the 16 automatic failure regulations, corrective action timelines, and the operational controls that determine pass or fail outcomes."
 ---
