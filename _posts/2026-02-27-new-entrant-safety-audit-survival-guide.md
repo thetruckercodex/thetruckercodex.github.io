@@ -4,6 +4,7 @@ title: 'The 2026 New Entrant Safety Audit: Why New Carriers Fail and How to Buil
 date: 2026-02-28T17:33:00
 categories: audits-violations
 description: A structured 2026 guide to passing the FMCSA New Entrant Safety Audit, covering automatic failure violations, Clearinghouse compliance, HOS oversight, and documentation architecture.
+image_alt: ''
 category: audits-violations
 permalink: /new-entrant-safety-audit-survival-guide/
 ---
@@ -15,8 +16,6 @@ Its authority is defined under [49 CFR Part 385 Subpart D](https://www.ecfr.gov/
 The audit determines whether a carrier has implemented required **basic safety management controls**. Failure may result in revocation of operating authority.
 
 Most new carriers fail not because of catastrophic crashes — but because they never built structured compliance architecture.
-
-![The 2026 New Entrant Safety Audit: Why New Carriers Fail and How to Build an Audit-Proof Fleet](/assets/images/New%20Entrant%20Safety%20Audit.png)
 
 ***
 
