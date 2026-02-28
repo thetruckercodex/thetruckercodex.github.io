@@ -17,7 +17,17 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Date", name: "date", widget: "datetime"}
-      - {label: "Categories", name: "categories", widget: "string"}
+      - label: "Categories"
+        name: "categories"
+        widget: "select"
+        options:
+          - "audits-violations"
+          - "dqf"
+          - "fmcsa-basics"
+          - "hos-eld"
+          - "maintenance"
+          - "recordkeeping"
+          - "roadside-inspection"
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Image Alt", name: "image_alt", widget: "string", required: false}
