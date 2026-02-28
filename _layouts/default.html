@@ -14,6 +14,7 @@
     <link rel="canonical" href="{{ page.url | absolute_url }}">
 
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   </head>
 
   <body>
@@ -51,5 +52,16 @@
     </div>
 
     {% include analytics.html %}
+    <script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
   </body>
 </html>
