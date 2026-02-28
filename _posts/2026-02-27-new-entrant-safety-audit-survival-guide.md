@@ -22,7 +22,7 @@ Primary authority includes:
 
 - 49 CFR Part 385 – Safety Fitness Procedures  
 - 49 CFR §385.305 – Safety management controls  
-- [FMCSA New Entrant Program Overview](https://www.fmcsa.dot.gov/registration/new-entrant-safety-assurance-program)
+- [FMCSA New Entrant Program Overview](https://www.fmcsa.dot.gov/safety/new-entrant-safety-assurance-program)
 
 The audit evaluates whether the carrier maintains operational control over:
 
