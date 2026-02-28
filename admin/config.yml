@@ -1,0 +1,22 @@
+backend:
+  name: github
+  repo: thetruckercodex/thetruckercodex.github.io
+  branch: main # or master
+
+media_folder: "assets/images" # Where your images will be stored
+public_folder: "/assets/images"
+
+collections:
+  - name: "posts" # This matches your _posts folder
+    label: "Compliance Posts"
+    folder: "_posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Category", name: "categories", widget: "select", options: ["FMCSA", "ELD", "Safety", "HOS", "Maintenance"]}
+      - {label: "Meta Description", name: "description", widget: "text"}
+      - {label: "Featured Image", name: "image", widget: "image", required: false}
+      - {label: "Body Content (Paste AI Text Here)", name: "body", widget: "markdown"}
