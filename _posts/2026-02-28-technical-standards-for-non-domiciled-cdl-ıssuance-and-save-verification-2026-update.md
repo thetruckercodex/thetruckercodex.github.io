@@ -3,8 +3,8 @@ layout: post
 title: "Technical Standards for Non-Domiciled CDL Issuance and SAVE Verification (2026 Update)"
 date: 2026-02-28 11:11:00 -0500
 categories: fmcsa-basics
-description: "A comprehensive technical guide to the 2026 FMCSA final rule on non-domiciled CDL issuance, detailing restricted eligibility, SAVE system verification, and integration with immigration status (I-94) requirements."
-image: /assets/images/non-domiciled-cdl.png
+description: "A comprehensive technical guide to the 2026 FMCSA final rule on non-domiciled CDL issuance."
+image: "/assets/images/non-domiciled-cdl.png"
 image_alt: "FMCSA Non-Domiciled CDL and SAVE Verification Flowchart 2026"
 ---
 
