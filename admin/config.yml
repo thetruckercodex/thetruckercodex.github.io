@@ -3,11 +3,11 @@ backend:
   repo: thetruckercodex/thetruckercodex.github.io
   branch: master
 
-media_folder: "assets/images" # Where your images will be stored
+media_folder: "assets/images" 
 public_folder: "/assets/images"
 
 collections:
-  - name: "posts" # This matches your _posts folder
+  - name: "posts"
     label: "Compliance Posts"
     folder: "_posts"
     create: true
@@ -16,7 +16,8 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Category", name: "categories", widget: "select", options: ["FMCSA", "ELD", "Safety", "HOS", "Maintenance"]}
+      - {label: "Category", name: "categories", widget: "select", 
+         options: ["FMCSA Basics", "HOS & ELD", "Safety Audits", "Maintenance", "DQF", "Recordkeeping"]}
       - {label: "Meta Description", name: "description", widget: "text"}
       - {label: "Featured Image", name: "image", widget: "image", required: false}
       - {label: "Image Alt Text (SEO)", name: "image_alt", widget: "string", required: false, hint: "Describe the image for search engines (e.g., FMCSA SAVE Verification Workflow 2026)"}
