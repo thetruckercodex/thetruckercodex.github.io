@@ -3,11 +3,9 @@ layout: post
 title: "Hours-of-Service (HOS): Rules Every Truck Driver Must Know"
 date: 2026-02-28T13:39:00.000-05:00
 categories: FMCSA
-image_alt: ""
 permalink: /hours-of-service-rules/
 description: A comprehensive guide to FMCSA Hours-of-Service (HOS) regulations,
   including driving limits, duty cycles, and rest break requirements.
-image: ""
 category: hos-eld
 ---
 
