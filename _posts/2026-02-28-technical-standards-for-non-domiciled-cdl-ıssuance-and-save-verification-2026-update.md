@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Technical Standards for Non-Domiciled CDL Issuance and SAVE Verification (2026 Update)"
+title: Technical Standards for Non-Domiciled CDL Issuance and SAVE Verification (2026 Update)
 date: 2026-02-28 11:11:00 -0500
 categories: fmcsa-basics
-description: "A comprehensive technical guide to the 2026 FMCSA final rule on non-domiciled CDL issuance, detailing restricted eligibility, SAVE system verification, and integration with immigration status (I-94) requirements."
-image: "/assets/images/non-domiciled-cdl.png"
-image_alt: "FMCSA Non-Domiciled CDL and SAVE Verification Flowchart 2026"
+description: A comprehensive technical guide to the 2026 FMCSA final rule on non-domiciled CDL issuance, detailing restricted eligibility, SAVE system verification, and integration with immigration status (I-94) requirements.
+image: /assets/images/Non-Domiciled_CDL.png
+image_alt: FMCSA Non-Domiciled CDL and SAVE Verification Flowchart 2026
 ---
 
 As of early 2026, the Federal Motor Carrier Safety Administration (FMCSA) has finalized a regulatory revision that significantly narrows the eligibility criteria for non-domiciled Commercial Driver’s Licenses (CDLs). This update aligns federal compliance with statutory safety and verification standards, largely reaffirming the interim final rule issued in September 2025. This technical shift addresses systemic state noncompliance identified through rigorous FMCSA enforcement and audit findings across various jurisdictions. The primary goal is to eliminate the discrepancies between state-level issuance practices and federal immigration oversight, ensuring that every commercial driver on U.S. roads has undergone a standardized vetting process.
@@ -32,7 +32,7 @@ The final rule restricts eligibility exclusively to foreign-domiciled individual
 
 Employment Authorization Documents (EADs), including the common C08 (Asylum Pending) and C09 (Adjustment of Status) categories, as well as DACA status, are no longer acceptable as standalone proof of eligibility for a non-domiciled CDL. Applicants must now provide a valid foreign passport accompanied by a matching I-94 (Arrival/Departure Record) that explicitly reflects an eligible visa classification. This change removes the "discretionary issuance" previously practiced by certain states, creating a unified federal barrier to entry for commercial driving privileges.
 
-*(Buraya az önce hazırladığımız tabloyu yapıştırabilirsin)*
+_(Buraya az önce hazırladığımız tabloyu yapıştırabilirsin)_
 
 ## Technical Workflow: The SAVE Verification Process
 
