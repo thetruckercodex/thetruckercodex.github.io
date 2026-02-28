@@ -17,6 +17,8 @@ The audit determines whether a carrier has implemented required **basic safety m
 
 Most new carriers fail not because of catastrophic crashes — but because they never built structured compliance architecture.
 
+![The 2026 New Entrant Safety Audit: Why New Carriers Fail and How to Build an Audit-Proof Fleet](/assets/images/New%20Entrant%20Safety%20Audit.png)
+
 ***
 
 ## 1. Regulatory Framework of the New Entrant Program
