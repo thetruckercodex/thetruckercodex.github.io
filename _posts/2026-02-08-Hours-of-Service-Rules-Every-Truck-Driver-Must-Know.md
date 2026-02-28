@@ -1,9 +1,14 @@
 ---
 layout: post
 title: "Hours-of-Service (HOS): Rules Every Truck Driver Must Know"
-category: hos-eld
+date: 2026-02-28T13:39:00.000-05:00
+categories: FMCSA
+image_alt: '"FMCSA Non-Domiciled CDL and SAVE Verification Flowchart 2026"'
 permalink: /hours-of-service-rules/
-description: "A comprehensive guide to FMCSA Hours-of-Service (HOS) regulations, including driving limits, duty cycles, and rest break requirements."
+description: A comprehensive guide to FMCSA Hours-of-Service (HOS) regulations,
+  including driving limits, duty cycles, and rest break requirements.
+image: /assets/images/non-domiciled-cdl.png
+category: hos-eld
 ---
 
 Hours-of-Service (HOS) regulations are among the most strictly enforced FMCSA rules for commercial truck drivers. These regulations limit how long drivers may operate a commercial motor vehicle (CMV) and require specific rest periods to reduce fatigue-related accidents.
