@@ -9,8 +9,6 @@ description: A comprehensive technical guide to the 2026 FMCSA final rule on
   verification, and integration with immigration status (I-94) requirements.
 image: /assets/images/non-domiciled-cdl.png
 ---
-## Technical Overview: FMCSA’s Final Rule on Non-Domiciled CDL Eligibility
-
 As of early 2026, the Federal Motor Carrier Safety Administration (FMCSA) has finalized a regulatory revision that significantly narrows the eligibility criteria for non-domiciled Commercial Driver’s Licenses (CDLs). This update aligns federal compliance with statutory safety and verification standards, largely reaffirming the interim final rule issued in September 2025. This technical shift addresses systemic state noncompliance identified through rigorous FMCSA enforcement and audit findings across various jurisdictions. The primary goal is to eliminate the discrepancies between state-level issuance practices and federal immigration oversight, ensuring that every commercial driver on U.S. roads has undergone a standardized vetting process.
 
 For a broader perspective on how these changes fit into the current regulatory landscape, see our guide on [FMCSA and DOT Updates for 2025-2026](https://blog.thetruckercodex.com/fmcsa-dot-updates-2025-2026/).
