@@ -76,6 +76,7 @@ sass:
 
 # Exclude these files from your production _site
 exclude:
+  exclude:
   - Gemfile
   - Gemfile.lock
   - LICENSE
@@ -83,11 +84,6 @@ exclude:
   - CNAME
   - admin/
   - google05050009aaead19c.html
-  - audits-violations/
-  - dqf/
-  - recordkeeping-retention/
-  - roadside-inspection-survival-guide/
-  - tire-defects-out-of-service-criteria/
 plugins:
   - jekyll-sitemap
   - jekyll-feed
