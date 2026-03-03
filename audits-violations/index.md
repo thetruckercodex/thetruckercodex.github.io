@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: page
 title: "FMCSA Audits & Violations Compliance Hub"
-category: audits-violations
 permalink: /audits-violations/
+redirect_to: /topics/audits-violations/
 description: "Structured compliance architecture for FMCSA audits, roadside inspections, enforcement risk exposure, and Out-of-Service mitigation under 49 CFR Parts 385, 391, 393, and 396."
 ---
 
