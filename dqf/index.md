@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: page
 title: "Driver Qualification File (DQF) Compliance Hub"
 permalink: /dqf/
+redirect_to: /topics/dqf/
 description: "Complete Driver Qualification File (DQF) compliance framework under 49 CFR Part 391. Structure, required documents, retention rules, and audit-risk exposure."
-category: dqf
 ---
 
 # Driver Qualification File (DQF) Compliance Hub
