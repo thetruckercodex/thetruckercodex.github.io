@@ -81,6 +81,8 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+  - admin/
+  - google05050009aaead19c.html
 plugins:
   - jekyll-sitemap
   - jekyll-feed
