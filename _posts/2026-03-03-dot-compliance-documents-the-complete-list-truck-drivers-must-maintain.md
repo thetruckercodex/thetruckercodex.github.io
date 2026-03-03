@@ -8,8 +8,6 @@ image: /assets/images/DOT Compliance Documents.png
 image_alt: 'DOT Compliance Documents: The Complete List Truck Drivers Must Maintain'
 ---
 
-# DOT Compliance Documents: What Records Truck Drivers Must Maintain
-
 DOT compliance in trucking is fundamentally a documentation system. While safe driving practices and proper vehicle maintenance are essential, federal enforcement agencies primarily verify compliance through records.
 
 During roadside inspections, safety audits, and compliance reviews, regulators rarely ask what a driver “knows.” Instead, they examine what documentation exists and whether those records demonstrate an active compliance system.
