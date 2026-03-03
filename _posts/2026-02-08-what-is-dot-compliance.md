@@ -269,6 +269,12 @@ Monitoring regulatory updates helps drivers and carriers adapt compliance proced
 - [DOT Compliance Audit Triggers](https://blog.thetruckercodex.com/dot-compliance-audit-triggers/)
 - [Common DOT Violations and How to Avoid Them](https://blog.thetruckercodex.com/common-dot-violations-how-to-avoid/)
 
+## Related Compliance Guides
+
+- [**DOT Compliance Checklist**](/dot-compliance-checklist-2026/)
+- [**DOT Compliance Documents**](/dot-compliance-documents-the-complete-list-truck-drivers-must-maintain/)
+- [**DOT Audit Checklist**](/dot-audit-checklist-how-trucking-companies-prepare-for-fmcsa-compliance-reviews/)
+
 ***
 
 ## DOT Compliance FAQ
