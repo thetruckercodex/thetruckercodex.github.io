@@ -271,5 +271,29 @@ Monitoring regulatory updates helps drivers and carriers adapt compliance proced
 
 ***
 
-Written on February 8, 2026
+## DOT Compliance FAQ
+
+### What is DOT compliance in trucking?
+
+DOT compliance refers to the federal safety regulations that commercial truck drivers and motor carriers must follow when operating commercial motor vehicles in the United States. These rules are primarily enforced by the Federal Motor Carrier Safety Administration (FMCSA) and include requirements related to driver qualification, hours-of-service limits, vehicle inspections, drug and alcohol testing, and safety recordkeeping.
+
+### Who must follow DOT compliance rules?
+
+DOT compliance rules generally apply to drivers and carriers operating commercial motor vehicles in interstate commerce. This includes owner-operators, small trucking fleets, and larger motor carriers operating vehicles with a gross vehicle weight rating (GVWR) above 10,000 pounds or transporting regulated cargo.
+
+### What documents are required for DOT compliance?
+
+Typical DOT compliance documentation includes driver qualification files (DQF), medical certification records, hours-of-service logs, vehicle inspection and maintenance records, accident registers, and drug and alcohol testing program documentation.
+
+### What happens if a driver fails DOT compliance?
+
+Failure to comply with DOT regulations may result in fines, out-of-service orders, increased inspection frequency, compliance audits, and potential enforcement actions affecting operating authority.
+
+### How is DOT compliance enforced?
+
+DOT compliance is enforced through roadside inspections, safety audits, and compliance reviews conducted by federal and state enforcement agencies.
+
+### Is DOT compliance only about the driver?
+
+No. DOT compliance applies to both drivers and motor carriers. Drivers must follow operational safety rules such as hours-of-service limits and roadside inspection procedures, while carriers are responsible for maintaining safety management systems and regulatory documentation.Written on February 8, 2026
 Updated March 2026
