@@ -4,8 +4,8 @@ title: 'DOT Audit Checklist: How Trucking Companies Prepare for FMCSA Compliance
 date: 2026-03-03T17:26:00
 categories: audits-violations
 description: Complete DOT audit checklist explaining how FMCSA safety audits evaluate driver qualification files, HOS logs, vehicle maintenance records, drug testing programs, and compliance documentation systems.
-image: ''
-image_alt: ''
+image: /assets/images/dotauditchecklist.png
+image_alt: 'DOT Audit Checklist: How Trucking Companies Prepare for FMCSA Compliance Reviews'
 ---
 
 A DOT safety audit is not a routine paperwork review. It is a structured federal compliance examination designed to verify that a motor carrier has implemented the safety management controls required under federal transportation regulations.
