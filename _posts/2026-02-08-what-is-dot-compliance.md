@@ -295,5 +295,7 @@ DOT compliance is enforced through roadside inspections, safety audits, and comp
 
 ### Is DOT compliance only about the driver?
 
-No. DOT compliance applies to both drivers and motor carriers. Drivers must follow operational safety rules such as hours-of-service limits and roadside inspection procedures, while carriers are responsible for maintaining safety management systems and regulatory documentation.Written on February 8, 2026
-Updated March 2026
+No. DOT compliance applies to both drivers and motor carriers. Drivers must follow operational safety rules such as hours-of-service limits and roadside inspection procedures, while carriers are responsible for maintaining safety management systems and regulatory documentation.
+
+Written on February 8, 2026
+Updated March 3 2026
