@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Disallow: /admin/
+Disallow: /google05050009aaead19c.html
+
+Sitemap: https://blog.thetruckercodex.com/sitemap.xml
