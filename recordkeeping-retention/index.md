@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: page
 title: "FMCSA Recordkeeping & Retention Compliance Hub"
-category: audits-violations
 permalink: /recordkeeping-retention/
-description: "Structured compliance framework for FMCSA recordkeeping and retention obligations under 49 CFR Parts 385, 391, 395, and 396. Covers audit exposure and documentation architecture."
+redirect_to: /topics/recordkeeping/
+description: "Structured compliance framework for FMCSA recordkeeping and retention obligations under 49 CFR Parts 385, 391, 395, and 396."
 ---
 
 # FMCSA Recordkeeping & Retention Compliance Hub
