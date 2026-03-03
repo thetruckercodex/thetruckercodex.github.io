@@ -83,6 +83,11 @@ exclude:
   - CNAME
   - admin/
   - google05050009aaead19c.html
+  - audits-violations/
+  - dqf/
+  - recordkeeping-retention/
+  - roadside-inspection-survival-guide/
+  - tire-defects-out-of-service-criteria/
 plugins:
   - jekyll-sitemap
   - jekyll-feed
