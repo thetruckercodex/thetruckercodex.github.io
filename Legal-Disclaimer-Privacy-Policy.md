@@ -1,8 +1,10 @@
 ---
 layout: page
 title: "Legal Disclaimer & Privacy Policy"
-permalink: /Legal-Disclaimer-Privacy-Policy/
+permalink: /legal-disclaimer-privacy-policy/
 description: "The official legal disclaimer and privacy policy for The Trucker Codex. Professional boundaries and legal protection."
+redirect_from:
+  - /Legal-Disclaimer-Privacy-Policy/
 ---
 
 ### 1. The Nature of The Trucker Codex
