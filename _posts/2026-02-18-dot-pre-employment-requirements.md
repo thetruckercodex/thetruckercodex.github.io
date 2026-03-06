@@ -75,6 +75,7 @@ Federal law does not permit carriers to treat onboarding as an administrative fo
 **The Trucker Codex** approach emphasizes that regulations provide the checklist, but discipline provides the protection. Carriers that master the pre-dispatch compliance window reduce SMS risk and strengthen litigation defensibility.
 
 ---
+For carriers building a documented pre-employment compliance workflow, the [Driver Qualification File System](https://www.etsy.com/listing/4455445733/driver-qualification-file-system-o-dot) covers all required DQF components under 49 CFR §391.51, and the [Drug & Alcohol Compliance System](https://www.etsy.com/listing/4457324370/drug-alcohol-compliance-system-audit) provides structured Clearinghouse query logs and pre-employment testing documentation under 49 CFR Part 382.
 
 
 ## Related Compliance Analyses
