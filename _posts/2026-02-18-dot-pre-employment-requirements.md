@@ -21,7 +21,7 @@ The transition from applicant to qualified CMV operator represents a regulatory 
 This pre-dispatch compliance window requires the coordinated execution of:
 - **Pre-employment drug testing** ([§382.301](https://www.ecfr.gov/current/title-49/section-382.301))
 - **Clearinghouse Full Query** ([§382.701](https://www.ecfr.gov/current/title-49/section-382.701))
-- **Safety Performance History investigation** ([§391.23](https://www.ecfr.gov/current/title-49/section-382.701))
+- **Safety Performance History investigation** ([§391.23](https://www.ecfr.gov/current/title-49/section-391.23))
 - **Motor Vehicle Record (MVR) acquisition**
 - **Medical certification verification**
 
