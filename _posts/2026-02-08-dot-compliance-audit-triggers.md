@@ -69,8 +69,8 @@ To reduce audit exposure:
 
 Audits are typically the result of accumulated patterns, not isolated events.
 
-When an audit is triggered, documentation response time is critical. The [DOT Audit & Safety Compliance Module](https://www.etsy.com/listing/4454398629/dot-audit-and-safety-compliance-o-logs) provides structured logs, SOPs, and checklists built for audit response under 49 CFR Part 385 and Part 390.
 ---
+When an audit is triggered, documentation response time is critical. The [DOT Audit & Safety Compliance Module](https://www.etsy.com/listing/4454398629/dot-audit-and-safety-compliance-o-logs) provides structured logs, SOPs, and checklists built for audit response under 49 CFR Part 385 and Part 390.
 
 ## Related Compliance Topics
 
