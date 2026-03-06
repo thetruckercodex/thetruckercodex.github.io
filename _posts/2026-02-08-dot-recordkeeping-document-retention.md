@@ -72,6 +72,7 @@ To maintain compliant record systems:
 Documentation discipline reduces audit volatility and enforcement exposure.
 
 ---
+For carriers building a structured retention system, the [DOT Compliance Binder](https://www.etsy.com/listing/4453543004/trucker-codex-dot-compliance-binder-pdf) provides an audit-ready filing framework covering all primary document categories under 49 CFR Parts 391, 395, 396, and 382.
 
 ## Related Compliance Topics
 
