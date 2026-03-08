@@ -26,7 +26,7 @@ The proposed rule introduces adjustments affecting lithium battery marking and a
 
 
 ### 2. Proper Shipping Names and Hazard Table Updates
-HM-215R proposes numerous amendments to the **§ 172.101 Hazardous Materials Table (HMT)**. These include new entries for specific chemical compounds and updated "Special Provisions" that dictate the type of packaging required. For carriers, this means that software-automated BOL (Bill of Lading) systems must be audited to prevent the use of decommissioned shipping names, which are a primary trigger for violations under the [Audits & Violations](/audits-violations/) framework.
+HM-215R proposes numerous amendments to the **§ 172.101 Hazardous Materials Table (HMT)**. These include new entries for specific chemical compounds and updated "Special Provisions" that dictate the type of packaging required. For carriers, this means that software-automated BOL (Bill of Lading) systems must be audited to prevent the use of decommissioned shipping names, which are a primary trigger for violations under the [Audits & Violations](/topics/audits-violations/) framework.
 
 ---
 
@@ -39,7 +39,7 @@ Carriers operating under the "The Trucker Codex" philosophy should not wait for 
 
 - **Recordkeeping Compliance:** To ensure litigation-grade readiness, hazmat training records must be retained for **at least three years from the most recent training date**, and for former employees, for the **duration of employment plus 90 days** thereafter. These records must be available for inspection during a compliance review at any time.
 - **Emergency Response Accuracy:** Ensuring that emergency response information (ERI) reflects the updated shipping names to avoid delays during incidents.
-- **Separation of Files:** Ensuring HazMat training records are managed within employer training files, distinct from the [Driver Qualification File (DQF)](/dqf/) requirements, though both should be audited under a unified safety management system to prevent compliance gaps.
+- **Separation of Files:** Ensuring HazMat training records are managed within employer training files, distinct from the [Driver Qualification File (DQF)](/topics/dqf/) requirements, though both should be audited under a unified safety management system to prevent compliance gaps.
 
 The failure to harmonize internal SOPs with the 2026 PHMSA shifts increases the likelihood of a high-weight violation during a Level I or Level III inspection, potentially leading to an Out-of-Service (OOS) order under the [2026 CVSA Criteria Updates](/cvsa-2026-oos-criteria-changes/).
 
@@ -57,7 +57,7 @@ Engaging in the comment process via the [Federal Register (Doc. No. 2026-02575)]
 
 In the event of a hazardous materials incident, the regulatory landscape shifts from compliance to litigation. The primary question in a courtroom will be: "Did the carrier exercise the highest degree of care in following the most current federal standards?" 
 
-If a carrier is utilizing SOPs based on outdated harmonization cycles, they are effectively operating in a state of technical non-compliance. By adopting the HM-215R standards early, carriers build a "defensive wall" of documented compliance that is difficult for plaintiff attorneys to penetrate. This is especially critical when dealing with the high severity weights associated with [Recordkeeping & Retention](/recordkeeping-retention/) and HazMat infractions.
+If a carrier is utilizing SOPs based on outdated harmonization cycles, they are effectively operating in a state of technical non-compliance. By adopting the HM-215R standards early, carriers build a "defensive wall" of documented compliance that is difficult for plaintiff attorneys to penetrate. This is especially critical when dealing with the high severity weights associated with [Recordkeeping & Retention](/topics/recordkeeping/) and HazMat infractions.
 
 ## Conclusion: Preparing for the Final Rule
 
@@ -70,5 +70,5 @@ The PHMSA February 2026 Harmonization NPRM is a reminder that the only constant 
 ## Related Compliance Analyses
 
 - [The 2026 CVSA Out-of-Service (OOS) Criteria Updates](/cvsa-2026-oos-criteria-changes/)
-- [Understanding Roadside Inspection Survival Protocols](/audits-violations/)
-- [Comprehensive Guide to Recordkeeping and Retention](/recordkeeping-retention/)
+- [Understanding Roadside Inspection Survival Protocols](/topics/audits-violations/)
+- [Comprehensive Guide to Recordkeeping and Retention](/topics/recordkeeping/)
