@@ -1,0 +1,1223 @@
+{
+  "next_regulatory": 0,
+  "next_oi": 0,
+  "regulatory": [
+    {
+      "id": "R01",
+      "title": "Hours of Service: The 11-Hour Driving Limit Explained",
+      "keyword": "11 hour driving rule FMCSA",
+      "cfr_title": 49,
+      "cfr_part": 395,
+      "cfr_section": "395.3",
+      "category": "hos-eld",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/hours-of-service-rules/",
+        "https://blog.thetruckercodex.com/hours-of-service-violations-out-of-service/"
+      ],
+      "etsy_cta": true
+    },
+    {
+      "id": "R02",
+      "title": "The 14-Hour On-Duty Window: What Counts and What Doesn't",
+      "keyword": "14 hour rule trucking FMCSA",
+      "cfr_title": 49,
+      "cfr_part": 395,
+      "cfr_section": "395.3",
+      "category": "hos-eld",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/hours-of-service-rules/",
+        "https://blog.thetruckercodex.com/electronic-logging-device-eld-compliance/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "R03",
+      "title": "The 30-Minute Break Requirement: Exemptions Most Drivers Don't Know",
+      "keyword": "30 minute break rule FMCSA exemption",
+      "cfr_title": 49,
+      "cfr_part": 395,
+      "cfr_section": "395.3(a)(3)(ii)",
+      "category": "hos-eld",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/hours-of-service-rules/",
+        "https://blog.thetruckercodex.com/common-dot-violations-how-to-avoid/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "R04",
+      "title": "The 60/70-Hour Rule: How to Calculate Your Available Hours",
+      "keyword": "60 70 hour rule trucking calculation",
+      "cfr_title": 49,
+      "cfr_part": 395,
+      "cfr_section": "395.3(b)",
+      "category": "hos-eld",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/hours-of-service-rules/",
+        "https://blog.thetruckercodex.com/hours-of-service-violations-out-of-service/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "R05",
+      "title": "Sleeper Berth Provision: How Split-Duty Periods Work Under Current Rules",
+      "keyword": "sleeper berth rule HOS split duty",
+      "cfr_title": 49,
+      "cfr_part": 395,
+      "cfr_section": "395.1(g)",
+      "category": "hos-eld",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/hours-of-service-rules/",
+        "https://blog.thetruckercodex.com/electronic-logging-device-eld-compliance/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "R06",
+      "title": "Short-Haul Exemption: Who Qualifies and What Records Are Required",
+      "keyword": "short haul exemption FMCSA 150 air miles",
+      "cfr_title": 49,
+      "cfr_part": 395,
+      "cfr_section": "395.1(e)",
+      "category": "hos-eld",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/electronic-logging-device-eld-compliance/",
+        "https://blog.thetruckercodex.com/dot-recordkeeping-document-retention/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "R07",
+      "title": "Adverse Driving Conditions Exemption: When and How to Apply It",
+      "keyword": "adverse driving conditions exemption HOS",
+      "cfr_title": 49,
+      "cfr_part": 395,
+      "cfr_section": "395.1(b)",
+      "category": "hos-eld",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/hours-of-service-rules/",
+        "https://blog.thetruckercodex.com/dot-roadside-communication-structure/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "R08",
+      "title": "Personal Conveyance: What FMCSA Actually Permits",
+      "keyword": "personal conveyance rules FMCSA 2026",
+      "cfr_title": 49,
+      "cfr_part": 395,
+      "cfr_section": "395.2",
+      "category": "hos-eld",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/electronic-logging-device-eld-compliance/",
+        "https://blog.thetruckercodex.com/hours-of-service-rules/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "R09",
+      "title": "Yard Moves: Definition, Proper Annotation, and Audit Risk",
+      "keyword": "yard moves ELD annotation FMCSA",
+      "cfr_title": 49,
+      "cfr_part": 395,
+      "cfr_section": "395.2",
+      "category": "hos-eld",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/electronic-logging-device-eld-compliance/",
+        "https://blog.thetruckercodex.com/dot-compliance-audit-triggers/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "R10",
+      "title": "ELD Malfunction Protocol: What Drivers and Carriers Must Do",
+      "keyword": "ELD malfunction requirements paper logs",
+      "cfr_title": 49,
+      "cfr_part": 395,
+      "cfr_section": "395.34",
+      "category": "hos-eld",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/electronic-logging-device-eld-compliance/",
+        "https://blog.thetruckercodex.com/2026-eld-compliance-standards-revocation-updates/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "R11",
+      "title": "CDL Medical Certificate Requirements: Timing, Forms, and Filing",
+      "keyword": "CDL medical certificate DOT requirements 2026",
+      "cfr_title": 49,
+      "cfr_part": 391,
+      "cfr_section": "391.43",
+      "category": "dqf",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/driver-qualification-file-requirements/",
+        "https://blog.thetruckercodex.com/dot-pre-employment-requirements/"
+      ],
+      "etsy_cta": true
+    },
+    {
+      "id": "R12",
+      "title": "DOT Physical Examination: Disqualifying Conditions and Exemptions",
+      "keyword": "DOT physical exam disqualifying conditions",
+      "cfr_title": 49,
+      "cfr_part": 391,
+      "cfr_section": "391.41",
+      "category": "dqf",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/driver-qualification-file-requirements/",
+        "https://blog.thetruckercodex.com/dot-pre-employment-requirements/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "R13",
+      "title": "Vision and Hearing Standards for CDL Holders",
+      "keyword": "CDL vision hearing requirements FMCSA",
+      "cfr_title": 49,
+      "cfr_part": 391,
+      "cfr_section": "391.41(b)",
+      "category": "dqf",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/driver-qualification-file-requirements/",
+        "https://blog.thetruckercodex.com/what-is-dot-compliance/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "R14",
+      "title": "Diabetes Exemption Program: How CDL Drivers with ITDM Qualify",
+      "keyword": "CDL insulin diabetes exemption FMCSA ITDM",
+      "cfr_title": 49,
+      "cfr_part": 391,
+      "cfr_section": "391.46",
+      "category": "dqf",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/driver-qualification-file-requirements/",
+        "https://blog.thetruckercodex.com/what-is-fmcsa/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "R15",
+      "title": "Annual MVR Review: What Carriers Must Check and Document",
+      "keyword": "annual MVR review DOT carrier requirement",
+      "cfr_title": 49,
+      "cfr_part": 391,
+      "cfr_section": "391.25",
+      "category": "dqf",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/driver-qualification-file-requirements/",
+        "https://blog.thetruckercodex.com/dot-recordkeeping-document-retention/"
+      ],
+      "etsy_cta": true
+    },
+    {
+      "id": "R16",
+      "title": "Road Test Requirements: When a Certificate of Violations Is Not Enough",
+      "keyword": "DOT road test CDL requirements",
+      "cfr_title": 49,
+      "cfr_part": 391,
+      "cfr_section": "391.31",
+      "category": "dqf",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/driver-qualification-file-requirements/",
+        "https://blog.thetruckercodex.com/dot-pre-employment-requirements/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "R17",
+      "title": "Drug Testing: Pre-Employment Requirements Under 49 CFR Part 40",
+      "keyword": "pre employment drug test DOT Part 40",
+      "cfr_title": 49,
+      "cfr_part": 40,
+      "cfr_section": "40.25",
+      "category": "dqf",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/dot-pre-employment-requirements/",
+        "https://blog.thetruckercodex.com/fmcsa-clearinghouse-guide/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "R18",
+      "title": "Random Drug and Alcohol Testing: Rates, Pools, and Carrier Obligations",
+      "keyword": "random drug testing FMCSA rate 2026",
+      "cfr_title": 49,
+      "cfr_part": 382,
+      "cfr_section": "382.305",
+      "category": "dqf",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/fmcsa-clearinghouse-guide/",
+        "https://blog.thetruckercodex.com/dot-pre-employment-requirements/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "R19",
+      "title": "Post-Accident Testing: The Decision Tree Carriers Get Wrong",
+      "keyword": "post accident drug test DOT decision tree",
+      "cfr_title": 49,
+      "cfr_part": 382,
+      "cfr_section": "382.303",
+      "category": "dqf",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/fmcsa-clearinghouse-guide/",
+        "https://blog.thetruckercodex.com/common-dot-violations-how-to-avoid/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "R20",
+      "title": "Reasonable Suspicion Testing: Documentation Requirements for Supervisors",
+      "keyword": "reasonable suspicion testing FMCSA supervisor",
+      "cfr_title": 49,
+      "cfr_part": 382,
+      "cfr_section": "382.307",
+      "category": "dqf",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/fmcsa-clearinghouse-guide/",
+        "https://blog.thetruckercodex.com/dot-recordkeeping-document-retention/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "R21",
+      "title": "FMCSA Clearinghouse: Full Query vs. Limited Query — When Each Is Required",
+      "keyword": "Clearinghouse full query limited query FMCSA",
+      "cfr_title": 49,
+      "cfr_part": 382,
+      "cfr_section": "382.701",
+      "category": "dqf",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/fmcsa-clearinghouse-guide/",
+        "https://blog.thetruckercodex.com/clearinghouse-phase-%C4%B1%C4%B1-cdl-downgrade-enforcement-what-carriers-and-drivers-must-do-right-now/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "R22",
+      "title": "Hours of Service Recordkeeping for Non-ELD Operations",
+      "keyword": "paper logs RODS requirements non-ELD",
+      "cfr_title": 49,
+      "cfr_part": 395,
+      "cfr_section": "395.8",
+      "category": "hos-eld",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/dot-recordkeeping-document-retention/",
+        "https://blog.thetruckercodex.com/electronic-logging-device-eld-compliance/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "R23",
+      "title": "Vehicle Inspection Reports: Daily DVIR Requirements and Retention",
+      "keyword": "DVIR requirements FMCSA daily inspection",
+      "cfr_title": 49,
+      "cfr_part": 396,
+      "cfr_section": "396.11",
+      "category": "maintenance",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/dot-vehicle-inspection-maintenance-requirements/",
+        "https://blog.thetruckercodex.com/dot-recordkeeping-document-retention/"
+      ],
+      "etsy_cta": true
+    },
+    {
+      "id": "R24",
+      "title": "Periodic Inspection Requirements: What the Annual DOT Inspection Must Cover",
+      "keyword": "annual DOT vehicle inspection requirements",
+      "cfr_title": 49,
+      "cfr_part": 396,
+      "cfr_section": "396.17",
+      "category": "maintenance",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/dot-vehicle-inspection-maintenance-requirements/",
+        "https://blog.thetruckercodex.com/brake-system-violations-out-of-service/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "R25",
+      "title": "Out-of-Service Criteria: Steering System Defects",
+      "keyword": "steering system OOS criteria CVSA",
+      "cfr_title": 49,
+      "cfr_part": 393,
+      "cfr_section": "393.209",
+      "category": "maintenance",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/brake-system-violations-out-of-service/",
+        "https://blog.thetruckercodex.com/cvsa-2026-oos-criteria-changes/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "R26",
+      "title": "Out-of-Service Criteria: Lighting Defects That Ground a Vehicle",
+      "keyword": "lighting defects OOS criteria DOT",
+      "cfr_title": 49,
+      "cfr_part": 393,
+      "cfr_section": "393.9",
+      "category": "maintenance",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/dot-vehicle-inspection-maintenance-requirements/",
+        "https://blog.thetruckercodex.com/cvsa-2026-oos-criteria-changes/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "R27",
+      "title": "Out-of-Service Criteria: Coupling Devices and Fifth Wheel",
+      "keyword": "fifth wheel OOS criteria coupling devices",
+      "cfr_title": 49,
+      "cfr_part": 393,
+      "cfr_section": "393.70",
+      "category": "maintenance",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/brake-system-violations-out-of-service/",
+        "https://blog.thetruckercodex.com/dot-vehicle-inspection-maintenance-requirements/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "R28",
+      "title": "Cargo Securement Rules: Tie-Down Requirements and Blocking",
+      "keyword": "cargo securement DOT rules tie down",
+      "cfr_title": 49,
+      "cfr_part": 393,
+      "cfr_section": "393.100",
+      "category": "maintenance",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/dot-vehicle-inspection-maintenance-requirements/",
+        "https://blog.thetruckercodex.com/common-dot-violations-how-to-avoid/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "R29",
+      "title": "Hazardous Materials Shipping Papers: What Must Be on the Document",
+      "keyword": "hazmat shipping papers requirements DOT",
+      "cfr_title": 49,
+      "cfr_part": 172,
+      "cfr_section": "172.200",
+      "category": "fmcsa-basics",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/phmsa-hazmat-harmonization-2026-nprm/",
+        "https://blog.thetruckercodex.com/dot-compliance-documents-the-complete-list-truck-drivers-must-maintain/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "R30",
+      "title": "Hazmat Placarding: When It's Required and Which Placard to Use",
+      "keyword": "hazmat placards required FMCSA 2026",
+      "cfr_title": 49,
+      "cfr_part": 172,
+      "cfr_section": "172.500",
+      "category": "fmcsa-basics",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/phmsa-hazmat-harmonization-2026-nprm/",
+        "https://blog.thetruckercodex.com/common-dot-violations-how-to-avoid/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "R31",
+      "title": "Insurance Minimums: What Carriers Must Maintain by Operation Type",
+      "keyword": "FMCSA insurance requirements minimums 2026",
+      "cfr_title": 49,
+      "cfr_part": 387,
+      "cfr_section": "387.9",
+      "category": "fmcsa-basics",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/dot-compliance-checklist-2026/",
+        "https://blog.thetruckercodex.com/what-is-fmcsa/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "R32",
+      "title": "Operating Authority: MC Number, UCR Registration, and USDOT Number",
+      "keyword": "FMCSA operating authority MC number USDOT",
+      "cfr_title": 49,
+      "cfr_part": 365,
+      "cfr_section": "365.101",
+      "category": "fmcsa-basics",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/what-is-fmcsa/",
+        "https://blog.thetruckercodex.com/new-entrant-safety-audit-fmcsa-methodology/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "R33",
+      "title": "Unified Carrier Registration: Annual Filing Requirements and Penalties",
+      "keyword": "UCR registration trucking annual filing",
+      "cfr_title": 49,
+      "cfr_part": 367,
+      "cfr_section": "367.10",
+      "category": "fmcsa-basics",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/dot-compliance-checklist-2026/",
+        "https://blog.thetruckercodex.com/what-is-dot-compliance/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "R34",
+      "title": "Heavy Vehicle Use Tax (Form 2290): Who Must File and When",
+      "keyword": "HVUT 2290 filing trucking deadline",
+      "cfr_title": 49,
+      "cfr_part": 0,
+      "cfr_section": "IRS Form 2290",
+      "category": "fmcsa-basics",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/dot-compliance-documents-the-complete-list-truck-drivers-must-maintain/",
+        "https://blog.thetruckercodex.com/dot-compliance-checklist-2026/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "R35",
+      "title": "IRP and IFTA: Registration and Fuel Tax Requirements for Interstate Carriers",
+      "keyword": "IRP IFTA requirements interstate trucking",
+      "cfr_title": 49,
+      "cfr_part": 0,
+      "cfr_section": "IFTA Agreement",
+      "category": "fmcsa-basics",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/dot-compliance-checklist-2026/",
+        "https://blog.thetruckercodex.com/what-is-dot-compliance/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "R36",
+      "title": "Federal Weight Limits and the Bridge Formula: What Carriers Must Know",
+      "keyword": "federal weight limits bridge formula trucking",
+      "cfr_title": 23,
+      "cfr_part": 0,
+      "cfr_section": "23 USC 127",
+      "category": "fmcsa-basics",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/common-dot-violations-how-to-avoid/",
+        "https://blog.thetruckercodex.com/dot-compliance-documents-the-complete-list-truck-drivers-must-maintain/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "R37",
+      "title": "FMCSA Safety Measurement System: How Your CSA Score Is Calculated",
+      "keyword": "CSA score FMCSA SMS calculation 2026",
+      "cfr_title": 49,
+      "cfr_part": 385,
+      "cfr_section": "385.1",
+      "category": "audits-violations",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/dot-compliance-audit-triggers/",
+        "https://blog.thetruckercodex.com/common-dot-violations-how-to-avoid/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "R38",
+      "title": "BASICs Explained: What Each Safety Measurement Category Actually Measures",
+      "keyword": "FMCSA BASICs explained SMS categories",
+      "cfr_title": 49,
+      "cfr_part": 385,
+      "cfr_section": "385.5",
+      "category": "audits-violations",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/dot-compliance-audit-triggers/",
+        "https://blog.thetruckercodex.com/dot-audit-checklist-how-trucking-companies-prepare-for-fmcsa-compliance-reviews/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "R39",
+      "title": "FMCSA Intervention Thresholds: When Your SMS Percentile Triggers Action",
+      "keyword": "FMCSA intervention threshold SMS percentile",
+      "cfr_title": 49,
+      "cfr_part": 385,
+      "cfr_section": "385.11",
+      "category": "audits-violations",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/dot-compliance-audit-triggers/",
+        "https://blog.thetruckercodex.com/new-entrant-safety-audit-fmcsa-methodology/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "R40",
+      "title": "New Entrant Program: The 18-Month Monitoring Period Requirements",
+      "keyword": "FMCSA new entrant 18 month monitoring",
+      "cfr_title": 49,
+      "cfr_part": 385,
+      "cfr_section": "385.301",
+      "category": "audits-violations",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/new-entrant-safety-audit-fmcsa-methodology/",
+        "https://blog.thetruckercodex.com/new-entrant-safety-audit-survival-guide/"
+      ],
+      "etsy_cta": true
+    },
+    {
+      "id": "R41",
+      "title": "Leased Driver Regulations: Carrier vs. Driver Obligations Under Part 376",
+      "keyword": "leased driver DOT regulations Part 376",
+      "cfr_title": 49,
+      "cfr_part": 376,
+      "cfr_section": "376.11",
+      "category": "dqf",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/driver-qualification-file-requirements/",
+        "https://blog.thetruckercodex.com/dot-compliance-checklist-2026/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "R42",
+      "title": "Team Driver HOS Rules: How Split Driving Periods Apply",
+      "keyword": "team driver HOS rules split driving",
+      "cfr_title": 49,
+      "cfr_part": 395,
+      "cfr_section": "395.3(a)(3)",
+      "category": "hos-eld",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/hours-of-service-rules/",
+        "https://blog.thetruckercodex.com/electronic-logging-device-eld-compliance/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "R43",
+      "title": "Agricultural Exemptions: Which Operations Are Exempt from HOS Rules",
+      "keyword": "agricultural HOS exemption FMCSA",
+      "cfr_title": 49,
+      "cfr_part": 395,
+      "cfr_section": "395.1(k)",
+      "category": "hos-eld",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/hours-of-service-rules/",
+        "https://blog.thetruckercodex.com/what-is-fmcsa/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "R44",
+      "title": "ELD Technical Specifications: What Makes a Device Compliant",
+      "keyword": "ELD technical specifications compliant device",
+      "cfr_title": 49,
+      "cfr_part": 395,
+      "cfr_section": "395.20",
+      "category": "hos-eld",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/electronic-logging-device-eld-compliance/",
+        "https://blog.thetruckercodex.com/2026-eld-compliance-standards-revocation-updates/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "R45",
+      "title": "Driving Time Limits for Passenger-Carrying CMVs: HOS Differences",
+      "keyword": "passenger CMV HOS rules bus driver",
+      "cfr_title": 49,
+      "cfr_part": 395,
+      "cfr_section": "395.5",
+      "category": "hos-eld",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/hours-of-service-rules/",
+        "https://blog.thetruckercodex.com/what-is-fmcsa/"
+      ],
+      "etsy_cta": false
+    }
+  ],
+  "oi": [
+    {
+      "id": "O01",
+      "title": "The 10 Most Common HOS Violations Found During Roadside Inspections",
+      "keyword": "common HOS violations roadside inspection",
+      "data_source": "FMCSA MCMIS",
+      "data_url": "https://www.fmcsa.dot.gov/safety/carrier-safety/performance-and-registration-information-systems-management",
+      "category": "hos-eld",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/hours-of-service-violations-out-of-service/",
+        "https://blog.thetruckercodex.com/electronic-logging-device-eld-compliance/"
+      ],
+      "etsy_cta": true
+    },
+    {
+      "id": "O02",
+      "title": "Top 5 Brake Violations That Trigger an Immediate OOS Order",
+      "keyword": "brake violations OOS order CVSA",
+      "data_source": "CVSA Roadcheck Annual Report",
+      "data_url": "https://www.cvsa.org/programs/roadcheck/",
+      "category": "maintenance",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/brake-system-violations-out-of-service/",
+        "https://blog.thetruckercodex.com/cvsa-2026-oos-criteria-changes/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "O03",
+      "title": "The 7 ELD Errors Officers Check First at the Scale",
+      "keyword": "ELD errors roadside inspection scale house",
+      "data_source": "FMCSA Enforcement Data",
+      "data_url": "https://www.fmcsa.dot.gov/safety/data-and-statistics",
+      "category": "hos-eld",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/electronic-logging-device-eld-compliance/",
+        "https://blog.thetruckercodex.com/dot-roadside-inspections-levels/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "O04",
+      "title": "Pre-Trip Inspection: The 15 Items Most Drivers Skip",
+      "keyword": "pre trip inspection checklist items skipped",
+      "data_source": "CVSA OOS Criteria",
+      "data_url": "https://www.cvsa.org/programs/oos-criteria/",
+      "category": "maintenance",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/dot-vehicle-inspection-maintenance-requirements/",
+        "https://blog.thetruckercodex.com/dot-roadside-inspections-levels/"
+      ],
+      "etsy_cta": true
+    },
+    {
+      "id": "O05",
+      "title": "Why Small Fleets Fail DOT Audits: The 6 Most Common DQF Deficiencies",
+      "keyword": "DQF audit failures small fleet carrier",
+      "data_source": "FMCSA Compliance Review Data",
+      "data_url": "https://www.fmcsa.dot.gov/safety/carrier-safety/compliance-review",
+      "category": "audits-violations",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/driver-qualification-file-requirements/",
+        "https://blog.thetruckercodex.com/dot-audit-checklist-how-trucking-companies-prepare-for-fmcsa-compliance-reviews/"
+      ],
+      "etsy_cta": true
+    },
+    {
+      "id": "O06",
+      "title": "What Officers Look for in the First 60 Seconds of a Level I Inspection",
+      "keyword": "Level 1 inspection first 60 seconds officer",
+      "data_source": "CVSA Inspection Protocol",
+      "data_url": "https://www.cvsa.org/programs/north-american-standard-inspection/",
+      "category": "audits-violations",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/dot-roadside-inspections-levels/",
+        "https://blog.thetruckercodex.com/dot-roadside-communication-structure/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "O07",
+      "title": "The 5 Cargo Securement Failures That Generate the Most Citations",
+      "keyword": "cargo securement violations citations CVSA",
+      "data_source": "CVSA Roadcheck Statistics",
+      "data_url": "https://www.cvsa.org/programs/roadcheck/",
+      "category": "maintenance",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/dot-vehicle-inspection-maintenance-requirements/",
+        "https://blog.thetruckercodex.com/common-dot-violations-how-to-avoid/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "O08",
+      "title": "How CSA Points Accumulate: Real Examples That Sink Small Carriers",
+      "keyword": "CSA points accumulation small carrier examples",
+      "data_source": "FMCSA SMS Methodology",
+      "data_url": "https://ai.fmcsa.dot.gov/SMS/",
+      "category": "audits-violations",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/dot-compliance-audit-triggers/",
+        "https://blog.thetruckercodex.com/common-dot-violations-how-to-avoid/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "O09",
+      "title": "Tire Violations: The Exact Measurements Officers Use to Write OOS Orders",
+      "keyword": "tire OOS measurements officer inspection",
+      "data_source": "CVSA OOS Criteria",
+      "data_url": "https://www.cvsa.org/programs/oos-criteria/",
+      "category": "maintenance",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/tire-defects-out-of-service-criteria/",
+        "https://blog.thetruckercodex.com/cvsa-2026-oos-criteria-changes/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "O10",
+      "title": "Post-Accident Protocol: The First 4 Hours Determine Your Compliance Outcome",
+      "keyword": "post accident DOT protocol first hours",
+      "data_source": "49 CFR 390.15 + FMCSA Enforcement",
+      "data_url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-390/section-390.15",
+      "category": "audits-violations",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/dot-recordkeeping-document-retention/",
+        "https://blog.thetruckercodex.com/dot-compliance-documents-the-complete-list-truck-drivers-must-maintain/"
+      ],
+      "etsy_cta": true
+    },
+    {
+      "id": "O11",
+      "title": "What Triggers a Targeted Roadside Inspection vs. a Random Stop",
+      "keyword": "targeted inspection FMCSA random stop difference",
+      "data_source": "FMCSA PrePass Data",
+      "data_url": "https://www.fmcsa.dot.gov/safety/carrier-safety",
+      "category": "audits-violations",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/dot-roadside-inspections-levels/",
+        "https://blog.thetruckercodex.com/dot-compliance-audit-triggers/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "O12",
+      "title": "Owner-Operator DQF: What You Need in Your Own File on Yourself",
+      "keyword": "owner operator DQF requirements self",
+      "data_source": "FMCSA Audit Guide",
+      "data_url": "https://www.fmcsa.dot.gov/safety/carrier-safety/driver-qualification-files",
+      "category": "dqf",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/driver-qualification-file-requirements/",
+        "https://blog.thetruckercodex.com/dot-pre-employment-requirements/"
+      ],
+      "etsy_cta": true
+    },
+    {
+      "id": "O13",
+      "title": "The 8 Documents You Must Have in the Cab During Any Inspection",
+      "keyword": "required cab documents DOT inspection",
+      "data_source": "49 CFR 392.9",
+      "data_url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-392/section-392.9",
+      "category": "audits-violations",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/dot-compliance-documents-the-complete-list-truck-drivers-must-maintain/",
+        "https://blog.thetruckercodex.com/dot-roadside-inspections-levels/"
+      ],
+      "etsy_cta": true
+    },
+    {
+      "id": "O14",
+      "title": "How to Read Your CSA Scorecard and Identify Your Biggest Risk Areas",
+      "keyword": "CSA scorecard analysis risk areas FMCSA",
+      "data_source": "FMCSA SMS Portal",
+      "data_url": "https://ai.fmcsa.dot.gov/SMS/",
+      "category": "audits-violations",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/dot-compliance-audit-triggers/",
+        "https://blog.thetruckercodex.com/common-dot-violations-how-to-avoid/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "O15",
+      "title": "Drug Test Refusal: What It Means for a CDL and How Carriers Must Document It",
+      "keyword": "drug test refusal CDL consequences carrier",
+      "data_source": "49 CFR 382.211",
+      "data_url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-382/subpart-C/section-382.211",
+      "category": "dqf",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/fmcsa-clearinghouse-guide/",
+        "https://blog.thetruckercodex.com/clearinghouse-phase-%C4%B1%C4%B1-cdl-downgrade-enforcement-what-carriers-and-drivers-must-do-right-now/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "O16",
+      "title": "Lighting Violations After Dark: Why Night Inspections Produce Higher OOS Rates",
+      "keyword": "lighting violations night inspection OOS rate",
+      "data_source": "CVSA Roadcheck Data",
+      "data_url": "https://www.cvsa.org/programs/roadcheck/",
+      "category": "maintenance",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/dot-vehicle-inspection-maintenance-requirements/",
+        "https://blog.thetruckercodex.com/cvsa-2026-oos-criteria-changes/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "O17",
+      "title": "The Clearinghouse Query Carriers Most Often Forget to Run",
+      "keyword": "Clearinghouse missed queries carrier mistake",
+      "data_source": "FMCSA Clearinghouse Statistics",
+      "data_url": "https://clearinghouse.fmcsa.dot.gov/",
+      "category": "dqf",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/fmcsa-clearinghouse-guide/",
+        "https://blog.thetruckercodex.com/clearinghouse-phase-%C4%B1%C4%B1-cdl-downgrade-enforcement-what-carriers-and-drivers-must-do-right-now/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "O18",
+      "title": "How FMCSA Selects Carriers for Compliance Reviews: The Data Behind the Decision",
+      "keyword": "FMCSA compliance review selection criteria",
+      "data_source": "FMCSA Intervention Data",
+      "data_url": "https://www.fmcsa.dot.gov/safety/carrier-safety/interventions",
+      "category": "audits-violations",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/dot-compliance-audit-triggers/",
+        "https://blog.thetruckercodex.com/dot-audit-checklist-how-trucking-companies-prepare-for-fmcsa-compliance-reviews/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "O19",
+      "title": "What a Conditional Safety Rating Actually Means and How to Fix It",
+      "keyword": "FMCSA conditional safety rating fix upgrade",
+      "data_source": "49 CFR Part 385",
+      "data_url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-385",
+      "category": "audits-violations",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/dot-compliance-audit-triggers/",
+        "https://blog.thetruckercodex.com/new-entrant-safety-audit-fmcsa-methodology/"
+      ],
+      "etsy_cta": true
+    },
+    {
+      "id": "O20",
+      "title": "Violation Severity Weights: Why Some Tickets Cost You More CSA Points",
+      "keyword": "CSA violation severity weights SMS methodology",
+      "data_source": "FMCSA SMS Methodology Document",
+      "data_url": "https://ai.fmcsa.dot.gov/SMS/Tools/Downloads/SMSMethodology.aspx",
+      "category": "audits-violations",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/dot-compliance-audit-triggers/",
+        "https://blog.thetruckercodex.com/common-dot-violations-how-to-avoid/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "O21",
+      "title": "The 6 Recordkeeping Failures FMCSA Auditors Find in Every Small Carrier File",
+      "keyword": "recordkeeping audit failures small carrier FMCSA",
+      "data_source": "FMCSA Audit Findings",
+      "data_url": "https://www.fmcsa.dot.gov/safety/carrier-safety",
+      "category": "audits-violations",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/dot-recordkeeping-document-retention/",
+        "https://blog.thetruckercodex.com/dot-audit-checklist-how-trucking-companies-prepare-for-fmcsa-compliance-reviews/"
+      ],
+      "etsy_cta": true
+    },
+    {
+      "id": "O22",
+      "title": "CVSA Roadcheck Week: How to Prepare Your Fleet Before the Annual Blitz",
+      "keyword": "CVSA Roadcheck preparation fleet 2026",
+      "data_source": "CVSA Annual Report",
+      "data_url": "https://www.cvsa.org/programs/roadcheck/",
+      "category": "audits-violations",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/dot-vehicle-inspection-maintenance-requirements/",
+        "https://blog.thetruckercodex.com/cvsa-2026-oos-criteria-changes/"
+      ],
+      "etsy_cta": true
+    },
+    {
+      "id": "O23",
+      "title": "The Scale House Decision: What Happens When You're Pulled In",
+      "keyword": "weigh station scale house pulled in process",
+      "data_source": "CVSA Protocol",
+      "data_url": "https://www.cvsa.org/programs/north-american-standard-inspection/",
+      "category": "audits-violations",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/dot-roadside-inspections-levels/",
+        "https://blog.thetruckercodex.com/dot-roadside-communication-structure/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "O24",
+      "title": "How to Dispute a Roadside Inspection Finding Through DataQs",
+      "keyword": "DataQs FMCSA dispute roadside inspection",
+      "data_source": "FMCSA DataQs System",
+      "data_url": "https://dataqs.fmcsa.dot.gov/",
+      "category": "audits-violations",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/dot-roadside-inspections-levels/",
+        "https://blog.thetruckercodex.com/dot-compliance-audit-triggers/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "O25",
+      "title": "Medical Certificate Expiration: The Cascade of Consequences When It Lapses",
+      "keyword": "medical certificate lapse consequences CDL",
+      "data_source": "49 CFR 391.45",
+      "data_url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-391/subpart-E/section-391.45",
+      "category": "dqf",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/driver-qualification-file-requirements/",
+        "https://blog.thetruckercodex.com/common-dot-violations-how-to-avoid/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "O26",
+      "title": "What Owner-Operators Get Wrong About Their Own Operating Authority",
+      "keyword": "owner operator authority mistakes common errors",
+      "data_source": "FMCSA New Entrant Data",
+      "data_url": "https://www.fmcsa.dot.gov/registration/getting-started",
+      "category": "fmcsa-basics",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/what-is-fmcsa/",
+        "https://blog.thetruckercodex.com/new-entrant-safety-audit-survival-guide/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "O27",
+      "title": "The True Cost of an OOS Violation: Fines, Delays, and CSA Impact",
+      "keyword": "OOS violation cost fine CSA impact",
+      "data_source": "FMCSA Civil Penalty Data",
+      "data_url": "https://www.fmcsa.dot.gov/regulations/civil-penalty",
+      "category": "audits-violations",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/brake-system-violations-out-of-service/",
+        "https://blog.thetruckercodex.com/dot-compliance-audit-triggers/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "O28",
+      "title": "SAP Process: What Happens After a Positive Drug Test, Step by Step",
+      "keyword": "SAP process after positive drug test steps",
+      "data_source": "49 CFR Part 40 Subpart O",
+      "data_url": "https://www.ecfr.gov/current/title-49/subtitle-A/part-40/subpart-O",
+      "category": "dqf",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/fmcsa-clearinghouse-guide/",
+        "https://blog.thetruckercodex.com/clearinghouse-phase-%C4%B1%C4%B1-cdl-downgrade-enforcement-what-carriers-and-drivers-must-do-right-now/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "O29",
+      "title": "How HOS Violations Become Crash Liability: What Plaintiff Attorneys Look For",
+      "keyword": "HOS violations crash liability plaintiff",
+      "data_source": "FMCSA Large Truck Crash Facts",
+      "data_url": "https://www.fmcsa.dot.gov/safety/data-and-statistics/large-truck-and-bus-crash-facts",
+      "category": "hos-eld",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/hours-of-service-violations-out-of-service/",
+        "https://blog.thetruckercodex.com/dot-recordkeeping-document-retention/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "O30",
+      "title": "Annual Vehicle Inspection Stickers: What's Accepted and What Isn't",
+      "keyword": "DOT annual inspection sticker accepted states",
+      "data_source": "CVSA OOS Criteria",
+      "data_url": "https://www.cvsa.org/programs/oos-criteria/",
+      "category": "maintenance",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/dot-vehicle-inspection-maintenance-requirements/",
+        "https://blog.thetruckercodex.com/cvsa-2026-oos-criteria-changes/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "O31",
+      "title": "ELD Vendors and Technical Non-Compliance: What the 2025-2026 Revocations Tell Us",
+      "keyword": "ELD vendor non-compliance revocations 2026",
+      "data_source": "FMCSA ELD Revocation List",
+      "data_url": "https://www.fmcsa.dot.gov/hours-service/elds/eld-revocations",
+      "category": "hos-eld",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/fmcsa-2026-eld-revocations-analysis/",
+        "https://blog.thetruckercodex.com/2026-eld-compliance-standards-revocation-updates/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "O32",
+      "title": "Why New Entrants Fail Their Safety Audit: Analysis of Common Findings",
+      "keyword": "new entrant safety audit failures analysis",
+      "data_source": "FMCSA New Entrant Program Data",
+      "data_url": "https://www.fmcsa.dot.gov/safety/carrier-safety/new-entrant-safety-assurance-program",
+      "category": "audits-violations",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/new-entrant-safety-audit-fmcsa-methodology/",
+        "https://blog.thetruckercodex.com/new-entrant-safety-audit-survival-guide/"
+      ],
+      "etsy_cta": true
+    },
+    {
+      "id": "O33",
+      "title": "IFTA Audit Triggers: How Fuel Tax Discrepancies Escalate to DOT Attention",
+      "keyword": "IFTA audit triggers fuel tax discrepancy",
+      "data_source": "IFTA Compliance Data",
+      "data_url": "https://www.iftach.org/",
+      "category": "fmcsa-basics",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/dot-compliance-checklist-2026/",
+        "https://blog.thetruckercodex.com/dot-recordkeeping-document-retention/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "O34",
+      "title": "Overweight Violations: Permit Requirements, Fines, and Carrier Liability",
+      "keyword": "overweight truck violation permit fine liability",
+      "data_source": "FMCSA Weight Enforcement",
+      "data_url": "https://www.fmcsa.dot.gov/regulations/size-weight",
+      "category": "fmcsa-basics",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/common-dot-violations-how-to-avoid/",
+        "https://blog.thetruckercodex.com/dot-compliance-documents-the-complete-list-truck-drivers-must-maintain/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "O35",
+      "title": "English Proficiency Enforcement at the Roadside: What Actually Happens",
+      "keyword": "English proficiency enforcement roadside 2026",
+      "data_source": "FMCSA Enforcement Data",
+      "data_url": "https://www.fmcsa.dot.gov/regulations/english-language-proficiency",
+      "category": "audits-violations",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/english-proficiency-as-an-out-of-service-condition-2026-roadside-enforcement-breakdown/",
+        "https://blog.thetruckercodex.com/english-language-proficiency-roadside-assessment/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "O36",
+      "title": "Insurance Lapses: What FMCSA Does When Coverage Drops Below Minimums",
+      "keyword": "FMCSA insurance lapse below minimum consequences",
+      "data_source": "49 CFR Part 387",
+      "data_url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-387",
+      "category": "fmcsa-basics",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/dot-compliance-checklist-2026/",
+        "https://blog.thetruckercodex.com/what-is-fmcsa/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "O37",
+      "title": "The Anatomy of a DOT Compliance Review: What an Auditor Examines in Order",
+      "keyword": "DOT compliance review process auditor order",
+      "data_source": "FMCSA Audit Protocol",
+      "data_url": "https://www.fmcsa.dot.gov/safety/carrier-safety/compliance-review",
+      "category": "audits-violations",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/dot-audit-checklist-how-trucking-companies-prepare-for-fmcsa-compliance-reviews/",
+        "https://blog.thetruckercodex.com/dot-compliance-audit-triggers/"
+      ],
+      "etsy_cta": true
+    },
+    {
+      "id": "O38",
+      "title": "How Roadside Inspection Data Is Uploaded to MCMIS and How Long It Stays",
+      "keyword": "MCMIS data upload retention roadside inspection",
+      "data_source": "FMCSA MCMIS",
+      "data_url": "https://www.fmcsa.dot.gov/safety/carrier-safety/performance-and-registration-information-systems-management",
+      "category": "audits-violations",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/dot-roadside-inspections-levels/",
+        "https://blog.thetruckercodex.com/dot-compliance-audit-triggers/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "O39",
+      "title": "What Satisfactory Safety Rating Means — and Why It's Not a Guarantee",
+      "keyword": "FMCSA satisfactory safety rating meaning",
+      "data_source": "49 CFR Part 385",
+      "data_url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-385",
+      "category": "audits-violations",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/dot-compliance-audit-triggers/",
+        "https://blog.thetruckercodex.com/new-entrant-safety-audit-fmcsa-methodology/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "O40",
+      "title": "Speed Limiter Enforcement in Practice: What States Are Actually Doing in 2026",
+      "keyword": "speed limiter enforcement states 2026",
+      "data_source": "FMCSA Speed Limiter Rulemaking",
+      "data_url": "https://www.fmcsa.dot.gov/regulations/rulemaking/2022-17199",
+      "category": "fmcsa-basics",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/speed-limiter-myth-busting/",
+        "https://blog.thetruckercodex.com/fmcsa-dot-updates-2025-2026/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "O41",
+      "title": "When a Driver Quits Mid-Route: Carrier Obligations Under FMCSA Rules",
+      "keyword": "driver abandonment mid route carrier obligations",
+      "data_source": "49 CFR Part 391",
+      "data_url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-391",
+      "category": "dqf",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/driver-qualification-file-requirements/",
+        "https://blog.thetruckercodex.com/dot-recordkeeping-document-retention/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "O42",
+      "title": "Roadside Communication: What to Say and What Not to Say to an Inspector",
+      "keyword": "talking to DOT inspector roadside communication",
+      "data_source": "CVSA Protocol",
+      "data_url": "https://www.cvsa.org/programs/north-american-standard-inspection/",
+      "category": "audits-violations",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/dot-roadside-communication-structure/",
+        "https://blog.thetruckercodex.com/dot-roadside-inspections-levels/"
+      ],
+      "etsy_cta": true
+    },
+    {
+      "id": "O43",
+      "title": "The Paper Trail After an Accident: Every Document You Need and Why",
+      "keyword": "accident documentation DOT paper trail",
+      "data_source": "49 CFR 390.15",
+      "data_url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-390/section-390.15",
+      "category": "audits-violations",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/dot-recordkeeping-document-retention/",
+        "https://blog.thetruckercodex.com/dot-compliance-documents-the-complete-list-truck-drivers-must-maintain/"
+      ],
+      "etsy_cta": true
+    },
+    {
+      "id": "O44",
+      "title": "How Carriers With Clean Records Still Get Audited: The Triggers Nobody Talks About",
+      "keyword": "DOT audit triggers clean record carrier",
+      "data_source": "FMCSA Intervention Data",
+      "data_url": "https://www.fmcsa.dot.gov/safety/carrier-safety/interventions",
+      "category": "audits-violations",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/dot-compliance-audit-triggers/",
+        "https://blog.thetruckercodex.com/dot-audit-checklist-how-trucking-companies-prepare-for-fmcsa-compliance-reviews/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "O45",
+      "title": "Building a DOT Compliance Calendar: Weekly, Monthly, and Annual Checkpoints",
+      "keyword": "trucking compliance calendar weekly monthly annual",
+      "data_source": "FMCSA Best Practices",
+      "data_url": "https://www.fmcsa.dot.gov/safety/carrier-safety",
+      "category": "fmcsa-basics",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/dot-compliance-checklist-2026/",
+        "https://blog.thetruckercodex.com/dot-recordkeeping-document-retention/"
+      ],
+      "etsy_cta": true
+    }
+  ]
+}
