@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Hours of Service: The 11-Hour Driving Limit Explained"
-date: 2026-03-08T19:13:16
+date: 2026-03-08
 categories: hos-eld
 description: "Comprehensive analysis of Hours of Service: The 11-Hour Driving Limit Explained under 49 CFR Part 395. Regulatory requirements, enforcement consequences, and compliance guidance for motor carriers."
 image: /assets/images/default-compliance.png
