@@ -1,0 +1,81 @@
+name: Daily Blog Automation
+
+on:
+  schedule:
+    # Sabah yazısı (Regulatory) - 09:00 EST = 14:00 UTC
+    - cron: '0 14 * * *'
+    # Akşam yazısı (OI) - 18:00 EST = 23:00 UTC
+    - cron: '0 23 * * *'
+  workflow_dispatch:
+    inputs:
+      post_type:
+        description: 'Post type to generate'
+        required: true
+        default: 'regulatory'
+        type: choice
+        options:
+          - regulatory
+          - oi
+
+jobs:
+  generate-post:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install anthropic requests python-frontmatter matplotlib
+
+      - name: Determine post type
+        id: post_type
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "type=${{ github.event.inputs.post_type }}" >> $GITHUB_OUTPUT
+          else
+            HOUR=$(date -u +%H)
+            if [ "$HOUR" = "14" ]; then
+              echo "type=regulatory" >> $GITHUB_OUTPUT
+            else
+              echo "type=oi" >> $GITHUB_OUTPUT
+            fi
+          fi
+
+      - name: Fetch regulatory data
+        if: steps.post_type.outputs.type == 'regulatory'
+        run: python scripts/fetch_regulations.py
+        env:
+          POST_TYPE: regulatory
+
+      - name: Generate post
+        run: python scripts/generate_post.py
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          POST_TYPE: ${{ steps.post_type.outputs.type }}
+
+      - name: Quality check
+        run: python scripts/quality_check.py
+
+      - name: Generate chart (OI posts only)
+        if: steps.post_type.outputs.type == 'oi'
+        run: python scripts/generate_chart.py
+        continue-on-error: true
+
+      - name: Commit and push
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "Trucker Codex Autopilot"
+          git add _posts/ _data/ assets/
+          git diff --staged --quiet || git commit -m "Auto: $(cat /tmp/post_title.txt)"
+          git push
