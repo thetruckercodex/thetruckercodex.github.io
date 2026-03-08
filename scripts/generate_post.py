@@ -156,24 +156,46 @@ def get_next_topic(post_type, data):
 
 
 def get_cross_links(current_category, current_topic_id, max_links=3):
+    """
+    published_posts.json'dan daha önce üretilen yeni postları tarar.
+    Aynı veya ilgili kategorideki postların URL'lerini döner.
+    Maksimum max_links adet, en yeni postlar önce.
+    """
     published = load_published()
     posts = published.get("published", [])
     if not posts:
         return []
+
     related_categories = CATEGORY_RELATIONS.get(current_category, [current_category])
-    candidates = [p for p in posts if p.get("topic_id") != current_topic_id and p.get("category") in related_categories and p.get("url")]
+
+    candidates = [
+        p for p in posts
+        if p.get("topic_id") != current_topic_id
+        and p.get("category") in related_categories
+        and p.get("url")
+    ]
+
+    # En yeni önce
     candidates = list(reversed(candidates))
+
+    # Önce aynı kategori, sonra ilgili
     same_cat  = [p for p in candidates if p.get("category") == current_category]
     other_cat = [p for p in candidates if p.get("category") != current_category]
-    return [p["url"] for p in (same_cat + other_cat)[:max_links]]
+    ordered   = same_cat + other_cat
+
+    return [p["url"] for p in ordered[:max_links]]
 
 
 def build_slug(title):
-    slug = re.sub(r'\s+', '-', re.sub(r'[^a-z0-9\s-]', '', title.lower()).strip())[:60]
+    slug = title.lower()
+    slug = re.sub(r'[^a-z0-9\s-]', '', slug)
+    slug = re.sub(r'\s+', '-', slug.strip())
+    slug = re.sub(r'-+', '-', slug)[:60]
     return slug.rstrip('-')
 
 
 def build_internal_links_str(static_links, cross_links):
+    """Statik + dinamik linkleri birleştir, tekrar yok."""
     all_links = list(static_links)
     for link in cross_links:
         if link not in all_links:
@@ -182,35 +204,59 @@ def build_internal_links_str(static_links, cross_links):
 
 
 def build_prompt(topic, post_type, reg_data=None):
-    date_str = datetime.now().strftime("%Y-%m-%dT%H:%M:%S")
-    category = topic.get("category", "fmcsa-basics")
-    topic_id = topic.get("id", "")
+    date_str  = datetime.now().strftime("%Y-%m-%dT%H:%M:%S")
+    category  = topic.get("category", "fmcsa-basics")
+    topic_id  = topic.get("id", "")
+
     static_links = topic.get("internal_links", [])
-    cross_links = get_cross_links(category, topic_id, max_links=3)
+    cross_links  = get_cross_links(category, topic_id, max_links=3)
+
     if cross_links:
         print(f"  Cross-links from previous auto-posts ({len(cross_links)}):")
         for cl in cross_links:
             print(f"    → {cl}")
+
     internal_links_str = build_internal_links_str(static_links, cross_links)
+
     etsy_block = ""
     if topic.get("etsy_cta", False):
         cta = ETSY_CTAS.get(category, ETSY_CTAS["fmcsa-basics"])
-        etsy_block = f"ETSY CTA (include near end of post):\{cta}"
+        etsy_block = f"ETSY CTA (include near end of post):\n{cta}"
+
     if post_type == "regulatory":
-        cfr_text = reg_data.get("cfr_text", "")[:4000] if reg_data else ""
-        recent_summary = reg_data.get("recent_summary", "") if reg_data else ""
+        cfr_text       = ""
+        recent_summary = ""
+        if reg_data:
+            cfr_text       = reg_data.get("cfr_text", "")[:4000]
+            recent_summary = reg_data.get("recent_summary", "")
+
+        meta_description = f"Comprehensive analysis of {topic['title']} under 49 CFR Part {topic['cfr_part']}. Regulatory requirements, enforcement consequences, and compliance guidance for motor carriers."
+
         return REGULATORY_PROMPT.format(
-            title=topic["title"], cfr_part=topic["cfr_part"], cfr_section=topic["cfr_section"],
-            keyword=topic["keyword"], category=category,
-            cfr_text=cfr_text or "Fetch unavailable", recent_summary=recent_summary or "No recent amendments.",
-            internal_links=internal_links_str, etsy_cta_block=etsy_block, date=date_str
+            title=topic["title"],
+            cfr_part=topic["cfr_part"],
+            cfr_section=topic["cfr_section"],
+            keyword=topic["keyword"],
+            category=category,
+            cfr_text=cfr_text or "Fetch unavailable — reference official eCFR source.",
+            recent_summary=recent_summary or "No recent amendments in last 7 days.",
+            internal_links=internal_links_str,
+            etsy_cta_block=etsy_block,
+            date=date_str,
+            meta_description=meta_description
         )
     else:
+        meta_description = f"Enforcement intelligence analysis: {topic['title']}. Data-driven insights from FMCSA and CVSA records for motor carriers and compliance professionals."
         return OI_PROMPT.format(
-            title=topic["title"], keyword=topic["keyword"],
+            title=topic["title"],
+            keyword=topic["keyword"],
             data_source=topic.get("data_source", "FMCSA Public Data"),
             data_url=topic.get("data_url", "https://www.fmcsa.dot.gov/"),
-            category=category, internal_links=internal_links_str, etsy_cta_block=etsy_block, date=date_str
+            category=category,
+            internal_links=internal_links_str,
+            etsy_cta_block=etsy_block,
+            date=date_str,
+            meta_description=meta_description
         )
 
 
@@ -227,49 +273,85 @@ def call_claude(prompt):
 
 def extract_title_from_content(content, fallback_title):
     match = re.search(r'^title:\s*["\']?(.+?)["\']?\s*$', content, re.MULTILINE)
-    return match.group(1).strip() if match else fallback_title
+    if match:
+        return match.group(1).strip()
+    return fallback_title
 
 
 def build_filename(topic):
-    return f"_posts/{datetime.now().strftime('%Y-%m-%d')}-{build_slug(topic['title'])}.md"
+    date_str = datetime.now().strftime("%Y-%m-%d")
+    slug = build_slug(topic["title"])
+    return f"_posts/{date_str}-{slug}.md"
 
 
 def update_topics_index(post_type, current_idx, topics_data):
-    topics_data[f"next_{post_type}"] = (current_idx + 1) % len(topics_data[post_type])
+    key = f"next_{post_type}"
+    topics_data[key] = (current_idx + 1) % len(topics_data[post_type])
     with open(TOPICS_FILE, "w") as f:
         json.dump(topics_data, f, indent=2)
 
 
 def save_published(filename, topic):
+    """
+    published_posts.json'a yeni postu kaydet.
+    URL ve kategori saklanır — sonraki postlar cross-link için okur.
+    """
     published = load_published()
-    url = f"{BLOG_BASE}/{build_slug(topic['title'])}/"
-    published["published"].append({"file": filename, "topic_id": topic["id"], "title": topic["title"], "category": topic.get("category", "fmcsa-basics"), "url": url, "date": datetime.now().isoformat()})
+    slug = build_slug(topic["title"])
+    url  = f"{BLOG_BASE}/{slug}/"
+
+    published["published"].append({
+        "file":     filename,
+        "topic_id": topic["id"],
+        "title":    topic["title"],
+        "category": topic.get("category", "fmcsa-basics"),
+        "url":      url,
+        "date":     datetime.now().isoformat()
+    })
+
     os.makedirs(os.path.dirname(PUBLISHED_FILE), exist_ok=True)
     with open(PUBLISHED_FILE, "w") as f:
         json.dump(published, f, indent=2)
+
     return url
 
 
 def main():
     print(f"Generating {POST_TYPE} post...")
+
     topics_data = load_topics()
-    topic, idx = get_next_topic(POST_TYPE, topics_data)
+    topic, idx  = get_next_topic(POST_TYPE, topics_data)
+
     print(f"Topic [{topic['id']}]: {topic['title']}")
+    print(f"Category: {topic.get('category')}")
+
     reg_data = None
     if POST_TYPE == "regulatory" and os.path.exists(REG_DATA_FILE):
-        with open(REG_DATA_FILE) as f: reg_data = json.load(f)
-    prompt = build_prompt(topic, POST_TYPE, reg_data)
+        with open(REG_DATA_FILE) as f:
+            reg_data = json.load(f)
+
+    prompt  = build_prompt(topic, POST_TYPE, reg_data)
+
     print("Calling Claude API...")
     content = call_claude(prompt)
+
     filename = build_filename(topic)
     os.makedirs("_posts", exist_ok=True)
-    with open(filename, "w") as f: f.write(content)
+
+    with open(filename, "w") as f:
+        f.write(content)
+
     print(f"Post written: {filename}")
+
+    title = extract_title_from_content(content, topic["title"])
     with open("/tmp/post_title.txt", "w") as f:
-        f.write(f"Auto [{topic['id']}]: {extract_title_from_content(content, topic['title'])}")
+        f.write(f"Auto [{topic['id']}]: {title}")
+
     update_topics_index(POST_TYPE, idx, topics_data)
+
     url = save_published(filename, topic)
     print(f"Published log updated: {url}")
+    print("Done.")
 
 
 if __name__ == "__main__":
