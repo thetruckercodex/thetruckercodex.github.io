@@ -4,6 +4,8 @@ title: "Free Download — DOT Roadside Inspection Kit"
 permalink: /free/dot-roadside-inspection-kit/
 ---
 
+<img src="/assets/images/dotroadsideinspectionchecklist.png" alt="DOT Roadside Inspection Kit" style="width:100%; max-width:800px; display:block; margin: 0 auto 32px auto;">
+
 Your kit is ready. Click the button below to download all four tools as a single file.
 
 <div style="margin: 32px 0; text-align: center;">
