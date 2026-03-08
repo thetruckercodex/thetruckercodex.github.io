@@ -4,8 +4,6 @@ title: "Hours of Service: The 11-Hour Driving Limit Explained"
 date: 2026-03-08
 categories: hos-eld
 description: "Comprehensive analysis of Hours of Service: The 11-Hour Driving Limit Explained under 49 CFR Part 395. Regulatory requirements, enforcement consequences, and compliance guidance for motor carriers."
-image: /assets/images/default-compliance.png
-image_alt: "Hours of Service: The 11-Hour Driving Limit Explained"
 ---
 
 The 11-hour driving limit is the cornerstone daily constraint governing commercial motor vehicle operations in the United States. Codified at [49 CFR §395.3(a)(3)](https://www.ecfr.gov/current/title-49/part-395/section-395.3), this provision establishes the maximum driving time permitted within any given duty period for property-carrying CMV drivers subject to federal Hours of Service regulations. Despite its apparent simplicity, the rule intersects with multiple concurrent limitations — the 14-hour on-duty window, the 30-minute rest break requirement, and the 60/70-hour weekly caps — creating a regulatory lattice that demands rigorous daily planning and precise ELD management. Misreading any one of these interlocking constraints is among the most common pathways to an out-of-service violation at roadside.
