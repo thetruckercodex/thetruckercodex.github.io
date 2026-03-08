@@ -8,7 +8,7 @@ description: "A technical analysis of FMCSA pre-employment compliance requiremen
 
 Every DOT-regulated motor carrier assumes maximum regulatory exposure at a single operational moment: the point at which a newly onboarded driver is permitted to perform their first safety-sensitive function. The DOT pre-employment process is not a human resources formality; it is a federally mandated compliance gateway governed primarily by [49 CFR Part 382](https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-382) (Controlled Substances and Alcohol Use and Testing) and [49 CFR Part 391](https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-391) (Qualifications of Drivers).
 
-The controlling legal threshold is not the employment agreement itself; it is the driver’s first **“safety-sensitive function.”** Federal law requires that specific investigative, testing, and qualification steps be completed and documented *before* a driver operates a Commercial Motor Vehicle (CMV). Failure to execute these protocols precisely is a frequent trigger of Acute violations during [FMCSA Compliance Reviews](/audits-violations/).
+The controlling legal threshold is not the employment agreement itself; it is the driver’s first **“safety-sensitive function.”** Federal law requires that specific investigative, testing, and qualification steps be completed and documented *before* a driver operates a Commercial Motor Vehicle (CMV). Failure to execute these protocols precisely is a frequent trigger of Acute violations during [FMCSA Compliance Reviews](/topics/audits-violations/).
 
 ---
 
@@ -56,7 +56,7 @@ Under **49 CFR §382.701**, a carrier must conduct a **Full Query** of the [FMCS
 Under **49 CFR §391.23**, carriers must investigate a driver’s safety performance history with all DOT-regulated employers during the preceding three years. Per §391.23(c), the investigation request must be initiated within 30 days of the first safety-sensitive function.
 
 ### MVR Timing Precision
-The initial **Motor Vehicle Record (MVR)** must be obtained within the 30-day post-hire window. Failure to acquire the initial MVR within this timeframe creates a critical documentation gap in the [Driver Qualification File (DQF)](/dqf/), subject to time-weighting under SMS methodology.
+The initial **Motor Vehicle Record (MVR)** must be obtained within the 30-day post-hire window. Failure to acquire the initial MVR within this timeframe creates a critical documentation gap in the [Driver Qualification File (DQF)](/topics/dqf/), subject to time-weighting under SMS methodology.
 
 ---
 
@@ -66,7 +66,7 @@ To mitigate audit exposure, **The Trucker Codex** recommends the following inter
 
 1. **"No Result, No Dispatch" Policy:** Hard-code a prohibition in your safety manual against dispatching any driver until the negative result and Full Query "Clear" status are received.
 2. **Investigation Timeliness:** Ensure Safety Performance History requests are dispatched immediately upon hire to satisfy the 30-day regulatory clock.
-3. **Documentation Readiness:** Maintain organized digital records to ensure prompt retrieval during an [FMCSA Compliance Review](/audits-violations/).
+3. **Documentation Readiness:** Maintain organized digital records to ensure prompt retrieval during an [FMCSA Compliance Review](/topics/audits-violations/).
 
 ## Conclusion: Compliance Before Keys
 
@@ -82,5 +82,5 @@ For carriers building a documented pre-employment compliance workflow, the [Driv
 
 - [The 2026 CVSA Out-of-Service (OOS) Criteria Updates](/cvsa-2026-oos-criteria-changes/)
 - [Procedural Standards for English Language Proficiency (ELP)](/english-language-proficiency-roadside-assessment/)
-- [Comprehensive Guide to Driver Qualification File (DQF) Compliance](/dqf/)
-- [Recordkeeping & Retention Requirements](/recordkeeping-retention/)
+- [Comprehensive Guide to Driver Qualification File (DQF) Compliance](/topics/dqf/)
+- [Recordkeeping & Retention Requirements](/topics/recordkeeping/)
