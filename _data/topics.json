@@ -1,5 +1,5 @@
 {
-  "next_regulatory": 0,
+  "next_regulatory": 1,
   "next_oi": 0,
   "regulatory": [
     {
@@ -284,7 +284,7 @@
     },
     {
       "id": "R21",
-      "title": "FMCSA Clearinghouse: Full Query vs. Limited Query — When Each Is Required",
+      "title": "FMCSA Clearinghouse: Full Query vs. Limited Query \u2014 When Each Is Required",
       "keyword": "Clearinghouse full query limited query FMCSA",
       "cfr_title": 49,
       "cfr_part": 382,
@@ -1130,7 +1130,7 @@
     },
     {
       "id": "O39",
-      "title": "What Satisfactory Safety Rating Means — and Why It's Not a Guarantee",
+      "title": "What Satisfactory Safety Rating Means \u2014 and Why It's Not a Guarantee",
       "keyword": "FMCSA satisfactory safety rating meaning",
       "data_source": "49 CFR Part 385",
       "data_url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-385",
