@@ -263,7 +263,7 @@ def build_prompt(topic, post_type, reg_data=None):
 def call_claude(prompt):
     client = anthropic.Anthropic()
     response = client.messages.create(
-        model="claude-opus-4-5",
+        model="claude-sonnet-4-6",
         max_tokens=2500,
         system="You are a precision technical writer specializing in US federal motor carrier regulations. Your output is always publication-ready Jekyll markdown. No preamble, no explanation — only the post.",
         messages=[{"role": "user", "content": prompt}]
