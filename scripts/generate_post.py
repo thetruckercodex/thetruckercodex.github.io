@@ -206,7 +206,7 @@ def build_internal_links_str(static_links, cross_links):
 
 
 def build_prompt(topic, post_type, reg_data=None):
-    date_str = datetime.now().strftime("%Y-%m-%d %H:%M:%S +0000")
+    date_str = datetime.now().strftime("%Y-%m-%d")
     category = topic.get("category", "fmcsa-basics")
     topic_id = topic.get("id", "")
     static_links = topic.get("internal_links", [])
