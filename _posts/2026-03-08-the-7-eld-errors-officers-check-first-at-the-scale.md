@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The 7 ELD Errors Officers Check First at the Scale"
-date: 2026-03-08 23:44:19 +0000
+date: 2026-03-08 
 categories: hos-eld
 description: "Enforcement intelligence analysis: The 7 ELD Errors Officers Check First at the Scale. Data-driven insights from FMCSA and CVSA records for motor carriers and compliance professionals."
 ---
