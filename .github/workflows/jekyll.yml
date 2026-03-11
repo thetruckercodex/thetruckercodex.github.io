@@ -4,6 +4,11 @@ on:
   push:
     branches: ["master"]
   workflow_dispatch:
+  # KRİTİK EKLEME: Yazı botu (Daily Blog Automation) işini bitirdiği an bu workflow'u uyandırır.
+  workflow_run:
+    workflows: ["Daily Blog Automation"]
+    types:
+      - completed
 
 permissions:
   contents: read
