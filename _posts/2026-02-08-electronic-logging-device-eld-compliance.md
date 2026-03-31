@@ -1,75 +1,170 @@
 ---
 layout: post
-title: "Electronic Logging Device (ELD) Compliance Requirements"
+title: "ELD Compliance Requirements: What Carriers and Drivers Must Maintain Under 49 CFR Part 395"
 category: hos-eld
 permalink: /electronic-logging-device-eld-compliance/
-description: "An overview of Electronic Logging Device (ELD) compliance requirements under 49 CFR Part 395 and how log accuracy affects enforcement risk."
+description: "Complete guide to ELD compliance under 49 CFR Part 395: registered device requirements, malfunction protocols, revoked devices, log accuracy standards, and 2026 enforcement updates."
 ---
-ELD compliance is primarily a process problem: how logs are reviewed, corrected, and supported—not whether a device is installed. Log accuracy failures can trigger roadside violations and audit escalation.
 
-## Introduction
-
-Electronic Logging Devices (ELDs) are regulated under **49 CFR Part 395**, which governs Hours-of-Service compliance. ELD errors, inaccurate entries, or misuse can trigger roadside violations and Out-of-Service determinations.
-
-ELD compliance is not limited to device installation; it requires accurate operational management.
+ELD compliance is not a device problem — it is a process problem. Whether your logs hold up at a roadside inspection or collapse under an FMCSA audit depends almost entirely on how records are managed daily, not on whether a device is physically installed. This guide covers the full regulatory framework under [49 CFR Part 395](https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395), the 2026 revocation enforcement timeline, and the operational controls that keep carriers out of trouble.
 
 ---
 
-## Core Compliance Requirements
+## Who Is Required to Use an ELD
 
-ELD compliance includes:
+Under [49 CFR § 395.8(a)(1)](https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395/section-395.8) and [§ 395.22(a)](https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395/section-395.22), ELD use is mandatory for any commercial motor vehicle (CMV) driver who is required to prepare Hours-of-Service Records of Duty Status (RODS).
 
-- Accurate recording of duty status  
-- Proper annotation of edits  
-- Retention of required records  
-- Transfer capability during roadside inspection  
+**Exemptions** — the following are not required to use an ELD:
 
-Drivers remain responsible for log accuracy even when using automated systems.
+- Drivers who use paper RODS for 8 days or fewer out of any 30-day period
+- Drivers conducting drive-away-tow-away operations where the vehicle being driven is the commodity being delivered
+- Drivers operating vehicles manufactured before model year 2000
 
----
-
-## Common Enforcement Findings
-
-Roadside inspections frequently identify:
-
-- Unassigned driving time  
-- Failure to certify logs  
-- Improper use of personal conveyance  
-- Exceeding drive time limits  
-
-Drive time exceedances are discussed in our [Hours-of-Service Violations Guide](/hours-of-service-violations-out-of-service/).
+If none of these exemptions apply, ELD use is mandatory. Operating without a compliant, registered device exposes both the driver and the carrier to immediate enforcement action.
 
 ---
 
-## Enforcement Impact
+## Registered Device Requirement
 
-ELD-related violations may result in:
+Under [49 CFR § 395.22(a)](https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395/section-395.22), a motor carrier must use only an ELD listed on the [FMCSA's registered ELD list](https://eld.fmcsa.dot.gov/List). Using an unregistered or revoked device is treated as operating with no ELD at all — a citable violation under § 395.8(a)(1).
 
-- Immediate driver Out-of-Service orders  
-- CSA Driver BASIC score impact  
-- Audit review triggers  
-- Increased inspection frequency  
+### 2026 Revocation Enforcement: What Changed
 
-Repeated log accuracy issues signal systemic compliance weaknesses.
+FMCSA has been aggressively revoking non-compliant devices throughout 2025–2026. Fourteen devices were removed from the registered list in a single enforcement action in early 2026, with a **May 4, 2026 hard deadline** — after that date, any motor carrier still using those devices will be cited for § 395.8(a)(1) and drivers will be placed out of service under CVSA OOS criteria.
+
+This is not a warning phase. Prior enforcement cycles included grace periods where officers were instructed not to cite drivers during the transition window. That window closes May 4, 2026.
+
+To verify your device's current status, check the [FMCSA ELD registered devices list](https://eld.fmcsa.dot.gov/List) directly. Do not rely on your vendor's assurances — check the official list by device make and model.
+
+For a detailed breakdown of which devices were revoked and what carriers must do, see [FMCSA 2026 ELD Revocations: Comprehensive Device List and Compliance Strategies](/fmcsa-2026-update-comprehensive-list-of-revoked-eld-devices-and-compliance-strategies/).
 
 ---
 
-## Preventive Compliance Controls
+## Core ELD Compliance Requirements Under 49 CFR Part 395
 
-To reduce ELD-related enforcement exposure:
+### 1. Accurate Duty Status Recording
 
-1. Review log entries daily.  
-2. Understand exception provisions before use.  
-3. Resolve unassigned drive time promptly.  
-4. Retain required documentation supporting edits.  
-5. Train drivers on regulatory limits.
+The ELD must automatically record driving time when the vehicle is in motion. Drivers are responsible for accurately annotating all non-driving duty status changes — on-duty not driving, off-duty, sleeper berth — and for certifying their logs.
 
-Driver qualification and recordkeeping integration is addressed in our [Driver Qualification File Requirements](/driver-qualification-file-requirements/).
+A log is not compliant simply because it was generated by a device. If the entries do not accurately reflect the driver's actual duty status, the log is falsified regardless of what the device recorded automatically.
+
+### 2. Unassigned Driving Time
+
+When the ELD detects vehicle motion without a logged-in driver, it records the miles and engine hours as unassigned driving time. This is one of the most common audit findings and one of the most avoidable. Carriers must have a process for reviewing and assigning unassigned driving time promptly. Unresolved unassigned driving time is a systemic compliance failure, not an isolated error.
+
+### 3. Log Certification
+
+Drivers must certify their RODS at the end of each 24-hour period. Failure to certify is a citable violation on its own, separate from any underlying HOS issue. An uncertified log is an incomplete record.
+
+### 4. Edit Annotation
+
+All edits to ELD records must be annotated with a reason. Under [49 CFR Part 395, Subpart B, Appendix A](https://www.law.cornell.edu/cfr/text/49/appendix-A_to_subpart_B_of_part_395), the ELD must retain the original record alongside any edits, and both the driver and motor carrier support personnel who make edits must be authenticated. Edit histories are reviewed during compliance audits. A pattern of edits without annotations — or edits that shift duty status in ways that conveniently eliminate HOS violations — is treated as falsification.
+
+### 5. Data Transfer Capability
+
+Under [49 CFR § 395.22(e)](https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395/section-395.22), drivers must be able to transfer ELD data to an authorized safety official during a roadside inspection. Transfer methods include telematics (wireless web services or email), local transfer (USB 2.0, Bluetooth), or display/printout. If a driver cannot transfer data during an inspection, that failure is an enforcement event independent of what the logs actually show.
+
+### 6. Record Retention
+
+Under [49 CFR § 395.22(j)](https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395/section-395.22), motor carriers must retain ELD RODS data and backup data for **six months**. The backup copy must be stored on a device separate from where the original data is stored. Retention requirements for supporting documents (fuel receipts, dispatch records, bills of lading) are addressed in [DOT Recordkeeping and Document Retention Requirements](/dot-recordkeeping-document-retention/).
+
+---
+
+## ELD Malfunction Protocol
+
+ELD malfunctions are governed by [49 CFR § 395.34](https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395/section-395.34). When a malfunction occurs:
+
+**Driver obligations:**
+1. Note the malfunction on the ELD and notify the motor carrier in writing within 24 hours
+2. Begin manually preparing paper RODS immediately — same day
+3. Reconstruct the previous 7 days of RODS on paper if not already captured by the ELD
+4. Continue using paper logs until the ELD is repaired or replaced
+
+**Motor carrier obligations:**
+1. Repair, replace, or service the ELD within **8 days** of discovery
+2. If 8 days is insufficient, notify the FMCSA Division Administrator within 5 days of the driver's malfunction notification and request an extension — the request must be signed and include the device make, model, serial number, malfunction date and location, and a description of good-faith repair efforts
+
+During a roadside inspection when an ELD malfunction is active, the driver must provide the paper logs maintained under the malfunction protocol. An officer cannot cite a driver for operating without an ELD if the malfunction protocol has been properly followed and documented.
+
+> **ELD Revoked or Malfunctioning?** The [ELD Revoked Emergency Kit](https://www.etsy.com/listing/4458962278/eld-revoked-2026-emergency-kit-fmcsa) includes FMCSA-formatted paper logbooks and the malfunction reporting form officers expect at roadside — structured for the 8-day repair window and the 7-day reconstruction requirement. $9.90.
+
+---
+
+## Personal Conveyance: The 2026 Enforcement Priority
+
+Personal Conveyance (PC) allows drivers to record off-duty time while moving a CMV for personal use — not for the benefit of the motor carrier. PC has become an active 2026 enforcement target.
+
+Under the 2026 CVSA Out-of-Service Criteria, PC entries that contradict routing data, dispatch records, or witness observations may be treated as ELD tampering rather than a simple annotation error. If a driver uses PC to extend driving time beyond HOS limits and the data trail shows the movement benefited the carrier, the violation can escalate to an "impossible to reconstruct" tampering determination — a direct OOS condition.
+
+The enforcement standard is objective: if an officer cannot accurately reconstruct actual duty and rest periods because of how PC was used, the vehicle can be grounded. Carriers must have a written PC policy and drivers must understand exactly what qualifies under [49 CFR § 395.2](https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395/section-395.2).
+
+For the full 2026 CVSA OOS criteria analysis including ELD tampering thresholds, see [2026 CVSA Out-of-Service Criteria Changes](/cvsa-2026-oos-criteria-changes/).
+
+---
+
+## How ELD Violations Affect CSA Scores
+
+ELD violations accumulate points in the **HOS Compliance BASIC** under FMCSA's Compliance, Safety, Accountability (CSA) program. A driver Out-of-Service order for an ELD violation generates a severity weight of 7, the highest tier in the HOS BASIC. Multiple ELD violations within a 24-month window can trigger a targeted compliance review.
+
+Carriers above the FMCSA intervention threshold in the HOS BASIC are subject to increased roadside inspection frequency and are prioritized for compliance reviews. The CSA scoring methodology is explained in [How CSA Points Accumulate: Real Examples That Sink Small Carriers](/how-csa-points-accumulate-real-examples-that-sink-small-carr/).
+
+---
+
+## What Officers Check First at the Scale
+
+When a CMV is pulled in for an HOS inspection, officers follow a structured review sequence. The first items checked are typically:
+
+1. Whether the driver is logged into the ELD
+2. Current duty status and whether it matches observable vehicle activity
+3. Whether the ELD is on the FMCSA registered devices list
+4. The last 7 days of RODS for HOS violations
+5. Edit history for pattern falsification indicators
+
+A driver who cannot transfer ELD data, whose device is on the revoked list, or whose logs contain unresolved unassigned driving time will face enforcement action regardless of whether an underlying HOS violation exists. The [7 ELD Errors Officers Check First at the Scale](/the-7-eld-errors-officers-check-first-at-the-scale/) breaks down the inspection sequence in detail.
+
+> **Roadside Inspection Ready?** ELD status is verified at every Level I inspection. The [DOT Roadside Inspection Kit](https://www.etsy.com/listing/4462603012/dot-roadside-inspection-kit-cdl-driver) includes the OOS risk checklist and driver communication guide structured for the moments before and during an inspection. $19.00.
+
+---
+
+## ELD Compliance in the Context of a DOT Audit
+
+During a compliance review, FMCSA investigators examine ELD compliance as part of the HOS review. They will pull log data for multiple drivers across multiple weeks, cross-reference with supporting documents, and look for patterns — not just isolated violations.
+
+What auditors flag most consistently in small carrier operations:
+
+- Unassigned driving time that was never reviewed or assigned
+- Edits made by motor carrier support personnel without driver annotation
+- PC usage that extends across multiple shifts without documentation
+- ELD data that cannot be transferred or printed on demand
+- Devices that appear on the revoked list
+
+A clean ELD compliance record requires daily log review by both drivers and carrier management — not a pre-audit scramble. For the full audit preparation framework, see [DOT Audit Checklist: How Trucking Companies Prepare for FMCSA Compliance Reviews](/dot-audit-checklist-how-trucking-companies-prepare-for-fmcsa-compliance-reviews/).
+
+---
+
+## Regulatory Reference Summary
+
+| Regulation | Requirement |
+|---|---|
+| [49 CFR § 395.22(a)](https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395/section-395.22) | Registered ELD required |
+| [49 CFR § 395.8(a)(1)](https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395/section-395.8) | RODS required; failure = citable violation |
+| [49 CFR § 395.34](https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395/section-395.34) | Malfunction protocol; 8-day repair window |
+| [49 CFR § 395.22(j)](https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395/section-395.22) | 6-month RODS retention; separate backup required |
+| [49 CFR § 395.2](https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395/section-395.2) | Personal conveyance definition |
+| [49 CFR Appendix A to Subpart B of Part 395](https://www.law.cornell.edu/cfr/text/49/appendix-A_to_subpart_B_of_part_395) | Technical ELD functional specifications |
 
 ---
 
 ## Related Compliance Topics
 
-- [Hours-of-Service Violations Overview](/hours-of-service-violations-out-of-service/)  
-- [Driver Qualification File Requirements](/driver-qualification-file-requirements/)  
+- [Hours-of-Service Rules: The Complete Regulatory Framework](/hours-of-service-rules/)
+- [Hours-of-Service Violations and Out-of-Service Triggers](/hours-of-service-violations-out-of-service/)
+- [2026 CVSA Out-of-Service Criteria Changes](/cvsa-2026-oos-criteria-changes/)
+- [FMCSA 2026 ELD Revocations: Device List and Compliance Strategies](/fmcsa-2026-update-comprehensive-list-of-revoked-eld-devices-and-compliance-strategies/)
+- [Driver Qualification File Requirements](/driver-qualification-file-requirements/)
 - [DOT Compliance Audit Triggers](/dot-compliance-audit-triggers/)
+- [DOT Recordkeeping and Document Retention Requirements](/dot-recordkeeping-document-retention/)
+
+---
+
+*Regulatory references verified against FMCSA official sources and eCFR as of March 2026. This post is for informational purposes only and does not constitute legal advice.*
