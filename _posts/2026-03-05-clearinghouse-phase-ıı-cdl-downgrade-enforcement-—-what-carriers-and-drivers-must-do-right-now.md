@@ -4,6 +4,8 @@ title: 'Clearinghouse Phase II: CDL Downgrade Enforcement — What Carriers and 
 date: 2026-03-05T09:54:00
 categories: dqf
 permalink: /clearinghouse-phase-ii-cdl-downgrade-enforcement-what-carriers-and-drivers-must-do-right-now/
+redirect_from:
+  - /clearinghouse-phase-%C4%B1%C4%B1-cdl-downgrade-enforcement-what-carriers-and-drivers-must-do-right-now/
 description: CDL downgrade enforcement is now mandatory under Clearinghouse Phase II. What carriers and owner-operators must document before a compliance review.
 image: /assets/images/clearinghouse-phase-ii-featured.png
 image_alt: 'Clearinghouse Phase II: CDL Downgrade Enforcement — What Carriers and Drivers Must Do Right Now'
