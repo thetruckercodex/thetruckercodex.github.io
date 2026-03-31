@@ -86,3 +86,13 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-redirect-from
+  defaults:
+  - scope:
+      path: "admin"
+    values:
+      sitemap: false
+```
+
+Commit mesajı:
+```
+exclude admin from sitemap
