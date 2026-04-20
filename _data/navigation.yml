@@ -1,9 +1,3 @@
-main:
-  - title: "Main Site"
-    url: https://www.thetruckercodex.com
-  - title: "About"
-    url: /about/
-    
 categories:
   - title: "Topics"
     children:
@@ -15,5 +9,9 @@ categories:
         url: /topics/dqf/
       - title: "FMCSA Basics"
         url: /topics/fmcsa-basics/
+      - title: "Maintenance"
+        url: /topics/maintenance/
+      - title: "Recordkeeping"
+        url: /topics/recordkeeping/
       - title: "Free Resources"
         url: /free/dot-roadside-inspection-kit/
