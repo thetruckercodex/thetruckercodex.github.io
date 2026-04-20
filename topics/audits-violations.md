@@ -53,17 +53,5 @@ OOS criteria derive from the North American Standard Inspection Program, 49 CFR 
 
 Repeated OOS exposure is one of the strongest escalation signals in the enforcement ecosystem.
 
----
-
-## Topic Articles (Navigation)
-
-<ul>
-{% assign topic_posts = site.posts | where: "category", "audits-violations" %}
-{% for post in topic_posts %}
-  <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-{% endfor %}
-</ul>
-
----
 
 **Important note:** This page is informational and does not constitute legal advice.
