@@ -1,7 +1,5 @@
 main:
-  - title: "Home"
-    url: /
-  - title: "Topics"
-    url: /topics/
-  - title: "Free Resources"
-    url: /free/
+  - title: "Ana Sayfa"
+    url: https://www.thetruckercodex.com
+  - title: "About"
+    url: /about/
