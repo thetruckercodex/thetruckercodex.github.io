@@ -9,6 +9,7 @@ layout: default
   <div class="list__wrapper">
     {% assign category_posts = site.categories[page.category] %}
     {% if category_posts.size > 0 %}
+      <h2>Makaleler</h2>
       <ul>
         {% for post in category_posts %}
           <li>
