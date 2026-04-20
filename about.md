@@ -1,3 +1,11 @@
+---
+layout: single
+title: "About"
+permalink: /about/
+author_profile: false
+classes: wide
+---
+
 The Trucker Codex Blog is a compliance-focused knowledge base for owner-operators and small fleets operating under U.S. DOT and FMCSA rules.
 
 We publish practical, audit-oriented guidance on the documents, retention habits, and operational routines that reduce compliance risk during roadside inspections, safety reviews, and enforcement actions.
