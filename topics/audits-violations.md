@@ -1,8 +1,9 @@
 ---
-layout: page
+layout: category_page
 title: "Audits & Violations"
 permalink: /topics/audits-violations/
-description: "FMCSA enforcement, audits, violations, OOS exposure, Safety Fitness Determination, and audit trigger architecture — 2026 compliance intelligence hub."
+description: "FMCSA enforcement, audits, violations..."
+category: audits-violations
 ---
 
 FMCSA enforcement in 2026 is not episodic. It is data-driven, layered, and structurally interconnected.
