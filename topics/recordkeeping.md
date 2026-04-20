@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: category_page
 title: Recordkeeping & Retention
 permalink: /topics/recordkeeping/
 ---
