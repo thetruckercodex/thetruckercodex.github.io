@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: category_page
 title: "FMCSA & DOT Basics"
 permalink: /topics/fmcsa-basics/
 ---
