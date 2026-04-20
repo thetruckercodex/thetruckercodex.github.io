@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: category_page
 title: Vehicle Inspection & Maintenance
 permalink: /topics/maintenance/
 ---
