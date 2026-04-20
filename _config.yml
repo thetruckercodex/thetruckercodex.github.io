@@ -26,6 +26,8 @@ defaults:
       author_profile: false
       read_time: true
       related: true
+      sidebar:
+        nav: "categories"
   - scope:
       path: "admin"
     values:
