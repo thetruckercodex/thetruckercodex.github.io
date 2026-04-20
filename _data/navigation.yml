@@ -1,3 +1,14 @@
+# Ana üst navigasyon menüsü
+main:
+  - title: "Main Site"
+    url: https://www.thetruckercodex.com
+  - title: "About"
+    url: /about/
+  - title: "Privacy Policy"
+    url: /legal-disclaimer-privacy-policy/
+  - title: "Topics"
+    url: /topics/
+
 categories:
   - title: "Topics"
     children:
