@@ -3,3 +3,17 @@ main:
     url: https://www.thetruckercodex.com
   - title: "About"
     url: /about/
+    
+categories:
+  - title: "Topics"
+    children:
+      - title: "HOS & ELD"
+        url: /topics/hos-eld/
+      - title: "Audits & Violations"
+        url: /topics/audits-violations/
+      - title: "DQF"
+        url: /topics/dqf/
+      - title: "FMCSA Basics"
+        url: /topics/fmcsa-basics/
+      - title: "Free Resources"
+        url: /free/dot-roadside-inspection-kit/
