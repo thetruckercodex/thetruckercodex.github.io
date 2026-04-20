@@ -15,6 +15,7 @@ plugins:
   - jekyll-feed
   - jekyll-remote-theme
   - jekyll-redirect-from
+  - jekyll-include-cache
 
 defaults:
   - scope:
