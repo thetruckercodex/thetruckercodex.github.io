@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<div class="archive">
+  <h1 class="page__title">{{ page.title }}</h1>
+  {{ content }}
+
+  <div class="list__wrapper">
+    {% assign category_posts = site.categories[page.category] %}
+    {% if category_posts.size > 0 %}
+      <ul>
+        {% for post in category_posts %}
+          <li>
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            <small>({{ post.date | date: "%Y-%m-%d" }})</small>
+          </li>
+        {% endfor %}
+      </ul>
+    {% else %}
+      <p>Bu kategoride henüz yazı bulunmuyor.</p>
+    {% endif %}
+  </div>
+</div>
