@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: category_page
 title: HOS & ELD
 permalink: /topics/hos-eld/
 ---
