@@ -2,94 +2,60 @@
 layout: home
 permalink: /
 title: "The Trucker Codex Blog"
-excerpt: "Everything you need for FMCSA compliance in one place. Your ultimate guide to HOS, ELD, DQF, and DOT Audits."
+excerpt: "Everything you need for FMCSA compliance in one place."
 header:
   overlay_image: /assets/images/hero-home-clean.jpg
   overlay_filter: 0.5
 sidebar:
   nav: "categories"
-# Activates the 3rd column (TOC) with English labels
 toc: true
 toc_label: "Compliance Resources"
 toc_icon: "shield-alt"
 ---
 
+<div id="main" role="main">
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <div class="page__inner">
+      <div class="page__content" itemprop="text">
+        <h2 class="archive__subtitle">Recent Posts</h2>
+        
+        {% for post in paginator.posts %}
+          <div class="list__item">
+            <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+              <h2 class="archive__item-title" itemprop="headline">
+                <a href="{{ post.url | relative_url }}" rel="permalink">{{ post.title }}</a>
+              </h2>
+              <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {{ post.read_time }} read</p>
+              <p class="archive__item-excerpt" itemprop="description">
+                {{ post.excerpt | markdownify | strip_html | truncate: 160 }}
+              </p>
+            </article>
+          </div>
+        {% endfor %}
+
+        {% include paginator.html %}
+      </div>
+    </div>
+  </article>
+</div>
+
 <style>
-  /* 1. HERO IMAGE CONFIGURATION */
+  /* Consistency fix for the hero image */
   .page__hero--overlay {
     background-position: center 90% !important;
-    min-height: 280px !important;
+    min-height: 300px !important;
   }
 
-  /* 2. SIDEBAR (TOPICS) HIERARCHY */
-  .sidebar .nav__title {
-    font-size: 1.4rem !important;
-    font-weight: 900 !important;
-    color: #ffffff !important;
-    border-bottom: 3px solid #007bff !important;
-    margin-bottom: 12px !important;
-    text-transform: uppercase !important;
-  }
-
-  .sidebar .nav__items li a {
-    font-size: 1rem !important;
-    font-weight: 700 !important;
-    color: #adb5bd !important;
-    padding: 6px 0 !important;
-  }
-
-  /* 3. THREE-COLUMN LAYOUT ENGINE (FORCED) */
-  @media (min-width: 1024px) {
-    /* Main container adjustment to allow side-by-side elements */
-    .layout--home .initial-content,
-    .layout--home .archive {
-      display: flex !important;
-      justify-content: space-between !important;
-      width: 100% !important;
-      max-width: 1280px !important;
-      margin: 0 auto !important;
-    }
-
-    /* Middle Column: Post Feed */
-    .archive {
-      flex: 0 0 65% !important; 
-      margin-right: 2% !important;
-      margin-left: 2% !important;
-    }
-
-    /* Right Column: Resource Box (TOC) */
-    .toc {
-      display: block !important;
-      flex: 0 0 25% !important; 
-      position: sticky !important;
-      top: 2rem !important;
-      background: #1a1e23 !important;
-      border: 1px solid #333 !important;
-      border-radius: 8px !important;
-      padding: 20px !important;
-      height: fit-content !important;
-      z-index: 10 !important;
-    }
-  }
-
-  /* 4. POST LIST STYLING */
+  /* Clean list dividers for professional look */
   .list__item {
-    border-bottom: 1px solid #333 !important;
-    padding: 25px 0 !important;
-    margin: 0 !important;
-    width: 100% !important;
+    border-bottom: 1px solid #333;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
   }
 
-  .archive__item-title {
-    font-size: 1.35rem !important;
+  /* Brand color for titles */
+  .archive__item-title a {
     color: #007bff !important;
-    line-height: 1.3 !important;
-    margin-top: 0 !important;
-  }
-
-  .archive__item-excerpt {
-    font-size: 0.95rem !important;
-    line-height: 1.6 !important;
-    color: #adb5bd !important;
+    text-decoration: none;
   }
 </style>
