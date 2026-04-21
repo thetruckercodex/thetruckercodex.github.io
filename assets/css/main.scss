@@ -57,75 +57,85 @@
   padding-left: 12px !important;
   background-color: transparent !important;
 }
-.etsy-text-banner {
-  max-width: 100%;
-  margin: 1.5rem 0 2rem 0;
+
+/* ============================================
+   Etsy Neutral Card - Audit-Ready Banner
+   ============================================ */
+
+.etsy-card-neutral {
+  margin: 2.5rem auto 2rem auto;
+  max-width: 650px;                // Kart genişliği sınırlı
+  padding: 0 1rem;                 // Mobil kenar boşluğu
   
   a {
     text-decoration: none;
+    display: block;
   }
   
-  .etsy-banner-content {
-    background: rgba(255, 255, 255, 0.03);
-    border-left: 3px solid #f0a500;
-    border-radius: 0 4px 4px 0;
-    padding: 0.9rem 1.5rem;
+  .etsy-card-inner {
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 40px;           // Yumuşak köşeler
+    padding: 0.7rem 1.8rem;
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
-    gap: 0.75rem 1.5rem;
-    transition: background 0.2s ease, border-left-width 0.2s ease;
+    justify-content: center;
+    gap: 15px;
+    backdrop-filter: blur(2px);
+    transition: background 0.25s ease, border-color 0.25s ease;
     
     &:hover {
-      background: rgba(255, 255, 255, 0.06);
-      border-left-width: 5px;
+      background: rgba(255, 255, 255, 0.05);
+      border-color: rgba(240, 165, 0, 0.3);
     }
-    
-    i {
-      color: #f0a500;
-      font-size: 1.3rem;
-      width: 1.5rem;
-      text-align: center;
-    }
-    
-    .banner-text {
-      color: #ccd6f6;
-      font-size: 1rem;
-      flex: 1;
-      
-      strong {
-        color: #ffffff;
-        font-weight: 700;
-      }
-    }
-    
-    .banner-btn {
-      color: #64ffda;
-      font-size: 0.9rem;
-      font-weight: 600;
-      letter-spacing: 0.3px;
-      white-space: nowrap;
-      
-      i {
-        font-size: 0.8rem;
-        margin-left: 5px;
-        color: #64ffda;
-      }
-    }
+  }
+  
+  .card-icon {
+    font-size: 1.4rem;
+    line-height: 1;
+  }
+  
+  .card-text {
+    color: #ccd6f6;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+  }
+  
+  .card-arrow {
+    color: #64ffda;
+    font-size: 1.2rem;
+    font-weight: 300;
+    transition: transform 0.2s ease;
+  }
+  
+  a:hover .card-arrow {
+    transform: translateX(4px);     // Ok hafif sağa kayar
   }
 }
 
+// Mobil uyumluluk
 @media (max-width: 600px) {
-  .etsy-text-banner .etsy-banner-content {
-    padding: 0.8rem 1rem;
+  .etsy-card-neutral {
+    max-width: 100%;
+    margin: 1.8rem 0;
     
-    .banner-text {
-      font-size: 0.9rem;
-    }
-    
-    .banner-btn {
-      width: 100%;
-      margin-left: 2rem;
+    .etsy-card-inner {
+      border-radius: 30px;
+      padding: 0.6rem 1.2rem;
+      gap: 10px;
+      
+      .card-text {
+        font-size: 0.85rem;
+      }
+      
+      .card-icon {
+        font-size: 1.2rem;
+      }
+      
+      .card-arrow {
+        font-size: 1rem;
+      }
     }
   }
 }
