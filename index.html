@@ -8,72 +8,82 @@ header:
   overlay_filter: 0.4
 sidebar:
   nav: "categories"
-# Grid parametresini sildik, çakışmayı önlemek için standart home layout kullanıyoruz.
 ---
 
 <style>
-  /* 1. HERO BANT AYARI */
+  /* 1. Görsel Bant ve Tır Konumu */
   .page__hero--overlay {
     background-position: center 90% !important;
     padding: 3em 0 !important;
     min-height: 280px !important;
   }
 
-  /* 2. SOL MENÜ (SIDEBAR) OTORİTER HİYERARŞİ */
+  /* 2. Sol Menü (Sidebar) Hiyerarşisi */
   .sidebar .nav__title {
-    font-size: 1.6rem !important; /* En büyük başlık */
+    font-size: 1.6rem !important; 
     font-weight: 900 !important;
     text-transform: uppercase !important;
-    color: #ffffff !important;
+    color: #fff !important;
     border-bottom: 3px solid #007bff !important;
-    margin-bottom: 1rem !important;
-    padding-bottom: 0.5rem !important;
+    margin-bottom: 1.2rem !important;
   }
 
   .sidebar .nav__items li a {
-    font-size: 1rem !important; /* Başlıktan küçük, okunaklı */
+    font-size: 1rem !important; 
     font-weight: 700 !important;
     color: #adb5bd !important;
-    padding: 0.4rem 0 !important;
-    display: block;
   }
 
-  /* 3. ANA İÇERİK: KESİN 2 KOLONLU GRID (SIDEBAR UYUMLU) */
+  /* 3. KESİN 2 SÜTUN ÇÖZÜMÜ (Tüm engelleri aşan yapı) */
   @media (min-width: 1024px) {
-    /* Yazı listesinin olduğu ana kapsayıcı */
+    /* Temanın ana içerik alanını genişletiyoruz */
+    #main {
+      max-width: 100% !important;
+      padding-right: 20px !important;
+    }
+
+    /* Yazı listesini 2 sütun yapan asıl güç */
     .archive {
-      display: flex !important;
-      flex-wrap: wrap !important;
-      gap: 2%; /* Kartlar arası boşluk */
-      justify-content: flex-start !important;
+      display: block !important;
+      width: 100% !important;
+      clear: both !important;
     }
 
-    /* Her bir yazı kartı */
     .list__item {
-      flex: 0 0 49% !important; /* Tam olarak yan yana iki tane sığdırır */
-      margin: 0 0 1.5rem 0 !important;
-      background: #1a1e23;
-      padding: 1.5rem;
-      border-radius: 8px;
-      border: 1px solid #333;
-      box-sizing: border-box;
-      display: flex;
-      flex-direction: column;
+      float: left !important;
+      width: 48% !important; /* Yan yana iki kutu */
+      margin-right: 2% !important;
+      margin-bottom: 25px !important;
+      min-height: 250px !important; /* Kart boylarını eşitlemek için */
+      display: flex !important;
+      flex-direction: column !important;
     }
 
-    /* Başlıkların grid içinde taşmasını önle */
+    /* Her satırda 3. kartın başa geçmesini sağlar */
+    .list__item:nth-child(2n+1) {
+      clear: left !important;
+    }
+
+    /* Kart İç Tasarımı */
+    .archive__item {
+      background: #1a1e23 !important;
+      padding: 20px !important;
+      border-radius: 8px !important;
+      border: 1px solid #333 !important;
+      height: 100% !important;
+    }
+
     .archive__item-title {
-      font-size: 1.25rem !important;
-      margin: 0 0 0.75rem 0 !important;
-      line-height: 1.3 !important;
+      font-size: 1.2rem !important;
+      margin-top: 0 !important;
     }
   }
 
-  /* Tablet ve Altı İçin Tek Kolon (Bozulmaması için) */
+  /* Mobil İçin Tek Sütun Güvenliği */
   @media (max-width: 1023px) {
     .list__item {
       width: 100% !important;
-      margin-bottom: 1rem !important;
+      float: none !important;
     }
   }
 </style>
