@@ -12,14 +12,14 @@ main:
 categories:
   - title: "Topics"
     children:
-      - title: "HOS & ELD"
-        url: /topics/hos-eld/
       - title: "Audits & Violations"
         url: /topics/audits-violations/
       - title: "DQF"
         url: /topics/dqf/
       - title: "FMCSA Basics"
         url: /topics/fmcsa-basics/
+      - title: "HOS & ELD"
+        url: /topics/hos-eld/
       - title: "Maintenance"
         url: /topics/maintenance/
       - title: "Recordkeeping"
