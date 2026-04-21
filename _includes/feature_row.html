@@ -1,0 +1,25 @@
+{% assign items = page.feature_row %}
+
+{% if items %}
+<div class="feature__wrapper">
+
+  {% for f in items %}
+    <div class="feature__item">
+
+      <a href="{{ f.url }}">
+
+        <img src="{{ f.image_path }}" alt="{{ f.title }}">
+
+        <h3>{{ f.title }}</h3>
+
+        <p>{{ f.excerpt }}</p>
+
+        <span class="btn">{{ f.btn_label }}</span>
+
+      </a>
+
+    </div>
+  {% endfor %}
+
+</div>
+{% endif %}
