@@ -6,30 +6,28 @@ excerpt: "Everything you need for FMCSA compliance in one place. Your ultimate g
 header:
   overlay_image: /assets/images/hero-home-clean.jpg
   overlay_filter: 0.5
-  caption: "Digital Co-Pilot for Motor Carriers"
 sidebar:
   nav: "categories"
+# Activates the 3rd column (TOC) with English labels
 toc: true
 toc_label: "Compliance Resources"
 toc_icon: "shield-alt"
 ---
 
 <style>
-  /* 1. KAYBOLAN HERO GÖRSELİNİ SABİTLEME */
+  /* 1. HERO IMAGE CONFIGURATION */
   .page__hero--overlay {
     background-position: center 90% !important;
-    min-height: 300px !important;
-    display: flex !important;
-    align-items: center !important;
+    min-height: 280px !important;
   }
 
-  /* 2. SIDEBAR (TOPICS) HİYERARŞİSİ */
+  /* 2. SIDEBAR (TOPICS) HIERARCHY */
   .sidebar .nav__title {
-    font-size: 1.5rem !important;
+    font-size: 1.4rem !important;
     font-weight: 900 !important;
-    color: #fff !important;
+    color: #ffffff !important;
     border-bottom: 3px solid #007bff !important;
-    margin-bottom: 1rem !important;
+    margin-bottom: 12px !important;
     text-transform: uppercase !important;
   }
 
@@ -37,29 +35,61 @@ toc_icon: "shield-alt"
     font-size: 1rem !important;
     font-weight: 700 !important;
     color: #adb5bd !important;
-    padding: 8px 0 !important;
+    padding: 6px 0 !important;
   }
 
-  /* 3. ORTA LİSTE VE SAĞ KUTUCUK DENGESİ */
-  #main {
-    max-width: 1280px !important; /* Ekranı tam kullan ama dağıtma */
-    margin: 0 auto !important;
+  /* 3. THREE-COLUMN LAYOUT ENGINE (FORCED) */
+  @media (min-width: 1024px) {
+    /* Main container adjustment to allow side-by-side elements */
+    .layout--home .initial-content,
+    .layout--home .archive {
+      display: flex !important;
+      justify-content: space-between !important;
+      width: 100% !important;
+      max-width: 1280px !important;
+      margin: 0 auto !important;
+    }
+
+    /* Middle Column: Post Feed */
+    .archive {
+      flex: 0 0 65% !important; 
+      margin-right: 2% !important;
+      margin-left: 2% !important;
+    }
+
+    /* Right Column: Resource Box (TOC) */
+    .toc {
+      display: block !important;
+      flex: 0 0 25% !important; 
+      position: sticky !important;
+      top: 2rem !important;
+      background: #1a1e23 !important;
+      border: 1px solid #333 !important;
+      border-radius: 8px !important;
+      padding: 20px !important;
+      height: fit-content !important;
+      z-index: 10 !important;
+    }
   }
 
-  .archive {
-    margin-top: 2rem !important;
-  }
-
+  /* 4. POST LIST STYLING */
   .list__item {
     border-bottom: 1px solid #333 !important;
     padding: 25px 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
   }
 
-  /* 4. SAĞ TARAFTAKİ YARDIMCI KUTU (3. KOLON) */
-  .toc {
-    background: #1a1e23 !important;
-    border: 1px solid #333 !important;
-    border-radius: 8px !important;
-    padding: 20px !important;
+  .archive__item-title {
+    font-size: 1.35rem !important;
+    color: #007bff !important;
+    line-height: 1.3 !important;
+    margin-top: 0 !important;
+  }
+
+  .archive__item-excerpt {
+    font-size: 0.95rem !important;
+    line-height: 1.6 !important;
+    color: #adb5bd !important;
   }
 </style>
