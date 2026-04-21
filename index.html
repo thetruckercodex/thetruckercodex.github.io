@@ -14,46 +14,37 @@ sidebar:
   nav: "categories" # Senin navigation.yml dosyasındaki isimlendirmeyle eşitledik
 ---
 
+
 <style>
-  /* Tırı çerçeve içinde yukarı kaydıran sihirli dokunuş */
+  /* 1. Görsel Konumu ve Bant Genişliği */
   .page__hero--overlay {
-    background-position: center 25% !important;
-  }
-</style>
-<style>
-  /* 1. Görseli Yukarı Taşıma (Tırın gövdesini görünür yapar) */
-  .page__hero--overlay {
-    background-position: center 10% !important; /* Değeri küçülttük, tır yukarı çıktı */
-    min-height: 400px !important; /* Görsel alanını biraz genişlettik ki tır sığsın */
+    /* Görseli en alta iter (Böylece tırın gövdesi ve yolu görürsün) */
+    background-position: center 90% !important; 
+    /* Bant genişliğini darlatıyoruz (Eski hali muhtemelen 400px+ olmuştu) */
+    padding: 2em 0 !important; 
+    min-height: 250px !important; 
   }
 
-  /* 2. Sol Menü (Sidebar) Formatlama */
-  .sidebar .nav__list {
-    font-size: 1.1rem !important; /* Genel fontu büyüttük */
-  }
-
-  /* TOPICS Ana Başlığı */
+  /* 2. Sol Menü (Sidebar) Başlık: TOPICS */
   .sidebar .nav__title {
-    font-size: 1.4rem !important; /* Daha büyük */
-    font-weight: bold !important; /* Kalın */
-    text-transform: uppercase !important; /* Hepsi büyük harf */
-    color: #fff !important; /* Koyu temada parlaması için beyaz */
-    border-bottom: 2px solid #444 !important; /* Altına bir çizgi */
-    margin-bottom: 15px !important;
-    padding-bottom: 5px !important;
+    font-size: 1.5rem !important; /* Büyük ve baskın */
+    font-weight: 800 !important; /* Ekstra kalın */
+    text-transform: uppercase !important; 
+    color: #fff !important;
+    margin-bottom: 20px !important;
+    border-bottom: 2px solid #007bff !important; /* Mavi bir vurgu çizgisi */
   }
 
-  /* Alt Kategoriler */
+  /* 3. Alt Kategoriler */
   .sidebar .nav__items li a {
-    font-weight: 600 !important; /* Kalın (Bold) */
-    font-size: 1rem !important; /* Okunaklı boyut */
-    padding: 8px 0 !important;
-    color: #b0b0b0 !important; /* Standart gri tonu */
+    font-size: 1.1rem !important; /* Başlıktan küçük ama okunur boyutta */
+    font-weight: 700 !important; /* Kalın (Bold) */
+    color: #ced4da !important;
+    padding: 10px 0 !important;
+    display: block;
   }
 
-  /* Üzerine gelince (Hover) rengi */
   .sidebar .nav__items li a:hover {
     color: #fff !important;
-    text-decoration: underline !important;
   }
 </style>
