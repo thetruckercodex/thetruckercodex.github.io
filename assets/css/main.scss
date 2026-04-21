@@ -24,3 +24,54 @@
 .page__hero--overlay {
   background-position: center bottom; // Değeri görselinize göre ayarlayın
 }
+/* ============================================
+   Sidebar Enhancements - Better Readability
+   ============================================ */
+
+// Sidebar genel başlık stili (örn: "Topics")
+.sidebar .nav__title {
+  font-size: 1.4rem !important;      /* Başlık boyutu büyütüldü */
+  font-weight: 800 !important;        /* Ekstra kalın */
+  letter-spacing: 0.5px;
+  color: #ffffff !important;          /* Beyaz renk (koyu tema için) */
+  text-transform: uppercase;          /* İsteğe bağlı: BÜYÜK HARF */
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+// Kategori linklerinin ana container'ı
+.sidebar .nav__list {
+  font-size: 1.1rem !important;       /* Genel font büyüklüğü artırıldı */
+}
+
+// Her bir kategori linki
+.sidebar .nav__list .nav__link,
+.nav__list .nav__link {
+  font-size: 1.05rem !important;
+  font-weight: 700 !important;        /* Kalın */
+  padding: 0.4rem 0 !important;
+  color: #e0e0e0 !important;          /* Açık gri */
+  transition: color 0.2s ease, padding-left 0.2s ease;
+  
+  &:hover {
+    color: #ffffff !important;        /* Hover'da tam beyaz */
+    padding-left: 5px !important;     /* Hafif kayma efekti */
+  }
+}
+
+// Aktif sayfa linki (şu an bulunduğunuz kategori)
+.sidebar .nav__list .nav__link.active,
+.nav__list .nav__link.active {
+  color: #ffd966 !important;          /* Dikkat çekici sarımsı ton */
+  font-weight: 800 !important;
+  border-left: 3px solid #ffd966;
+  padding-left: 12px !important;
+}
+
+// Alt kategoriler (eğer nested liste varsa)
+.sidebar .nav__child .nav__link {
+  font-size: 1rem !important;
+  font-weight: 600 !important;
+  padding-left: 20px !important;
+}
