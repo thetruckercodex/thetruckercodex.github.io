@@ -20,3 +20,40 @@ sidebar:
     background-position: center 25% !important;
   }
 </style>
+<style>
+  /* 1. Görseli Yukarı Taşıma (Tırın gövdesini görünür yapar) */
+  .page__hero--overlay {
+    background-position: center 10% !important; /* Değeri küçülttük, tır yukarı çıktı */
+    min-height: 400px !important; /* Görsel alanını biraz genişlettik ki tır sığsın */
+  }
+
+  /* 2. Sol Menü (Sidebar) Formatlama */
+  .sidebar .nav__list {
+    font-size: 1.1rem !important; /* Genel fontu büyüttük */
+  }
+
+  /* TOPICS Ana Başlığı */
+  .sidebar .nav__title {
+    font-size: 1.4rem !important; /* Daha büyük */
+    font-weight: bold !important; /* Kalın */
+    text-transform: uppercase !important; /* Hepsi büyük harf */
+    color: #fff !important; /* Koyu temada parlaması için beyaz */
+    border-bottom: 2px solid #444 !important; /* Altına bir çizgi */
+    margin-bottom: 15px !important;
+    padding-bottom: 5px !important;
+  }
+
+  /* Alt Kategoriler */
+  .sidebar .nav__items li a {
+    font-weight: 600 !important; /* Kalın (Bold) */
+    font-size: 1rem !important; /* Okunaklı boyut */
+    padding: 8px 0 !important;
+    color: #b0b0b0 !important; /* Standart gri tonu */
+  }
+
+  /* Üzerine gelince (Hover) rengi */
+  .sidebar .nav__items li a:hover {
+    color: #fff !important;
+    text-decoration: underline !important;
+  }
+</style>
