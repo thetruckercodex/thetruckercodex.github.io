@@ -13,55 +13,63 @@ entries_layout: grid
 ---
 
 <style>
-  /* 1. Görsel Sabitleme */
+  /* 1. Görsel Konumu (Tırı Sabitleme) */
   .page__hero--overlay {
     background-position: center 90% !important;
     padding: 2em 0 !important;
     min-height: 250px !important;
   }
 
-  /* 2. Sol Menü (Sidebar) Hiyerarşisi */
-  /* TOPICS Ana Başlığı - En Büyük ve Baskın */
+  /* 2. Sol Menü Hiyerarşisi */
   .sidebar .nav__title {
-    font-size: 1.4rem !important; 
+    font-size: 1.6rem !important; /* Başlığı iyice büyüttük */
     font-weight: 900 !important;
     text-transform: uppercase !important;
     color: #fff !important;
-    border-bottom: 3px solid #007bff !important; /* Mavi kalın çizgi */
-    margin-bottom: 20px !important;
+    border-bottom: 3px solid #007bff !important;
+    margin-bottom: 15px !important;
     padding-bottom: 5px !important;
     display: block !important;
   }
 
-  /* Alt Kategoriler - Başlıktan Daha Küçük ama Kalın */
   .sidebar .nav__items li a {
-    font-size: 0.95rem !important; /* Başlığa göre belirgin küçük */
-    font-weight: 700 !important;  /* Kalın */
+    font-size: 1rem !important; /* Başlıktan daha küçük */
+    font-weight: 700 !important; /* Kalın/Bold */
     color: #b0b0b0 !important;
-    line-height: 1.2 !important;
-    padding: 6px 0 !important;
+    padding: 5px 0 !important;
+    display: block;
   }
 
-  /* 3. Yazıları 2 Kolonlu Grid Yapma */
-  @media (min-width: 600px) {
+  /* 3. Grid Yapısını Tamir Etme (2 Kolon Çözümü) */
+  @media (min-width: 800px) {
+    /* Ana içerik alanını grid yapıyoruz, sidebar'ı değil */
     .archive {
-      display: grid !important;
-      grid-template-columns: repeat(2, 1fr) !important; /* 2 Kolon */
-      grid-gap: 20px !important;
+      display: flex !important;
+      flex-wrap: wrap !important;
+      justify-content: space-between !important;
     }
     
-    /* Grid içindeki başlık ve özet alanlarını toparlama */
     .list__item {
-      margin-bottom: 0 !important;
-      background: #1a1e23; /* Hafif bir kart arka planı */
-      padding: 15px;
-      border-radius: 6px;
+      width: 48% !important; /* 4 kolon yerine 2 kolon olmasını zorlar */
+      margin-bottom: 20px !important;
+      background: #1a1e23;
+      padding: 20px;
+      border-radius: 8px;
       border: 1px solid #333;
+      box-sizing: border-box;
     }
-    
+
+    /* Yazı başlıklarının grid içinde düzgün durması */
     .archive__item-title {
-      font-size: 1.1rem !important;
-      margin-top: 0 !important;
+      font-size: 1.15rem !important;
+      line-height: 1.3 !important;
+      margin-bottom: 10px !important;
     }
+  }
+
+  /* Yazıların altındaki tarih/okuma süresi gibi karmaşayı darlatalım */
+  .archive__item-excerpt {
+    font-size: 0.9rem !important;
+    line-height: 1.5 !important;
   }
 </style>
