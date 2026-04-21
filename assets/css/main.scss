@@ -7,53 +7,53 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-/* 1. Hero Görsel Konumu (Mevcut Ayarınız Korundu) */
+/* 1. Hero Overlay Görsel Konumu */
 .page__hero--overlay {
-  background-position: center bottom; /* Değeri görselinize göre ayarlayın */
+  background-position: center bottom; /* İsteğe bağlı: center 70% gibi değerler de kullanabilirsiniz */
 }
 
 /* 2. Sidebar "Topics" Başlığı */
-.sidebar .nav__title {
-  font-size: 1.3rem !important;
-  font-weight: 800 !important;
-  color: #ffffff !important;
-  letter-spacing: 0.3px;
+.sidebar .nav__sub-title {
+  font-size: 1.5rem !important;          /* Boyut büyütüldü */
+  font-weight: 800 !important;           /* Ekstra kalın */
+  color: #ffffff !important;             /* Tam beyaz */
+  letter-spacing: 0.5px;
   border-bottom: 2px solid rgba(255, 255, 255, 0.2);
-  padding-bottom: 0.4rem;
-  margin-bottom: 0.8rem;
-  text-transform: none; /* Büyük harf istemiyorsanız none, isterseniz uppercase */
+  padding-bottom: 0.5rem;
+  margin-top: 0.5rem !important;
+  margin-bottom: 1rem !important;
+  text-transform: none;                  /* Büyük harf isterseniz uppercase yapın */
 }
 
-/* 3. Sidebar Linkleri (Genel) */
-.sidebar .nav__list .nav__items li a {
-  font-size: 1.1rem !important;       /* Boyut büyütüldü */
-  font-weight: 600 !important;        /* Yarı kalın */
-  color: #d0d0d0 !important;          /* Daha açık gri */
-  padding: 0.3rem 0 !important;
-  display: inline-block;              /* Geçiş efektleri için gerekli */
-  transition: all 0.15s ease;
+/* 3. Sidebar Link Konteynırı */
+.sidebar .nav__items {
+  font-size: 1.1rem !important;
 }
 
-/* 4. Sidebar Linkleri Hover Efekti */
-.sidebar .nav__list .nav__items li a:hover {
-  color: #ffffff !important;
-  padding-left: 6px !important;
+/* 4. Sidebar Linkleri (Tüm Kategoriler) */
+.sidebar .nav__items li a {
+  font-size: 1.05rem !important;
+  font-weight: 700 !important;           /* Kalın */
+  color: #e0e0e0 !important;             /* Açık gri */
+  padding: 0.4rem 0.4rem 0.4rem 0 !important;
+  display: block;
+  transition: all 0.2s ease;
   text-decoration: none !important;
 }
 
-/* 5. Aktif Sayfa Linki (Bulunduğunuz sayfanın sidebar'daki linki) */
-.sidebar .nav__list .nav__items li.active a,
-.sidebar .nav__list .nav__items li a.active {
-  color: #ffd966 !important;          /* Sarı vurgu */
-  font-weight: 700 !important;
+/* 5. Hover Efekti */
+.sidebar .nav__items li a:hover {
+  color: #ffffff !important;             /* Hover'da tam beyaz */
+  padding-left: 8px !important;          /* Sağa kayma efekti */
+  background: transparent !important;
+}
+
+/* 6. Aktif Sayfa Linki (Bulunduğunuz Kategori) */
+.sidebar .nav__items li.active a,
+.sidebar .nav__items li a.active {
+  color: #ffd966 !important;             /* Sarı vurgu */
+  font-weight: 800 !important;
   border-left: 3px solid #ffd966;
   padding-left: 12px !important;
   background-color: transparent !important;
-}
-
-/* 6. Mobil uyumluluk için opsiyonel ayar */
-@media (min-width: 768px) {
-  .sidebar {
-    opacity: 1 !important;
-  }
 }
