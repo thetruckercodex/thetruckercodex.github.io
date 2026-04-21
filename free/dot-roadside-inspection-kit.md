@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: single
 title: "Free Download — DOT Roadside Inspection Kit"
 permalink: /free/dot-roadside-inspection-kit/
 ---
