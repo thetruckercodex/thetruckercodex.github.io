@@ -50,12 +50,9 @@ exclude:
   - CNAME
   - google05050009aaead19c.html
 
-  # Arama ve Yerleşim Ayarları
+  # Search and Site Settings
 search: true
 search_full_content: true
 
-# Teaser resimlerini (küçük görselleri) aktif et
-teaser: /assets/images/hero-home-clean.jpg 
-
-# Okuma süresini ve yazarı ayarla
-words_per_minute: 200
+# Author and Sidebar defaults
+author_profile: false # Keep it false to prevent sidebar clutter on home
