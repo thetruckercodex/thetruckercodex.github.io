@@ -3,16 +3,17 @@ layout: home
 permalink: /
 title: "The Trucker Codex Blog"
 excerpt: "Everything you need for FMCSA compliance in one place."
+
 header:
   overlay_image: /assets/images/hero-home-clean.jpg
   overlay_filter: 0.5
+
 sidebar:
   nav: "categories"
-# Activates the sidebar resource box
+
 toc: true
 toc_label: "Compliance Resources"
 toc_icon: "shield-alt"
----
 
 feature_row:
   - image_path: /assets/images/post1.jpg
@@ -32,21 +33,21 @@ feature_row:
     excerpt: "Pre-employment screening explained"
     url: /fmcsas-pre-employment-screening-program/
     btn_label: "Read More"
+---
 
-{% include feature_row %}
+{% include feature_row id="feature_row" %}
 
 <style>
-  /* 1. HERO IMAGE POSITIONING - FIXING THE TRUCK VIEW */
+  /* HERO IMAGE FIX */
   .page__hero--overlay {
-    /* Shifts the image focus to the bottom where the truck is located */
-    background-position: bottom center !important; 
+    background-position: bottom center !important;
     background-size: cover !important;
     min-height: 350px !important;
     display: flex !important;
     align-items: center !important;
   }
 
-  /* 2. LAYOUT STYLING (CLEAN 3-COLUMN LOOK) */
+  /* LAYOUT */
   @media (min-width: 1024px) {
     .archive {
       max-width: 800px !important;
@@ -54,14 +55,7 @@ feature_row:
       width: 66% !important;
       padding-right: 40px !important;
     }
-.feature__wrapper {
-  margin-bottom: 2rem;
-}
 
-.feature__item {
-  margin-bottom: 1rem;
-}
-    /* Positioning the Resource box to the right */
     .toc {
       display: block !important;
       float: right !important;
@@ -73,7 +67,16 @@ feature_row:
     }
   }
 
-  /* 3. TYPOGRAPHY & LIST CLEANUP */
+  /* FEATURE CARDS */
+  .feature__wrapper {
+    margin-bottom: 2rem;
+  }
+
+  .feature__item {
+    margin-bottom: 1rem;
+  }
+
+  /* TYPOGRAPHY */
   .archive__item-title {
     font-size: 1.4rem !important;
     color: #007bff !important;
