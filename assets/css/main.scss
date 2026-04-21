@@ -20,3 +20,7 @@
 .nav__link {
   font-weight: 700 !important;
 }
+// Hero overlay image position adjustment
+.page__hero--overlay {
+  background-position: center bottom; // Değeri görselinize göre ayarlayın
+}
