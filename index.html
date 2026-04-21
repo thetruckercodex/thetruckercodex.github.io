@@ -8,21 +8,54 @@ header:
   overlay_filter: 0.5
 sidebar:
   nav: "categories"
+# Activates the sidebar resource box
+toc: true
+toc_label: "Compliance Resources"
+toc_icon: "shield-alt"
 ---
 
 <style>
-  /* HERO IMAGE FIX - FOCUS ON THE TRUCK & LOGO */
+  /* 1. HERO IMAGE POSITIONING - FIXING THE TRUCK VIEW */
   .page__hero--overlay {
-    background-position: center center !important; /* Görseli merkeze çiviler */
+    /* Shifts the image focus to the bottom where the truck is located */
+    background-position: bottom center !important; 
     background-size: cover !important;
-    min-height: 400px !important; /* Görselin daha fazla görünmesi için yüksekliği artırdık */
+    min-height: 450px !important;
     display: flex !important;
     align-items: center !important;
   }
 
-  /* Adjusting text position inside hero if needed */
-  .wrapper {
-    width: 100% !important;
-    max-width: 1280px !important;
+  /* 2. LAYOUT STYLING (CLEAN 3-COLUMN LOOK) */
+  @media (min-width: 1024px) {
+    .archive {
+      max-width: 800px !important;
+      float: left !important;
+      width: 66% !important;
+      padding-right: 40px !important;
+    }
+
+    /* Positioning the Resource box to the right */
+    .toc {
+      display: block !important;
+      float: right !important;
+      width: 25% !important;
+      background: #1a1e23 !important;
+      border: 1px solid #333 !important;
+      border-radius: 6px !important;
+      padding: 15px !important;
+    }
+  }
+
+  /* 3. TYPOGRAPHY & LIST CLEANUP */
+  .archive__item-title {
+    font-size: 1.4rem !important;
+    color: #007bff !important;
+    margin-bottom: 0.5rem !important;
+  }
+
+  .list__item {
+    border-bottom: 1px solid #333 !important;
+    padding-bottom: 20px !important;
+    margin-bottom: 20px !important;
   }
 </style>
