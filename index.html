@@ -3,48 +3,65 @@ layout: home
 permalink: /
 title: "The Trucker Codex Blog"
 excerpt: "Everything you need for FMCSA compliance in one place. Your ultimate guide to HOS, ELD, DQF, and DOT Audits."
-
 header:
   overlay_image: /assets/images/hero-home-clean.jpg
   overlay_filter: 0.4
-  # Bu satır, tırı yukarı kaydırmak için en hızlı çözümdür:
-  overlay_color: "#1a1e23" 
-  
 sidebar:
-  nav: "categories" # Senin navigation.yml dosyasındaki isimlendirmeyle eşitledik
+  nav: "categories"
+# Yazıları grid yapmak için gerekli olan girdi:
+entries_layout: grid 
 ---
 
-
 <style>
-  /* 1. Görsel Konumu ve Bant Genişliği */
+  /* 1. Görsel Sabitleme */
   .page__hero--overlay {
-    /* Görseli en alta iter (Böylece tırın gövdesi ve yolu görürsün) */
-    background-position: center 90% !important; 
-    /* Bant genişliğini darlatıyoruz (Eski hali muhtemelen 400px+ olmuştu) */
-    padding: 2em 0 !important; 
-    min-height: 250px !important; 
+    background-position: center 90% !important;
+    padding: 2em 0 !important;
+    min-height: 250px !important;
   }
 
-  /* 2. Sol Menü (Sidebar) Başlık: TOPICS */
+  /* 2. Sol Menü (Sidebar) Hiyerarşisi */
+  /* TOPICS Ana Başlığı - En Büyük ve Baskın */
   .sidebar .nav__title {
-    font-size: 1.5rem !important; /* Büyük ve baskın */
-    font-weight: 800 !important; /* Ekstra kalın */
-    text-transform: uppercase !important; 
+    font-size: 1.4rem !important; 
+    font-weight: 900 !important;
+    text-transform: uppercase !important;
     color: #fff !important;
+    border-bottom: 3px solid #007bff !important; /* Mavi kalın çizgi */
     margin-bottom: 20px !important;
-    border-bottom: 2px solid #007bff !important; /* Mavi bir vurgu çizgisi */
+    padding-bottom: 5px !important;
+    display: block !important;
   }
 
-  /* 3. Alt Kategoriler */
+  /* Alt Kategoriler - Başlıktan Daha Küçük ama Kalın */
   .sidebar .nav__items li a {
-    font-size: 1.1rem !important; /* Başlıktan küçük ama okunur boyutta */
-    font-weight: 700 !important; /* Kalın (Bold) */
-    color: #ced4da !important;
-    padding: 10px 0 !important;
-    display: block;
+    font-size: 0.95rem !important; /* Başlığa göre belirgin küçük */
+    font-weight: 700 !important;  /* Kalın */
+    color: #b0b0b0 !important;
+    line-height: 1.2 !important;
+    padding: 6px 0 !important;
   }
 
-  .sidebar .nav__items li a:hover {
-    color: #fff !important;
+  /* 3. Yazıları 2 Kolonlu Grid Yapma */
+  @media (min-width: 600px) {
+    .archive {
+      display: grid !important;
+      grid-template-columns: repeat(2, 1fr) !important; /* 2 Kolon */
+      grid-gap: 20px !important;
+    }
+    
+    /* Grid içindeki başlık ve özet alanlarını toparlama */
+    .list__item {
+      margin-bottom: 0 !important;
+      background: #1a1e23; /* Hafif bir kart arka planı */
+      padding: 15px;
+      border-radius: 6px;
+      border: 1px solid #333;
+    }
+    
+    .archive__item-title {
+      font-size: 1.1rem !important;
+      margin-top: 0 !important;
+    }
   }
 </style>
