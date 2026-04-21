@@ -1,10 +1,18 @@
 ---
 layout: home
-title: "The Trucker Codex Blog"
 permalink: /
+# Canlı, SEO dostu başlık ve açıklamayı geri getiriyoruz
+title: "The Trucker Codex Blog"
 excerpt: "Everything you need for FMCSA compliance in one place. Your ultimate guide to HOS, ELD, DQF, and DOT Audits."
+
+# Yeni, temiz görseli yüklüyoruz
 header:
-  overlay_image: /assets/images/hero-home.jpg
-  overlay_filter: 0.6
-  caption: "Digital Co-Pilot for Motor Carriers"
+  overlay_image: /assets/images/hero-home-clean.jpg # Yazısız görselin yolu
+  overlay_filter: 0.5 # Metnin okunması için filtreyi biraz artırdık
+  caption: "Digital Co-Pilot for Motor Carriers" # Sağ altta küçük yazı (opsiyonel)
+
+# Sol Sidebar'ı (Topics menüsünü) geri getiren komut:
+author_profile: true # Eğer sidebar'da kendi profilin/menün varsa
+sidebar:
+  nav: "main" # _data/navigation.yml içindeki menü adın neyse o (genelde main olur)
 ---
