@@ -59,87 +59,86 @@
 }
 
 /* ============================================
-   Etsy Banner - Çerçeveli ve Vurgulu
+   Etsy Banner - Temiz Arka Planlı ve Vurgulu
    ============================================ */
 
-.etsy-card-neutral {
-  max-width: 700px;                // Biraz daha geniş
-  margin: 1.5rem auto;             // Üst-alt boşluk
-  padding: 0.8rem 0;               // Çizgilerle arasına iç boşluk
-  border-top: 1px solid rgba(255, 255, 255, 0.1);    // ÜST ÇİZGİ
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1); // ALT ÇİZGİ
+.etsy-banner-clean {
+  max-width: 750px;                     // Biraz daha geniş
+  margin: 1.8rem auto 2.2rem auto;      // Üst ve alt boşluklar
+  padding: 0.2rem 0.5rem;               // İç boşluk
+  background: rgba(100, 255, 218, 0.04); // Teal rengi, %4 opacity (çok hafif)
+  border-radius: 50px;                  // Tam yuvarlak köşeler
+  border: 1px solid rgba(100, 255, 218, 0.1); // Çok ince, zarif bir sınır (çizgi değil)
   
   a {
     text-decoration: none;
     display: block;
   }
   
-  .etsy-card-inner {
+  .banner-content {
     display: flex;
     align-items: center;
-    justify-content: center;       // Ortaya hizalı
-    gap: 12px;
-    padding: 0.6rem 0.5rem;
-    border-radius: 30px;
-    transition: background 0.2s ease;
-    
-    &:hover {
-      background: rgba(255, 255, 255, 0.04); // Hafif arka plan
-    }
+    justify-content: center;
+    gap: 15px;
+    padding: 0.8rem 1rem;
   }
   
-  .card-icon {
-    font-size: 1.4rem;
+  .banner-icon {
+    font-size: 1.5rem;
     line-height: 1;
-    opacity: 0.9;
   }
   
-  .card-text {
-    color: #ccd6f6;                // Açık gri
-    font-size: 1.1rem;             // Biraz daha büyük
+  .banner-text {
+    color: #ccd6f6;
+    font-size: 1.05rem;
     font-weight: 400;
     letter-spacing: 0.2px;
     
     strong {
-      color: #ffffff;              // Beyaz ve vurgulu
+      color: #ffffff;
       font-weight: 700;
     }
   }
   
-  .card-arrow {
-    color: #64ffda;                // Turkuaz ok
-    font-size: 1.2rem;
-    font-weight: 300;
-    transition: transform 0.2s ease;
+  .banner-arrow {
+    color: #f0a500;                   // Turuncu ok
+    font-size: 1.6rem;               // Daha büyük ve belirgin
+    transition: transform 0.2s ease, color 0.2s ease;
   }
   
-  a:hover .card-arrow {
-    transform: translateX(5px);    // Ok sağa kayar
+  a:hover .banner-arrow {
+    transform: translateX(6px);      // Sağa kayma efekti
+    color: #ffb800;                  // Hover'da biraz daha parlak turuncu
   }
 }
 
 // Mobil uyumluluk
 @media (max-width: 600px) {
-  .etsy-card-neutral {
-    margin: 1rem 0;
-    padding: 0.5rem 0;
+  .etsy-banner-clean {
+    max-width: 100%;
+    margin: 1.2rem 0 1.8rem 0;
+    border-radius: 30px;
     
-    .etsy-card-inner {
-      gap: 8px;
-      padding: 0.5rem 0;
+    .banner-content {
+      gap: 10px;
+      padding: 0.6rem 0.8rem;
     }
     
-    .card-text {
-      font-size: 0.9rem;           // Mobilde biraz küçült
+    .banner-text {
+      font-size: 0.9rem;
     }
     
-    .card-icon {
-      font-size: 1.2rem;
+    .banner-icon {
+      font-size: 1.3rem;
+    }
+    
+    .banner-arrow {
+      font-size: 1.4rem;
     }
   }
 }
 
-/* Recent Posts Başlığı İçin Üst Boşluk Ayarı */
+/* Recent Posts Başlığı ile Banner Arası Boşluk */
 .page__related {
-  margin-top: 2.5rem !important;    // Banner ile arasına mesafe koy
+  margin-top: 1.5rem !important; // Alt çizgi olmadığı için mesafe azaltılabilir
 }
