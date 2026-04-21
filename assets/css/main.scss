@@ -1,77 +1,59 @@
 ---
+# Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin }}";
-@import "minimal-mistakes";
+@charset "utf-8";
 
-/* 1. Tüm sidebar linklerini kalın yap (genel yaklaşım) */
-.sidebar .nav__list .nav__link,
-.nav__list .nav__link {
-  font-weight: 700 !important;
-}
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
 
-/* 2. Özellikle "Topics" altındaki çocuk linkleri (HOS, Audit vb.) */
-.nav__list .nav__item .nav__sub-title,  /* eğer alt başlık olarak tanımlandıysa */
-.nav__list .nav__child .nav__link {
-  font-weight: 700 !important;
-}
-
-/* 3. Son çare: Herhangi bir .nav__link varsa (tüm menü linkleri) */
-.nav__link {
-  font-weight: 700 !important;
-}
-// Hero overlay image position adjustment
+/* 1. Hero Görsel Konumu (Mevcut Ayarınız Korundu) */
 .page__hero--overlay {
-  background-position: center bottom; // Değeri görselinize göre ayarlayın
+  background-position: center bottom; /* Değeri görselinize göre ayarlayın */
 }
-/* ============================================
-   Sidebar Enhancements - Better Readability
-   ============================================ */
 
-// Sidebar genel başlık stili (örn: "Topics")
+/* 2. Sidebar "Topics" Başlığı */
 .sidebar .nav__title {
-  font-size: 1.4rem !important;      /* Başlık boyutu büyütüldü */
-  font-weight: 800 !important;        /* Ekstra kalın */
-  letter-spacing: 0.5px;
-  color: #ffffff !important;          /* Beyaz renk (koyu tema için) */
-  text-transform: uppercase;          /* İsteğe bağlı: BÜYÜK HARF */
-  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
-  padding-bottom: 0.5rem;
-  margin-bottom: 1rem;
-}
-
-// Kategori linklerinin ana container'ı
-.sidebar .nav__list {
-  font-size: 1.1rem !important;       /* Genel font büyüklüğü artırıldı */
-}
-
-// Her bir kategori linki
-.sidebar .nav__list .nav__link,
-.nav__list .nav__link {
-  font-size: 1.05rem !important;
-  font-weight: 700 !important;        /* Kalın */
-  padding: 0.4rem 0 !important;
-  color: #e0e0e0 !important;          /* Açık gri */
-  transition: color 0.2s ease, padding-left 0.2s ease;
-  
-  &:hover {
-    color: #ffffff !important;        /* Hover'da tam beyaz */
-    padding-left: 5px !important;     /* Hafif kayma efekti */
-  }
-}
-
-// Aktif sayfa linki (şu an bulunduğunuz kategori)
-.sidebar .nav__list .nav__link.active,
-.nav__list .nav__link.active {
-  color: #ffd966 !important;          /* Dikkat çekici sarımsı ton */
+  font-size: 1.3rem !important;
   font-weight: 800 !important;
+  color: #ffffff !important;
+  letter-spacing: 0.3px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.8rem;
+  text-transform: none; /* Büyük harf istemiyorsanız none, isterseniz uppercase */
+}
+
+/* 3. Sidebar Linkleri (Genel) */
+.sidebar .nav__list .nav__items li a {
+  font-size: 1.1rem !important;       /* Boyut büyütüldü */
+  font-weight: 600 !important;        /* Yarı kalın */
+  color: #d0d0d0 !important;          /* Daha açık gri */
+  padding: 0.3rem 0 !important;
+  display: inline-block;              /* Geçiş efektleri için gerekli */
+  transition: all 0.15s ease;
+}
+
+/* 4. Sidebar Linkleri Hover Efekti */
+.sidebar .nav__list .nav__items li a:hover {
+  color: #ffffff !important;
+  padding-left: 6px !important;
+  text-decoration: none !important;
+}
+
+/* 5. Aktif Sayfa Linki (Bulunduğunuz sayfanın sidebar'daki linki) */
+.sidebar .nav__list .nav__items li.active a,
+.sidebar .nav__list .nav__items li a.active {
+  color: #ffd966 !important;          /* Sarı vurgu */
+  font-weight: 700 !important;
   border-left: 3px solid #ffd966;
   padding-left: 12px !important;
+  background-color: transparent !important;
 }
 
-// Alt kategoriler (eğer nested liste varsa)
-.sidebar .nav__child .nav__link {
-  font-size: 1rem !important;
-  font-weight: 600 !important;
-  padding-left: 20px !important;
+/* 6. Mobil uyumluluk için opsiyonel ayar */
+@media (min-width: 768px) {
+  .sidebar {
+    opacity: 1 !important;
+  }
 }
