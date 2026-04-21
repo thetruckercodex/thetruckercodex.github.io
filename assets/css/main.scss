@@ -59,13 +59,15 @@
 }
 
 /* ============================================
-   Etsy Neutral Card - Audit-Ready Banner
+   Etsy Banner - Çerçeveli ve Vurgulu
    ============================================ */
 
 .etsy-card-neutral {
-  margin: 2.5rem auto 2rem auto;
-  max-width: 650px;                // Kart genişliği sınırlı
-  padding: 0 1rem;                 // Mobil kenar boşluğu
+  max-width: 700px;                // Biraz daha geniş
+  margin: 1.5rem auto;             // Üst-alt boşluk
+  padding: 0.8rem 0;               // Çizgilerle arasına iç boşluk
+  border-top: 1px solid rgba(255, 255, 255, 0.1);    // ÜST ÇİZGİ
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1); // ALT ÇİZGİ
   
   a {
     text-decoration: none;
@@ -73,69 +75,71 @@
   }
   
   .etsy-card-inner {
-    background: rgba(255, 255, 255, 0.02);
-    border: 1px solid rgba(255, 255, 255, 0.06);
-    border-radius: 40px;           // Yumuşak köşeler
-    padding: 0.7rem 1.8rem;
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 15px;
-    backdrop-filter: blur(2px);
-    transition: background 0.25s ease, border-color 0.25s ease;
+    justify-content: center;       // Ortaya hizalı
+    gap: 12px;
+    padding: 0.6rem 0.5rem;
+    border-radius: 30px;
+    transition: background 0.2s ease;
     
     &:hover {
-      background: rgba(255, 255, 255, 0.05);
-      border-color: rgba(240, 165, 0, 0.3);
+      background: rgba(255, 255, 255, 0.04); // Hafif arka plan
     }
   }
   
   .card-icon {
     font-size: 1.4rem;
     line-height: 1;
+    opacity: 0.9;
   }
   
   .card-text {
-    color: #ccd6f6;
-    font-size: 1rem;
+    color: #ccd6f6;                // Açık gri
+    font-size: 1.1rem;             // Biraz daha büyük
     font-weight: 400;
     letter-spacing: 0.2px;
+    
+    strong {
+      color: #ffffff;              // Beyaz ve vurgulu
+      font-weight: 700;
+    }
   }
   
   .card-arrow {
-    color: #64ffda;
+    color: #64ffda;                // Turkuaz ok
     font-size: 1.2rem;
     font-weight: 300;
     transition: transform 0.2s ease;
   }
   
   a:hover .card-arrow {
-    transform: translateX(4px);     // Ok hafif sağa kayar
+    transform: translateX(5px);    // Ok sağa kayar
   }
 }
 
 // Mobil uyumluluk
 @media (max-width: 600px) {
   .etsy-card-neutral {
-    max-width: 100%;
-    margin: 1.8rem 0;
+    margin: 1rem 0;
+    padding: 0.5rem 0;
     
     .etsy-card-inner {
-      border-radius: 30px;
-      padding: 0.6rem 1.2rem;
-      gap: 10px;
-      
-      .card-text {
-        font-size: 0.85rem;
-      }
-      
-      .card-icon {
-        font-size: 1.2rem;
-      }
-      
-      .card-arrow {
-        font-size: 1rem;
-      }
+      gap: 8px;
+      padding: 0.5rem 0;
+    }
+    
+    .card-text {
+      font-size: 0.9rem;           // Mobilde biraz küçült
+    }
+    
+    .card-icon {
+      font-size: 1.2rem;
     }
   }
+}
+
+/* Recent Posts Başlığı İçin Üst Boşluk Ayarı */
+.page__related {
+  margin-top: 2.5rem !important;    // Banner ile arasına mesafe koy
 }
