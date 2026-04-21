@@ -8,66 +8,72 @@ header:
   overlay_filter: 0.4
 sidebar:
   nav: "categories"
-# Yazıları grid yapmak için gerekli olan girdi:
-entries_layout: grid 
+# Grid parametresini sildik, çakışmayı önlemek için standart home layout kullanıyoruz.
 ---
 
 <style>
-  /* 1. Görsel Bant ve Tır Konumu */
+  /* 1. HERO BANT AYARI */
   .page__hero--overlay {
     background-position: center 90% !important;
-    padding: 2.5em 0 !important; /* Bant darlığı */
-    min-height: 250px !important;
+    padding: 3em 0 !important;
+    min-height: 280px !important;
   }
 
-  /* 2. Sol Menü (Sidebar) Hiyerarşi Düzenlemesi */
+  /* 2. SOL MENÜ (SIDEBAR) OTORİTER HİYERARŞİ */
   .sidebar .nav__title {
-    font-size: 1.6rem !important; /* Başlık: En Büyük */
+    font-size: 1.6rem !important; /* En büyük başlık */
     font-weight: 900 !important;
     text-transform: uppercase !important;
-    color: #fff !important;
+    color: #ffffff !important;
     border-bottom: 3px solid #007bff !important;
-    margin-bottom: 15px !important;
-    display: block !important;
+    margin-bottom: 1rem !important;
+    padding-bottom: 0.5rem !important;
   }
 
   .sidebar .nav__items li a {
-    font-size: 0.95rem !important; /* Linkler: Başlıktan belirgin şekilde küçük */
-    font-weight: 700 !important; /* Kalın/Bold */
-    color: #b0b0b0 !important;
-    padding: 6px 0 !important;
-    text-transform: capitalize !important; /* Sadece baş harfler büyük */
+    font-size: 1rem !important; /* Başlıktan küçük, okunaklı */
+    font-weight: 700 !important;
+    color: #adb5bd !important;
+    padding: 0.4rem 0 !important;
+    display: block;
   }
 
-  /* 3. Otomatik Ayarlanan Grid (Responsive) */
-  .archive {
-    display: grid !important;
-    /* Ekranın genişliğine göre: Min 300px olacak şekilde kolonları otomatik sığdır */
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) !important; 
-    grid-gap: 20px !important;
-    width: 100% !important;
+  /* 3. ANA İÇERİK: KESİN 2 KOLONLU GRID (SIDEBAR UYUMLU) */
+  @media (min-width: 1024px) {
+    /* Yazı listesinin olduğu ana kapsayıcı */
+    .archive {
+      display: flex !important;
+      flex-wrap: wrap !important;
+      gap: 2%; /* Kartlar arası boşluk */
+      justify-content: flex-start !important;
+    }
+
+    /* Her bir yazı kartı */
+    .list__item {
+      flex: 0 0 49% !important; /* Tam olarak yan yana iki tane sığdırır */
+      margin: 0 0 1.5rem 0 !important;
+      background: #1a1e23;
+      padding: 1.5rem;
+      border-radius: 8px;
+      border: 1px solid #333;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Başlıkların grid içinde taşmasını önle */
+    .archive__item-title {
+      font-size: 1.25rem !important;
+      margin: 0 0 0.75rem 0 !important;
+      line-height: 1.3 !important;
+    }
   }
 
-  /* Yazı Kartlarının Görünümü */
-  .grid__item {
-    margin: 0 !important; /* Grid boşlukları grid-gap ile yönetiliyor */
-    width: 100% !important; /* Grid hücresini tam doldur */
-  }
-
-  .archive__item {
-    background: #1a1e23;
-    padding: 20px;
-    border-radius: 8px;
-    border: 1px solid #333;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-  }
-
-  /* Başlıklar her zaman kartın başında düzgün dursun */
-  .archive__item-title {
-    font-size: 1.2rem !important;
-    margin-top: 0 !important;
-    color: #fff !important;
+  /* Tablet ve Altı İçin Tek Kolon (Bozulmaması için) */
+  @media (max-width: 1023px) {
+    .list__item {
+      width: 100% !important;
+      margin-bottom: 1rem !important;
+    }
   }
 </style>
