@@ -17,6 +17,14 @@ For a broader perspective on how these changes fit into the current regulatory l
 
 ## Regulatory Framework: 49 CFR Part 383
 
+{: .notice--danger}
+### 📢 Latest Updates (April 2026)
+As of **April 2026**, the Federal Motor Carrier Safety Administration (FMCSA) has fully implemented the **March 16 enforcement deadline** for non-domiciled CDL issuance standards, with no additional grace periods announced.
+
+* **Federal Scrutiny:** State Driver Licensing Agencies (SDLAs) are now under increased federal scrutiny to ensure strict compliance with mandatory **SAVE verification** protocols.
+* **CDLIS Integrity:** Recent enforcement trends indicate a heightened focus on real-time license validity checks via **CDLIS**. Any mismatch between SAVE-confirmed immigration status and issued credentials may result in immediate invalidation at the state level.
+* **Industry Shift:** Federal contractors and regulated carriers are beginning to apply stricter internal verification policies that go beyond minimum FMCSA requirements, signaling a broader industry shift toward **zero-tolerance compliance** for non-domiciled driver eligibility.
+
 The 49 CFR Part 383 (Commercial Driver’s License Standards) establishes the federal requirements for the issuance, renewal, and oversight of CDLs by State Driver Licensing Agencies (SDLAs). This framework includes minimum qualifications, lawful presence verification, and mandatory driver history checks via the Commercial Driver’s License Information System (CDLIS) and the Problem Driver Pointer System (PDPS).
 
 Under the updated FMCSA rule, SDLAs issuing non-domiciled CDLs must now comply with enhanced verification requirements that exceed pre-existing informal guidance. Failure of an SDLA to adhere to these standards can trigger significant [DOT Compliance Audit Triggers](https://blog.thetruckercodex.com/dot-compliance-audit-triggers/) for carriers operating in those states, as the federal government may de-certify state-issued licenses that do not meet the 2026 SAVE verification threshold.
