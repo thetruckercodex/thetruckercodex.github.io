@@ -45,9 +45,9 @@
       "icon_notes": "Plan bu kategori için örnek vermemişti — dosya dolabı önerisi, teyit gerekir"
     }
   },
-  "next_slot_index": 1,
+  "next_slot_index": 2,
   "next_educational_index": 1,
-  "next_product_index": 0,
+  "next_product_index": 1,
   "educational": [
     {
       "id": "E001",
@@ -1281,7 +1281,7 @@
       "title": "DOT Roadside Inspection Kit, CDL Driver Communication Guide and Checklist",
       "category": "audits-violations",
       "price": "$19.00",
-      "used": false
+      "used": true
     },
     {
       "id": "P02",
