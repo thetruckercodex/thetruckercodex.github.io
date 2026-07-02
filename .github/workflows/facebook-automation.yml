@@ -1,0 +1,94 @@
+name: Facebook Automation
+
+# Faz 5 — Orkestrasyon. Faz 2 (metin) -> Faz 3 (görsel) -> Faz 4 (yayın)
+# zincirini 6 saatte bir (günde 4 kez) çalıştırır. fb_content_map.json'daki
+# slot_pattern (educational/product, 2+2) sırayı otomatik belirler.
+
+on:
+  schedule:
+    # Her 6 saatte bir: 00:00, 06:00, 12:00, 18:00 UTC
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'true ise Facebook a gercekten yayinlanmaz (sadece metin+gorsel uretilir, Faz 6.1 test modu)'
+        required: true
+        default: 'true'
+        type: choice
+        options:
+          - 'true'
+          - 'false'
+
+jobs:
+  generate-and-publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      FB_POST_INPUT: /tmp/fb_post_draft.json
+      FB_PUBLISH_LOG: /tmp/fb_publish_log.json
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install anthropic google-genai pillow requests
+
+      - name: Faz 2 — Metin üretimi (Anthropic)
+        run: python scripts/generate_fb_post.py
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+
+      - name: Faz 3 — Görsel üretimi (Gemini / Nano Banana Pro)
+        run: python scripts/generate_fb_image.py
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+
+      - name: Faz 4 — Facebook'a yayınla
+        if: github.event_name == 'schedule' || github.event.inputs.dry_run == 'false'
+        run: python scripts/publish_fb_post.py
+        env:
+          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+          FB_PAGE_ACCESS_TOKEN: ${{ secrets.FB_PAGE_ACCESS_TOKEN }}
+
+      - name: Dry-run özeti (yayınlanmadı)
+        if: github.event_name == 'workflow_dispatch' && github.event.inputs.dry_run == 'true'
+        run: |
+          echo "DRY RUN — Facebook'a yayınlanmadı. Üretilen brief:"
+          cat /tmp/fb_post_draft.json
+
+      # Faz 5.4: denetim için üretilen metin/görsel/yayın logu, repoya commit
+      # edilmek yerine (binary PNG'lerin repo boyutunu şişirmemesi için)
+      # workflow artifact olarak saklanıyor — 90 gün GitHub tarafından tutulur.
+      - name: Denetim çıktısını artifact olarak yükle
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: fb-post-${{ github.run_id }}
+          path: |
+            /tmp/fb_post_draft.json
+            /tmp/fb_publish_log.json
+            assets/fb-posts/*.png
+          retention-days: 90
+          if-no-files-found: warn
+
+      # fb_content_map.json içindeki used/next_* alanları Faz 2'de güncellendi
+      # — bu state'in sonraki çalıştırmalara taşınması için tek commit edilen
+      # dosya bu (küçük, text-based, repo boyutunu şişirmiyor).
+      - name: State güncellemesini commit et (fb_content_map.json)
+        if: always()
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "Trucker Codex FB Autopilot"
+          git add _data/fb_content_map.json
+          git diff --staged --quiet || git commit -m "Auto: fb_content_map.json state güncellendi (run ${{ github.run_id }})"
+          git push
