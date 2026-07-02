@@ -1,0 +1,1375 @@
+{
+  "_meta": {
+    "description": "The Trucker Codex Facebook otomasyon pipeline'ı için içerik kaynağı haritası (Faz 1)",
+    "post_cadence": "6 saatte 1, günde 4 post (2 eğitici + 2 ürün odaklı)",
+    "slot_pattern": [
+      "educational",
+      "product",
+      "educational",
+      "product"
+    ],
+    "generated_from": {
+      "educational_source": "blog.thetruckercodex.com/sitemap.xml + _posts/*.md front matter (153 post)",
+      "product_source": "thetruckercodex.etsy.com (18 üründen 12'si, 6 trucking-dışı ürün hariç tutuldu)"
+    }
+  },
+  "categories": {
+    "hos-eld": {
+      "label": "Hours of Service & ELD",
+      "icon_object": "analog clock face merged with a logbook page",
+      "icon_notes": "Plandaki örnek: saat/logbook ikonu"
+    },
+    "dqf": {
+      "label": "Driver Qualification File",
+      "icon_object": "manila folder with a certification badge/seal",
+      "icon_notes": "Plandaki örnek: klasör/rozet ikonu"
+    },
+    "maintenance": {
+      "label": "Vehicle Maintenance",
+      "icon_object": "brake disc paired with a tire tread cross-section",
+      "icon_notes": "Plandaki örnek: fren/lastik ikonu"
+    },
+    "audits-violations": {
+      "label": "Audits & Violations",
+      "icon_object": "inspection clipboard with a checkmark and a red OOS tag",
+      "icon_notes": "Plan bu kategori için örnek vermemişti — clipboard+checkmark önerisi, teyit gerekir"
+    },
+    "fmcsa-basics": {
+      "label": "FMCSA Basics",
+      "icon_object": "open compliance handbook with a shield emblem",
+      "icon_notes": "Plan bu kategori için örnek vermemişti — kitap/shield önerisi, teyit gerekir"
+    },
+    "recordkeeping": {
+      "label": "Recordkeeping",
+      "icon_object": "filing cabinet drawer with a document archive box",
+      "icon_notes": "Plan bu kategori için örnek vermemişti — dosya dolabı önerisi, teyit gerekir"
+    }
+  },
+  "next_slot_index": 0,
+  "next_educational_index": 0,
+  "next_product_index": 0,
+  "educational": [
+    {
+      "id": "E001",
+      "url": "https://blog.thetruckercodex.com/common-dot-violations-how-to-avoid/",
+      "title": "Common DOT Violations and How to Avoid Them",
+      "category": "audits-violations",
+      "date": "2026-02-08",
+      "used": false
+    },
+    {
+      "id": "E002",
+      "url": "https://blog.thetruckercodex.com/dot-compliance-audit-triggers/",
+      "title": "DOT Compliance Audit Triggers: What Initiates a Review",
+      "category": "audits-violations",
+      "date": "2026-02-08",
+      "used": false
+    },
+    {
+      "id": "E003",
+      "url": "https://blog.thetruckercodex.com/dot-recordkeeping-document-retention/",
+      "title": "DOT Recordkeeping and Document Retention Requirements",
+      "category": "recordkeeping",
+      "date": "2026-02-08",
+      "used": false
+    },
+    {
+      "id": "E004",
+      "url": "https://blog.thetruckercodex.com/dot-vehicle-inspection-maintenance-requirements/",
+      "title": "DOT Vehicle Inspection and Maintenance Requirements",
+      "category": "maintenance",
+      "date": "2026-02-08",
+      "used": false
+    },
+    {
+      "id": "E005",
+      "url": "https://blog.thetruckercodex.com/electronic-logging-device-eld-compliance/",
+      "title": "ELD Compliance Requirements: What Carriers and Drivers Must Maintain Under 49 CFR Part 395",
+      "category": "hos-eld",
+      "date": "2026-02-08",
+      "used": false
+    },
+    {
+      "id": "E006",
+      "url": "https://blog.thetruckercodex.com/what-is-fmcsa/",
+      "title": "What Is FMCSA and What Does It Regulate?",
+      "category": "fmcsa-basics",
+      "date": "2026-02-08",
+      "used": false
+    },
+    {
+      "id": "E007",
+      "url": "https://blog.thetruckercodex.com/brake-system-violations-out-of-service/",
+      "title": "Brake System Violations: Why They Lead Vehicle Out-of-Service Orders",
+      "category": "maintenance",
+      "date": "2026-02-09",
+      "used": false
+    },
+    {
+      "id": "E008",
+      "url": "https://blog.thetruckercodex.com/hours-of-service-violations-out-of-service/",
+      "title": "Hours-of-Service Violations: The Most Common Driver Out-of-Service Trigger",
+      "category": "hos-eld",
+      "date": "2026-02-09",
+      "used": false
+    },
+    {
+      "id": "E009",
+      "url": "https://blog.thetruckercodex.com/dot-roadside-inspections-levels/",
+      "title": "Understanding DOT Roadside Inspections: Levels and Survival Strategies",
+      "category": "maintenance",
+      "date": "2026-02-11",
+      "used": false
+    },
+    {
+      "id": "E010",
+      "url": "https://blog.thetruckercodex.com/driver-qualification-file-requirements/",
+      "title": "The Ultimate Guide to 2026 Driver Qualification: Mastering NRII, Clearinghouse-II, and Modern OOS Enforcement",
+      "category": "dqf",
+      "date": "2026-02-16",
+      "used": false
+    },
+    {
+      "id": "E011",
+      "url": "https://blog.thetruckercodex.com/fmcsa-sfd-overhaul-2026/",
+      "title": "The 2026 SFD Overhaul: Navigating the New Era of Safety Fitness Determinations",
+      "category": "audits-violations",
+      "date": "2026-02-16",
+      "used": false
+    },
+    {
+      "id": "E012",
+      "url": "https://blog.thetruckercodex.com/fmcsa-2026-eld-revocations-analysis/",
+      "title": "FMCSA 2026 ELD Revocations: Comprehensive Regulatory Analysis and Compliance Roadmap",
+      "category": "hos-eld",
+      "date": "2026-02-17",
+      "used": false
+    },
+    {
+      "id": "E013",
+      "url": "https://blog.thetruckercodex.com/cvsa-2026-oos-criteria-changes/",
+      "title": "The Green Paper Revolution: 2026 CVSA Out-of-Service Criteria Updates",
+      "category": "audits-violations",
+      "date": "2026-02-18",
+      "used": false
+    },
+    {
+      "id": "E014",
+      "url": "https://blog.thetruckercodex.com/dot-pre-employment-requirements/",
+      "title": "DOT Pre-Employment Requirements: Navigating the Critical Pre-Dispatch Compliance Window",
+      "category": "audits-violations",
+      "date": "2026-02-18",
+      "used": false
+    },
+    {
+      "id": "E015",
+      "url": "https://blog.thetruckercodex.com/english-language-proficiency-roadside-assessment/",
+      "title": "The Jurisprudence of English Language Proficiency: Analytical Standards and Enforcement Nuances",
+      "category": "audits-violations",
+      "date": "2026-02-18",
+      "used": false
+    },
+    {
+      "id": "E016",
+      "url": "https://blog.thetruckercodex.com/phmsa-hazmat-harmonization-2026-nprm/",
+      "title": "HM-215R Harmonization: Analyzing PHMSA’s February 2026 Regulatory Shifts",
+      "category": "audits-violations",
+      "date": "2026-02-18",
+      "used": false
+    },
+    {
+      "id": "E017",
+      "url": "https://blog.thetruckercodex.com/speed-limiter-myth-busting/",
+      "title": "Speed Limiter NPRM Withdrawal: Deconstructing Federal Mandates vs. Fleet Safety Policies",
+      "category": "audits-violations",
+      "date": "2026-02-18",
+      "used": false
+    },
+    {
+      "id": "E018",
+      "url": "https://blog.thetruckercodex.com/dot-roadside-communication-structure/",
+      "title": "DOT Roadside Inspection Communication: Structured Preparedness vs. Improvised Stops",
+      "category": "recordkeeping",
+      "date": "2026-02-24",
+      "used": false
+    },
+    {
+      "id": "E019",
+      "url": "https://blog.thetruckercodex.com/2026-eld-compliance-standards-revocation-updates/",
+      "title": "Electronic Logging Device (ELD) Compliance: 2026 Regulatory Deep Dive",
+      "category": "hos-eld",
+      "date": "2026-02-27",
+      "used": false
+    },
+    {
+      "id": "E020",
+      "url": "https://blog.thetruckercodex.com/new-entrant-safety-audit-fmcsa-methodology/",
+      "title": "New Entrant Safety Audit: FMCSA's Scoring Methodology and the 16 Automatic Failure Regulations",
+      "category": "audits-violations",
+      "date": "2026-02-27",
+      "used": false
+    },
+    {
+      "id": "E021",
+      "url": "https://blog.thetruckercodex.com/hours-of-service-rules/",
+      "title": "Hours-of-Service (HOS): Rules Every Truck Driver Must Know",
+      "category": "hos-eld",
+      "date": "2026-02-28",
+      "used": false
+    },
+    {
+      "id": "E022",
+      "url": "https://blog.thetruckercodex.com/new-entrant-safety-audit-survival-guide/",
+      "title": "The 2026 New Entrant Safety Audit: Why New Carriers Fail and How to Build an Audit-Proof Operation",
+      "category": "audits-violations",
+      "date": "2026-02-28",
+      "used": false
+    },
+    {
+      "id": "E023",
+      "url": "https://blog.thetruckercodex.com/english-proficiency-as-an-out-of-service-condition-2026-roadside-enforcement-breakdown/",
+      "title": "English Proficiency as an Out-of-Service Condition: 2026 Roadside Enforcement Breakdown",
+      "category": "audits-violations",
+      "date": "2026-03-02",
+      "used": false
+    },
+    {
+      "id": "E024",
+      "url": "https://blog.thetruckercodex.com/what-is-dot-compliance/",
+      "title": "What Is DOT Compliance? Complete Guide for Truck Drivers (2026)",
+      "category": "fmcsa-basics",
+      "date": "2026-03-03",
+      "used": false
+    },
+    {
+      "id": "E025",
+      "url": "https://blog.thetruckercodex.com/dot-audit-checklist-how-trucking-companies-prepare-for-fmcsa-compliance-reviews/",
+      "title": "DOT Audit Checklist: How Trucking Companies Prepare for FMCSA Compliance Reviews",
+      "category": "audits-violations",
+      "date": "2026-03-03",
+      "used": false
+    },
+    {
+      "id": "E026",
+      "url": "https://blog.thetruckercodex.com/dot-compliance-checklist-2026/",
+      "title": "DOT Compliance Checklist (2026)",
+      "category": "fmcsa-basics",
+      "date": "2026-03-03",
+      "used": false
+    },
+    {
+      "id": "E027",
+      "url": "https://blog.thetruckercodex.com/dot-compliance-documents-the-complete-list-truck-drivers-must-maintain/",
+      "title": "DOT Compliance Documents: The Complete List Truck Drivers Must Maintain",
+      "category": "recordkeeping",
+      "date": "2026-03-03",
+      "used": false
+    },
+    {
+      "id": "E028",
+      "url": "https://blog.thetruckercodex.com/fmcsa-2026-update-comprehensive-list-of-revoked-eld-devices-and-compliance-strategies/",
+      "title": "FMCSA 2026 Update: Comprehensive List of Revoked ELD Devices and Compliance Strategies",
+      "category": "hos-eld",
+      "date": "2026-03-03",
+      "used": false
+    },
+    {
+      "id": "E029",
+      "url": "https://blog.thetruckercodex.com/clearinghouse-phase-ii-cdl-downgrade-enforcement-what-carriers-and-drivers-must-do-right-now/",
+      "title": "Clearinghouse Phase II: CDL Downgrade Enforcement — What Carriers and Drivers Must Do Right Now",
+      "category": "dqf",
+      "date": "2026-03-05",
+      "used": false
+    },
+    {
+      "id": "E030",
+      "url": "https://blog.thetruckercodex.com/fmcsa-clearinghouse-guide/",
+      "title": "FMCSA Drug & Alcohol Clearinghouse: A Guide for Modern Truckers",
+      "category": "dqf",
+      "date": "2026-03-06",
+      "used": false
+    },
+    {
+      "id": "E031",
+      "url": "https://blog.thetruckercodex.com/hours-of-service-the-11-hour-driving-limit-explained/",
+      "title": "Hours of Service: The 11-Hour Driving Limit Explained",
+      "category": "hos-eld",
+      "date": "2026-03-08",
+      "used": false
+    },
+    {
+      "id": "E032",
+      "url": "https://blog.thetruckercodex.com/the-10-most-common-hos-violations-found-during-roadside-insp/",
+      "title": "The 10 Most Common HOS Violations Found During Roadside Inspections",
+      "category": "hos-eld",
+      "date": "2026-03-08",
+      "used": false
+    },
+    {
+      "id": "E033",
+      "url": "https://blog.thetruckercodex.com/the-7-eld-errors-officers-check-first-at-the-scale/",
+      "title": "The 7 ELD Errors Officers Check First at the Scale",
+      "category": "hos-eld",
+      "date": "2026-03-08",
+      "used": false
+    },
+    {
+      "id": "E034",
+      "url": "https://blog.thetruckercodex.com/top-5-brake-violations-that-trigger-an-immediate-oos-order/",
+      "title": "Top 5 Brake Violations That Trigger an Immediate OOS Order",
+      "category": "maintenance",
+      "date": "2026-03-08",
+      "used": false
+    },
+    {
+      "id": "E035",
+      "url": "https://blog.thetruckercodex.com/pre-trip-inspection-the-15-items-most-drivers-skip/",
+      "title": "Pre-Trip Inspection: The 15 Items Most Drivers Skip",
+      "category": "maintenance",
+      "date": "2026-03-09",
+      "used": false
+    },
+    {
+      "id": "E036",
+      "url": "https://blog.thetruckercodex.com/why-small-fleets-fail-dot-audits-the-6-most-common-dqf-defic/",
+      "title": "Why Small Fleets Fail DOT Audits: The 6 Most Common DQF Deficiencies",
+      "category": "audits-violations",
+      "date": "2026-03-09",
+      "used": false
+    },
+    {
+      "id": "E037",
+      "url": "https://blog.thetruckercodex.com/the-14-hour-on-duty-window-what-counts-and-what-doesnt/",
+      "title": "The 14-Hour On-Duty Window: What Counts and What Doesn't",
+      "category": "hos-eld",
+      "date": "2026-03-10",
+      "used": false
+    },
+    {
+      "id": "E038",
+      "url": "https://blog.thetruckercodex.com/the-5-cargo-securement-failures-that-generate-the-most-citat/",
+      "title": "The 5 Cargo Securement Failures That Generate the Most Citations",
+      "category": "maintenance",
+      "date": "2026-03-10",
+      "used": false
+    },
+    {
+      "id": "E039",
+      "url": "https://blog.thetruckercodex.com/what-officers-look-for-in-the-first-60-seconds-of-a-level-i/",
+      "title": "What Officers Look for in the First 60 Seconds of a Level I Inspection",
+      "category": "audits-violations",
+      "date": "2026-03-10",
+      "used": false
+    },
+    {
+      "id": "E040",
+      "url": "https://blog.thetruckercodex.com/how-csa-points-accumulate-real-examples-that-sink-small-carr/",
+      "title": "How CSA Points Accumulate: Real Examples That Sink Small Carriers",
+      "category": "audits-violations",
+      "date": "2026-03-11",
+      "used": false
+    },
+    {
+      "id": "E041",
+      "url": "https://blog.thetruckercodex.com/the-30-minute-break-requirement-exemptions-most-drivers-dont/",
+      "title": "The 30-Minute Break Requirement: Exemptions Most Drivers Don't Know",
+      "category": "hos-eld",
+      "date": "2026-03-11",
+      "used": false
+    },
+    {
+      "id": "E042",
+      "url": "https://blog.thetruckercodex.com/tire-violations-the-exact-measurements-officers-use-to-write/",
+      "title": "Tire Violations: The Exact Measurements Officers Use to Write OOS Orders",
+      "category": "maintenance",
+      "date": "2026-03-11",
+      "used": false
+    },
+    {
+      "id": "E043",
+      "url": "https://blog.thetruckercodex.com/post-accident-protocol-the-first-4-hours-determine-your-comp/",
+      "title": "Post-Accident Protocol: The First 4 Hours Determine Your Compliance Outcome",
+      "category": "audits-violations",
+      "date": "2026-03-12",
+      "used": false
+    },
+    {
+      "id": "E044",
+      "url": "https://blog.thetruckercodex.com/what-triggers-a-targeted-roadside-inspection-vs-a-random-sto/",
+      "title": "What Triggers a Targeted Roadside Inspection vs. a Random Stop",
+      "category": "audits-violations",
+      "date": "2026-03-12",
+      "used": false
+    },
+    {
+      "id": "E045",
+      "url": "https://blog.thetruckercodex.com/owner-operator-dqf-what-you-need-in-your-own-file-on-yoursel/",
+      "title": "Owner-Operator DQF: What You Need in Your Own File on Yourself",
+      "category": "dqf",
+      "date": "2026-03-13",
+      "used": false
+    },
+    {
+      "id": "E046",
+      "url": "https://blog.thetruckercodex.com/the-6070-hour-rule-how-to-calculate-your-available-hours/",
+      "title": "The 60/70-Hour Rule: How to Calculate Your Available Hours",
+      "category": "hos-eld",
+      "date": "2026-03-13",
+      "used": false
+    },
+    {
+      "id": "E047",
+      "url": "https://blog.thetruckercodex.com/hazmat-documentation-control-why-shipping-papers-placard-references-and-training-records-must-function-as-one-compliance-system/",
+      "title": "Hazmat Documentation Control: Why Shipping Papers, Placard References, and Training Records Must Function as One Compliance System",
+      "category": "recordkeeping",
+      "date": "2026-03-14",
+      "used": false
+    },
+    {
+      "id": "E048",
+      "url": "https://blog.thetruckercodex.com/sleeper-berth-provision-how-split-duty-periods-work-under-cu/",
+      "title": "Sleeper Berth Provision: How Split-Duty Periods Work Under Current Rules",
+      "category": "hos-eld",
+      "date": "2026-03-14",
+      "used": false
+    },
+    {
+      "id": "E049",
+      "url": "https://blog.thetruckercodex.com/the-8-documents-you-must-have-in-the-cab-during-any-inspecti/",
+      "title": "The 8 Documents You Must Have in the Cab During Any Inspection",
+      "category": "audits-violations",
+      "date": "2026-03-14",
+      "used": false
+    },
+    {
+      "id": "E050",
+      "url": "https://blog.thetruckercodex.com/how-to-read-your-csa-scorecard-and-identify-your-biggest-ris/",
+      "title": "How to Read Your CSA Scorecard and Identify Your Biggest Risk Areas",
+      "category": "audits-violations",
+      "date": "2026-03-15",
+      "used": false
+    },
+    {
+      "id": "E051",
+      "url": "https://blog.thetruckercodex.com/short-haul-exemption-who-qualifies-and-what-records-are-requ/",
+      "title": "Short-Haul Exemption: Who Qualifies and What Records Are Required",
+      "category": "hos-eld",
+      "date": "2026-03-15",
+      "used": false
+    },
+    {
+      "id": "E052",
+      "url": "https://blog.thetruckercodex.com/drug-test-refusal-what-it-means-for-a-cdl-and-how-carriers-m/",
+      "title": "Drug Test Refusal: What It Means for a CDL and How Carriers Must Document It",
+      "category": "dqf",
+      "date": "2026-03-16",
+      "used": false
+    },
+    {
+      "id": "E053",
+      "url": "https://blog.thetruckercodex.com/lighting-violations-after-dark-why-night-inspections-produce/",
+      "title": "Lighting Violations After Dark: Why Night Inspections Produce Higher OOS Rates",
+      "category": "maintenance",
+      "date": "2026-03-16",
+      "used": false
+    },
+    {
+      "id": "E054",
+      "url": "https://blog.thetruckercodex.com/adverse-driving-conditions-exemption-when-and-how-to-apply-i/",
+      "title": "Adverse Driving Conditions Exemption: When and How to Apply It",
+      "category": "hos-eld",
+      "date": "2026-03-17",
+      "used": false
+    },
+    {
+      "id": "E055",
+      "url": "https://blog.thetruckercodex.com/the-clearinghouse-query-carriers-most-often-forget-to-run/",
+      "title": "The Clearinghouse Query Carriers Most Often Forget to Run",
+      "category": "dqf",
+      "date": "2026-03-17",
+      "used": false
+    },
+    {
+      "id": "E056",
+      "url": "https://blog.thetruckercodex.com/how-fmcsa-selects-carriers-for-compliance-reviews-the-data-b/",
+      "title": "How FMCSA Selects Carriers for Compliance Reviews: The Data Behind the Decision",
+      "category": "audits-violations",
+      "date": "2026-03-18",
+      "used": false
+    },
+    {
+      "id": "E057",
+      "url": "https://blog.thetruckercodex.com/what-a-conditional-safety-rating-actually-means-and-how-to-f/",
+      "title": "What a Conditional Safety Rating Actually Means and How to Fix It",
+      "category": "audits-violations",
+      "date": "2026-03-18",
+      "used": false
+    },
+    {
+      "id": "E058",
+      "url": "https://blog.thetruckercodex.com/the-6-recordkeeping-failures-fmcsa-auditors-find-in-every-sm/",
+      "title": "The 6 Recordkeeping Failures FMCSA Auditors Find in Every Small Carrier File",
+      "category": "audits-violations",
+      "date": "2026-03-19",
+      "used": false
+    },
+    {
+      "id": "E059",
+      "url": "https://blog.thetruckercodex.com/violation-severity-weights-why-some-tickets-cost-you-more-cs/",
+      "title": "Violation Severity Weights: Why Some Tickets Cost You More CSA Points",
+      "category": "audits-violations",
+      "date": "2026-03-19",
+      "used": false
+    },
+    {
+      "id": "E060",
+      "url": "https://blog.thetruckercodex.com/cvsa-roadcheck-week-how-to-prepare-your-fleet-before-the-ann/",
+      "title": "CVSA Roadcheck Week: How to Prepare Your Fleet Before the Annual Blitz",
+      "category": "audits-violations",
+      "date": "2026-03-20",
+      "used": false
+    },
+    {
+      "id": "E061",
+      "url": "https://blog.thetruckercodex.com/personal-conveyance-what-fmcsa-actually-permits/",
+      "title": "Personal Conveyance: What FMCSA Actually Permits",
+      "category": "hos-eld",
+      "date": "2026-03-20",
+      "used": false
+    },
+    {
+      "id": "E062",
+      "url": "https://blog.thetruckercodex.com/the-scale-house-decision-what-happens-when-youre-pulled-in/",
+      "title": "The Scale House Decision: What Happens When You're Pulled In",
+      "category": "audits-violations",
+      "date": "2026-03-21",
+      "used": false
+    },
+    {
+      "id": "E063",
+      "url": "https://blog.thetruckercodex.com/yard-moves-definition-proper-annotation-and-audit-risk/",
+      "title": "Yard Moves: Definition, Proper Annotation, and Audit Risk",
+      "category": "hos-eld",
+      "date": "2026-03-21",
+      "used": false
+    },
+    {
+      "id": "E064",
+      "url": "https://blog.thetruckercodex.com/eld-malfunction-protocol-what-drivers-and-carriers-must-do/",
+      "title": "ELD Malfunction Protocol: What Drivers and Carriers Must Do",
+      "category": "hos-eld",
+      "date": "2026-03-22",
+      "used": false
+    },
+    {
+      "id": "E065",
+      "url": "https://blog.thetruckercodex.com/how-to-dispute-a-roadside-inspection-finding-through-dataqs/",
+      "title": "How to Dispute a Roadside Inspection Finding Through DataQs",
+      "category": "audits-violations",
+      "date": "2026-03-22",
+      "used": false
+    },
+    {
+      "id": "E066",
+      "url": "https://blog.thetruckercodex.com/medical-certificate-expiration-the-cascade-of-consequences-w/",
+      "title": "Medical Certificate Expiration: The Cascade of Consequences When It Lapses",
+      "category": "dqf",
+      "date": "2026-03-23",
+      "used": false
+    },
+    {
+      "id": "E067",
+      "url": "https://blog.thetruckercodex.com/cdl-medical-certificate-requirements-timing-forms-and-filing/",
+      "title": "CDL Medical Certificate Requirements: Timing, Forms, and Filing",
+      "category": "dqf",
+      "date": "2026-03-24",
+      "used": false
+    },
+    {
+      "id": "E068",
+      "url": "https://blog.thetruckercodex.com/what-owner-operators-get-wrong-about-their-own-operating-aut/",
+      "title": "What Owner-Operators Get Wrong About Their Own Operating Authority",
+      "category": "fmcsa-basics",
+      "date": "2026-03-24",
+      "used": false
+    },
+    {
+      "id": "E069",
+      "url": "https://blog.thetruckercodex.com/sap-process-what-happens-after-a-positive-drug-test-step-by/",
+      "title": "SAP Process: What Happens After a Positive Drug Test, Step by Step",
+      "category": "dqf",
+      "date": "2026-03-25",
+      "used": false
+    },
+    {
+      "id": "E070",
+      "url": "https://blog.thetruckercodex.com/the-true-cost-of-an-oos-violation-fines-delays-and-csa-impac/",
+      "title": "The True Cost of an OOS Violation: Fines, Delays, and CSA Impact",
+      "category": "audits-violations",
+      "date": "2026-03-25",
+      "used": false
+    },
+    {
+      "id": "E071",
+      "url": "https://blog.thetruckercodex.com/how-hos-violations-become-crash-liability-what-plaintiff-att/",
+      "title": "How HOS Violations Become Crash Liability: What Plaintiff Attorneys Look For",
+      "category": "hos-eld",
+      "date": "2026-03-26",
+      "used": false
+    },
+    {
+      "id": "E072",
+      "url": "https://blog.thetruckercodex.com/annual-vehicle-inspection-stickers-whats-accepted-and-what-i/",
+      "title": "Annual Vehicle Inspection Stickers: What's Accepted and What Isn't",
+      "category": "maintenance",
+      "date": "2026-03-27",
+      "used": false
+    },
+    {
+      "id": "E073",
+      "url": "https://blog.thetruckercodex.com/dot-physical-examination-disqualifying-conditions-and-exempt/",
+      "title": "DOT Physical Examination: Disqualifying Conditions and Exemptions",
+      "category": "dqf",
+      "date": "2026-03-28",
+      "used": false
+    },
+    {
+      "id": "E074",
+      "url": "https://blog.thetruckercodex.com/eld-vendors-and-technical-non-compliance-what-the-2025-2026/",
+      "title": "ELD Vendors and Technical Non-Compliance: What the 2025-2026 Revocations Tell Us",
+      "category": "hos-eld",
+      "date": "2026-03-28",
+      "used": false
+    },
+    {
+      "id": "E075",
+      "url": "https://blog.thetruckercodex.com/vision-and-hearing-standards-for-cdl-holders/",
+      "title": "Vision and Hearing Standards for CDL Holders",
+      "category": "dqf",
+      "date": "2026-03-29",
+      "used": false
+    },
+    {
+      "id": "E076",
+      "url": "https://blog.thetruckercodex.com/why-new-entrants-fail-their-safety-audit-analysis-of-common/",
+      "title": "Why New Entrants Fail Their Safety Audit: Analysis of Common Findings",
+      "category": "audits-violations",
+      "date": "2026-03-29",
+      "used": false
+    },
+    {
+      "id": "E077",
+      "url": "https://blog.thetruckercodex.com/ifta-audit-triggers-how-fuel-tax-discrepancies-escalate-to-d/",
+      "title": "IFTA Audit Triggers: How Fuel Tax Discrepancies Escalate to DOT Attention",
+      "category": "fmcsa-basics",
+      "date": "2026-03-30",
+      "used": false
+    },
+    {
+      "id": "E078",
+      "url": "https://blog.thetruckercodex.com/overweight-violations-permit-requirements-fines-and-carrier/",
+      "title": "Overweight Violations: Permit Requirements, Fines, and Carrier Liability",
+      "category": "fmcsa-basics",
+      "date": "2026-03-31",
+      "used": false
+    },
+    {
+      "id": "E079",
+      "url": "https://blog.thetruckercodex.com/english-proficiency-enforcement-at-the-roadside-what-actuall/",
+      "title": "English Proficiency Enforcement at the Roadside: What Actually Happens",
+      "category": "audits-violations",
+      "date": "2026-04-01",
+      "used": false
+    },
+    {
+      "id": "E080",
+      "url": "https://blog.thetruckercodex.com/insurance-lapses-what-fmcsa-does-when-coverage-drops-below-m/",
+      "title": "Insurance Lapses: What FMCSA Does When Coverage Drops Below Minimums",
+      "category": "fmcsa-basics",
+      "date": "2026-04-02",
+      "used": false
+    },
+    {
+      "id": "E081",
+      "url": "https://blog.thetruckercodex.com/the-anatomy-of-a-dot-compliance-review-what-an-auditor-exami/",
+      "title": "The Anatomy of a DOT Compliance Review: What an Auditor Examines in Order",
+      "category": "audits-violations",
+      "date": "2026-04-03",
+      "used": false
+    },
+    {
+      "id": "E082",
+      "url": "https://blog.thetruckercodex.com/diabetes-exemption-program-how-cdl-drivers-with-itdm-qualify/",
+      "title": "Diabetes Exemption Program: How CDL Drivers with ITDM Qualify",
+      "category": "dqf",
+      "date": "2026-04-04",
+      "used": false
+    },
+    {
+      "id": "E083",
+      "url": "https://blog.thetruckercodex.com/how-roadside-inspection-data-is-uploaded-to-mcmis-and-how-lo/",
+      "title": "How Roadside Inspection Data Is Uploaded to MCMIS and How Long It Stays",
+      "category": "audits-violations",
+      "date": "2026-04-04",
+      "used": false
+    },
+    {
+      "id": "E084",
+      "url": "https://blog.thetruckercodex.com/annual-mvr-review-what-carriers-must-check-and-document/",
+      "title": "Annual MVR Review: What Carriers Must Check and Document",
+      "category": "dqf",
+      "date": "2026-04-05",
+      "used": false
+    },
+    {
+      "id": "E085",
+      "url": "https://blog.thetruckercodex.com/what-satisfactory-safety-rating-means-and-why-its-not-a-guar/",
+      "title": "What Satisfactory Safety Rating Means — and Why It's Not a Guarantee",
+      "category": "audits-violations",
+      "date": "2026-04-05",
+      "used": false
+    },
+    {
+      "id": "E086",
+      "url": "https://blog.thetruckercodex.com/road-test-requirements-when-a-certificate-of-violations-is-n/",
+      "title": "Road Test Requirements: When a Certificate of Violations Is Not Enough",
+      "category": "dqf",
+      "date": "2026-04-06",
+      "used": false
+    },
+    {
+      "id": "E087",
+      "url": "https://blog.thetruckercodex.com/speed-limiter-enforcement-in-practice-what-states-are-actual/",
+      "title": "Speed Limiter Enforcement in Practice: What States Are Actually Doing in 2026",
+      "category": "fmcsa-basics",
+      "date": "2026-04-06",
+      "used": false
+    },
+    {
+      "id": "E088",
+      "url": "https://blog.thetruckercodex.com/roadside-communication-what-to-say-and-what-not-to-say-to-an/",
+      "title": "Roadside Communication: What to Say and What Not to Say to an Inspector",
+      "category": "audits-violations",
+      "date": "2026-04-07",
+      "used": false
+    },
+    {
+      "id": "E089",
+      "url": "https://blog.thetruckercodex.com/when-a-driver-quits-mid-route-carrier-obligations-under-fmcs/",
+      "title": "When a Driver Quits Mid-Route: Carrier Obligations Under FMCSA Rules",
+      "category": "dqf",
+      "date": "2026-04-07",
+      "used": false
+    },
+    {
+      "id": "E090",
+      "url": "https://blog.thetruckercodex.com/how-carriers-with-clean-records-still-get-audited-the-trigge/",
+      "title": "How Carriers With Clean Records Still Get Audited: The Triggers Nobody Talks About",
+      "category": "audits-violations",
+      "date": "2026-04-08",
+      "used": false
+    },
+    {
+      "id": "E091",
+      "url": "https://blog.thetruckercodex.com/the-paper-trail-after-an-accident-every-document-you-need-an/",
+      "title": "The Paper Trail After an Accident: Every Document You Need and Why",
+      "category": "audits-violations",
+      "date": "2026-04-08",
+      "used": false
+    },
+    {
+      "id": "E092",
+      "url": "https://blog.thetruckercodex.com/building-a-dot-compliance-calendar-weekly-monthly-and-annual/",
+      "title": "Building a DOT Compliance Calendar: Weekly, Monthly, and Annual Checkpoints",
+      "category": "fmcsa-basics",
+      "date": "2026-04-09",
+      "used": false
+    },
+    {
+      "id": "E093",
+      "url": "https://blog.thetruckercodex.com/drug-testing-pre-employment-requirements-under-49-cfr-part-4/",
+      "title": "Drug Testing: Pre-Employment Requirements Under 49 CFR Part 40",
+      "category": "dqf",
+      "date": "2026-04-10",
+      "used": false
+    },
+    {
+      "id": "E094",
+      "url": "https://blog.thetruckercodex.com/random-drug-and-alcohol-testing-rates-pools-and-carrier-obli/",
+      "title": "Random Drug and Alcohol Testing: Rates, Pools, and Carrier Obligations",
+      "category": "dqf",
+      "date": "2026-04-11",
+      "used": false
+    },
+    {
+      "id": "E095",
+      "url": "https://blog.thetruckercodex.com/how-brake-adjustment-violations-dominate-national-oos-statis/",
+      "title": "How Brake Adjustment Violations Dominate National OOS Statistics: A Data Breakdown",
+      "category": "maintenance",
+      "date": "2026-04-16",
+      "used": false
+    },
+    {
+      "id": "E096",
+      "url": "https://blog.thetruckercodex.com/cvsa-operation-safe-driver-week-what-officers-target-and-how/",
+      "title": "CVSA Operation Safe Driver Week: What Officers Target and How to Prepare",
+      "category": "audits-violations",
+      "date": "2026-04-17",
+      "used": false
+    },
+    {
+      "id": "E097",
+      "url": "https://blog.thetruckercodex.com/post-accident-testing-the-decision-tree-carriers-get-wrong/",
+      "title": "Post-Accident Testing: The Decision Tree Carriers Get Wrong",
+      "category": "dqf",
+      "date": "2026-04-17",
+      "used": false
+    },
+    {
+      "id": "E098",
+      "url": "https://blog.thetruckercodex.com/level-vi-inspection-the-radioactive-materials-protocol-most/",
+      "title": "Level VI Inspection: The Radioactive Materials Protocol Most Carriers Overlook",
+      "category": "audits-violations",
+      "date": "2026-04-18",
+      "used": false
+    },
+    {
+      "id": "E099",
+      "url": "https://blog.thetruckercodex.com/reasonable-suspicion-testing-documentation-requirements-for/",
+      "title": "Reasonable Suspicion Testing: Documentation Requirements for Supervisors",
+      "category": "dqf",
+      "date": "2026-04-18",
+      "used": false
+    },
+    {
+      "id": "E100",
+      "url": "https://blog.thetruckercodex.com/fmcsa-clearinghouse-full-query-vs-limited-query-when-each-is/",
+      "title": "FMCSA Clearinghouse: Full Query vs. Limited Query — When Each Is Required",
+      "category": "dqf",
+      "date": "2026-04-19",
+      "used": false
+    },
+    {
+      "id": "E101",
+      "url": "https://blog.thetruckercodex.com/how-fmcsas-pre-employment-screening-program-psp-works-for-ca/",
+      "title": "How FMCSA's Pre-Employment Screening Program (PSP) Works for Carriers",
+      "category": "dqf",
+      "date": "2026-04-19",
+      "used": false
+    },
+    {
+      "id": "E102",
+      "url": "https://blog.thetruckercodex.com/the-3-hos-exemptions-most-commonly-misapplied-at-roadside-in/",
+      "title": "The 3 HOS Exemptions Most Commonly Misapplied at Roadside Inspections",
+      "category": "hos-eld",
+      "date": "2026-04-20",
+      "used": false
+    },
+    {
+      "id": "E103",
+      "url": "https://blog.thetruckercodex.com/what-happens-to-operating-authority-after-an-unsatisfactory/",
+      "title": "What Happens to Operating Authority After an Unsatisfactory Safety Rating",
+      "category": "audits-violations",
+      "date": "2026-04-20",
+      "used": false
+    },
+    {
+      "id": "E104",
+      "url": "https://blog.thetruckercodex.com/how-inspectors-verify-cdl-validity-at-the-roadside-the-datab/",
+      "title": "How Inspectors Verify CDL Validity at the Roadside: The Database Check Process",
+      "category": "audits-violations",
+      "date": "2026-04-21",
+      "used": false
+    },
+    {
+      "id": "E105",
+      "url": "https://blog.thetruckercodex.com/why-return-to-duty-violations-cost-more-than-the-original-dr/",
+      "title": "Why Return-to-Duty Violations Cost More Than the Original Drug Violation",
+      "category": "dqf",
+      "date": "2026-04-21",
+      "used": false
+    },
+    {
+      "id": "E106",
+      "url": "https://blog.thetruckercodex.com/how-fmcsa-weights-fatal-injury-and-tow-away-crashes-in-sms-s/",
+      "title": "How FMCSA Weights Fatal, Injury, and Tow-Away Crashes in SMS Scoring",
+      "category": "audits-violations",
+      "date": "2026-04-22",
+      "used": false
+    },
+    {
+      "id": "E107",
+      "url": "https://blog.thetruckercodex.com/the-most-common-annual-inspection-deficiencies-found-during/",
+      "title": "The Most Common Annual Inspection Deficiencies Found During FMCSA Compliance Reviews",
+      "category": "maintenance",
+      "date": "2026-04-22",
+      "used": false
+    },
+    {
+      "id": "E108",
+      "url": "https://blog.thetruckercodex.com/technical-standards-for-non-domiciled-cdl-issuance-and-save-verification-2026-update/",
+      "title": "Technical Standards for Non-Domiciled CDL Issuance and SAVE Verification (2026 Update)",
+      "category": "fmcsa-basics",
+      "date": "2026-04-23",
+      "used": false
+    },
+    {
+      "id": "E109",
+      "url": "https://blog.thetruckercodex.com/how-to-read-an-fmcsa-inspection-report-field-by-field-breakd/",
+      "title": "How to Read an FMCSA Inspection Report: Field-by-Field Breakdown",
+      "category": "audits-violations",
+      "date": "2026-04-23",
+      "used": false
+    },
+    {
+      "id": "E110",
+      "url": "https://blog.thetruckercodex.com/what-triggers-an-out-of-state-compliance-review-interstate-e/",
+      "title": "What Triggers an Out-of-State Compliance Review: Interstate Enforcement Data",
+      "category": "audits-violations",
+      "date": "2026-04-23",
+      "used": false
+    },
+    {
+      "id": "E111",
+      "url": "https://blog.thetruckercodex.com/how-eld-data-functions-as-evidence-in-commercial-truck-crash/",
+      "title": "How ELD Data Functions as Evidence in Commercial Truck Crash Litigation",
+      "category": "hos-eld",
+      "date": "2026-04-24",
+      "used": false
+    },
+    {
+      "id": "E112",
+      "url": "https://blog.thetruckercodex.com/how-inspectors-detect-hos-log-manipulation-patterns-theyre-t/",
+      "title": "How Inspectors Detect HOS Log Manipulation: Patterns They're Trained to Find",
+      "category": "hos-eld",
+      "date": "2026-04-24",
+      "used": false
+    },
+    {
+      "id": "E113",
+      "url": "https://blog.thetruckercodex.com/the-5-suspension-defects-that-most-often-lead-to-oos-orders/",
+      "title": "The 5 Suspension Defects That Most Often Lead to OOS Orders",
+      "category": "maintenance",
+      "date": "2026-04-25",
+      "used": false
+    },
+    {
+      "id": "E114",
+      "url": "https://blog.thetruckercodex.com/hours-of-service-recordkeeping-for-non-eld-operations/",
+      "title": "Hours of Service Recordkeeping for Non-ELD Operations",
+      "category": "hos-eld",
+      "date": "2026-04-26",
+      "used": false
+    },
+    {
+      "id": "E115",
+      "url": "https://blog.thetruckercodex.com/what-happens-during-an-fmcsa-focused-compliance-investigatio/",
+      "title": "What Happens During an FMCSA Focused Compliance Investigation",
+      "category": "audits-violations",
+      "date": "2026-04-26",
+      "used": false
+    },
+    {
+      "id": "E116",
+      "url": "https://blog.thetruckercodex.com/fmcsa-dot-updates-2025-2026/",
+      "title": "FMCSA & DOT Updates 2025–2026: What Changed and Why It Matters",
+      "category": "fmcsa-basics",
+      "date": "2026-04-27",
+      "used": false
+    },
+    {
+      "id": "E117",
+      "url": "https://blog.thetruckercodex.com/how-drug-clearinghouse-violations-affect-a-carriers-safety-r/",
+      "title": "How Drug Clearinghouse Violations Affect a Carrier's Safety Rating",
+      "category": "dqf",
+      "date": "2026-04-27",
+      "used": false
+    },
+    {
+      "id": "E118",
+      "url": "https://blog.thetruckercodex.com/driver-oos-vs-vehicle-oos-what-each-order-means-and-how-they/",
+      "title": "Driver OOS vs. Vehicle OOS: What Each Order Means and How They're Lifted",
+      "category": "audits-violations",
+      "date": "2026-04-28",
+      "used": false
+    },
+    {
+      "id": "E119",
+      "url": "https://blog.thetruckercodex.com/how-fmcsa-time-weights-violations-in-sms-why-recent-violatio/",
+      "title": "How FMCSA Time-Weights Violations in SMS: Why Recent Violations Hit Harder",
+      "category": "audits-violations",
+      "date": "2026-04-29",
+      "used": false
+    },
+    {
+      "id": "E120",
+      "url": "https://blog.thetruckercodex.com/level-iii-inspection-decoded-what-officers-examine-in-a-driv/",
+      "title": "Level III Inspection Decoded: What Officers Examine in a Driver-Only Check",
+      "category": "audits-violations",
+      "date": "2026-04-29",
+      "used": false
+    },
+    {
+      "id": "E121",
+      "url": "https://blog.thetruckercodex.com/annual-inspection-sticker-fraud-detection-methods-and-legal/",
+      "title": "Annual Inspection Sticker Fraud: Detection Methods and Legal Consequences",
+      "category": "maintenance",
+      "date": "2026-04-30",
+      "used": false
+    },
+    {
+      "id": "E122",
+      "url": "https://blog.thetruckercodex.com/cargo-securement-violations-by-load-type-flatbed-vs-tanker-v/",
+      "title": "Cargo Securement Violations by Load Type: Flatbed vs. Tanker vs. Van",
+      "category": "maintenance",
+      "date": "2026-04-30",
+      "used": false
+    },
+    {
+      "id": "E123",
+      "url": "https://blog.thetruckercodex.com/how-mcsap-funding-shapes-roadside-enforcement-priorities-by/",
+      "title": "How MCSAP Funding Shapes Roadside Enforcement Priorities by State",
+      "category": "audits-violations",
+      "date": "2026-05-01",
+      "used": false
+    },
+    {
+      "id": "E124",
+      "url": "https://blog.thetruckercodex.com/vehicle-inspection-reports-daily-dvir-requirements-and-reten/",
+      "title": "Vehicle Inspection Reports: Daily DVIR Requirements and Retention",
+      "category": "maintenance",
+      "date": "2026-05-01",
+      "used": false
+    },
+    {
+      "id": "E125",
+      "url": "https://blog.thetruckercodex.com/carrier-reincarnation-how-fmcsa-identifies-and-shuts-down-sh/",
+      "title": "Carrier Reincarnation: How FMCSA Identifies and Shuts Down Shell Carriers",
+      "category": "audits-violations",
+      "date": "2026-05-02",
+      "used": false
+    },
+    {
+      "id": "E126",
+      "url": "https://blog.thetruckercodex.com/periodic-inspection-requirements-what-the-annual-dot-inspect/",
+      "title": "Periodic Inspection Requirements: What the Annual DOT Inspection Must Cover",
+      "category": "maintenance",
+      "date": "2026-05-02",
+      "used": false
+    },
+    {
+      "id": "E127",
+      "url": "https://blog.thetruckercodex.com/how-weigh-in-motion-technology-is-used-to-pre-screen-trucks/",
+      "title": "How Weigh-in-Motion Technology Is Used to Pre-Screen Trucks Before the Scale",
+      "category": "audits-violations",
+      "date": "2026-05-03",
+      "used": false
+    },
+    {
+      "id": "E128",
+      "url": "https://blog.thetruckercodex.com/how-csa-scores-affect-commercial-trucking-insurance-premiums/",
+      "title": "How CSA Scores Affect Commercial Trucking Insurance Premiums",
+      "category": "audits-violations",
+      "date": "2026-05-04",
+      "used": false
+    },
+    {
+      "id": "E129",
+      "url": "https://blog.thetruckercodex.com/why-small-carriers-have-disproportionately-higher-oos-rates/",
+      "title": "Why Small Carriers Have Disproportionately Higher OOS Rates Than Large Fleets",
+      "category": "audits-violations",
+      "date": "2026-05-04",
+      "used": false
+    },
+    {
+      "id": "E130",
+      "url": "https://blog.thetruckercodex.com/passenger-carrier-compliance-reviews-what-differs-from-freig/",
+      "title": "Passenger Carrier Compliance Reviews: What Differs from Freight Operations",
+      "category": "audits-violations",
+      "date": "2026-05-05",
+      "used": false
+    },
+    {
+      "id": "E131",
+      "url": "https://blog.thetruckercodex.com/what-the-national-registry-of-certified-medical-examiners-me/",
+      "title": "What the National Registry of Certified Medical Examiners Means for Carriers",
+      "category": "dqf",
+      "date": "2026-05-05",
+      "used": false
+    },
+    {
+      "id": "E132",
+      "url": "https://blog.thetruckercodex.com/the-impact-of-inspection-frequency-on-a-carriers-sms-percent/",
+      "title": "The Impact of Inspection Frequency on a Carrier's SMS Percentile Ranking",
+      "category": "audits-violations",
+      "date": "2026-05-06",
+      "used": false
+    },
+    {
+      "id": "E133",
+      "url": "https://blog.thetruckercodex.com/what-to-expect-during-a-new-entrant-safety-audit-document-ch/",
+      "title": "What to Expect During a New Entrant Safety Audit: Document Checklist and Timeline",
+      "category": "audits-violations",
+      "date": "2026-05-06",
+      "used": false
+    },
+    {
+      "id": "E134",
+      "url": "https://blog.thetruckercodex.com/how-drug-test-collection-errors-create-carrier-liability-and/",
+      "title": "How Drug Test Collection Errors Create Carrier Liability and Compliance Gaps",
+      "category": "dqf",
+      "date": "2026-05-07",
+      "used": false
+    },
+    {
+      "id": "E135",
+      "url": "https://blog.thetruckercodex.com/the-five-basics-with-highest-statistical-correlation-to-cras/",
+      "title": "The Five BASICs with Highest Statistical Correlation to Crash Risk",
+      "category": "audits-violations",
+      "date": "2026-05-07",
+      "used": false
+    },
+    {
+      "id": "E136",
+      "url": "https://blog.thetruckercodex.com/fmcsas-intervention-escalation-model-from-warning-letter-to/",
+      "title": "FMCSA's Intervention Escalation Model: From Warning Letter to Consent Agreement",
+      "category": "audits-violations",
+      "date": "2026-05-08",
+      "used": false
+    },
+    {
+      "id": "E137",
+      "url": "https://blog.thetruckercodex.com/what-owner-operators-must-do-compliance-wise-when-leasing-on/",
+      "title": "What Owner-Operators Must Do Compliance-Wise When Leasing On to a New Carrier",
+      "category": "dqf",
+      "date": "2026-05-08",
+      "used": false
+    },
+    {
+      "id": "E138",
+      "url": "https://blog.thetruckercodex.com/how-electronic-bill-of-lading-affects-document-requirements/",
+      "title": "How Electronic Bill of Lading Affects Document Requirements at Roadside Inspections",
+      "category": "audits-violations",
+      "date": "2026-05-09",
+      "used": false
+    },
+    {
+      "id": "E139",
+      "url": "https://blog.thetruckercodex.com/out-of-service-criteria-steering-system-defects/",
+      "title": "Out-of-Service Criteria: Steering System Defects",
+      "category": "maintenance",
+      "date": "2026-05-09",
+      "used": false
+    },
+    {
+      "id": "E140",
+      "url": "https://blog.thetruckercodex.com/fmcsas-most-cited-violations-analysis-of-the-annual-top-viol/",
+      "title": "FMCSA's Most-Cited Violations: Analysis of the Annual Top Violation Data",
+      "category": "audits-violations",
+      "date": "2026-05-10",
+      "used": false
+    },
+    {
+      "id": "E141",
+      "url": "https://blog.thetruckercodex.com/out-of-service-criteria-lighting-defects-that-ground-a-vehic/",
+      "title": "Out-of-Service Criteria: Lighting Defects That Ground a Vehicle",
+      "category": "maintenance",
+      "date": "2026-05-10",
+      "used": false
+    },
+    {
+      "id": "E142",
+      "url": "https://blog.thetruckercodex.com/drayage-and-intermodal-operations-the-compliance-gaps-port-t/",
+      "title": "Drayage and Intermodal Operations: The Compliance Gaps Port Truckers Miss",
+      "category": "fmcsa-basics",
+      "date": "2026-05-11",
+      "used": false
+    },
+    {
+      "id": "E143",
+      "url": "https://blog.thetruckercodex.com/what-carriers-must-do-when-a-drivers-cdl-is-downgraded-mid-e/",
+      "title": "What Carriers Must Do When a Driver's CDL Is Downgraded Mid-Employment",
+      "category": "dqf",
+      "date": "2026-05-11",
+      "used": false
+    },
+    {
+      "id": "E144",
+      "url": "https://blog.thetruckercodex.com/fmcsa-imminent-hazard-orders-when-a-carrier-gets-shut-down-w/",
+      "title": "FMCSA Imminent Hazard Orders: When a Carrier Gets Shut Down Without a Hearing",
+      "category": "audits-violations",
+      "date": "2026-05-12",
+      "used": false
+    },
+    {
+      "id": "E145",
+      "url": "https://blog.thetruckercodex.com/how-post-accident-drug-testing-timelines-affect-litigation-o/",
+      "title": "How Post-Accident Drug Testing Timelines Affect Litigation Outcomes",
+      "category": "dqf",
+      "date": "2026-05-12",
+      "used": false
+    },
+    {
+      "id": "E146",
+      "url": "https://blog.thetruckercodex.com/how-fatigue-science-informs-fmcsas-hours-of-service-rule-str/",
+      "title": "How Fatigue Science Informs FMCSA's Hours of Service Rule Structure",
+      "category": "hos-eld",
+      "date": "2026-05-13",
+      "used": false
+    },
+    {
+      "id": "E147",
+      "url": "https://blog.thetruckercodex.com/what-fmcsas-safety-fitness-determination-rulemaking-would-ha/",
+      "title": "What FMCSA's Safety Fitness Determination Rulemaking Would Have Changed",
+      "category": "audits-violations",
+      "date": "2026-05-13",
+      "used": false
+    },
+    {
+      "id": "E148",
+      "url": "https://blog.thetruckercodex.com/how-seasonal-and-agricultural-operations-affect-fmcsa-regist/",
+      "title": "How Seasonal and Agricultural Operations Affect FMCSA Registration Requirements",
+      "category": "fmcsa-basics",
+      "date": "2026-05-14",
+      "used": false
+    },
+    {
+      "id": "E149",
+      "url": "https://blog.thetruckercodex.com/the-dataqs-process-success-rates-timelines-and-what-to-expec/",
+      "title": "The DataQs Process: Success Rates, Timelines, and What to Expect After Filing",
+      "category": "audits-violations",
+      "date": "2026-05-14",
+      "used": false
+    },
+    {
+      "id": "E150",
+      "url": "https://blog.thetruckercodex.com/out-of-service-criteria-coupling-devices-and-fifth-wheel/",
+      "title": "Out-of-Service Criteria: Coupling Devices and Fifth Wheel",
+      "category": "maintenance",
+      "date": "2026-05-16",
+      "used": false
+    },
+    {
+      "id": "E151",
+      "url": "https://blog.thetruckercodex.com/cargo-securement-rules-tie-down-requirements-and-blocking/",
+      "title": "Cargo Securement Rules: Tie-Down Requirements and Blocking",
+      "category": "maintenance",
+      "date": "2026-05-17",
+      "used": false
+    },
+    {
+      "id": "E152",
+      "url": "https://blog.thetruckercodex.com/hazardous-materials-shipping-papers-what-must-be-on-the-docu/",
+      "title": "Hazardous Materials Shipping Papers: What Must Be on the Document",
+      "category": "fmcsa-basics",
+      "date": "2026-05-23",
+      "used": false
+    },
+    {
+      "id": "E153",
+      "url": "https://blog.thetruckercodex.com/hazmat-placarding-when-its-required-and-which-placard-to-use/",
+      "title": "Hazmat Placarding: When It's Required and Which Placard to Use",
+      "category": "fmcsa-basics",
+      "date": "2026-05-24",
+      "used": false
+    }
+  ],
+  "product": [
+    {
+      "id": "P01",
+      "etsy_url": "https://www.etsy.com/listing/4462603012/dot-roadside-inspection-kit-cdl-driver",
+      "title": "DOT Roadside Inspection Kit, CDL Driver Communication Guide and Checklist",
+      "category": "audits-violations",
+      "price": "$19.00",
+      "used": false
+    },
+    {
+      "id": "P02",
+      "etsy_url": "https://www.etsy.com/listing/4458962278/eld-revoked-2026-emergency-kit-fmcsa",
+      "title": "ELD Revoked Emergency Kit, 2026 Paper Logbook and Malfunction Form",
+      "category": "hos-eld",
+      "price": "$9.90",
+      "used": false
+    },
+    {
+      "id": "P03",
+      "etsy_url": "https://www.etsy.com/listing/4457324370/drug-alcohol-compliance-system-audit",
+      "title": "DOT Drug and Alcohol Compliance System, Clearinghouse and Random Testing Log",
+      "category": "dqf",
+      "price": "$99.00",
+      "used": false
+    },
+    {
+      "id": "P04",
+      "etsy_url": "https://www.etsy.com/listing/4455445733/driver-qualification-file-system-o-dot",
+      "title": "DOT Driver Qualification File System 2026, FMCSA Compliance Forms and Logs",
+      "category": "dqf",
+      "price": "$39.00",
+      "used": false
+    },
+    {
+      "id": "P05",
+      "etsy_url": "https://www.etsy.com/listing/4454398629/dot-audit-and-safety-compliance-o-logs",
+      "title": "DOT Safety Audit Compliance System, Logs, SOPs and Checklists",
+      "category": "audits-violations",
+      "price": "$49.00",
+      "used": false
+    },
+    {
+      "id": "P06",
+      "etsy_url": "https://www.etsy.com/listing/4453543004/trucker-codex-dot-compliance-binder-pdf",
+      "title": "DOT Compliance Binder and FMCSA Audit-Ready System, 2026 Complete Kit",
+      "category": "fmcsa-basics",
+      "price": "$249.00",
+      "used": false
+    },
+    {
+      "id": "P07",
+      "etsy_url": "https://www.etsy.com/listing/4475633295/truck-pre-trip-inspection-and-dvir-form",
+      "title": "Truck Pre-Trip Inspection and DVIR Form, DOT Safety Log",
+      "category": "maintenance",
+      "price": "$5.94",
+      "used": false
+    },
+    {
+      "id": "P08",
+      "etsy_url": "https://www.etsy.com/listing/4472088821/hazmat-trucking-forms-system-dot",
+      "title": "Hazmat Trucking Forms System, DOT Shipping Paper and Placard Guide",
+      "category": "recordkeeping",
+      "price": "$129.00",
+      "used": false
+    },
+    {
+      "id": "P09",
+      "etsy_url": "https://www.etsy.com/listing/4469275456/dot-pre-trip-and-post-trip-inspection",
+      "title": "DOT Pre-Trip and Post-Trip Inspection System, DVIR and FMCSA Compliance Kit",
+      "category": "maintenance",
+      "price": "$29.90",
+      "used": false
+    },
+    {
+      "id": "P10",
+      "etsy_url": "https://www.etsy.com/listing/4460991248/dot-roadside-inspection-checklist-oos",
+      "title": "DOT Roadside Inspection Checklist, OOS Risk Control and Repair Log",
+      "category": "audits-violations",
+      "price": "$9.90",
+      "used": false
+    },
+    {
+      "id": "P11",
+      "etsy_url": "https://www.etsy.com/listing/4467270115/fmcsa-new-authority-startup-compliance",
+      "title": "FMCSA New Authority Startup Compliance Kit, DOT Safety Audit and DQ File System",
+      "category": "fmcsa-basics",
+      "price": "$59.00",
+      "used": false
+    },
+    {
+      "id": "P12",
+      "etsy_url": "https://www.etsy.com/listing/4479085412/easy-all-in-one-trucking-load-and",
+      "title": "Easy All-in-One Trucking Load and Expense Tracker for Owner Operators",
+      "category": "fmcsa-basics",
+      "price": "$19.90",
+      "used": false
+    }
+  ]
+}
