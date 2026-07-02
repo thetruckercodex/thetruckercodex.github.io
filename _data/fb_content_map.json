@@ -45,8 +45,8 @@
       "icon_notes": "Plan bu kategori için örnek vermemişti — dosya dolabı önerisi, teyit gerekir"
     }
   },
-  "next_slot_index": 0,
-  "next_educational_index": 0,
+  "next_slot_index": 1,
+  "next_educational_index": 1,
   "next_product_index": 0,
   "educational": [
     {
@@ -55,7 +55,7 @@
       "title": "Common DOT Violations and How to Avoid Them",
       "category": "audits-violations",
       "date": "2026-02-08",
-      "used": false
+      "used": true
     },
     {
       "id": "E002",
