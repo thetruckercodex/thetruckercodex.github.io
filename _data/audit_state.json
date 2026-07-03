@@ -1,5 +1,5 @@
 {
-  "cursor": 5,
+  "cursor": 10,
   "cycle": 1,
   "posts": {
     "2026-02-08-common-dot-violations-how-to-avoid.md": {
@@ -23,7 +23,31 @@
     "2026-02-08-electronic-logging-device-eld-compliance.md": {
       "last_checked_date": "2026-07-03",
       "last_result": "no_change"
+    },
+    "2026-02-09-brake-system-violations-out-of-service.md": {
+      "open_pr_number": 3,
+      "last_checked_date": "2026-07-03",
+      "last_result": "updated"
+    },
+    "2026-02-09-hours-of-service-violations-out-of-service.md": {
+      "open_pr_number": 4,
+      "last_checked_date": "2026-07-03",
+      "last_result": "updated"
+    },
+    "2026-02-11-Understanding-DOT-Roadside-Inspections.md": {
+      "open_pr_number": 5,
+      "last_checked_date": "2026-07-03",
+      "last_result": "updated"
+    },
+    "2026-02-16-fmcsa-sfd-overhaul-2026.md": {
+      "last_checked_date": "2026-07-03",
+      "last_result": "no_change"
+    },
+    "2026-02-16-The-Ultimate-Guide-to-2026-Driver-Qualification.md": {
+      "open_pr_number": 6,
+      "last_checked_date": "2026-07-03",
+      "last_result": "updated"
     }
   },
-  "updated_at": "2026-07-03T05:13:33.560925+00:00"
+  "updated_at": "2026-07-03T12:18:33.817329+00:00"
 }

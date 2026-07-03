@@ -44,6 +44,58 @@
           "reasoning": "Federal Register document 2026-12448 (published 2026-06-22, effective 2026-07-22) is a final rule amending 49 CFR Part 395 to rescind the requirement that a copy of the ELD operator's manual be kept in the CMV. The current post does not mention this requirement at all — neither the original rule nor its rescission. However, because the post is a compliance guide for 49 CFR Part 395 / § 395.22, the rescission of a formerly mandatory in-cab document requirement under that same regulatory framework is a concrete, specific amendment to 49 CFR Part 395 that a compliance-oriented reader relying on this post would need to know about. The post's \"Core ELD Compliance Requirements\" section and its regulatory reference summary should be updated to note that carriers are no longer required to keep an ELD operator's manual in the CMV (effective 2026-07-22), while drivers still must understand ELD operation to ensure log accuracy and present information during inspections. [PARSE_ERROR: updated content block missing, downgraded to NO_CHANGE]"
         }
       ]
+    },
+    {
+      "run_date": "2026-07-03T12:18:33.817625+00:00",
+      "entries": [
+        {
+          "timestamp": "2026-07-03T12:16:32.339758+00:00",
+          "file": "2026-02-09-brake-system-violations-out-of-service.md",
+          "status": "updated",
+          "pr_url": "https://github.com/thetruckercodex/thetruckercodex.github.io/pull/3",
+          "change_summary": "Add a note reflecting the FMCSA final rule (FR doc #2026-03256, eff. 2026-03-23) that creates a limited exception to the all-wheels braking requirement for pre-2010 portable conveyors used in aggregate industry operations, amending 49 CFR Part 393. This prevents the post from implying an unqualified all-wheels brake requirement with no exceptions.",
+          "sources": [
+            "https://www.federalregister.gov/documents/2026/02/19/2026-03256/parts-and-accessories-necessary-for-safe-operation-brakes-on-portable-conveyors"
+          ]
+        },
+        {
+          "timestamp": "2026-07-03T12:16:53.258140+00:00",
+          "file": "2026-02-09-hours-of-service-violations-out-of-service.md",
+          "status": "updated",
+          "pr_url": "https://github.com/thetruckercodex/thetruckercodex.github.io/pull/4",
+          "change_summary": "A 2026 final rule (FR doc #2026-12448, eff. 2026-07-22) rescinds the requirement to keep an ELD operator's manual in the CMV under 49 CFR Part 395; the post should reflect this amendment and clarify that the driver knowledge/operation requirement remains in force.",
+          "sources": [
+            "https://www.federalregister.gov/documents/2026/06/22/2026-12448/rescinding-the-requirement-for-electronic-logging-device-operators-manual-located-in-commercial"
+          ]
+        },
+        {
+          "timestamp": "2026-07-03T12:17:35.158481+00:00",
+          "file": "2026-02-11-Understanding-DOT-Roadside-Inspections.md",
+          "status": "updated",
+          "pr_url": "https://github.com/thetruckercodex/thetruckercodex.github.io/pull/5",
+          "change_summary": "Two 2026 final rules amending 49 CFR Part 396 are reflected: (1) explicit authorization of electronic DVIRs (FR doc #2026-03264, eff. 2026-03-23); and (2) revision of the motor carrier obligation to sign and return completed roadside inspection reports to issuing State agencies (FR doc #2026-12450, eff. 2026-07-22).",
+          "sources": [
+            "https://www.federalregister.gov/documents/2026/02/19/2026-03264/electronic-driver-vehicle-inspection-reports",
+            "https://www.federalregister.gov/documents/2026/06/22/2026-12450/completed-inspection-report-disposition"
+          ]
+        },
+        {
+          "timestamp": "2026-07-03T12:17:40.769114+00:00",
+          "file": "2026-02-16-fmcsa-sfd-overhaul-2026.md",
+          "status": "no_change",
+          "reasoning": "The Federal Register document in question (doc #2026-03258, effective 2026-03-23) amends 49 CFR Part 391 by removing an obsolete grandfathering provision related to a historical vision waiver study program (1992–1994) and vision exemption program (1998–2022). This is a narrow housekeeping amendment that eliminates a provision that was already effectively inoperative. The published post makes no claims about vision standards, vision waivers, or any grandfathering provisions under 49 CFR Part 391. The only specific regulatory citation in the post touching Part 391 is to §391.11(b)(2) regarding English Language Proficiency, which is entirely unaffected by this amendment. There is no concrete, specific change introduced by doc #2026-03258 that conflicts with, contradicts, or materially updates any factual regulatory claim made in the post."
+        },
+        {
+          "timestamp": "2026-07-03T12:18:33.817298+00:00",
+          "file": "2026-02-16-The-Ultimate-Guide-to-2026-Driver-Qualification.md",
+          "status": "updated",
+          "pr_url": "https://github.com/thetruckercodex/thetruckercodex.github.io/pull/6",
+          "change_summary": "FMCSA's final rule (FR doc #2026-03258, effective 2026-03-23) removes the obsolete grandfathering provision for drivers under the 1992–1994 vision waiver study and 1998–2022 vision exemption programs from 49 CFR Part 391 physical qualification standards. The post's medical qualification section should be updated to reflect that this grandfathering pathway no longer exists under Part 391.",
+          "sources": [
+            "https://www.federalregister.gov/documents/2026/02/19/2026-03258/qualifications-of-drivers-vision-standards-grandfathering-provision"
+          ]
+        }
+      ]
     }
   ]
 }
