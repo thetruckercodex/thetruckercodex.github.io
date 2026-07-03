@@ -4,6 +4,7 @@ title: "DOT Vehicle Inspection and Maintenance Requirements"
 category: maintenance
 permalink: /dot-vehicle-inspection-maintenance-requirements/
 description: "An overview of DOT vehicle inspection and maintenance requirements under 49 CFR Part 396 and how structured maintenance reduces enforcement risk."
+last_modified_at: 2026-07-03
 ---
 Most roadside maintenance violations come from missing structure, not rare mechanical failures. A documented inspection-and-repair routine aligned to 49 CFR Part 396 reduces OOS risk and repeat inspections.
 

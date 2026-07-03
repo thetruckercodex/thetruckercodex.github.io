@@ -447,6 +447,44 @@ def parse_assessment(text):
     return result
 
 
+def ensure_last_modified_at(content, date_str):
+    """Frontmatter'a last_modified_at alanini ekler/gunceller.
+
+    Bu alan olmadan minimal-mistakes temasi dateModified schema.org meta
+    etiketini HIC render etmiyor (bkz. _layouts/single.html) ve
+    jekyll-sitemap'in urettigi sitemap.xml'deki <lastmod> orijinal yayin
+    tarihinde kaliyor (bkz. jekyll-sitemap README, oncelik sirasi: 1) sadece
+    GitHub Pages ile uyumsuz jekyll-last-modified-at eklentisi, 2)
+    last_modified_at front matter, 3) fallback post.date). GitHub Pages bu
+    repoda kullanildigi icin (1) devre disi -- last_modified_at set
+    edilmezse Google'a hicbir gercek guncelleme sinyali gitmiyor.
+    """
+    match = re.match(r'^---\n(.*?)\n---\n', content, re.DOTALL)
+    if not match:
+        return content  # frontmatter yoksa dokunma
+
+    fm_block = match.group(1)
+    rest = content[match.end():]
+
+    if re.search(r'^last_modified_at\s*:', fm_block, re.MULTILINE):
+        fm_block = re.sub(
+            r'^last_modified_at\s*:.*$',
+            f'last_modified_at: {date_str}',
+            fm_block, flags=re.MULTILINE,
+        )
+    else:
+        lines = fm_block.split("\n")
+        insert_at = len(lines)
+        for i, line in enumerate(lines):
+            if re.match(r'^date\s*:', line):
+                insert_at = i + 1
+                break
+        lines.insert(insert_at, f'last_modified_at: {date_str}')
+        fm_block = "\n".join(lines)
+
+    return f"---\n{fm_block}\n---\n{rest}"
+
+
 # -- Git / GitHub PR -----------------------------------------------------------
 
 def run_git(args, **kwargs):
@@ -488,8 +526,9 @@ def create_update_pr(post, assessment, base_branch, repo, token):
     run_git(["checkout", base_branch])
     run_git(["checkout", "-B", branch, f"origin/{base_branch}"])
 
+    updated_content = ensure_last_modified_at(assessment["updated_content"], today_iso())
     with open(post["file"], "w", encoding="utf-8") as f:
-        f.write(assessment["updated_content"])
+        f.write(updated_content)
 
     run_git(["config", "user.email", "action@github.com"])
     run_git(["config", "user.name", "Trucker Codex Regulatory Auditor"])
