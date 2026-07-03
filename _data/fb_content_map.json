@@ -45,8 +45,8 @@
       "icon_notes": "Plan bu kategori için örnek vermemişti — dosya dolabı önerisi, teyit gerekir"
     }
   },
-  "next_slot_index": 2,
-  "next_educational_index": 3,
+  "next_slot_index": 3,
+  "next_educational_index": 4,
   "next_product_index": 3,
   "educational": [
     {
@@ -79,7 +79,7 @@
       "title": "DOT Vehicle Inspection and Maintenance Requirements",
       "category": "maintenance",
       "date": "2026-02-08",
-      "used": false
+      "used": true
     },
     {
       "id": "E005",
