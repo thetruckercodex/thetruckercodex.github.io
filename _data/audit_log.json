@@ -1,3 +1,49 @@
 {
-  "runs": []
+  "runs": [
+    {
+      "run_date": "2026-07-03T05:13:33.561249+00:00",
+      "entries": [
+        {
+          "timestamp": "2026-07-03T05:11:45.341351+00:00",
+          "file": "2026-02-08-common-dot-violations-how-to-avoid.md",
+          "status": "updated",
+          "pr_url": "https://github.com/thetruckercodex/thetruckercodex.github.io/pull/1",
+          "change_summary": "Reflects two February 2026 FMCSA final rules under 49 CFR Part 393: (1) clarification that FMCSR does not require tire load restriction sidewall markings (doc #2026-03260, eff. 2026-03-23), and (2) a new brake exception for pre-2010 portable conveyors used in aggregate industry operations (doc #2026-03256, eff. 2026-03-23).",
+          "sources": [
+            "https://www.federalregister.gov/documents/2026/02/19/2026-03260/parts-and-accessories-necessary-for-safe-operation-tire-load-markings",
+            "https://www.federalregister.gov/documents/2026/02/19/2026-03256/parts-and-accessories-necessary-for-safe-operation-brakes-on-portable-conveyors"
+          ]
+        },
+        {
+          "timestamp": "2026-07-03T05:11:45.943750+00:00",
+          "file": "2026-02-08-dot-compliance-audit-triggers.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-07-03T05:11:52.839116+00:00",
+          "file": "2026-02-08-dot-recordkeeping-document-retention.md",
+          "status": "no_change",
+          "reasoning": "The Federal Register document (2026-12448, effective 2026-07-22) rescinds the requirement to keep an ELD operator's manual in the CMV — an amendment to the ELD in-cab documentation rules (which fall under 49 CFR Part 395, Subpart B, specifically §395.22). The audited post makes no claim about the ELD operator's manual requirement, in-cab document retention for ELDs, or §395.22. The post's only specific reference to §395.8 is a general, accurate statement that \"certain Hours-of-Service records must be retained under 49 CFR §395.8, which governs record of duty status requirements.\" That statement remains accurate and is entirely unaffected by the operator's manual rescission. The FR amendment does not alter §395.8's record retention mandates, retention timelines, or any other regulatory fact asserted in the post. No concrete change evidenced in the supplied source data touches any claim actually made in the published post."
+        },
+        {
+          "timestamp": "2026-07-03T05:12:22.028277+00:00",
+          "file": "2026-02-08-dot-vehicle-inspection-maintenance-requirements.md",
+          "status": "updated",
+          "pr_url": "https://github.com/thetruckercodex/thetruckercodex.github.io/pull/2",
+          "change_summary": "Two 2026 FMCSA final rules amend 49 CFR Part 396: one explicitly permits electronic DVIRs (effective 2026-03-23), and one revises the requirement to return completed roadside inspection forms to issuing State agencies (effective 2026-07-22). The post has been updated to reflect both changes.",
+          "sources": [
+            "https://www.federalregister.gov/documents/2026/02/19/2026-03264/electronic-driver-vehicle-inspection-reports",
+            "https://www.federalregister.gov/documents/2026/06/22/2026-12450/completed-inspection-report-disposition"
+          ]
+        },
+        {
+          "timestamp": "2026-07-03T05:13:33.560894+00:00",
+          "file": "2026-02-08-electronic-logging-device-eld-compliance.md",
+          "status": "no_change",
+          "reasoning": "Federal Register document 2026-12448 (published 2026-06-22, effective 2026-07-22) is a final rule amending 49 CFR Part 395 to rescind the requirement that a copy of the ELD operator's manual be kept in the CMV. The current post does not mention this requirement at all — neither the original rule nor its rescission. However, because the post is a compliance guide for 49 CFR Part 395 / § 395.22, the rescission of a formerly mandatory in-cab document requirement under that same regulatory framework is a concrete, specific amendment to 49 CFR Part 395 that a compliance-oriented reader relying on this post would need to know about. The post's \"Core ELD Compliance Requirements\" section and its regulatory reference summary should be updated to note that carriers are no longer required to keep an ELD operator's manual in the CMV (effective 2026-07-22), while drivers still must understand ELD operation to ensure log accuracy and present information during inspections. [PARSE_ERROR: updated content block missing, downgraded to NO_CHANGE]"
+        }
+      ]
+    }
+  ]
 }

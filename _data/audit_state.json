@@ -1,6 +1,29 @@
 {
-  "cursor": 0,
+  "cursor": 5,
   "cycle": 1,
-  "posts": {},
-  "updated_at": null
+  "posts": {
+    "2026-02-08-common-dot-violations-how-to-avoid.md": {
+      "open_pr_number": 1,
+      "last_checked_date": "2026-07-03",
+      "last_result": "updated"
+    },
+    "2026-02-08-dot-compliance-audit-triggers.md": {
+      "last_checked_date": "2026-07-03",
+      "last_result": "no_change"
+    },
+    "2026-02-08-dot-recordkeeping-document-retention.md": {
+      "last_checked_date": "2026-07-03",
+      "last_result": "no_change"
+    },
+    "2026-02-08-dot-vehicle-inspection-maintenance-requirements.md": {
+      "open_pr_number": 2,
+      "last_checked_date": "2026-07-03",
+      "last_result": "updated"
+    },
+    "2026-02-08-electronic-logging-device-eld-compliance.md": {
+      "last_checked_date": "2026-07-03",
+      "last_result": "no_change"
+    }
+  },
+  "updated_at": "2026-07-03T05:13:33.560925+00:00"
 }
