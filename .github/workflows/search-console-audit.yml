@@ -33,5 +33,16 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add _data/gsc_performance.json _data/gsc_indexing.json
-          git diff --staged --quiet || git commit -m "Auto: Search Console verisi guncellendi ($(date -u +%Y-%m-%d))"
-          git push
+          git diff --staged --quiet && exit 0
+          git commit -m "Auto: Search Console verisi guncellendi ($(date -u +%Y-%m-%d))"
+          # Bu is uzun surdugu (URL Inspection API ~19dk) icin, calisma
+          # boyunca master'a baska commit gelmis olabilir (bkz. 2026-07-03
+          # #1 calismasindaki "fetch first" push reddi). Push etmeden once
+          # rebase ile senkronize ol; basarisiz olursa birkac kez dene.
+          for i in 1 2 3; do
+            git fetch origin master
+            git rebase origin/master && git push origin HEAD:master && break
+            echo "Push denemesi $i basarisiz, tekrar deneniyor..."
+            git rebase --abort 2>/dev/null || true
+            sleep 5
+          done
