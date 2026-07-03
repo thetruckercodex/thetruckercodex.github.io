@@ -1,0 +1,51 @@
+name: Daily Regulatory Audit
+
+on:
+  schedule:
+    # Günde 1 kez, yeni yazı üretiminden farklı bir saatte: 12:00 UTC (07:00 EST)
+    - cron: '0 12 * * *'
+  workflow_dispatch:
+    inputs:
+      batch_size:
+        description: 'Bu çalıştırmada kaç yazı denetlenecek'
+        required: false
+        default: '5'
+
+jobs:
+  audit-posts:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install anthropic requests
+
+      - name: Run regulatory audit
+        run: python scripts/audit_regulatory_posts.py
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          AUDIT_BATCH_SIZE: ${{ github.event.inputs.batch_size || '5' }}
+
+      - name: Commit audit state and log
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "Trucker Codex Regulatory Auditor"
+          git add _data/audit_state.json _data/audit_log.json
+          git diff --staged --quiet || git commit -m "Audit: update state/log $(date -u +%Y-%m-%d)"
+          git push
