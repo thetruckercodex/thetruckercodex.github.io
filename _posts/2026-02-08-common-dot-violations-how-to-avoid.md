@@ -40,6 +40,8 @@ Recurring violations are rarely the result of regulatory complexity. More often,
 
 For example, tire tread depth minimums under [49 CFR §393.75](https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-393/subpart-G/section-393.75) establish measurable thresholds. Relying on visual assessment instead of a gauge frequently results in avoidable violations.
 
+> **Regulatory Note (effective 2026-03-23):** A February 2026 FMCSA final rule (doc #2026-03260) amended 49 CFR Part 393 to clarify that the Federal Motor Carrier Safety Regulations do **not** require tire load restriction markings on the sidewalls of CMV tires. This change eliminates a point of prior confusion: the absence of sidewall load markings is not itself a violation under the FMCSR. Tread depth and condition standards under §393.75 remain in effect and enforceable.
+
 Tire-specific enforcement standards are covered in our [Tire Defects and OOS Criteria](/tire-defects-out-of-service-criteria/).
 
 ---
@@ -73,8 +75,24 @@ Reducing recurring DOT violations requires structured oversight:
 
 ---
 
+## Recent Regulatory Changes to Part 393
+
+Several FMCSA final rules published February 19, 2026 amended 49 CFR Part 393. Two are particularly relevant to enforcement topics covered in this guide:
+
+- **Tire Load Markings (doc #2026-03260, eff. 2026-03-23):** FMCSA amended Part 393 to clarify that the FMCSR does not require tire load restriction markings on CMV tire sidewalls. Inspectors may not cite carriers for the absence of such markings under the FMCSR. Tread depth, condition, and other §393.75 standards remain unchanged and enforceable.
+
+- **Brakes on Portable Conveyors (doc #2026-03256, eff. 2026-03-23):** FMCSA added a narrow exception to the all-wheels braking requirement for portable conveyors used in aggregate industry operations and manufactured before 2010, provided certain conditions are met. Operators of such equipment should review the full rule text to determine applicability. All other CMVs remain subject to the full braking requirements under Part 393.
+
+Carriers and owner-operators should verify whether any of these amendments affect their specific equipment or operations.
+
+---
+
 ## Related Compliance Topics
 
 - [Brake System Violations and OOS Orders](/brake-system-violations-out-of-service/)  
 - [Tire Defects and Out-of-Service Criteria](/tire-defects-out-of-service-criteria/)  
 - [Driver Qualification File Requirements](/driver-qualification-file-requirements/)
+
+---
+
+*Last verified against the Federal Register on 2026-07-03; updated to reflect FMCSA final rules doc #2026-03260 (Tire Load Markings, eff. 2026-03-23) and doc #2026-03256 (Brakes on Portable Conveyors, eff. 2026-03-23), both amending 49 CFR Part 393.*
