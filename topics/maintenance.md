@@ -3,7 +3,6 @@ layout: category_page
 title: Vehicle Inspection & Maintenance
 permalink: /topics/maintenance/
 description: "Vehicle inspection, repair, and maintenance compliance under 49 CFR Part 396: DVIR requirements, annual inspections, and Out-of-Service criteria."
-category: maintenance
 ---
 
 Vehicle inspection, repair, and maintenance obligations under **49 CFR Part 396** exist to ensure that mechanical condition does not become an independent source of roadside risk. Unlike driver-behavior violations, maintenance findings are evaluated against fixed, objective criteria — a defect either meets the Out-of-Service (OOS) threshold or it does not.

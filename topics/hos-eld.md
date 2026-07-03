@@ -3,7 +3,6 @@ layout: category_page
 title: HOS & ELD
 permalink: /topics/hos-eld/
 description: "Hours-of-Service and Electronic Logging Device compliance under 49 CFR Part 395: driving limits, on-duty windows, exemptions, and enforcement exposure."
-category: hos-eld
 ---
 
 Hours-of-Service (HOS) regulations under **49 CFR Part 395** exist to control driver fatigue, one of the most statistically significant contributors to commercial motor vehicle crashes. Since December 2017, compliance has been enforced primarily through the Electronic Logging Device (ELD) mandate (49 CFR §395.8, §395.22), which replaced paper logs with automated, tamper-resistant recording of duty status.

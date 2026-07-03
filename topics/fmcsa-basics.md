@@ -3,7 +3,6 @@ layout: category_page
 title: "FMCSA & DOT Basics"
 permalink: /topics/fmcsa-basics/
 description: "Foundational structure of FMCSA and DOT regulatory authority over interstate motor carriers: what FMCSA is, how it regulates, and how compliance obligations attach."
-category: fmcsa-basics
 ---
 
 The Federal Motor Carrier Safety Administration (FMCSA) is the agency within the U.S. Department of Transportation responsible for regulating interstate commercial motor vehicle operations, established under the Motor Carrier Safety Improvement Act of 1999. FMCSA's authority spans driver qualification, hours-of-service, vehicle maintenance, hazardous materials transport, and carrier safety fitness determination.
