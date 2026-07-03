@@ -4,6 +4,7 @@ title: "Brake System Violations: Why They Lead Vehicle Out-of-Service Orders"
 category: maintenance
 permalink: /brake-system-violations-out-of-service/
 description: "Brake defects are among the most common vehicle out-of-service triggers. What inspectors check, why OOS decisions happen, and the preventive controls that reduce exposure."
+last_modified_at: 2026-07-03
 ---
 
 Brake defects are among the most common vehicle out-of-service triggers because they are easy to verify and hard to excuse. This article explains what typically causes OOS decisions and the preventive checks that reduce exposure.
@@ -60,6 +61,12 @@ Owner-operators operating under tight schedules may unintentionally deprioritize
 
 However, enforcement standards do not rely on subjective feel — they rely on measurable thresholds and visible deficiencies.
 
+## Regulatory Note: All-Wheels Braking Requirement and 2026 Exception
+
+Part 393 generally requires that each commercial motor vehicle be equipped with brakes acting on all wheels. However, effective **March 23, 2026**, FMCSA amended Part 393 to add a **narrow exception** to this all-wheels braking requirement for **portable conveyors used in aggregate industry operations that were manufactured before 2010**, provided certain conditions are satisfied. This change was published as a final rule on February 19, 2026 (FR doc #2026-03256) in response to a petition for rulemaking from the Michigan Aggregates Association.
+
+Operators of such equipment should consult the full regulatory text to confirm whether the specific conditions of this exception apply to their operations. For all other CMV types, the all-wheels braking requirement remains in full effect.
+
 ## Preventive Control Measures
 
 To reduce brake-related enforcement risk:
@@ -79,3 +86,7 @@ Brake compliance should be treated as a risk management discipline rather than a
 - **[Hours-of-Service Violations Overview](/hours-of-service-violations-out-of-service/)**
 - **[Tire Defects and OOS Criteria](/tire-defects-out-of-service-criteria/)**
 - **[Driver Qualification File (DQF) Requirements](/driver-qualification-file-requirements/)**
+
+---
+
+*Last verified against the Federal Register on 2026-02-19; updated to reflect FR doc #2026-03256 (Parts and Accessories Necessary for Safe Operation; Brakes on Portable Conveyors), effective 2026-03-23.*
