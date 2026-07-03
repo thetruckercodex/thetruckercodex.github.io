@@ -3,9 +3,9 @@ name: Daily Blog Automation
 on:
   schedule:
     # Sabah yazısı (Regulatory) - 09:00 EST = 14:00 UTC
-    - cron: '0 14 * * *'
+    - cron: '7 14 * * *'
     # Akşam yazısı (OI) - 18:00 EST = 23:00 UTC
-    - cron: '0 23 * * *'
+    - cron: '7 23 * * *'
   workflow_dispatch:
     inputs:
       post_type:
@@ -43,7 +43,7 @@ jobs:
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             echo "type=${{ github.event.inputs.post_type }}" >> $GITHUB_OUTPUT
-          elif [ "${{ github.event.schedule }}" = "0 14 * * *" ]; then
+          elif [ "${{ github.event.schedule }}" = "7 14 * * *" ]; then
             # Hangi cron ifadesinin tetiklediğini DOĞRUDAN GitHub'dan al -- eskiden
             # "su an saat 14 mu" diye çalışma anındaki saate bakılıyordu, ama
             # GitHub Actions'ın zamanlanmış tetikleyicileri dakikalarca/saatlerce
@@ -52,7 +52,7 @@ jobs:
             # tükendiğinde haftalarca hiç yeni regulatory yazı üretilememesine
             # sebep oluyordu (bkz. Temmuz 2026 kesintisi).
             echo "type=regulatory" >> $GITHUB_OUTPUT
-          elif [ "${{ github.event.schedule }}" = "0 23 * * *" ]; then
+          elif [ "${{ github.event.schedule }}" = "7 23 * * *" ]; then
             echo "type=oi" >> $GITHUB_OUTPUT
           else
             # Beklenmeyen bir schedule değeri (ör. manuel/başka bir tetikleyici) --

@@ -2,7 +2,7 @@ name: Search Console Audit
 
 on:
   schedule:
-    - cron: '0 6 * * 1'   # Her Pazartesi 06:00 UTC
+    - cron: '7 6 * * 1'   # Her Pazartesi 06:07 UTC
   workflow_dispatch: {}
 
 permissions:

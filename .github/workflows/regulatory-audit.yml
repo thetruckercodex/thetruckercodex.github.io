@@ -3,7 +3,7 @@ name: Daily Regulatory Audit
 on:
   schedule:
     # Günde 1 kez, yeni yazı üretiminden farklı bir saatte: 12:00 UTC (07:00 EST)
-    - cron: '0 12 * * *'
+    - cron: '7 12 * * *'
   workflow_dispatch:
     inputs:
       batch_size:
