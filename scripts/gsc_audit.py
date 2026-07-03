@@ -16,15 +16,24 @@ Onemli sinirlar:
   tarafinda enjekte edilir, repoya asla yazilmaz/commitlenmez.
 - URL Inspection API kotasi mulk basina 2.000 istek/gun ve
   600 istek/dakikadir (bkz. developers.google.com/webmaster-tools/limits).
-  155 post icin 1.1 sn araliklarla cagri yapmak bu kotanin cok altinda
-  kalir.
+
+Kapsam (2026-07-03 genisletmesi):
+- Denetlenecek URL listesi ARTIK SADECE _posts/*.md degil, canli
+  sitemap.xml'den (https://blog.thetruckercodex.com/sitemap.xml)
+  cekiliyor. Bu, sitedeki TUM sayfalarin (topic hub'lari, statik
+  sayfalar, ana sayfa -- jekyll-sitemap ne uretiyorsa) denetime dahil
+  olmasini saglar. "Kismi denetim" degil, "site butun" denetim.
+- Sitemap fetch basarisiz olursa script BILEREK durur (sys.exit),
+  sessizce eski _posts-only yontemine geri donmez -- kismi/eksik bir
+  denetimi "tam denetim" gibi sunmak yanlis olur.
 """
 import os
 import sys
 import json
 import time
-import glob
 import datetime
+import xml.etree.ElementTree as ET
+import urllib.request
 
 from google.oauth2 import service_account
 from googleapiclient.discovery import build
@@ -32,6 +41,7 @@ from googleapiclient.errors import HttpError
 
 SITE_URL = "sc-domain:thetruckercodex.com"
 BLOG_HOST = "blog.thetruckercodex.com"
+SITEMAP_URL = f"https://{BLOG_HOST}/sitemap.xml"
 SCOPES = ["https://www.googleapis.com/auth/webmasters.readonly"]
 
 PERF_OUT = "_data/gsc_performance.json"
@@ -49,32 +59,60 @@ def load_credentials():
     return service_account.Credentials.from_service_account_info(info, scopes=SCOPES)
 
 
-def get_all_post_urls():
-    """_posts/*.md dosyalarindan gercek yayindaki tam URL'leri turetir."""
-    urls = []
-    for f in sorted(glob.glob("_posts/*.md")):
-        with open(f, encoding="utf-8", errors="ignore") as fh:
-            content = fh.read()
-        permalink = None
-        in_frontmatter = False
-        for idx, line in enumerate(content.splitlines()):
-            if idx == 0 and line.strip() == "---":
-                in_frontmatter = True
-                continue
-            if in_frontmatter and line.strip() == "---":
-                break
-            if line.strip().startswith("permalink:"):
-                permalink = line.split(":", 1)[1].strip().strip('"').strip("'")
-                break
-        if permalink:
-            urls.append(f"https://{BLOG_HOST}{permalink}")
-        else:
-            # _config.yml default: permalink: /:title/
-            base = os.path.basename(f).replace(".md", "")
-            parts = base.split("-", 3)
-            slug = parts[3] if len(parts) > 3 else base
-            urls.append(f"https://{BLOG_HOST}/{slug}/")
-    return sorted(set(urls))
+SITEMAP_NS = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+
+
+def _fetch_sitemap_locs(url):
+    """Bir sitemap.xml (veya sitemap index) dosyasindaki tum <loc> degerlerini ceker."""
+    req = urllib.request.Request(url, headers={"User-Agent": "TruckerCodex-GSC-Audit/1.0"})
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        raw = resp.read()
+    root = ET.fromstring(raw)
+    locs = [el.text.strip() for el in root.findall(".//sm:loc", SITEMAP_NS) if el.text]
+    return locs, root.tag
+
+
+def get_all_site_urls():
+    """
+    Sitedeki TUM sayfalarin URL'lerini canli sitemap.xml'den ceker.
+    _posts/*.md ile sinirli DEGIL: topic hub'lari, statik sayfalar,
+    ana sayfa -- jekyll-sitemap neyi listeliyorsa hepsi denetime dahil
+    olur. Sitemap bir index ise (<sitemapindex>), alt sitemap'ler de
+    ayni sekilde takip edilir.
+
+    Sitemap'e erisilemezse BILEREK sys.exit(1) ile durur; kismi bir
+    URL listesiyle sessizce devam etmek "site butun" ilkesine aykiri
+    olur.
+    """
+    try:
+        locs, root_tag = _fetch_sitemap_locs(SITEMAP_URL)
+    except Exception as e:
+        print(f"HATA: sitemap.xml cekilemedi ({SITEMAP_URL}): {e}", file=sys.stderr)
+        print("Kismi/eksik bir URL listesiyle sessizce devam edilmiyor.", file=sys.stderr)
+        sys.exit(1)
+
+    all_urls = []
+    if root_tag.endswith("sitemapindex"):
+        # Sitemap index: her <loc> aslinda bir alt sitemap.xml
+        for sub_sitemap_url in locs:
+            try:
+                sub_locs, _ = _fetch_sitemap_locs(sub_sitemap_url)
+            except Exception as e:
+                print(f"HATA: alt sitemap cekilemedi ({sub_sitemap_url}): {e}", file=sys.stderr)
+                sys.exit(1)
+            all_urls.extend(sub_locs)
+    else:
+        all_urls = locs
+
+    # Sadece blog subdomain'i altindaki URL'ler (sc-domain mulku baska
+    # subdomain'leri de barindirabilir; biz burada sadece blog'u denetliyoruz)
+    all_urls = [u for u in all_urls if u.startswith(f"https://{BLOG_HOST}/")]
+
+    if not all_urls:
+        print("HATA: sitemap.xml bos dondu, bu beklenmiyor.", file=sys.stderr)
+        sys.exit(1)
+
+    return sorted(set(all_urls))
 
 
 def fetch_search_analytics(service):
@@ -163,7 +201,7 @@ def main():
         json.dump(perf, f, ensure_ascii=False, indent=2)
     print(f"  -> {PERF_OUT} yazildi ({len(perf['by_page'])} sayfa, {len(perf['by_query'])} sorgu)")
 
-    urls = get_all_post_urls()
+    urls = get_all_site_urls()
     print(f"URL Inspection API ile {len(urls)} URL denetleniyor...")
     idx = fetch_url_inspection(service, urls)
     with open(INDEX_OUT, "w", encoding="utf-8") as f:
