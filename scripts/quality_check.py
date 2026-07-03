@@ -32,7 +32,35 @@ BLOG_BASE       = "https://blog.thetruckercodex.com"
 REQUIRED_FRONT_MATTER = ["layout", "title", "date", "categories", "description"]
 
 
+MARKER_FILE = "/tmp/last_generated_post.txt"
+
+
 def get_latest_post():
+    """generate_post.py'nin AZ ÖNCE yazdığı dosyayı kesin olarak belirler.
+
+    Önceki yaklaşım (en yüksek mtime'lı dosyayı glob ile bulmak) actions/checkout
+    TÜM dosyaların mtime'ını checkout anına sıfırladığı için güvenilmezdi: yeni
+    üretilen dosya olmadığında (ör. konu havuzu tükendiğinde) bu yöntem rastgele
+    eski bir dosyaya saplanıp onu 'zaten yayınlanmış' diye DUPLICATE hatasıyla
+    reddediyor ve tüm job'ı gereksiz yere başarısız kılıyordu (bkz. Temmuz 2026
+    kesintisi -- 40 gün boyunca hiç yeni yazı yayınlanamadı).
+
+    Artık generate_post.py, yazdığı dosyanın tam yolunu MARKER_FILE'a yazıyor.
+    Burada önce o markera bakılır; sadece marker yoksa (ör. script elle/başka
+    bağlamda çalıştırılıyorsa) eski mtime tahminine düşülür.
+    """
+    if os.path.exists(MARKER_FILE):
+        with open(MARKER_FILE) as f:
+            marker_path = f.read().strip()
+        if not marker_path:
+            print("Marker dosyası boş -- bu çalıştırmada yeni bir yazı üretilmedi. Kontrol edilecek bir şey yok.")
+            sys.exit(0)
+        if not os.path.exists(marker_path):
+            print(f"ERROR: Marker dosyasında belirtilen yazı bulunamadı: {marker_path}")
+            sys.exit(1)
+        return marker_path
+
+    # Fallback: marker yok (script eski bir bağlamda / elle çalıştırılıyor)
     posts = sorted(glob.glob("_posts/*.md"), key=os.path.getmtime, reverse=True)
     if not posts:
         print("ERROR: No posts found in _posts/")

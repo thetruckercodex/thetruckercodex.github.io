@@ -635,589 +635,290 @@
   ],
   "oi": [
     {
-      "id": "O46",
-      "title": "How Brake Adjustment Violations Dominate National OOS Statistics: A Data Breakdown",
-      "keyword": "brake adjustment violations OOS statistics data",
-      "data_source": "CVSA Roadcheck Annual Report",
-      "data_url": "https://www.cvsa.org/programs/roadcheck/",
+      "id": "O91",
+      "title": "Brake Safety Week and Operation Airbrake: How the Unannounced Inspection Blitz Actually Works",
+      "keyword": "CVSA brake safety week operation airbrake 2026",
+      "data_source": "CVSA Operation Airbrake",
+      "data_url": "https://cvsa.org/programs/operation-airbrake/",
       "category": "maintenance",
       "internal_links": [
-        "https://blog.thetruckercodex.com/brake-system-violations-out-of-service/",
-        "https://blog.thetruckercodex.com/top-5-brake-violations-that-trigger-an-immediate-oos-order/"
+        "https://blog.thetruckercodex.com/top-5-brake-violations-that-trigger-an-immediate-oos-order/",
+        "https://blog.thetruckercodex.com/the-5-suspension-defects-that-most-often-lead-to-oos-orders/"
       ],
       "etsy_cta": false
     },
     {
-      "id": "O47",
-      "title": "CVSA Operation Safe Driver Week: What Officers Target and How to Prepare",
-      "keyword": "CVSA operation safe driver week 2026",
-      "data_source": "CVSA Operation Safe Driver Week",
-      "data_url": "https://www.cvsa.org/programs/operation-safe-driver-week/",
+      "id": "O92",
+      "title": "Unified Carrier Registration: What Happens When a Carrier Misses the UCR Deadline",
+      "keyword": "unified carrier registration UCR deadline penalty",
+      "data_source": "FMCSA / UCR.gov Unified Carrier Registration Program",
+      "data_url": "https://www.fmcsa.dot.gov/ucr",
+      "category": "fmcsa-basics",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/what-owner-operators-get-wrong-about-their-own-operating-aut/",
+        "https://blog.thetruckercodex.com/ifta-audit-triggers-how-fuel-tax-discrepancies-escalate-to-d/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "O93",
+      "title": "The 18-Month New Entrant Monitoring Period: What Happens After You Pass Your Safety Audit",
+      "keyword": "new entrant safety assurance program 18 month monitoring",
+      "data_source": "FMCSA New Entrant Safety Assurance Program",
+      "data_url": "https://www.fmcsa.dot.gov/registration/new-entrant-program",
       "category": "audits-violations",
       "internal_links": [
-        "https://blog.thetruckercodex.com/dot-roadside-inspections-levels/",
-        "https://blog.thetruckercodex.com/dot-roadside-communication-structure/"
-      ],
-      "etsy_cta": false
-    },
-    {
-      "id": "O48",
-      "title": "Level VI Inspection: The Radioactive Materials Protocol Most Carriers Overlook",
-      "keyword": "Level 6 inspection radioactive materials DOT",
-      "data_source": "CVSA North American Standard Inspection",
-      "data_url": "https://www.cvsa.org/programs/north-american-standard-inspection/",
-      "category": "audits-violations",
-      "internal_links": [
-        "https://blog.thetruckercodex.com/dot-roadside-inspections-levels/",
-        "https://blog.thetruckercodex.com/phmsa-hazmat-harmonization-2026-nprm/"
-      ],
-      "etsy_cta": false
-    },
-    {
-      "id": "O49",
-      "title": "How FMCSA's Pre-Employment Screening Program (PSP) Works for Carriers",
-      "keyword": "FMCSA PSP report driver hiring pre-employment",
-      "data_source": "FMCSA Pre-Employment Screening Program",
-      "data_url": "https://www.fmcsa.dot.gov/safety/driver-safety/pre-employment-screening-program-psp",
-      "category": "dqf",
-      "internal_links": [
-        "https://blog.thetruckercodex.com/dot-pre-employment-requirements/",
-        "https://blog.thetruckercodex.com/driver-qualification-file-requirements/"
-      ],
-      "etsy_cta": false
-    },
-    {
-      "id": "O50",
-      "title": "What Happens to Operating Authority After an Unsatisfactory Safety Rating",
-      "keyword": "unsatisfactory safety rating operating authority FMCSA",
-      "data_source": "49 CFR Part 385",
-      "data_url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-385",
-      "category": "audits-violations",
-      "internal_links": [
-        "https://blog.thetruckercodex.com/what-a-conditional-safety-rating-actually-means-and-how-to-f/",
+        "https://blog.thetruckercodex.com/why-small-fleets-fail-dot-audits-the-6-most-common-dqf-defic/",
         "https://blog.thetruckercodex.com/what-satisfactory-safety-rating-means-and-why-its-not-a-guar/"
       ],
       "etsy_cta": false
     },
     {
-      "id": "O51",
-      "title": "The 3 HOS Exemptions Most Commonly Misapplied at Roadside Inspections",
-      "keyword": "HOS exemptions misapplied roadside inspection",
-      "data_source": "FMCSA Enforcement Data",
-      "data_url": "https://www.fmcsa.dot.gov/safety/data-and-statistics",
-      "category": "hos-eld",
+      "id": "O94",
+      "title": "IFTA and IRP Audits vs FMCSA Safety Audits: Why Carriers Confuse Two Completely Different Systems",
+      "keyword": "IFTA IRP audit vs FMCSA safety audit difference",
+      "data_source": "IFTA Inc. / IRP Inc.",
+      "data_url": "https://www.iftach.org/",
+      "category": "fmcsa-basics",
       "internal_links": [
-        "https://blog.thetruckercodex.com/hours-of-service-rules/",
-        "https://blog.thetruckercodex.com/adverse-driving-conditions-exemption-when-and-how-to-apply-i/"
+        "https://blog.thetruckercodex.com/ifta-audit-triggers-how-fuel-tax-discrepancies-escalate-to-d/",
+        "https://blog.thetruckercodex.com/the-anatomy-of-a-dot-compliance-review-what-an-auditor-exami/"
       ],
       "etsy_cta": false
     },
     {
-      "id": "O52",
-      "title": "Why Return-to-Duty Violations Cost More Than the Original Drug Violation",
-      "keyword": "return to duty violation consequences carrier cost",
-      "data_source": "FMCSA Clearinghouse Annual Report",
-      "data_url": "https://clearinghouse.fmcsa.dot.gov/",
-      "category": "dqf",
+      "id": "O95",
+      "title": "Household Goods Carriers: The Consumer Protection Rules That Don't Apply to Freight Operations",
+      "keyword": "household goods carrier FMCSA consumer protection rules",
+      "data_source": "FMCSA Household Goods Program",
+      "data_url": "https://www.fmcsa.dot.gov/protect-your-move",
+      "category": "fmcsa-basics",
       "internal_links": [
-        "https://blog.thetruckercodex.com/sap-process-what-happens-after-a-positive-drug-test-step-by/",
-        "https://blog.thetruckercodex.com/fmcsa-clearinghouse-guide/"
-      ],
-      "etsy_cta": false
-    },
-    {
-      "id": "O53",
-      "title": "How Inspectors Verify CDL Validity at the Roadside: The Database Check Process",
-      "keyword": "CDL verification roadside inspection database check",
-      "data_source": "FMCSA CDLIS Data",
-      "data_url": "https://www.fmcsa.dot.gov/registration/commercial-drivers-license",
-      "category": "audits-violations",
-      "internal_links": [
-        "https://blog.thetruckercodex.com/dot-roadside-inspections-levels/",
-        "https://blog.thetruckercodex.com/the-8-documents-you-must-have-in-the-cab-during-any-inspecti/"
-      ],
-      "etsy_cta": false
-    },
-    {
-      "id": "O54",
-      "title": "The Most Common Annual Inspection Deficiencies Found During FMCSA Compliance Reviews",
-      "keyword": "annual inspection deficiencies FMCSA compliance review",
-      "data_source": "FMCSA Compliance Review Data",
-      "data_url": "https://www.fmcsa.dot.gov/safety/carrier-safety/compliance-review",
-      "category": "maintenance",
-      "internal_links": [
-        "https://blog.thetruckercodex.com/dot-vehicle-inspection-maintenance-requirements/",
-        "https://blog.thetruckercodex.com/annual-vehicle-inspection-stickers-whats-accepted-and-what-i/"
-      ],
-      "etsy_cta": false
-    },
-    {
-      "id": "O55",
-      "title": "How FMCSA Weights Fatal, Injury, and Tow-Away Crashes in SMS Scoring",
-      "keyword": "FMCSA crash weighting SMS scoring fatal injury",
-      "data_source": "FMCSA SMS Methodology Document",
-      "data_url": "https://ai.fmcsa.dot.gov/SMS/Tools/Downloads/SMSMethodology.aspx",
-      "category": "audits-violations",
-      "internal_links": [
-        "https://blog.thetruckercodex.com/how-csa-points-accumulate-real-examples-that-sink-small-carr/",
-        "https://blog.thetruckercodex.com/violation-severity-weights-why-some-tickets-cost-you-more-cs/"
-      ],
-      "etsy_cta": false
-    },
-    {
-      "id": "O56",
-      "title": "What Triggers an Out-of-State Compliance Review: Interstate Enforcement Data",
-      "keyword": "FMCSA out of state compliance review triggers interstate",
-      "data_source": "FMCSA Intervention Data",
-      "data_url": "https://www.fmcsa.dot.gov/safety/carrier-safety/interventions",
-      "category": "audits-violations",
-      "internal_links": [
-        "https://blog.thetruckercodex.com/how-fmcsa-selects-carriers-for-compliance-reviews-the-data-b/",
-        "https://blog.thetruckercodex.com/dot-compliance-audit-triggers/"
-      ],
-      "etsy_cta": false
-    },
-    {
-      "id": "O57",
-      "title": "How to Read an FMCSA Inspection Report: Field-by-Field Breakdown",
-      "keyword": "FMCSA inspection report how to read fields",
-      "data_source": "FMCSA MCMIS Inspection Data",
-      "data_url": "https://www.fmcsa.dot.gov/safety/carrier-safety/performance-and-registration-information-systems-management",
-      "category": "audits-violations",
-      "internal_links": [
-        "https://blog.thetruckercodex.com/how-roadside-inspection-data-is-uploaded-to-mcmis-and-how-lo/",
-        "https://blog.thetruckercodex.com/how-to-dispute-a-roadside-inspection-finding-through-dataqs/"
-      ],
-      "etsy_cta": false
-    },
-    {
-      "id": "O58",
-      "title": "How Inspectors Detect HOS Log Manipulation: Patterns They're Trained to Find",
-      "keyword": "HOS log manipulation detection inspection officers",
-      "data_source": "FMCSA Enforcement Protocol",
-      "data_url": "https://www.fmcsa.dot.gov/safety/data-and-statistics",
-      "category": "hos-eld",
-      "internal_links": [
-        "https://blog.thetruckercodex.com/electronic-logging-device-eld-compliance/",
-        "https://blog.thetruckercodex.com/the-7-eld-errors-officers-check-first-at-the-scale/"
-      ],
-      "etsy_cta": false
-    },
-    {
-      "id": "O59",
-      "title": "How ELD Data Functions as Evidence in Commercial Truck Crash Litigation",
-      "keyword": "ELD data evidence truck crash litigation",
-      "data_source": "FMCSA Large Truck Crash Facts",
-      "data_url": "https://www.fmcsa.dot.gov/safety/data-and-statistics/large-truck-and-bus-crash-facts",
-      "category": "hos-eld",
-      "internal_links": [
-        "https://blog.thetruckercodex.com/how-hos-violations-become-crash-liability-what-plaintiff-att/",
-        "https://blog.thetruckercodex.com/electronic-logging-device-eld-compliance/"
-      ],
-      "etsy_cta": false
-    },
-    {
-      "id": "O60",
-      "title": "The 5 Suspension Defects That Most Often Lead to OOS Orders",
-      "keyword": "suspension defects out of service order CVSA",
-      "data_source": "CVSA OOS Criteria",
-      "data_url": "https://www.cvsa.org/programs/oos-criteria/",
-      "category": "maintenance",
-      "internal_links": [
-        "https://blog.thetruckercodex.com/brake-system-violations-out-of-service/",
-        "https://blog.thetruckercodex.com/cvsa-2026-oos-criteria-changes/"
-      ],
-      "etsy_cta": false
-    },
-    {
-      "id": "O61",
-      "title": "What Happens During an FMCSA Focused Compliance Investigation",
-      "keyword": "FMCSA focused compliance investigation process",
-      "data_source": "FMCSA Intervention Data",
-      "data_url": "https://www.fmcsa.dot.gov/safety/carrier-safety/interventions",
-      "category": "audits-violations",
-      "internal_links": [
-        "https://blog.thetruckercodex.com/the-anatomy-of-a-dot-compliance-review-what-an-auditor-exami/",
-        "https://blog.thetruckercodex.com/how-fmcsa-selects-carriers-for-compliance-reviews-the-data-b/"
-      ],
-      "etsy_cta": false
-    },
-    {
-      "id": "O62",
-      "title": "How Drug Clearinghouse Violations Affect a Carrier's Safety Rating",
-      "keyword": "clearinghouse violations carrier safety rating impact",
-      "data_source": "FMCSA Clearinghouse Annual Report",
-      "data_url": "https://clearinghouse.fmcsa.dot.gov/",
-      "category": "dqf",
-      "internal_links": [
-        "https://blog.thetruckercodex.com/fmcsa-clearinghouse-guide/",
-        "https://blog.thetruckercodex.com/what-a-conditional-safety-rating-actually-means-and-how-to-f/"
-      ],
-      "etsy_cta": false
-    },
-    {
-      "id": "O63",
-      "title": "Driver OOS vs. Vehicle OOS: What Each Order Means and How They're Lifted",
-      "keyword": "driver out of service vehicle out of service difference",
-      "data_source": "CVSA OOS Criteria",
-      "data_url": "https://www.cvsa.org/programs/oos-criteria/",
-      "category": "audits-violations",
-      "internal_links": [
-        "https://blog.thetruckercodex.com/dot-roadside-inspections-levels/",
-        "https://blog.thetruckercodex.com/the-true-cost-of-an-oos-violation-fines-delays-and-csa-impac/"
-      ],
-      "etsy_cta": false
-    },
-    {
-      "id": "O64",
-      "title": "How FMCSA Time-Weights Violations in SMS: Why Recent Violations Hit Harder",
-      "keyword": "SMS time weighting FMCSA recent violations",
-      "data_source": "FMCSA SMS Methodology Document",
-      "data_url": "https://ai.fmcsa.dot.gov/SMS/Tools/Downloads/SMSMethodology.aspx",
-      "category": "audits-violations",
-      "internal_links": [
-        "https://blog.thetruckercodex.com/violation-severity-weights-why-some-tickets-cost-you-more-cs/",
-        "https://blog.thetruckercodex.com/how-csa-points-accumulate-real-examples-that-sink-small-carr/"
-      ],
-      "etsy_cta": false
-    },
-    {
-      "id": "O65",
-      "title": "Level III Inspection Decoded: What Officers Examine in a Driver-Only Check",
-      "keyword": "Level 3 inspection driver only DOT what examined",
-      "data_source": "CVSA North American Standard Inspection",
-      "data_url": "https://www.cvsa.org/programs/north-american-standard-inspection/",
-      "category": "audits-violations",
-      "internal_links": [
-        "https://blog.thetruckercodex.com/dot-roadside-inspections-levels/",
-        "https://blog.thetruckercodex.com/the-8-documents-you-must-have-in-the-cab-during-any-inspecti/"
-      ],
-      "etsy_cta": false
-    },
-    {
-      "id": "O66",
-      "title": "Annual Inspection Sticker Fraud: Detection Methods and Legal Consequences",
-      "keyword": "DOT inspection sticker fraud detection consequences",
-      "data_source": "FMCSA Enforcement Data",
-      "data_url": "https://www.fmcsa.dot.gov/safety/data-and-statistics",
-      "category": "maintenance",
-      "internal_links": [
-        "https://blog.thetruckercodex.com/annual-vehicle-inspection-stickers-whats-accepted-and-what-i/",
-        "https://blog.thetruckercodex.com/dot-vehicle-inspection-maintenance-requirements/"
-      ],
-      "etsy_cta": false
-    },
-    {
-      "id": "O67",
-      "title": "Cargo Securement Violations by Load Type: Flatbed vs. Tanker vs. Van",
-      "keyword": "cargo securement violations flatbed tanker van comparison",
-      "data_source": "CVSA Roadcheck Statistics",
-      "data_url": "https://www.cvsa.org/programs/roadcheck/",
-      "category": "maintenance",
-      "internal_links": [
-        "https://blog.thetruckercodex.com/the-5-cargo-securement-failures-that-generate-the-most-citat/",
-        "https://blog.thetruckercodex.com/dot-vehicle-inspection-maintenance-requirements/"
-      ],
-      "etsy_cta": false
-    },
-    {
-      "id": "O68",
-      "title": "How MCSAP Funding Shapes Roadside Enforcement Priorities by State",
-      "keyword": "MCSAP enforcement priorities state funding trucking",
-      "data_source": "FMCSA MCSAP Program Data",
-      "data_url": "https://www.fmcsa.dot.gov/safety/carrier-safety/motor-carrier-safety-assistance-program-mcsap",
-      "category": "audits-violations",
-      "internal_links": [
-        "https://blog.thetruckercodex.com/dot-roadside-inspections-levels/",
-        "https://blog.thetruckercodex.com/what-triggers-a-targeted-roadside-inspection-vs-a-random-sto/"
-      ],
-      "etsy_cta": false
-    },
-    {
-      "id": "O69",
-      "title": "Carrier Reincarnation: How FMCSA Identifies and Shuts Down Shell Carriers",
-      "keyword": "FMCSA carrier reincarnation shell carrier enforcement",
-      "data_source": "FMCSA Enforcement Data",
-      "data_url": "https://www.fmcsa.dot.gov/safety/carrier-safety",
-      "category": "audits-violations",
-      "internal_links": [
-        "https://blog.thetruckercodex.com/new-entrant-safety-audit-fmcsa-methodology/",
-        "https://blog.thetruckercodex.com/what-a-conditional-safety-rating-actually-means-and-how-to-f/"
-      ],
-      "etsy_cta": false
-    },
-    {
-      "id": "O70",
-      "title": "How Weigh-in-Motion Technology Is Used to Pre-Screen Trucks Before the Scale",
-      "keyword": "weigh in motion technology DOT pre-screening",
-      "data_source": "FHWA Weigh-in-Motion Data",
-      "data_url": "https://www.fhwa.dot.gov/policyinformation/travel_monitoring/wim.cfm",
-      "category": "audits-violations",
-      "internal_links": [
-        "https://blog.thetruckercodex.com/the-scale-house-decision-what-happens-when-youre-pulled-in/",
+        "https://blog.thetruckercodex.com/what-owner-operators-get-wrong-about-their-own-operating-aut/",
         "https://blog.thetruckercodex.com/overweight-violations-permit-requirements-fines-and-carrier/"
       ],
       "etsy_cta": false
     },
     {
-      "id": "O71",
-      "title": "Why Small Carriers Have Disproportionately Higher OOS Rates Than Large Fleets",
-      "keyword": "small carrier OOS rate large fleet comparison data",
-      "data_source": "FMCSA Safety Data",
-      "data_url": "https://www.fmcsa.dot.gov/safety/data-and-statistics",
-      "category": "audits-violations",
+      "id": "O96",
+      "title": "Split Sleeper Berth Data: How the 2020 HOS Flexibility Rule Actually Changed Driver Scheduling",
+      "keyword": "split sleeper berth 2020 HOS rule data",
+      "data_source": "FMCSA 2020 Hours of Service Final Rule",
+      "data_url": "https://www.fmcsa.dot.gov/regulations/hours-service",
+      "category": "hos-eld",
       "internal_links": [
-        "https://blog.thetruckercodex.com/how-csa-points-accumulate-real-examples-that-sink-small-carr/",
-        "https://blog.thetruckercodex.com/the-true-cost-of-an-oos-violation-fines-delays-and-csa-impac/"
-      ],
-      "etsy_cta": false
-    },
-    {
-      "id": "O72",
-      "title": "How CSA Scores Affect Commercial Trucking Insurance Premiums",
-      "keyword": "CSA score insurance premiums trucking carrier",
-      "data_source": "FMCSA SMS Data",
-      "data_url": "https://ai.fmcsa.dot.gov/SMS/",
-      "category": "audits-violations",
-      "internal_links": [
-        "https://blog.thetruckercodex.com/how-to-read-your-csa-scorecard-and-identify-your-biggest-ris/",
-        "https://blog.thetruckercodex.com/dot-compliance-audit-triggers/"
-      ],
-      "etsy_cta": false
-    },
-    {
-      "id": "O73",
-      "title": "Passenger Carrier Compliance Reviews: What Differs from Freight Operations",
-      "keyword": "passenger carrier compliance review FMCSA differences",
-      "data_source": "FMCSA Passenger Carrier Safety",
-      "data_url": "https://www.fmcsa.dot.gov/safety/passenger-safety",
-      "category": "audits-violations",
-      "internal_links": [
-        "https://blog.thetruckercodex.com/the-anatomy-of-a-dot-compliance-review-what-an-auditor-exami/",
-        "https://blog.thetruckercodex.com/dot-compliance-audit-triggers/"
-      ],
-      "etsy_cta": false
-    },
-    {
-      "id": "O74",
-      "title": "What the National Registry of Certified Medical Examiners Means for Carriers",
-      "keyword": "national registry medical examiners FMCSA carriers",
-      "data_source": "FMCSA National Registry of Certified Medical Examiners",
-      "data_url": "https://nationalregistry.fmcsa.dot.gov/",
-      "category": "dqf",
-      "internal_links": [
-        "https://blog.thetruckercodex.com/dot-physical-examination-disqualifying-conditions-and-exempt/",
-        "https://blog.thetruckercodex.com/cdl-medical-certificate-requirements-timing-forms-and-filing/"
-      ],
-      "etsy_cta": false
-    },
-    {
-      "id": "O75",
-      "title": "The Impact of Inspection Frequency on a Carrier's SMS Percentile Ranking",
-      "keyword": "inspection frequency SMS percentile impact carrier",
-      "data_source": "FMCSA SMS Methodology",
-      "data_url": "https://ai.fmcsa.dot.gov/SMS/Tools/Downloads/SMSMethodology.aspx",
-      "category": "audits-violations",
-      "internal_links": [
-        "https://blog.thetruckercodex.com/how-to-read-your-csa-scorecard-and-identify-your-biggest-ris/",
-        "https://blog.thetruckercodex.com/how-roadside-inspection-data-is-uploaded-to-mcmis-and-how-lo/"
-      ],
-      "etsy_cta": false
-    },
-    {
-      "id": "O76",
-      "title": "What to Expect During a New Entrant Safety Audit: Document Checklist and Timeline",
-      "keyword": "new entrant safety audit documents checklist timeline",
-      "data_source": "FMCSA New Entrant Program Data",
-      "data_url": "https://www.fmcsa.dot.gov/safety/carrier-safety/new-entrant-safety-assurance-program",
-      "category": "audits-violations",
-      "internal_links": [
-        "https://blog.thetruckercodex.com/new-entrant-safety-audit-survival-guide/",
-        "https://blog.thetruckercodex.com/new-entrant-safety-audit-fmcsa-methodology/"
+        "https://blog.thetruckercodex.com/the-6070-hour-rule-how-to-calculate-your-available-hours/",
+        "https://blog.thetruckercodex.com/the-14-hour-on-duty-window-what-counts-and-what-doesnt/"
       ],
       "etsy_cta": true
     },
     {
-      "id": "O77",
-      "title": "How Drug Test Collection Errors Create Carrier Liability and Compliance Gaps",
-      "keyword": "drug test collection errors carrier liability compliance",
-      "data_source": "49 CFR Part 40 Subpart F",
-      "data_url": "https://www.ecfr.gov/current/title-49/subtitle-A/part-40/subpart-F",
-      "category": "dqf",
+      "id": "O97",
+      "title": "ELD Malfunction Codes vs Data Diagnostic Events: Why Carriers Confuse Two Different Obligations",
+      "keyword": "ELD malfunction codes data diagnostic events difference",
+      "data_source": "49 CFR Part 395 Subpart B, Appendix",
+      "data_url": "https://www.ecfr.gov/current/title-49/part-395",
+      "category": "hos-eld",
       "internal_links": [
-        "https://blog.thetruckercodex.com/drug-testing-pre-employment-requirements-under-49-cfr-part-4/",
-        "https://blog.thetruckercodex.com/random-drug-and-alcohol-testing-rates-pools-and-carrier-obli/"
+        "https://blog.thetruckercodex.com/the-7-eld-errors-officers-check-first-at-the-scale/",
+        "https://blog.thetruckercodex.com/eld-malfunction-protocol-what-drivers-and-carriers-must/"
       ],
       "etsy_cta": false
     },
     {
-      "id": "O78",
-      "title": "The Five BASICs with Highest Statistical Correlation to Crash Risk",
-      "keyword": "FMCSA BASICs crash risk correlation statistics",
-      "data_source": "FMCSA SMS Research Data",
+      "id": "O98",
+      "title": "Tank Truck Rollover Data: Why Liquid Cargo Loads Get Different Inspection Scrutiny",
+      "keyword": "tank truck rollover data liquid cargo inspection",
+      "data_source": "FMCSA Large Truck Crash Facts",
+      "data_url": "https://www.fmcsa.dot.gov/safety/data-and-statistics",
+      "category": "maintenance",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/the-5-cargo-securement-failures-that-generate-the-most-citat/",
+        "https://blog.thetruckercodex.com/cargo-securement-rules-tie-down-requirements-and-blocking/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "O99",
+      "title": "Longer Combination Vehicles: Why Doubles and Triples Face Stricter Route and Inspection Rules",
+      "keyword": "longer combination vehicles doubles triples inspection rules",
+      "data_source": "FHWA / FMCSA Longer Combination Vehicle Data",
+      "data_url": "https://ops.fhwa.dot.gov/freight/sw/map/index.htm",
+      "category": "maintenance",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/pre-trip-inspection-the-15-items-most-drivers-skip/",
+        "https://blog.thetruckercodex.com/overweight-violations-permit-requirements-fines-and-carrier/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "O100",
+      "title": "How a DOT Number Gets Deactivated for Inactivity \u2014 and What Reactivation Requires",
+      "keyword": "DOT number deactivated inactivity reactivation",
+      "data_source": "FMCSA MCS-150 / Registration Data",
+      "data_url": "https://www.fmcsa.dot.gov/registration",
+      "category": "fmcsa-basics",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/what-owner-operators-get-wrong-about-their-own-operating-aut/",
+        "https://blog.thetruckercodex.com/building-a-dot-compliance-calendar-weekly-monthly-and-annual/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "O101",
+      "title": "Broker-Carrier Agreements: The Compliance Clauses That Create Liability Beyond FMCSA Rules",
+      "keyword": "broker carrier agreement compliance liability clauses",
+      "data_source": "49 CFR Part 371 (Broker Regulations)",
+      "data_url": "https://www.ecfr.gov/current/title-49/part-371",
+      "category": "audits-violations",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/how-electronic-bill-of-lading-affects-document-requirements/",
+        "https://blog.thetruckercodex.com/what-owner-operators-must-do-compliance-wise-when-leasing-on/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "O102",
+      "title": "How CSA's BASIC Percentile Thresholds Differ by Vehicle Type and Operation Class",
+      "keyword": "CSA BASIC percentile threshold vehicle type",
+      "data_source": "FMCSA SMS Methodology",
       "data_url": "https://ai.fmcsa.dot.gov/SMS/",
       "category": "audits-violations",
       "internal_links": [
+        "https://blog.thetruckercodex.com/how-to-read-your-csa-scorecard-and-identify-your-biggest-ris/",
+        "https://blog.thetruckercodex.com/the-five-basics-with-highest-statistical-correlation-to-cras/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "O103",
+      "title": "Random Drug and Alcohol Testing Rates: Why FMCSA Raises or Lowers the Annual Minimum",
+      "keyword": "FMCSA random drug testing rate annual minimum",
+      "data_source": "FMCSA/ODAPC Annual Testing Rate Determination",
+      "data_url": "https://www.fmcsa.dot.gov/regulations/drug-alcohol-testing",
+      "category": "dqf",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/drug-test-refusal-what-it-means-for-a-cdl-and-how-carriers-m/",
+        "https://blog.thetruckercodex.com/the-clearinghouse-query-carriers-most-often-forget-to-run/"
+      ],
+      "etsy_cta": true
+    },
+    {
+      "id": "O104",
+      "title": "Consortium and Third-Party Administrator Requirements for Small Carriers Under the Drug Testing Rule",
+      "keyword": "drug testing consortium third party administrator small carrier",
+      "data_source": "49 CFR Part 382 Subpart F",
+      "data_url": "https://www.ecfr.gov/current/title-49/part-382/subpart-F",
+      "category": "dqf",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/sap-process-what-happens-after-a-positive-drug-test-step-by/",
+        "https://blog.thetruckercodex.com/the-clearinghouse-query-carriers-most-often-forget-to-run/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "O105",
+      "title": "How FMCSA's Crash Preventability Determination Program Can Remove Crashes From Your SMS Record",
+      "keyword": "FMCSA crash preventability determination program",
+      "data_source": "FMCSA Crash Preventability Determination Program",
+      "data_url": "https://www.fmcsa.dot.gov/safety/data-and-statistics/crash-preventability-determination-program",
+      "category": "audits-violations",
+      "internal_links": [
         "https://blog.thetruckercodex.com/how-csa-points-accumulate-real-examples-that-sink-small-carr/",
+        "https://blog.thetruckercodex.com/how-to-dispute-a-roadside-inspection-finding-through-dataqs/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "O106",
+      "title": "Prior Inspection Data: How Roadside History Follows a Truck Even After It Changes Carriers",
+      "keyword": "FMCSA prior inspection data VIN history carrier change",
+      "data_source": "FMCSA MCMIS Inspection Data",
+      "data_url": "https://ai.fmcsa.dot.gov/SMS/",
+      "category": "maintenance",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/how-to-read-an-fmcsa-inspection-report-field-by-field-breakd/",
+        "https://blog.thetruckercodex.com/annual-vehicle-inspection-stickers-whats-accepted-and-what-i/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "O107",
+      "title": "Driver Turnover and Compliance Risk: Why High-Turnover Fleets Show Different SMS Patterns",
+      "keyword": "driver turnover compliance risk SMS pattern",
+      "data_source": "FMCSA / ATA Driver Turnover Data",
+      "data_url": "https://www.trucking.org/news-insights/economics-and-industry-data",
+      "category": "audits-violations",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/how-csa-points-accumulate-real-examples-that-sink-small-carr/",
+        "https://blog.thetruckercodex.com/why-small-carriers-have-disproportionately-higher-oos-rates-t/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "O108",
+      "title": "How Passenger-Carrier CDL Endorsements Differ From Freight Endorsements at Roadside Checks",
+      "keyword": "passenger carrier CDL endorsement roadside check",
+      "data_source": "49 CFR Part 383",
+      "data_url": "https://www.ecfr.gov/current/title-49/part-383",
+      "category": "dqf",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/passenger-carrier-compliance-reviews-what-differs-from-freig/",
+        "https://blog.thetruckercodex.com/the-8-documents-you-must-have-in-the-cab-during-any-inspecti/"
+      ],
+      "etsy_cta": false
+    },
+    {
+      "id": "O109",
+      "title": "The Compliance, Safety, Accountability Program's Public vs Non-Public Data: What Carriers Can and Can't See",
+      "keyword": "CSA program public non-public data carrier access",
+      "data_source": "FMCSA SMS Public Data",
+      "data_url": "https://ai.fmcsa.dot.gov/SMS/",
+      "category": "audits-violations",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/how-to-read-your-csa-scorecard-and-identify-your-biggest-ris/",
         "https://blog.thetruckercodex.com/violation-severity-weights-why-some-tickets-cost-you-more-cs/"
       ],
       "etsy_cta": false
     },
     {
-      "id": "O79",
-      "title": "FMCSA's Intervention Escalation Model: From Warning Letter to Consent Agreement",
-      "keyword": "FMCSA intervention warning letter consent agreement escalation",
-      "data_source": "FMCSA Intervention Data",
-      "data_url": "https://www.fmcsa.dot.gov/safety/carrier-safety/interventions",
+      "id": "O110",
+      "title": "Hazmat Security Plans: What 49 CFR 172.800 Actually Requires Beyond Placarding",
+      "keyword": "hazmat security plan 172.800 requirements",
+      "data_source": "49 CFR Part 172 Subpart I",
+      "data_url": "https://www.ecfr.gov/current/title-49/part-172/subpart-I",
       "category": "audits-violations",
       "internal_links": [
-        "https://blog.thetruckercodex.com/how-fmcsa-selects-carriers-for-compliance-reviews-the-data-b/",
-        "https://blog.thetruckercodex.com/what-a-conditional-safety-rating-actually-means-and-how-to-f/"
+        "https://blog.thetruckercodex.com/hazmat-placarding-when-its-required-and-which-placard-to-use/",
+        "https://blog.thetruckercodex.com/hazardous-materials-shipping-papers-what-must-be-on-the-doc/"
       ],
       "etsy_cta": false
     },
     {
-      "id": "O80",
-      "title": "What Owner-Operators Must Do Compliance-Wise When Leasing On to a New Carrier",
-      "keyword": "owner operator leasing on carrier compliance obligations",
-      "data_source": "49 CFR Part 376",
-      "data_url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-376",
-      "category": "dqf",
-      "internal_links": [
-        "https://blog.thetruckercodex.com/owner-operator-dqf-what-you-need-in-your-own-file-on-yoursel/",
-        "https://blog.thetruckercodex.com/what-owner-operators-get-wrong-about-their-own-operating-aut/"
-      ],
-      "etsy_cta": true
-    },
-    {
-      "id": "O81",
-      "title": "How Electronic Bill of Lading Affects Document Requirements at Roadside Inspections",
-      "keyword": "electronic bill of lading DOT roadside inspection",
-      "data_source": "FMCSA Regulations",
-      "data_url": "https://www.fmcsa.dot.gov/regulations",
-      "category": "audits-violations",
-      "internal_links": [
-        "https://blog.thetruckercodex.com/the-8-documents-you-must-have-in-the-cab-during-any-inspecti/",
-        "https://blog.thetruckercodex.com/dot-compliance-documents-the-complete-list-truck-drivers-must-maintain/"
-      ],
-      "etsy_cta": false
-    },
-    {
-      "id": "O82",
-      "title": "FMCSA's Most-Cited Violations: Analysis of the Annual Top Violation Data",
-      "keyword": "FMCSA most cited violations annual data analysis",
-      "data_source": "FMCSA Enforcement Statistics",
-      "data_url": "https://www.fmcsa.dot.gov/safety/data-and-statistics",
-      "category": "audits-violations",
-      "internal_links": [
-        "https://blog.thetruckercodex.com/common-dot-violations-how-to-avoid/",
-        "https://blog.thetruckercodex.com/the-6-recordkeeping-failures-fmcsa-auditors-find-in-every-sm/"
-      ],
-      "etsy_cta": true
-    },
-    {
-      "id": "O83",
-      "title": "Drayage and Intermodal Operations: The Compliance Gaps Port Truckers Miss",
-      "keyword": "drayage intermodal compliance FMCSA port trucking",
-      "data_source": "FMCSA Enforcement Data",
-      "data_url": "https://www.fmcsa.dot.gov/safety/carrier-safety",
+      "id": "O111",
+      "title": "Cross-Border Compliance: What Changes for US Carriers Operating Into Canada or Mexico",
+      "keyword": "cross border trucking compliance Canada Mexico FMCSA",
+      "data_source": "FMCSA / Transport Canada Cross-Border Data",
+      "data_url": "https://www.fmcsa.dot.gov/registration/mexico-domiciled-carriers",
       "category": "fmcsa-basics",
       "internal_links": [
-        "https://blog.thetruckercodex.com/what-is-dot-compliance/",
-        "https://blog.thetruckercodex.com/dot-compliance-checklist-2026/"
+        "https://blog.thetruckercodex.com/what-owner-operators-get-wrong-about-their-own-operating-aut/",
+        "https://blog.thetruckercodex.com/drayage-and-intermodal-operations-the-compliance-gaps-port-t/"
       ],
       "etsy_cta": false
     },
     {
-      "id": "O84",
-      "title": "What Carriers Must Do When a Driver's CDL Is Downgraded Mid-Employment",
-      "keyword": "CDL downgrade mid employment carrier obligations FMCSA",
-      "data_source": "FMCSA Clearinghouse Phase II Data",
+      "id": "O112",
+      "title": "How the CDL Drug and Alcohol Clearinghouse's 'Prohibited Status' Actually Gets Lifted",
+      "keyword": "clearinghouse prohibited status return to duty lift",
+      "data_source": "FMCSA Clearinghouse Return-to-Duty Data",
       "data_url": "https://clearinghouse.fmcsa.dot.gov/",
       "category": "dqf",
       "internal_links": [
-        "https://blog.thetruckercodex.com/clearinghouse-phase-ii-cdl-downgrade-enforcement-what-carriers-and-drivers-must-do-right-now/",
-        "https://blog.thetruckercodex.com/fmcsa-clearinghouse-guide/"
+        "https://blog.thetruckercodex.com/sap-process-what-happens-after-a-positive-drug-test-step-by/",
+        "https://blog.thetruckercodex.com/the-clearinghouse-query-carriers-most-often-forget-to-run/"
       ],
-      "etsy_cta": false
-    },
-    {
-      "id": "O85",
-      "title": "How Post-Accident Drug Testing Timelines Affect Litigation Outcomes",
-      "keyword": "post accident drug test timeline litigation outcome",
-      "data_source": "FMCSA Large Truck Crash Facts",
-      "data_url": "https://www.fmcsa.dot.gov/safety/data-and-statistics/large-truck-and-bus-crash-facts",
-      "category": "dqf",
-      "internal_links": [
-        "https://blog.thetruckercodex.com/post-accident-protocol-the-first-4-hours-determine-your-comp/",
-        "https://blog.thetruckercodex.com/the-paper-trail-after-an-accident-every-document-you-need-an/"
-      ],
-      "etsy_cta": false
-    },
-    {
-      "id": "O86",
-      "title": "FMCSA Imminent Hazard Orders: When a Carrier Gets Shut Down Without a Hearing",
-      "keyword": "FMCSA imminent hazard order carrier shutdown",
-      "data_source": "49 CFR Part 386",
-      "data_url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-386",
-      "category": "audits-violations",
-      "internal_links": [
-        "https://blog.thetruckercodex.com/what-a-conditional-safety-rating-actually-means-and-how-to-f/",
-        "https://blog.thetruckercodex.com/the-true-cost-of-an-oos-violation-fines-delays-and-csa-impac/"
-      ],
-      "etsy_cta": false
-    },
-    {
-      "id": "O87",
-      "title": "How Fatigue Science Informs FMCSA's Hours of Service Rule Structure",
-      "keyword": "fatigue research FMCSA hours of service scientific basis",
-      "data_source": "FMCSA Research and Analysis",
-      "data_url": "https://www.fmcsa.dot.gov/safety/research-and-analysis",
-      "category": "hos-eld",
-      "internal_links": [
-        "https://blog.thetruckercodex.com/hours-of-service-rules/",
-        "https://blog.thetruckercodex.com/how-hos-violations-become-crash-liability-what-plaintiff-att/"
-      ],
-      "etsy_cta": false
-    },
-    {
-      "id": "O88",
-      "title": "What FMCSA's Safety Fitness Determination Rulemaking Would Have Changed",
-      "keyword": "FMCSA safety fitness determination rulemaking proposed rule",
-      "data_source": "FMCSA Rulemaking Docket",
-      "data_url": "https://www.fmcsa.dot.gov/regulations/rulemaking",
-      "category": "audits-violations",
-      "internal_links": [
-        "https://blog.thetruckercodex.com/what-satisfactory-safety-rating-means-and-why-its-not-a-guar/",
-        "https://blog.thetruckercodex.com/how-fmcsa-selects-carriers-for-compliance-reviews-the-data-b/"
-      ],
-      "etsy_cta": false
-    },
-    {
-      "id": "O89",
-      "title": "How Seasonal and Agricultural Operations Affect FMCSA Registration Requirements",
-      "keyword": "seasonal operation FMCSA registration requirements agriculture",
-      "data_source": "FMCSA Registration Data",
-      "data_url": "https://www.fmcsa.dot.gov/registration",
-      "category": "fmcsa-basics",
-      "internal_links": [
-        "https://blog.thetruckercodex.com/what-is-fmcsa/",
-        "https://blog.thetruckercodex.com/dot-compliance-checklist-2026/"
-      ],
-      "etsy_cta": false
-    },
-    {
-      "id": "O90",
-      "title": "The DataQs Process: Success Rates, Timelines, and What to Expect After Filing",
-      "keyword": "DataQs FMCSA dispute process success rate timeline",
-      "data_source": "FMCSA DataQs System",
-      "data_url": "https://dataqs.fmcsa.dot.gov/",
-      "category": "audits-violations",
-      "internal_links": [
-        "https://blog.thetruckercodex.com/how-to-dispute-a-roadside-inspection-finding-through-dataqs/",
-        "https://blog.thetruckercodex.com/how-roadside-inspection-data-is-uploaded-to-mcmis-and-how-lo/"
-      ],
-      "etsy_cta": false
+      "etsy_cta": true
     }
   ]
 }

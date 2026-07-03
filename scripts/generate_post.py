@@ -321,6 +321,11 @@ def main():
 
     if topic is None:
         print(f"All {POST_TYPE} topics have been published. Nothing to generate.")
+        # Marker dosyasını BOŞ yazıyoruz ki quality_check.py bunu "bu çalıştırmada
+        # yeni içerik üretilmedi" olarak kesin şekilde anlasın ve eski/rastgele bir
+        # dosyayı yanlışlıkla denetleyip job'ı gereksiz yere düşürmesin.
+        with open("/tmp/last_generated_post.txt", "w") as f:
+            f.write("")
         sys.exit(0)
 
     print(f"Topic [{topic['id']}]: {topic['title']}")
@@ -344,6 +349,12 @@ def main():
     title = extract_title_from_content(content, topic["title"])
     with open("/tmp/post_title.txt", "w") as f:
         f.write(f"[{topic['id']}]: {title}")
+
+    # quality_check.py'nin HANGİ dosyayı denetleyeceğini kesin olarak bilmesi için
+    # (mtime tahminine güvenmek yerine, çünkü actions/checkout tüm dosya mtime'larını
+    # sıfırlıyor ve bu tahmini kırılgan/yanlış kılıyor -- bkz. Temmuz 2026 kesintisi)
+    with open("/tmp/last_generated_post.txt", "w") as f:
+        f.write(filename)
 
     update_topics_index(POST_TYPE, idx, topics_data)
     url = save_published(filename, topic)

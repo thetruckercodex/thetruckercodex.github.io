@@ -43,9 +43,23 @@ jobs:
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             echo "type=${{ github.event.inputs.post_type }}" >> $GITHUB_OUTPUT
+          elif [ "${{ github.event.schedule }}" = "0 14 * * *" ]; then
+            # Hangi cron ifadesinin tetiklediğini DOĞRUDAN GitHub'dan al -- eskiden
+            # "su an saat 14 mu" diye çalışma anındaki saate bakılıyordu, ama
+            # GitHub Actions'ın zamanlanmış tetikleyicileri dakikalarca/saatlerce
+            # gecikebiliyor (resmen bilinen bir davranış); bu gecikme "regulatory"
+            # slotunun saat 14'ü kaçırıp sessizce "oi"ye düşmesine, ve OI havuzu
+            # tükendiğinde haftalarca hiç yeni regulatory yazı üretilememesine
+            # sebep oluyordu (bkz. Temmuz 2026 kesintisi).
+            echo "type=regulatory" >> $GITHUB_OUTPUT
+          elif [ "${{ github.event.schedule }}" = "0 23 * * *" ]; then
+            echo "type=oi" >> $GITHUB_OUTPUT
           else
+            # Beklenmeyen bir schedule değeri (ör. manuel/başka bir tetikleyici) --
+            # eski saat-aralığı mantığına güvenli şekilde düş, ama TAM eşitlik
+            # yerine makul bir pencere kullan.
             HOUR=$(date -u +%H)
-            if [ "$HOUR" = "14" ]; then
+            if [ "$HOUR" -ge 13 ] && [ "$HOUR" -le 16 ]; then
               echo "type=regulatory" >> $GITHUB_OUTPUT
             else
               echo "type=oi" >> $GITHUB_OUTPUT
