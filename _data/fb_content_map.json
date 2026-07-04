@@ -45,8 +45,8 @@
       "icon_notes": "Plan bu kategori için örnek vermemişti — dosya dolabı önerisi, teyit gerekir"
     }
   },
-  "next_slot_index": 2,
-  "next_educational_index": 5,
+  "next_slot_index": 3,
+  "next_educational_index": 6,
   "next_product_index": 5,
   "educational": [
     {
@@ -95,7 +95,7 @@
       "title": "What Is FMCSA and What Does It Regulate?",
       "category": "fmcsa-basics",
       "date": "2026-02-08",
-      "used": false
+      "used": true
     },
     {
       "id": "E007",
