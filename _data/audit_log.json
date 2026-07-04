@@ -96,6 +96,45 @@
           ]
         }
       ]
+    },
+    {
+      "run_date": "2026-07-04T13:56:35.302900+00:00",
+      "entries": [
+        {
+          "timestamp": "2026-07-04T13:55:04.750502+00:00",
+          "file": "2026-02-17-mcsa-2026-eld-revocations-analysis.md",
+          "status": "updated",
+          "pr_url": "https://github.com/thetruckercodex/thetruckercodex.github.io/pull/7",
+          "change_summary": "FMCSA final rule (doc #2026-12448, eff. 2026-07-22) rescinds the requirement to keep an ELD operator's manual in the CMV under § 395.22(h); updated Step 5 of the carrier action plan to remove the now-rescinded manual-in-cab instruction and added a note reflecting the regulatory change.",
+          "sources": [
+            "https://www.federalregister.gov/documents/2026/06/22/2026-12448/rescinding-the-requirement-for-electronic-logging-device-operators-manual-located-in-commercial"
+          ]
+        },
+        {
+          "timestamp": "2026-07-04T13:56:23.374238+00:00",
+          "file": "2026-02-18-2026-CVSA-Out-of-Service-(OOS)-Criteria-Changes.md",
+          "status": "no_change",
+          "reasoning": "Federal Register document #2026-12448 (published 2026-06-22, effective 2026-07-22) is a final FMCSA rule that rescinds the requirement under 49 CFR Part 395 for a copy of the ELD operator's manual to be kept in the CMV. The current post, in Part 1, recommends that carriers ensure drivers have paper log fallback documentation ready for roadside inspection encounters where ELD integrity is questioned, and the ELD product listing is framed around documentation \"officers expect\" during ELD integrity issues. While the post does not explicitly state that an ELD operator's manual must be kept in the vehicle, the broader regulatory context of 49 CFR Part 395 ELD documentation requirements is materially affected: a concrete amendment to Part 395 is now in effect (as of 2026-07-22) that removes a previously required in-cab document. The post claims regulatory references were \"verified as of March 2026\" and makes specific claims about what documentation \"officers expect\" during ELD-related inspections under Part 395 — the rescission of the operator's manual requirement is a concrete, specific amendment to Part 395 that postdates the post's verification date and should be disclosed. This is not speculative; doc #2026-12448 is a final rule with a concrete effective date and a specific regulatory change to Part 395 ELD requirements that a carrier or driver relying on this post's Part 395 compliance guidance would need to know. [PARSE_ERROR: updated content block missing, downgraded to NO_CHANGE]"
+        },
+        {
+          "timestamp": "2026-07-04T13:56:23.575612+00:00",
+          "file": "2026-02-18-dot-pre-employment-requirements.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-07-04T13:56:35.121481+00:00",
+          "file": "2026-02-18-english-language-proficiency-roadside-assessment.md",
+          "status": "no_change",
+          "reasoning": "The only Federal Register document provided (doc #2026-03258, published 2026-02-19, effective 2026-03-23) amends 49 CFR Part 391 to remove an obsolete grandfathering provision related to the vision waiver study program (1992–1994) and vision exemption program (1998–2022) under the physical qualifications standards for interstate drivers. This change is entirely confined to the vision standards subsection of Part 391 and has no bearing whatsoever on § 391.11(b)(2), which governs English language proficiency qualifications. The published post makes no claims about vision standards, grandfathering provisions, or the waiver/exemption programs addressed by that rule. The eCFR fetch was unavailable, so no live text comparison can be made, but per the conservative standard, that absence of data mandates NO_CHANGE rather than speculation. No other Federal Register documents amending § 391.11(b)(2) or 49 CFR Part 395 in a manner relevant to the post's claims have been supplied. Accordingly, there is no concrete, specific change evidenced in the provided source data that the post fails to reflect."
+        },
+        {
+          "timestamp": "2026-07-04T13:56:35.302448+00:00",
+          "file": "2026-02-18-phmsa-hazmat-harmonization-2026-nprm.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        }
+      ]
     }
   ]
 }

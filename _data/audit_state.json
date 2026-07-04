@@ -1,5 +1,5 @@
 {
-  "cursor": 10,
+  "cursor": 15,
   "cycle": 1,
   "posts": {
     "2026-02-08-common-dot-violations-how-to-avoid.md": {
@@ -47,7 +47,28 @@
       "open_pr_number": 6,
       "last_checked_date": "2026-07-03",
       "last_result": "updated"
+    },
+    "2026-02-17-mcsa-2026-eld-revocations-analysis.md": {
+      "open_pr_number": 7,
+      "last_checked_date": "2026-07-04",
+      "last_result": "updated"
+    },
+    "2026-02-18-2026-CVSA-Out-of-Service-(OOS)-Criteria-Changes.md": {
+      "last_checked_date": "2026-07-04",
+      "last_result": "no_change"
+    },
+    "2026-02-18-dot-pre-employment-requirements.md": {
+      "last_checked_date": "2026-07-04",
+      "last_result": "no_change"
+    },
+    "2026-02-18-english-language-proficiency-roadside-assessment.md": {
+      "last_checked_date": "2026-07-04",
+      "last_result": "no_change"
+    },
+    "2026-02-18-phmsa-hazmat-harmonization-2026-nprm.md": {
+      "last_checked_date": "2026-07-04",
+      "last_result": "no_change"
     }
   },
-  "updated_at": "2026-07-03T12:18:33.817329+00:00"
+  "updated_at": "2026-07-04T13:56:35.302480+00:00"
 }
