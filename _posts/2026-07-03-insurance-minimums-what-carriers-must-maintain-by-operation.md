@@ -97,5 +97,7 @@ The regulatory minimum is a floor, not a ceiling. Most carriers operating in gen
 
 **Primary Source:** [49 CFR Part 387, Section 387.9 — eCFR](https://www.ecfr.gov/current/title-49/part-387/section-387.9)
 
+For carriers organizing hazmat paperwork, the <a href="https://www.etsy.com/listing/4472088821/hazmat-trucking-forms-system-dot" target="_blank">Hazmat Trucking Forms System</a> provides structured templates for shipping papers, placard references, and training records.
+
 ---
 *Regulatory references verified against current eCFR and FMCSA official sources. Verify applicability for your specific operation.

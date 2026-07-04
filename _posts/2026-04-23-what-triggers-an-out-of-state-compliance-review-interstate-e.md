@@ -78,5 +78,7 @@ FMCSA's [data and statistics portal](https://www.fmcsa.dot.gov/safety/data-and-s
 
 The interstate enforcement architecture means that no single state's compliance environment is safely ignorable. A carrier that manages its home-state inspection record while accumulating violations on out-of-state lanes is building exactly the multi-BASIC score pattern that FMCSA's prioritization algorithm is designed to surface. Monitor SMS scores in real time, address violation trends before they cross threshold percentiles, and treat each roadside contact in any jurisdiction as a data point in your national compliance profile.
 
+For drivers preparing for out-of-service risk scenarios, the <a href="https://www.etsy.com/listing/4460991248/dot-roadside-inspection-checklist-oos" target="_blank">DOT Roadside Inspection Checklist</a> provides a structured OOS risk-control and repair log.
+
 ---
 *Data sourced from FMCSA Intervention Data and FMCSA public records. Verify current enforcement thresholds at fmcsa.dot.gov.*

@@ -60,5 +60,7 @@ The FMCSA provides carrier-level data through its [safety data and statistics po
 
 Carriers that treat CSA compliance as a continuous operational discipline rather than a periodic audit exercise will consistently present better risk profiles — and will pay demonstrably lower premiums over time as their BASIC percentiles stabilize in non-alert ranges.
 
+For carriers preparing for a compliance review, the <a href="https://www.etsy.com/listing/4454398629/dot-audit-and-safety-compliance-o-logs" target="_blank">DOT Safety Audit Compliance System</a> provides structured logs, SOPs, and checklists designed to support audit readiness.
+
 ---
 *Data sourced from FMCSA SMS Data and FMCSA public records. Verify current enforcement thresholds at fmcsa.dot.gov.*

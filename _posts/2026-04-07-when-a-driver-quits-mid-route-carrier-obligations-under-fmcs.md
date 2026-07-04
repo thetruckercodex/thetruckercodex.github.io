@@ -74,6 +74,8 @@ Failure to execute these steps does not merely create administrative discomfort 
 
 Driver abandonment is a foreseeable event in carrier operations. FMCSA enforcement does not adjust its documentation standards based on the circumstances of separation. The DQF obligations that existed the day before a driver quit remain fully enforceable the day after. Carriers that build systematic separation protocols — tied directly to the DQF structure required under Part 391 — eliminate the compliance vulnerability that follows every mid-route termination event.
 
+For owner-operators and safety managers maintaining driver files, the <a href="https://www.etsy.com/listing/4455445733/driver-qualification-file-system-o-dot" target="_blank">DOT Driver Qualification File System</a> provides structured forms and logs aligned with FMCSA recordkeeping requirements.
+
 ---
 
 *Data sourced from 49 CFR Part 391 and FMCSA public records. Verify current enforcement thresholds at fmcsa.dot.gov.*

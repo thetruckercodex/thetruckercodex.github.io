@@ -135,6 +135,8 @@ If you want all six compliance areas — DQF, Drug & Alcohol, HOS, Vehicle Maint
 - [DOT Compliance Audit Triggers](/dot-compliance-audit-triggers/)
 - [DOT Recordkeeping and Document Retention](/dot-recordkeeping-document-retention/)
 
+For owner-operators and safety managers maintaining driver files, the <a href="https://www.etsy.com/listing/4455445733/driver-qualification-file-system-o-dot" target="_blank">DOT Driver Qualification File System</a> provides structured forms and logs aligned with FMCSA recordkeeping requirements.
+
 ***
 
 _Regulatory references verified against FMCSA official sources. This post is for informational purposes only and does not constitute legal advice._

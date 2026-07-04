@@ -108,6 +108,8 @@ A documented pre-trip is a legal artifact. Treat it accordingly.
 
 Purpose-built for CDL operators and small carriers who need compliant, field-tested documentation that aligns with 49 CFR Part 396 requirements and survives a compliance review.
 
+For drivers preparing for out-of-service risk scenarios, the <a href="https://www.etsy.com/listing/4460991248/dot-roadside-inspection-checklist-oos" target="_blank">DOT Roadside Inspection Checklist</a> provides a structured OOS risk-control and repair log.
+
 ---
 
 *Data sourced from CVSA OOS Criteria and FMCSA public records. Verify current enforcement thresholds at fmcsa.dot.gov.*

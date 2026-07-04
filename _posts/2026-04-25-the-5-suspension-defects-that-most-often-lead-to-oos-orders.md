@@ -72,6 +72,8 @@ Annual inspections are the scheduled opportunity to catch these conditions, but 
 
 Effective suspension PM protocols should include torque verification on U-bolts at defined mileage intervals, air bag visual inspection at every fuel stop on long-haul operations, and documented bushing inspection at each 90-day PM cycle. The enforcement record is unambiguous: suspension defects that generate OOS orders are overwhelmingly preventable through systematic pre-inspection maintenance, not roadside luck.
 
+For drivers preparing for out-of-service risk scenarios, the <a href="https://www.etsy.com/listing/4460991248/dot-roadside-inspection-checklist-oos" target="_blank">DOT Roadside Inspection Checklist</a> provides a structured OOS risk-control and repair log.
+
 ---
 
 *Data sourced from [CVSA OOS Criteria](https://www.cvsa.org/programs/oos-criteria/) and FMCSA public records. Verify current enforcement thresholds at fmcsa.dot.gov.*

@@ -84,6 +84,8 @@ Pre-inspection readiness is the upstream control. Fleets that run structured [CV
 
 For current SMS thresholds, intervention criteria, and BASIC weighting methodology, reference [FMCSA's data and statistics portal](https://www.fmcsa.dot.gov/safety/data-and-statistics) to benchmark your carrier profile against current enforcement intervention thresholds.
 
+For drivers preparing for out-of-service risk scenarios, the <a href="https://www.etsy.com/listing/4460991248/dot-roadside-inspection-checklist-oos" target="_blank">DOT Roadside Inspection Checklist</a> provides a structured OOS risk-control and repair log.
+
 ---
 
 *Data sourced from FMCSA DataQs System and FMCSA public records. Verify current enforcement thresholds at fmcsa.dot.gov.*

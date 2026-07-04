@@ -90,6 +90,8 @@ The minimum pre-dispatch document check should verify:
 
 **Prepare for your next compliance review:** [DOT Audit Preparation Bundle — The Trucker Codex](https://www.etsy.com/shop/TheTruckerCodex)
 
+For carriers organizing hazmat paperwork, the <a href="https://www.etsy.com/listing/4472088821/hazmat-trucking-forms-system-dot" target="_blank">Hazmat Trucking Forms System</a> provides structured templates for shipping papers, placard references, and training records.
+
 ---
 
 *Data sourced from 49 CFR 392.9 and FMCSA public records. Verify current enforcement thresholds at fmcsa.dot.gov.*

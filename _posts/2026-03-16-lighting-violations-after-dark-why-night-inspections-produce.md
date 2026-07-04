@@ -66,5 +66,7 @@ Lighting violations do not exist in an isolated compliance silo. Officers conduc
 
 Night enforcement is not simply about finding dark trucks. It is a systematic inspection strategy that uses lighting defects as the probable cause entry point for full vehicle examinations. Carriers that treat lighting maintenance as peripheral are, operationally, funding the discovery of their other defects.
 
+For drivers preparing for out-of-service risk scenarios, the <a href="https://www.etsy.com/listing/4460991248/dot-roadside-inspection-checklist-oos" target="_blank">DOT Roadside Inspection Checklist</a> provides a structured OOS risk-control and repair log.
+
 ---
 *Data sourced from CVSA Roadcheck Data and FMCSA public records. Verify current enforcement thresholds at fmcsa.dot.gov.*

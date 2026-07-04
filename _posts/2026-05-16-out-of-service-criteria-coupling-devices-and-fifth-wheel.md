@@ -74,6 +74,8 @@ Drivers should also be trained to recognize the indirect indicators of coupling 
 | FMCSA OOSC | North American Standard Out-of-Service Criteria, Vehicle Condition |
 | 49 U.S.C. §521(b) | Civil penalty authority for OOS violations |
 
+For drivers preparing for out-of-service risk scenarios, the <a href="https://www.etsy.com/listing/4460991248/dot-roadside-inspection-checklist-oos" target="_blank">DOT Roadside Inspection Checklist</a> provides a structured OOS risk-control and repair log.
+
 ---
 
 *Regulatory references verified against current eCFR and FMCSA official sources. Verify applicability for your specific operation. This post does not constitute legal advice.*

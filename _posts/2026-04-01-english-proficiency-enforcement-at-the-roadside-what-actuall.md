@@ -81,5 +81,7 @@ For a structured overview of how the roadside assessment itself is conducted fro
 
 English proficiency enforcement intensity has increased in tandem with FMCSA's broader driver fitness prioritization. Carriers that treat this as a peripheral compliance issue are reading the enforcement environment incorrectly. The violation's OOS authority, its CSA weight in the Driver Fitness BASIC, and its visibility in new entrant audits make it a high-leverage finding relative to how rarely it appears in internal compliance reviews. The carriers that manage this exposure well are the ones that build it into qualification workflows systematically — not the ones that respond to it after a violation has already entered the record.
 
+For drivers preparing for out-of-service risk scenarios, the <a href="https://www.etsy.com/listing/4460991248/dot-roadside-inspection-checklist-oos" target="_blank">DOT Roadside Inspection Checklist</a> provides a structured OOS risk-control and repair log.
+
 ---
 *Data sourced from FMCSA Enforcement Data and FMCSA public records. Verify current enforcement thresholds at fmcsa.dot.gov.*

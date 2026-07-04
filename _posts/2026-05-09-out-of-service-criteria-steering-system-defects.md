@@ -81,6 +81,8 @@ The [FMCSA's official guidance resources](https://www.fmcsa.dot.gov/) provide cu
 | 49 U.S.C. §521(b) | Civil penalty authority |
 | CVSA North American OOS Criteria | Steering wheel free play tolerances |
 
+For drivers preparing for out-of-service risk scenarios, the <a href="https://www.etsy.com/listing/4460991248/dot-roadside-inspection-checklist-oos" target="_blank">DOT Roadside Inspection Checklist</a> provides a structured OOS risk-control and repair log.
+
 ---
 
 *Regulatory references verified against current eCFR and FMCSA official sources. Verify applicability for your specific operation. This post does not constitute legal advice.*

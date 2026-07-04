@@ -94,6 +94,8 @@ Maintenance compliance should be treated as a structured operational system, not
 - [Tire Defects and Out-of-Service Criteria](/tire-defects-out-of-service-criteria/)  
 - [DOT Recordkeeping Requirements](/dot-recordkeeping-document-retention/)
 
+For drivers documenting daily vehicle condition, the <a href="https://www.etsy.com/listing/4475633295/truck-pre-trip-inspection-and-dvir-form" target="_blank">Truck Pre-Trip Inspection and DVIR Form</a> provides a structured DOT safety log for pre-trip findings.
+
 ---
 
 *Last verified against the Federal Register on 2026-07-03; updated to reflect FMCSA final rule doc #2026-03264 (Electronic Driver Vehicle Inspection Reports, effective 2026-03-23) and FMCSA final rule doc #2026-12450 (Completed Inspection Report Disposition, effective 2026-07-22), both amending 49 CFR Part 396.*

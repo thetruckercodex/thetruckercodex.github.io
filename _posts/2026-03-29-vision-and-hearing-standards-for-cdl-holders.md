@@ -72,6 +72,8 @@ A driver who operates a CMV without meeting the vision or hearing standards — 
 
 Carriers with broader compliance exposure should review [what DOT compliance requires](https://blog.thetruckercodex.com/what-is-dot-compliance/) across all program areas, as vision and hearing deficiencies discovered during a roadside inspection or audit frequently surface alongside other DQ file deficiencies. For drivers removed from service due to a disqualifying medical finding, the return-to-duty pathway is distinct from, but structurally analogous to, the [SAP process following a positive drug test](https://blog.thetruckercodex.com/sap-process-what-happens-after-a-positive-drug-test-step-by/) — both require documented clearance before the driver may resume CMV operation.
 
+For owner-operators and safety managers maintaining driver files, the <a href="https://www.etsy.com/listing/4455445733/driver-qualification-file-system-o-dot" target="_blank">DOT Driver Qualification File System</a> provides structured forms and logs aligned with FMCSA recordkeeping requirements.
+
 ---
 
 ## Regulatory Reference

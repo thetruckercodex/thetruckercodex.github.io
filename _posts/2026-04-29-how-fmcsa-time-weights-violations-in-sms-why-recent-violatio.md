@@ -58,5 +58,7 @@ The practical takeaway is not to avoid violations — that is axiomatic. The ope
 
 Monitor your SMS profile monthly. When high-severity violations appear in the 0–6 month band, treat them as immediate remediation priorities, not historical records.
 
+For drivers preparing for out-of-service risk scenarios, the <a href="https://www.etsy.com/listing/4460991248/dot-roadside-inspection-checklist-oos" target="_blank">DOT Roadside Inspection Checklist</a> provides a structured OOS risk-control and repair log.
+
 ---
 *Data sourced from FMCSA SMS Methodology Document and FMCSA public records. Verify current enforcement thresholds at fmcsa.dot.gov.*

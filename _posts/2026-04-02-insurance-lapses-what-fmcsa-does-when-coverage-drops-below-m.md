@@ -84,6 +84,8 @@ Reinstatement is not a same-day correction. After a carrier files replacement in
 
 The asymmetry is stark: a lapse event that originates from a 48-hour payment failure can produce 30+ days of revenue loss. The compliance investment required to prevent that outcome is measured in hours per quarter.
 
+For new carriers entering their FMCSA new-entrant safety monitoring period, the <a href="https://www.etsy.com/listing/4467270115/fmcsa-new-authority-startup-compliance" target="_blank">FMCSA New Authority Startup Compliance Kit</a> provides a structured safety audit and DQ file system.
+
 ---
 
 *Data sourced from 49 CFR Part 387 and FMCSA public records. Verify current enforcement thresholds at fmcsa.dot.gov.*

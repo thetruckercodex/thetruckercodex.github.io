@@ -96,6 +96,8 @@ FMCSA has [continued to maintain open rulemaking dockets](https://www.fmcsa.dot.
 
 For carriers, the practical takeaway is this: the infrastructure to automate unfit determinations was built, tested, and found legally insufficient — not technically impossible. That gap will be closed eventually.
 
+For carriers preparing for a compliance review, the <a href="https://www.etsy.com/listing/4454398629/dot-audit-and-safety-compliance-o-logs" target="_blank">DOT Safety Audit Compliance System</a> provides structured logs, SOPs, and checklists designed to support audit readiness.
+
 ---
 
 *Data sourced from FMCSA Rulemaking Docket and FMCSA public records. Verify current enforcement thresholds at fmcsa.dot.gov.*

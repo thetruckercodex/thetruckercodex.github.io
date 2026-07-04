@@ -62,5 +62,7 @@ ELD revocations are not vendor problems that resolve themselves. They are fleet-
 
 The carriers that will navigate this cycle without out-of-service events or CSA score degradation are those treating device registration status as a live compliance variable, not a one-time procurement checkbox. Verify your device. Monitor the list. Document your verification process. That documentation becomes your first line of defense in a post-revocation roadside inspection or a compliance review audit.
 
+For drivers preparing for out-of-service risk scenarios, the <a href="https://www.etsy.com/listing/4460991248/dot-roadside-inspection-checklist-oos" target="_blank">DOT Roadside Inspection Checklist</a> provides a structured OOS risk-control and repair log.
+
 ---
 *Data sourced from FMCSA ELD Revocation List and FMCSA public records. Verify current enforcement thresholds at fmcsa.dot.gov.*

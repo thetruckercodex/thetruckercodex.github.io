@@ -83,5 +83,7 @@ Medical certification compliance is not a one-time onboarding event — it is a 
 | Civil Penalty Authority | 49 CFR Part 386 |
 | FMCSA National Registry | [fmcsa.dot.gov](https://www.fmcsa.dot.gov/) |
 
+For owner-operators and safety managers maintaining driver files, the <a href="https://www.etsy.com/listing/4455445733/driver-qualification-file-system-o-dot" target="_blank">DOT Driver Qualification File System</a> provides structured forms and logs aligned with FMCSA recordkeeping requirements.
+
 ---
 *Regulatory references verified against current eCFR and FMCSA official sources. Verify applicability for your specific operation. This post does not constitute legal advice.*

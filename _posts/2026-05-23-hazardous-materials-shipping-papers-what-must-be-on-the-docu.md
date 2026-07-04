@@ -85,5 +85,7 @@ Proactive compliance professionals will update their shipping paper templates be
 | 49 CFR §177.817 | Shipping papers — accessibility and placement during transport |
 | 49 U.S.C. §5123 | Civil penalties for HMR violations |
 
+For carriers organizing hazmat paperwork, the <a href="https://www.etsy.com/listing/4472088821/hazmat-trucking-forms-system-dot" target="_blank">Hazmat Trucking Forms System</a> provides structured templates for shipping papers, placard references, and training records.
+
 ---
 *Regulatory references verified against current eCFR and FMCSA official sources. Verify applicability for your specific operation. This post does not constitute legal advice.*

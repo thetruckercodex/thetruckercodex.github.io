@@ -62,5 +62,7 @@ Severity weight data is actionable if used correctly. Prioritize your pre-trip a
 
 The severity weight table is public, the methodology is documented, and the math is deterministic. There is no justification for operating without this intelligence embedded in your compliance workflow.
 
+For drivers preparing for out-of-service risk scenarios, the <a href="https://www.etsy.com/listing/4460991248/dot-roadside-inspection-checklist-oos" target="_blank">DOT Roadside Inspection Checklist</a> provides a structured OOS risk-control and repair log.
+
 ---
 *Data sourced from FMCSA SMS Methodology Document and FMCSA public records. Verify current enforcement thresholds at fmcsa.dot.gov.*

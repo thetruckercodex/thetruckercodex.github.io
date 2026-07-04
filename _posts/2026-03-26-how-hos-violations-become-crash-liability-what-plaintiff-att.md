@@ -76,5 +76,7 @@ Carriers should assume that every ELD log, every dispatch record, and every inte
 
 The regulatory environment is not static, and neither is the litigation landscape. As FMCSA crash data continues to identify fatigued driving as a systemic risk factor, plaintiff attorneys will continue refining their discovery strategies. Carriers that treat HOS compliance as a paperwork exercise rather than an operational priority are building their own litigation exposure one log entry at a time.
 
+For drivers preparing for out-of-service risk scenarios, the <a href="https://www.etsy.com/listing/4460991248/dot-roadside-inspection-checklist-oos" target="_blank">DOT Roadside Inspection Checklist</a> provides a structured OOS risk-control and repair log.
+
 ---
 *Data sourced from FMCSA Large Truck Crash Facts and FMCSA public records. Verify current enforcement thresholds at fmcsa.dot.gov.*

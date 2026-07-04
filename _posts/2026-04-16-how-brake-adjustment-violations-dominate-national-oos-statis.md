@@ -66,5 +66,7 @@ It is also worth noting that brake violations do not exist in isolation at inspe
 
 Brake adjustment violations lead national OOS statistics because they are predictable, measurable, and preventable — and yet they persist at the top of the citation tables. Roadcheck data does not reflect an inspection anomaly; it reflects the maintenance baseline of the operating fleet. Carriers who treat brake adjustment as a routine maintenance outcome rather than a compliance risk are absorbing OOS events, CSA points, and SMS scoring damage that could be structurally eliminated through interval calibration, physical measurement protocols, and documentation discipline.
 
+For drivers preparing for out-of-service risk scenarios, the <a href="https://www.etsy.com/listing/4460991248/dot-roadside-inspection-checklist-oos" target="_blank">DOT Roadside Inspection Checklist</a> provides a structured OOS risk-control and repair log.
+
 ---
 *Data sourced from CVSA Roadcheck Annual Report and FMCSA public records. Verify current enforcement thresholds at fmcsa.dot.gov.*

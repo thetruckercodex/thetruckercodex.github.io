@@ -58,5 +58,7 @@ Carriers with drivers managing fuel procurement independently introduce a fourth
 
 IFTA exposure is controllable. The carriers that accumulate deficiencies are almost universally those who treated fuel tax filing as a routine administrative task rather than a data-integrity function with federal compliance implications. The audit triggers are predictable. The escalation pathway is documented. The corrective action is procedural, not extraordinary.
 
+For carriers preparing for a compliance review, the <a href="https://www.etsy.com/listing/4454398629/dot-audit-and-safety-compliance-o-logs" target="_blank">DOT Safety Audit Compliance System</a> provides structured logs, SOPs, and checklists designed to support audit readiness.
+
 ---
 *Data sourced from IFTA Compliance Data and FMCSA public records. Verify current enforcement thresholds at fmcsa.dot.gov.*

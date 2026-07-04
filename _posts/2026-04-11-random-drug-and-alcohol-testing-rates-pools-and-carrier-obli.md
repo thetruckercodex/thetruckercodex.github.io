@@ -75,6 +75,8 @@ Carriers should also be aware that random testing documentation intersects with 
 | Civil Penalties | 49 CFR Part 386 |
 | FMCSA Official Guidance | [fmcsa.dot.gov](https://www.fmcsa.dot.gov/) |
 
+For carriers managing clearinghouse and testing obligations, the <a href="https://www.etsy.com/listing/4457324370/drug-alcohol-compliance-system-audit" target="_blank">DOT Drug and Alcohol Compliance System</a> provides structured logs designed to help organize clearinghouse queries and random testing records.
+
 ---
 
 *Regulatory references verified against current eCFR and FMCSA official sources. Verify applicability for your specific operation. This post does not constitute legal advice.*

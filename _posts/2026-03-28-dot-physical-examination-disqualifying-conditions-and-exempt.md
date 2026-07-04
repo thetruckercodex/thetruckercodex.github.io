@@ -84,6 +84,8 @@ FMCSA enforcement of §391.41 operates at three levels. First, at roadside, a dr
 **Enforcement:** 49 CFR Part 386 — Rules of Practice for FMCSA Proceedings  
 **Agency:** [Federal Motor Carrier Safety Administration](https://www.fmcsa.dot.gov/)
 
+For owner-operators and safety managers maintaining driver files, the <a href="https://www.etsy.com/listing/4455445733/driver-qualification-file-system-o-dot" target="_blank">DOT Driver Qualification File System</a> provides structured forms and logs aligned with FMCSA recordkeeping requirements.
+
 ---
 
 *Regulatory references verified against current eCFR and FMCSA official sources. Verify applicability for your specific operation. This post does not constitute legal advice.*

@@ -76,6 +76,8 @@ Carriers that systematically reduce RTD violation exposure share a consistent op
 
 The original positive test is a compliance event. The return-to-duty sequence is a sustained compliance obligation. FMCSA enforcement data makes clear that carriers absorbing the highest total cost from drug and alcohol violations are those that managed the initial event adequately but failed the administrative requirements of the follow-through.
 
+For carriers managing clearinghouse and testing obligations, the <a href="https://www.etsy.com/listing/4457324370/drug-alcohol-compliance-system-audit" target="_blank">DOT Drug and Alcohol Compliance System</a> provides structured logs designed to help organize clearinghouse queries and random testing records.
+
 ---
 
 *Data sourced from FMCSA Clearinghouse Annual Report and FMCSA public records. Verify current enforcement thresholds at fmcsa.dot.gov.*

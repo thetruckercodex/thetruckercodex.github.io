@@ -71,5 +71,7 @@ Key operational priorities:
 
 The math in the SMS methodology is mechanical and transparent. What sinks small carriers isn't bad luck — it's the failure to manage weighted violation exposure before it compounds across multiple inspection cycles into an intervention-triggering score.
 
+For owner-operators and safety managers maintaining driver files, the <a href="https://www.etsy.com/listing/4455445733/driver-qualification-file-system-o-dot" target="_blank">DOT Driver Qualification File System</a> provides structured forms and logs aligned with FMCSA recordkeeping requirements.
+
 ---
 *Data sourced from FMCSA SMS Methodology and FMCSA public records. Verify current enforcement thresholds at fmcsa.dot.gov.*

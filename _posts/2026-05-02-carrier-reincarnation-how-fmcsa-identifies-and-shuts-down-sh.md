@@ -68,5 +68,7 @@ FMCSA's public enforcement data, available through the agency's [data and statis
 
 For compliance professionals and legitimate carriers, the operational takeaway is direct: FMCSA's detection architecture is increasingly relational rather than entity-specific. A single USDOT number is no longer the boundary of regulatory identity when enforcement algorithms can map asset, personnel, and insurance continuity across multiple registrations. Carriers that operate with integrity have nothing to fear from this system. Those attempting to game it face a detection environment that grows more precise with every inspection record entered.
 
+For drivers preparing for out-of-service risk scenarios, the <a href="https://www.etsy.com/listing/4460991248/dot-roadside-inspection-checklist-oos" target="_blank">DOT Roadside Inspection Checklist</a> provides a structured OOS risk-control and repair log.
+
 ---
 *Data sourced from FMCSA Enforcement Data and FMCSA public records. Verify current enforcement thresholds at fmcsa.dot.gov.*

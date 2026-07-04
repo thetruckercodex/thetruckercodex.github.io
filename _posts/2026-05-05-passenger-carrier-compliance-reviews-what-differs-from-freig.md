@@ -77,5 +77,7 @@ If you're responsible for passenger carrier compliance, the differences from fre
 
 The passenger carrier compliance review is not a freight audit with different equipment. It operates under distinct regulatory provisions, tighter intervention thresholds, and a pre-authorization gatekeeping process with no freight equivalent. Managing compliance to freight standards in a passenger operation is a structural exposure that auditors are specifically trained to identify.
 
+For carriers preparing for a compliance review, the <a href="https://www.etsy.com/listing/4454398629/dot-audit-and-safety-compliance-o-logs" target="_blank">DOT Safety Audit Compliance System</a> provides structured logs, SOPs, and checklists designed to support audit readiness.
+
 ---
 *Data sourced from FMCSA Passenger Carrier Safety and FMCSA public records. Verify current enforcement thresholds at fmcsa.dot.gov.*

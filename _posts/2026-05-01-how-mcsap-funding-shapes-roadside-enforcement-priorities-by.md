@@ -80,5 +80,7 @@ These are not arbitrary — they are consistently among the top OOS-issuing viol
 
 MCSAP is not background policy noise. It is the mechanism that determines where inspectors are deployed, what they are looking for, and how aggressively they act on what they find. Carriers that map their regular corridors against state CVSP priorities, monitor their SMS BASIC scores after each inspection cycle, and understand the inspection-type profile of high-volume states are operating with a measurable compliance advantage over those treating enforcement as unpredictable.
 
+For drivers preparing for out-of-service risk scenarios, the <a href="https://www.etsy.com/listing/4460991248/dot-roadside-inspection-checklist-oos" target="_blank">DOT Roadside Inspection Checklist</a> provides a structured OOS risk-control and repair log.
+
 ---
 *Data sourced from FMCSA MCSAP Program Data and FMCSA public records. Verify current enforcement thresholds at fmcsa.dot.gov.*

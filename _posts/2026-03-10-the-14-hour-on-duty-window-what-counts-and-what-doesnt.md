@@ -83,5 +83,7 @@ The 14-hour rule does not reward improvisation. It rewards pre-trip planning, ac
 
 **Primary regulatory source**: [49 CFR Part 395, Section 395.3 — eCFR](https://www.ecfr.gov/current/title-49/part-395/section-395.3)
 
+For drivers preparing for out-of-service risk scenarios, the <a href="https://www.etsy.com/listing/4460991248/dot-roadside-inspection-checklist-oos" target="_blank">DOT Roadside Inspection Checklist</a> provides a structured OOS risk-control and repair log.
+
 ---
 *Regulatory references verified against current eCFR and FMCSA official sources. Verify applicability for your specific operation. This post does not constitute legal advice.*

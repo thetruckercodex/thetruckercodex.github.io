@@ -88,6 +88,8 @@ Carriers approaching or exceeding the 65th percentile in the Driver BASIC should
 
 The Level III inspection is not a lesser inspection — it is a targeted audit of the human element in your operation. A driver who cannot produce valid credentials, has HOS records that don't reconcile, or is operating with a missing endorsement will generate a violation record regardless of the vehicle's mechanical condition. Carriers should conduct periodic internal audits of driver qualification files, ELD compliance, and cab document inventories using the same checklist framework officers apply in the field.
 
+For drivers preparing for out-of-service risk scenarios, the <a href="https://www.etsy.com/listing/4460991248/dot-roadside-inspection-checklist-oos" target="_blank">DOT Roadside Inspection Checklist</a> provides a structured OOS risk-control and repair log.
+
 ---
 
 *Data sourced from CVSA North American Standard Inspection and FMCSA public records. Verify current enforcement thresholds at fmcsa.dot.gov.*

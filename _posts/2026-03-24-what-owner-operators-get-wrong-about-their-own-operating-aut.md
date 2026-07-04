@@ -72,6 +72,8 @@ Authority is not a license to operate — it is an ongoing regulatory status tha
 
 Owner-operators who treat authority as infrastructure — something to be maintained with the same discipline as their equipment — consistently outperform those who treat it as paperwork completed once and filed away.
 
+For new carriers entering their FMCSA new-entrant safety monitoring period, the <a href="https://www.etsy.com/listing/4467270115/fmcsa-new-authority-startup-compliance" target="_blank">FMCSA New Authority Startup Compliance Kit</a> provides a structured safety audit and DQ file system.
+
 ---
 
 *Data sourced from FMCSA New Entrant Data and FMCSA public records. Verify current enforcement thresholds at fmcsa.dot.gov.*

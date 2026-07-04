@@ -68,5 +68,7 @@ Carriers cannot control whether they are selected for inspection at a fixed weig
 
 The core discipline is treating every inspection as a percentile event, not a compliance formality. Given the time-weight structure of the SMS, a violation cluster in the next 90 days will carry triple the mathematical weight of a violation from 18 months ago. That asymmetry demands proportionally greater attention to current operational compliance than to historical performance management.
 
+For carriers preparing for a compliance review, the <a href="https://www.etsy.com/listing/4454398629/dot-audit-and-safety-compliance-o-logs" target="_blank">DOT Safety Audit Compliance System</a> provides structured logs, SOPs, and checklists designed to support audit readiness.
+
 ---
 *Data sourced from FMCSA SMS Methodology and FMCSA public records. Verify current enforcement thresholds at fmcsa.dot.gov.*

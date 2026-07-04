@@ -84,6 +84,8 @@ Familiarity with the [consequences of hours of service violations and out-of-ser
 
 The 60/70-hour limit does not operate in isolation. It intersects with the 30-minute break requirement under §395.3(a)(3)(ii), the 14-hour on-duty window, and — for drivers using split-sleeper provisions — the paired rest period rules under §395.1(g). Drivers who have accumulated significant on-duty time but have not yet reached the cumulative ceiling still cannot drive if they have exhausted their 11-hour driving allowance or their 14-hour window. Conversely, a driver who has available daily hours remaining may be prohibited from driving because the rolling period total has reached 60 or 70 hours. Both constraints apply simultaneously, and compliance requires satisfying all applicable limits concurrently. For carriers evaluating exemption strategies, the [30-minute break requirement and its available exemptions](https://blog.thetruckercodex.com/the-30-minute-break-requirement-exemptions-most-drivers-dont/) represent a separate but related compliance layer that interacts with daily driving calculations.
 
+For drivers preparing for out-of-service risk scenarios, the <a href="https://www.etsy.com/listing/4460991248/dot-roadside-inspection-checklist-oos" target="_blank">DOT Roadside Inspection Checklist</a> provides a structured OOS risk-control and repair log.
+
 ---
 
 ## Regulatory Reference

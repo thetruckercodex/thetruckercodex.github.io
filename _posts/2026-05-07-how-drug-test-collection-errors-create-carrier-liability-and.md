@@ -54,5 +54,7 @@ When a collection error results in a canceled test in the return-to-duty context
 
 Carriers cannot audit their way out of collection site failures after the fact. Proactive controls include verifying collector training certifications before authorizing a collection site, maintaining a copy of the completed CCF on file against the MRO's reported result, and establishing a written protocol for MRO-reported cancellations that triggers immediate replacement collection scheduling. Any canceled result should generate an internal incident record that documents the corrective action taken and the date the replacement test was completed — documentation that becomes essential during a compliance review.
 
+For carriers managing clearinghouse and testing obligations, the <a href="https://www.etsy.com/listing/4457324370/drug-alcohol-compliance-system-audit" target="_blank">DOT Drug and Alcohol Compliance System</a> provides structured logs designed to help organize clearinghouse queries and random testing records.
+
 ---
 *Data sourced from 49 CFR Part 40 Subpart F and FMCSA public records. Verify current enforcement thresholds at fmcsa.dot.gov.*

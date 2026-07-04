@@ -102,6 +102,8 @@ Carriers managing mixed fleets should also note that brake system failures remai
 
 The operational correction path is straightforward: commodity-specific securement plans built to 49 CFR Part 393 standards, tie-down equipment inspection integrated into every pre-trip, and driver accountability tied to WLL calculation verification before departure. Citations in this category are largely preventable. The enforcement data confirms they are not being prevented at the rate they should be.
 
+For drivers preparing for out-of-service risk scenarios, the <a href="https://www.etsy.com/listing/4460991248/dot-roadside-inspection-checklist-oos" target="_blank">DOT Roadside Inspection Checklist</a> provides a structured OOS risk-control and repair log.
+
 ---
 
 *Data sourced from CVSA Roadcheck Statistics and FMCSA public records. Verify current enforcement thresholds at fmcsa.dot.gov.*

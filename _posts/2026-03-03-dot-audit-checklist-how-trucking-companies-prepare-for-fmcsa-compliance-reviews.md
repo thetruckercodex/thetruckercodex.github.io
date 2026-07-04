@@ -177,6 +177,8 @@ Common problems include:
 
 A broader overview of frequent compliance mistakes can be found in [**Common DOT Violations and How to Avoid Them**](https://blog.thetruckercodex.com/common-dot-violations-how-to-avoid/).
 
+For carriers managing clearinghouse and testing obligations, the <a href="https://www.etsy.com/listing/4457324370/drug-alcohol-compliance-system-audit" target="_blank">DOT Drug and Alcohol Compliance System</a> provides structured logs designed to help organize clearinghouse queries and random testing records.
+
 ***
 
 # Preparing for a DOT Compliance Audit

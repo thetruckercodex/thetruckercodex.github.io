@@ -106,6 +106,8 @@ Carriers seeking to operationalize the short-haul exemption without creating sys
 
 [Full regulatory text: 49 CFR §395.1(e) via eCFR](https://www.ecfr.gov/current/title-49/part-395/section-395.1(e))
 
+For drivers preparing for out-of-service risk scenarios, the <a href="https://www.etsy.com/listing/4460991248/dot-roadside-inspection-checklist-oos" target="_blank">DOT Roadside Inspection Checklist</a> provides a structured OOS risk-control and repair log.
+
 ---
 
 *Regulatory references verified against current eCFR and FMCSA official sources. Verify applicability for your specific operation. This post does not constitute legal advice.*

@@ -95,6 +95,8 @@ That file must be retained for three years minimum under 390.15 — longer if li
 
 **Prepare for your next compliance review:** [DOT Audit Preparation Bundle — The Trucker Codex](https://www.etsy.com/shop/TheTruckerCodex)
 
+For carriers managing clearinghouse and testing obligations, the <a href="https://www.etsy.com/listing/4457324370/drug-alcohol-compliance-system-audit" target="_blank">DOT Drug and Alcohol Compliance System</a> provides structured logs designed to help organize clearinghouse queries and random testing records.
+
 ---
 
 *Data sourced from 49 CFR 390.15 + FMCSA Enforcement and FMCSA public records. Verify current enforcement thresholds at fmcsa.dot.gov.*

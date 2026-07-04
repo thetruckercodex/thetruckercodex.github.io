@@ -101,6 +101,8 @@ PSP is not optional infrastructure. It is a carrier's most direct window into ho
 
 The data exists. Use it before the hire, not after the incident.
 
+For owner-operators and safety managers maintaining driver files, the <a href="https://www.etsy.com/listing/4455445733/driver-qualification-file-system-o-dot" target="_blank">DOT Driver Qualification File System</a> provides structured forms and logs aligned with FMCSA recordkeeping requirements.
+
 ---
 
 *Data sourced from FMCSA Pre-Employment Screening Program and FMCSA public records. Verify current enforcement thresholds at fmcsa.dot.gov.*

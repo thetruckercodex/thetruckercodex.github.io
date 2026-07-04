@@ -76,5 +76,7 @@ Ensure every driver operating under your authority carries the [eight required c
 
 A Conditional rating is a defined regulatory event with a defined resolution pathway. Carriers that treat it as an administrative inconvenience rather than a structural compliance failure consistently find themselves facing the same rating — or worse — on the next review cycle.
 
+For carriers preparing for a compliance review, the <a href="https://www.etsy.com/listing/4454398629/dot-audit-and-safety-compliance-o-logs" target="_blank">DOT Safety Audit Compliance System</a> provides structured logs, SOPs, and checklists designed to support audit readiness.
+
 ---
 *Data sourced from 49 CFR Part 385 and FMCSA public records. Verify current enforcement thresholds at fmcsa.dot.gov.*

@@ -51,3 +51,5 @@ For owner-operators and small fleets, compliance responsibilities often fall dir
 
 - **[DOT Audits: What Triggers a Compliance Audit?](/dot-compliance-audit-triggers/)**
 - **[Common DOT Violations and How to Avoid Them](/common-dot-violations-how-to-avoid/)**
+
+For owner-operators and safety managers maintaining driver files, the <a href="https://www.etsy.com/listing/4455445733/driver-qualification-file-system-o-dot" target="_blank">DOT Driver Qualification File System</a> provides structured forms and logs aligned with FMCSA recordkeeping requirements.

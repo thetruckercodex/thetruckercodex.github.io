@@ -54,5 +54,7 @@ Level VI inspection volume is low compared to Level I and II, but the consequenc
 
 The protocol exists because the cargo category is genuinely different. Enforcement reflects that.
 
+For carriers organizing hazmat paperwork, the <a href="https://www.etsy.com/listing/4472088821/hazmat-trucking-forms-system-dot" target="_blank">Hazmat Trucking Forms System</a> provides structured templates for shipping papers, placard references, and training records.
+
 ---
 *Data sourced from CVSA North American Standard Inspection and FMCSA public records. Verify current enforcement thresholds at fmcsa.dot.gov.*

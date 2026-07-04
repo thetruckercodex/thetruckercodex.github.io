@@ -76,5 +76,7 @@ The common failure modes [documented in new entrant safety audits](https://blog.
 
 MCMIS inspection data retention operates on two separate tracks: a 24-month live window that governs SMS scoring and intervention eligibility, and an indefinite archival record that remains accessible to FMCSA investigators for the duration of the carrier's operating history. Every inspection record is a permanent entry. The only levers available to carriers are DataQs challenges for factually incorrect records, operational improvements that dilute historical violation rates with clean inspection cycles, and proactive compliance management that prevents violations from entering the system in the first place. You can access current [FMCSA data and statistics](https://www.fmcsa.dot.gov/safety/data-and-statistics) to monitor industry-wide BASIC thresholds and benchmark your exposure against current enforcement patterns.
 
+For carriers preparing for a compliance review, the <a href="https://www.etsy.com/listing/4454398629/dot-audit-and-safety-compliance-o-logs" target="_blank">DOT Safety Audit Compliance System</a> provides structured logs, SOPs, and checklists designed to support audit readiness.
+
 ---
 *Data sourced from FMCSA MCMIS and FMCSA public records. Verify current enforcement thresholds at fmcsa.dot.gov.*

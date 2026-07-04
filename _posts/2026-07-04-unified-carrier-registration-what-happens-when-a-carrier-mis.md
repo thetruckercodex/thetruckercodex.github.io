@@ -78,5 +78,7 @@ Carriers with persistent UCR compliance gaps should treat this not as a fee coll
 
 The UCR program is one of the lowest-friction compliance requirements in interstate trucking. Missing its deadline, given the enforcement consequences that follow, represents a disproportionate operational risk relative to the cost and effort of timely registration.
 
+For carriers organizing hazmat paperwork, the <a href="https://www.etsy.com/listing/4472088821/hazmat-trucking-forms-system-dot" target="_blank">Hazmat Trucking Forms System</a> provides structured templates for shipping papers, placard references, and training records.
+
 ---
 *Data sourced from FMCSA / UCR.gov Unified Carrier Registration Program and FMCSA public records. Verify current enforcement thresholds at fmcsa.dot.gov.*

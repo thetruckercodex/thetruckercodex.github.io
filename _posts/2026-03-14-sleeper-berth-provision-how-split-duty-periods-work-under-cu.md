@@ -82,6 +82,8 @@ Carriers should ensure that both dispatch protocols and driver training programs
 **Last Rule Action Cited:** FMCSA HOS Final Rule, 85 FR 33396 (June 1, 2020), effective September 29, 2020  
 **Recent Amendments:** No amendments within the last 7 days as of publication date.
 
+For drivers preparing for out-of-service risk scenarios, the <a href="https://www.etsy.com/listing/4460991248/dot-roadside-inspection-checklist-oos" target="_blank">DOT Roadside Inspection Checklist</a> provides a structured OOS risk-control and repair log.
+
 ---
 
 *Regulatory references verified against current eCFR and FMCSA official sources. Verify applicability for your specific operation. This post does not constitute legal advice.*

@@ -85,6 +85,8 @@ The compliance architecture under Part 385 assumes ongoing management performanc
 
 Satisfactory status is a baseline, not a ceiling. A carrier that understands [the full anatomy of a DOT compliance review](https://blog.thetruckercodex.com/the-anatomy-of-a-dot-compliance-review-what-an-auditor-exami/) — what documents are pulled, in what sequence, and how violations are categorized — is positioned to maintain that status through operational discipline rather than hoping the next review doesn't come. It will. The question is whether the records are ready when it does.
 
+For carriers preparing for a compliance review, the <a href="https://www.etsy.com/listing/4454398629/dot-audit-and-safety-compliance-o-logs" target="_blank">DOT Safety Audit Compliance System</a> provides structured logs, SOPs, and checklists designed to support audit readiness.
+
 ---
 
 *Data sourced from 49 CFR Part 385 and FMCSA public records. Verify current enforcement thresholds at fmcsa.dot.gov.*

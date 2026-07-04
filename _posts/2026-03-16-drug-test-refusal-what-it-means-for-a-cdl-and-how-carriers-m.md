@@ -68,5 +68,7 @@ For drivers who do operate during roadside inspections, it is worth noting that 
 
 A drug test refusal under 49 CFR 382.211 is an absolute prohibition event. Any carrier treating it as anything less is accumulating liability in the Clearinghouse, in their DQF audit trail, and on their CSA record simultaneously.
 
+For carriers managing clearinghouse and testing obligations, the <a href="https://www.etsy.com/listing/4457324370/drug-alcohol-compliance-system-audit" target="_blank">DOT Drug and Alcohol Compliance System</a> provides structured logs designed to help organize clearinghouse queries and random testing records.
+
 ---
 *Data sourced from 49 CFR 382.211 and FMCSA public records. Verify current enforcement thresholds at fmcsa.dot.gov.*

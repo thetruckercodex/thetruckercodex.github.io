@@ -80,6 +80,8 @@ For current agency guidance and enforcement priorities, consult [FMCSA's officia
 | 49 U.S.C. §5123 | Civil penalty authority |
 | 49 U.S.C. §5124 | Criminal penalty authority |
 
+For carriers organizing hazmat paperwork, the <a href="https://www.etsy.com/listing/4472088821/hazmat-trucking-forms-system-dot" target="_blank">Hazmat Trucking Forms System</a> provides structured templates for shipping papers, placard references, and training records.
+
 ---
 
 *Regulatory references verified against current eCFR and FMCSA official sources. Verify applicability for your specific operation. This post does not constitute legal advice.*

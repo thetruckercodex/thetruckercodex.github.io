@@ -72,5 +72,7 @@ Inaccurate crash records that inflate severity classification — an injury code
 
 The weighting system is deterministic. Once you understand the inputs, the scoring output is predictable — and predictable systems can be managed.
 
+For carriers preparing for a compliance review, the <a href="https://www.etsy.com/listing/4454398629/dot-audit-and-safety-compliance-o-logs" target="_blank">DOT Safety Audit Compliance System</a> provides structured logs, SOPs, and checklists designed to support audit readiness.
+
 ---
 *Data sourced from FMCSA SMS Methodology Document and FMCSA public records. Verify current enforcement thresholds at fmcsa.dot.gov.*

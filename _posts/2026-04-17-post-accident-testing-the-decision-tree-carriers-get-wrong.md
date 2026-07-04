@@ -103,5 +103,7 @@ The full regulatory text is available at the [official eCFR citation for §382.3
 **Supporting Provisions:** 49 CFR §382.211 (refusal to submit); 49 CFR §382.305 (random testing); 49 CFR §382.401(b)(1) (record retention); 49 CFR Part 386 Appendix B (civil penalty schedule); 49 CFR Part 40 (testing procedures)  
 **Agency:** Federal Motor Carrier Safety Administration, U.S. Department of Transportation
 
+For carriers managing clearinghouse and testing obligations, the <a href="https://www.etsy.com/listing/4457324370/drug-alcohol-compliance-system-audit" target="_blank">DOT Drug and Alcohol Compliance System</a> provides structured logs designed to help organize clearinghouse queries and random testing records.
+
 ---
 *Regulatory references verified against current eCFR and FMCSA official sources. Verify applicability for your specific operation. This post does not constitute legal advice.*

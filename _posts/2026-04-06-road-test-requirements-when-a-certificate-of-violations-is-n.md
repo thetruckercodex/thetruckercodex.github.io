@@ -76,6 +76,8 @@ Carriers found to have placed drivers in service without a compliant road test o
 **Primary Source:** [49 CFR §391.31 — eCFR](https://www.ecfr.gov/current/title-49/part-391/section-391.31)  
 **Agency Reference:** [Federal Motor Carrier Safety Administration](https://www.fmcsa.dot.gov/)
 
+For owner-operators and safety managers maintaining driver files, the <a href="https://www.etsy.com/listing/4455445733/driver-qualification-file-system-o-dot" target="_blank">DOT Driver Qualification File System</a> provides structured forms and logs aligned with FMCSA recordkeeping requirements.
+
 ---
 
 *Regulatory references verified against current eCFR and FMCSA official sources. Verify applicability for your specific operation. This post does not constitute legal advice.*
