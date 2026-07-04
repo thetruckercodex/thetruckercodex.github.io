@@ -45,8 +45,8 @@
       "icon_notes": "Plan bu kategori için örnek vermemişti — dosya dolabı önerisi, teyit gerekir"
     }
   },
-  "next_slot_index": 4,
-  "next_educational_index": 4,
+  "next_slot_index": 1,
+  "next_educational_index": 5,
   "next_product_index": 4,
   "educational": [
     {
@@ -87,7 +87,7 @@
       "title": "ELD Compliance Requirements: What Carriers and Drivers Must Maintain Under 49 CFR Part 395",
       "category": "hos-eld",
       "date": "2026-02-08",
-      "used": false
+      "used": true
     },
     {
       "id": "E006",
