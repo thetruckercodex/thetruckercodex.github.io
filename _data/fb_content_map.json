@@ -45,9 +45,9 @@
       "icon_notes": "Plan bu kategori için örnek vermemişti — dosya dolabı önerisi, teyit gerekir"
     }
   },
-  "next_slot_index": 1,
+  "next_slot_index": 2,
   "next_educational_index": 5,
-  "next_product_index": 4,
+  "next_product_index": 5,
   "educational": [
     {
       "id": "E001",
@@ -1313,7 +1313,7 @@
       "title": "DOT Safety Audit Compliance System, Logs, SOPs and Checklists",
       "category": "audits-violations",
       "price": "$49.00",
-      "used": false
+      "used": true
     },
     {
       "id": "P06",
