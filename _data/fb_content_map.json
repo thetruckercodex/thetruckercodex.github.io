@@ -45,9 +45,9 @@
       "icon_notes": "Plan bu kategori için örnek vermemişti — dosya dolabı önerisi, teyit gerekir"
     }
   },
-  "next_slot_index": 3,
+  "next_slot_index": 4,
   "next_educational_index": 4,
-  "next_product_index": 3,
+  "next_product_index": 4,
   "educational": [
     {
       "id": "E001",
@@ -1305,7 +1305,7 @@
       "title": "DOT Driver Qualification File System 2026, FMCSA Compliance Forms and Logs",
       "category": "dqf",
       "price": "$39.00",
-      "used": false
+      "used": true
     },
     {
       "id": "P05",
