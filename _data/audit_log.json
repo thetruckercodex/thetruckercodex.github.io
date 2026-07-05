@@ -135,6 +135,45 @@
           "reasoning": "No source signal found since last check."
         }
       ]
+    },
+    {
+      "run_date": "2026-07-05T14:03:54.082401+00:00",
+      "entries": [
+        {
+          "timestamp": "2026-07-05T14:03:41.218497+00:00",
+          "file": "2026-02-27-2026-eld-compliance-standards-revocation-updates.md",
+          "status": "updated",
+          "pr_url": "https://github.com/thetruckercodex/thetruckercodex.github.io/pull/8",
+          "change_summary": "Final rule 2026-12448 (eff. 2026-07-22) rescinds the requirement to keep an ELD operator's manual in the CMV in any form; the post incorrectly states that digital availability remains mandatory and must be updated to reflect that no in-vehicle manual is required post-July 22, 2026.",
+          "sources": [
+            "https://www.federalregister.gov/documents/2026/06/22/2026-12448/rescinding-the-requirement-for-electronic-logging-device-operators-manual-located-in-commercial"
+          ]
+        },
+        {
+          "timestamp": "2026-07-05T14:03:41.850330+00:00",
+          "file": "2026-02-27-new-entrant-safety-audit-fmcsa-methodology.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-07-05T14:03:48.421335+00:00",
+          "file": "2026-02-08-Hours-of-Service-Rules-Every-Truck-Driver-Must-Know.md",
+          "status": "no_change",
+          "reasoning": "The Federal Register document cited (doc #2026-12448, effective 2026-07-22) amends ELD operator's manual requirements — specifically rescinding the requirement that a physical copy of the ELD operator's manual be kept in the CMV. This change falls under FMCSA's ELD regulations (49 CFR Part 395, Subpart B, specifically §395.22 or related ELD provisions), but the published post does not make any claim about the ELD operator's manual requirement or its storage in the vehicle. The post's only reference to ELDs is a general compliance tip advising drivers to \"use your ELD to track remaining drive time\" and a link to a separate ELD compliance guide. None of the post's regulatory assertions — the 11-hour driving limit, 14-hour on-duty limit, 30-minute rest break, 60/70-hour weekly limit, or 34-hour restart — are affected by this amendment. Because the post contains no statement that the FR document contradicts, corrects, or supplements, no material update to this post is warranted."
+        },
+        {
+          "timestamp": "2026-07-05T14:03:49.082206+00:00",
+          "file": "2026-02-27-new-entrant-safety-audit-survival-guide.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-07-05T14:03:54.081958+00:00",
+          "file": "2026-03-02-english-proficiency-as-an-out-of-service-condition-2026-roadside-enforcement-breakdown.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        }
+      ]
     }
   ]
 }
