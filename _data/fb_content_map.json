@@ -45,8 +45,8 @@
       "icon_notes": "Plan bu kategori için örnek vermemişti — dosya dolabı önerisi, teyit gerekir"
     }
   },
-  "next_slot_index": 4,
-  "next_educational_index": 6,
+  "next_slot_index": 1,
+  "next_educational_index": 7,
   "next_product_index": 6,
   "educational": [
     {
@@ -103,7 +103,7 @@
       "title": "Brake System Violations: Why They Lead Vehicle Out-of-Service Orders",
       "category": "maintenance",
       "date": "2026-02-09",
-      "used": false
+      "used": true
     },
     {
       "id": "E008",
