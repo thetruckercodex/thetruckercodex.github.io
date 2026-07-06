@@ -174,6 +174,45 @@
           "reasoning": "No source signal found since last check."
         }
       ]
+    },
+    {
+      "run_date": "2026-07-06T15:54:15.903185+00:00",
+      "entries": [
+        {
+          "timestamp": "2026-07-06T15:53:54.844917+00:00",
+          "file": "2026-03-03-fmcsa-2026-update-comprehensive-list-of-revoked-eld-devices-and-compliance-strategies.md",
+          "status": "updated",
+          "pr_url": "https://github.com/thetruckercodex/thetruckercodex.github.io/pull/9",
+          "change_summary": "A new FMCSA final rule (FR doc #2026-12448, effective 2026-07-22) rescinds the requirement to keep a copy of the ELD operator's manual in the CMV; the post should be updated to reflect that this in-cab document is no longer federally required, while noting that drivers must still demonstrate operational knowledge of the ELD during inspections.",
+          "sources": [
+            "https://www.federalregister.gov/documents/2026/06/22/2026-12448/rescinding-the-requirement-for-electronic-logging-device-operators-manual-located-in-commercial"
+          ]
+        },
+        {
+          "timestamp": "2026-07-06T15:54:01.523970+00:00",
+          "file": "2026-03-05-clearinghouse-phase-ıı-cdl-downgrade-enforcement-—-what-carriers-and-drivers-must-do-right-now.md",
+          "status": "no_change",
+          "reasoning": "The Federal Register document cited (doc #2026-12449, effective 2026-07-22) amends regulations requiring CDL holders to self-report motor vehicle violations to their State of domicile — a requirement made redundant by the 2024 implementation of exclusive electronic exchange (EEE) between SDLAs. This change is unrelated to the post's subject matter, which covers Clearinghouse Phase II CDL downgrade enforcement under 49 CFR § 383.73 and 49 CFR Part 382 (drug and alcohol testing, query obligations, prohibited status, and return-to-duty procedures). The post does not discuss or rely on the CDL self-reporting requirement being removed, and none of the post's regulatory claims — the November 18, 2024 mandatory SDLA participation date, the 60-day downgrade window, pre-employment and annual query obligations, or the RTD process under Part 40 Subpart O — are affected by this deregulatory amendment. No other concrete changes to the audited CFR sections are evidenced in the provided source data."
+        },
+        {
+          "timestamp": "2026-07-06T15:54:01.754956+00:00",
+          "file": "2026-02-11-FMCSA-Drug-Alcohol-Clearinghouse.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-07-06T15:54:07.852379+00:00",
+          "file": "2026-03-08-hours-of-service-the-11-hour-driving-limit-explained.md",
+          "status": "no_change",
+          "reasoning": "The Federal Register document identified (doc #2026-12448, effective 2026-07-22) amends ELD-related requirements by rescinding the obligation to keep a physical copy of the ELD operator's manual inside the CMV — a change to 49 CFR Part 395 subpart B ELD provisions (specifically §395.104 or related sections governing ELD documentation requirements). The published post covers §395.3(a)(3) (the 11-hour driving limit), §395.3(a)(2) (the 14-hour window), the 30-minute rest break, the adverse driving conditions exception, and associated enforcement framework. The post makes no claim about any requirement to keep an ELD operator's manual in the CMV, so the rescission of that requirement has no bearing on any regulatory statement in the post. No other concrete amendment to §395.3 or the other provisions cited in the post is evidenced in the supplied source data. The eCFR fetch is also unavailable, precluding any text-level comparison, but absent affirmative evidence of a change, the standard requires NO_CHANGE."
+        },
+        {
+          "timestamp": "2026-07-06T15:54:15.902567+00:00",
+          "file": "2026-03-08-the-10-most-common-hos-violations-found-during-roadside-insp.md",
+          "status": "no_change",
+          "reasoning": "The Federal Register document (doc #2026-12448, effective 2026-07-22) rescinds the requirement to keep a physical copy of the ELD operator's manual inside the CMV — an amendment to the ELD manual-retention requirement, not to any provision of 49 CFR §395.3. The post being audited covers §395.3 specifically (the 11-hour driving limit, 14-hour window, 10-hour off-duty requirement, and 60/70-hour weekly limits) and makes no claim about the ELD operator's manual requirement. While the post does reference ELD malfunction procedures under §395.34(a) (Violation #7), it does not assert that a manual must be kept in the vehicle, so the rescinded rule does not contradict or render inaccurate any regulatory claim in the post. No other Federal Register documents or eCFR amendments affecting §395.3 are supplied in the source data, and the eCFR fetch is unavailable, providing no basis for inferring additional changes. Under the conservative standard applied here, no concrete change to the post's actual regulatory claims is evidenced."
+        }
+      ]
     }
   ]
 }

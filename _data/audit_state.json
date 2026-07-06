@@ -1,5 +1,5 @@
 {
-  "cursor": 20,
+  "cursor": 25,
   "cycle": 1,
   "posts": {
     "2026-02-08-common-dot-violations-how-to-avoid.md": {
@@ -89,7 +89,28 @@
     "2026-03-02-english-proficiency-as-an-out-of-service-condition-2026-roadside-enforcement-breakdown.md": {
       "last_checked_date": "2026-07-05",
       "last_result": "no_change"
+    },
+    "2026-03-03-fmcsa-2026-update-comprehensive-list-of-revoked-eld-devices-and-compliance-strategies.md": {
+      "open_pr_number": 9,
+      "last_checked_date": "2026-07-06",
+      "last_result": "updated"
+    },
+    "2026-03-05-clearinghouse-phase-ıı-cdl-downgrade-enforcement-—-what-carriers-and-drivers-must-do-right-now.md": {
+      "last_checked_date": "2026-07-06",
+      "last_result": "no_change"
+    },
+    "2026-02-11-FMCSA-Drug-Alcohol-Clearinghouse.md": {
+      "last_checked_date": "2026-07-06",
+      "last_result": "no_change"
+    },
+    "2026-03-08-hours-of-service-the-11-hour-driving-limit-explained.md": {
+      "last_checked_date": "2026-07-06",
+      "last_result": "no_change"
+    },
+    "2026-03-08-the-10-most-common-hos-violations-found-during-roadside-insp.md": {
+      "last_checked_date": "2026-07-06",
+      "last_result": "no_change"
     }
   },
-  "updated_at": "2026-07-05T14:03:54.081990+00:00"
+  "updated_at": "2026-07-06T15:54:15.902598+00:00"
 }
