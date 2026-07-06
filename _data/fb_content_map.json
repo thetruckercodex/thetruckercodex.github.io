@@ -45,9 +45,9 @@
       "icon_notes": "Plan bu kategori için örnek vermemişti — dosya dolabı önerisi, teyit gerekir"
     }
   },
-  "next_slot_index": 1,
+  "next_slot_index": 2,
   "next_educational_index": 9,
-  "next_product_index": 8,
+  "next_product_index": 9,
   "educational": [
     {
       "id": "E001",
@@ -1345,7 +1345,7 @@
       "title": "DOT Pre-Trip and Post-Trip Inspection System, DVIR and FMCSA Compliance Kit",
       "category": "maintenance",
       "price": "$29.90",
-      "used": false
+      "used": true
     },
     {
       "id": "P10",
