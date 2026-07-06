@@ -45,8 +45,8 @@
       "icon_notes": "Plan bu kategori için örnek vermemişti — dosya dolabı önerisi, teyit gerekir"
     }
   },
-  "next_slot_index": 4,
-  "next_educational_index": 8,
+  "next_slot_index": 1,
+  "next_educational_index": 9,
   "next_product_index": 8,
   "educational": [
     {
@@ -119,7 +119,7 @@
       "title": "Understanding DOT Roadside Inspections: Levels and Survival Strategies",
       "category": "maintenance",
       "date": "2026-02-11",
-      "used": false
+      "used": true
     },
     {
       "id": "E010",
