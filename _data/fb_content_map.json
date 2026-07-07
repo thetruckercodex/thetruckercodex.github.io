@@ -45,8 +45,8 @@
       "icon_notes": "Plan bu kategori için örnek vermemişti — dosya dolabı önerisi, teyit gerekir"
     }
   },
-  "next_slot_index": 4,
-  "next_educational_index": 10,
+  "next_slot_index": 1,
+  "next_educational_index": 11,
   "next_product_index": 10,
   "educational": [
     {
@@ -135,7 +135,7 @@
       "title": "The 2026 SFD Overhaul: Navigating the New Era of Safety Fitness Determinations",
       "category": "audits-violations",
       "date": "2026-02-16",
-      "used": false
+      "used": true
     },
     {
       "id": "E012",
