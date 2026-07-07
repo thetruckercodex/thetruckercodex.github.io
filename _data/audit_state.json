@@ -1,5 +1,5 @@
 {
-  "cursor": 25,
+  "cursor": 30,
   "cycle": 1,
   "posts": {
     "2026-02-08-common-dot-violations-how-to-avoid.md": {
@@ -110,7 +110,28 @@
     "2026-03-08-the-10-most-common-hos-violations-found-during-roadside-insp.md": {
       "last_checked_date": "2026-07-06",
       "last_result": "no_change"
+    },
+    "2026-03-08-the-7-eld-errors-officers-check-first-at-the-scale.md": {
+      "open_pr_number": 10,
+      "last_checked_date": "2026-07-07",
+      "last_result": "updated"
+    },
+    "2026-03-08-top-5-brake-violations-that-trigger-an-immediate-oos-order.md": {
+      "last_checked_date": "2026-07-07",
+      "last_result": "no_change"
+    },
+    "2026-03-09-pre-trip-inspection-the-15-items-most-drivers-skip.md": {
+      "last_checked_date": "2026-07-07",
+      "last_result": "no_change"
+    },
+    "2026-03-09-why-small-fleets-fail-dot-audits-the-6-most-common-dqf-defic.md": {
+      "last_checked_date": "2026-07-07",
+      "last_result": "no_change"
+    },
+    "2026-03-10-the-14-hour-on-duty-window-what-counts-and-what-doesnt.md": {
+      "last_checked_date": "2026-07-07",
+      "last_result": "no_change"
     }
   },
-  "updated_at": "2026-07-06T15:54:15.902598+00:00"
+  "updated_at": "2026-07-07T15:10:57.176583+00:00"
 }

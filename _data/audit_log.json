@@ -213,6 +213,45 @@
           "reasoning": "The Federal Register document (doc #2026-12448, effective 2026-07-22) rescinds the requirement to keep a physical copy of the ELD operator's manual inside the CMV — an amendment to the ELD manual-retention requirement, not to any provision of 49 CFR §395.3. The post being audited covers §395.3 specifically (the 11-hour driving limit, 14-hour window, 10-hour off-duty requirement, and 60/70-hour weekly limits) and makes no claim about the ELD operator's manual requirement. While the post does reference ELD malfunction procedures under §395.34(a) (Violation #7), it does not assert that a manual must be kept in the vehicle, so the rescinded rule does not contradict or render inaccurate any regulatory claim in the post. No other Federal Register documents or eCFR amendments affecting §395.3 are supplied in the source data, and the eCFR fetch is unavailable, providing no basis for inferring additional changes. Under the conservative standard applied here, no concrete change to the post's actual regulatory claims is evidenced."
         }
       ]
+    },
+    {
+      "run_date": "2026-07-07T15:10:57.177205+00:00",
+      "entries": [
+        {
+          "timestamp": "2026-07-07T15:10:43.667019+00:00",
+          "file": "2026-03-08-the-7-eld-errors-officers-check-first-at-the-scale.md",
+          "status": "updated",
+          "pr_url": "https://github.com/thetruckercodex/thetruckercodex.github.io/pull/10",
+          "change_summary": "A final rule (FR doc #2026-12448, effective 2026-07-22) rescinds the 49 CFR 395.22 requirement to keep an ELD operator's manual in the CMV; the post has been updated to note this change and clarify that officers can no longer cite carriers for absence of the physical manual under 395.22, while the driver's obligation to understand ELD operation remains.",
+          "sources": [
+            "https://www.federalregister.gov/documents/2026/06/22/2026-12448/rescinding-the-requirement-for-electronic-logging-device-operators-manual-located-in-commercial"
+          ]
+        },
+        {
+          "timestamp": "2026-07-07T15:10:44.640048+00:00",
+          "file": "2026-03-08-top-5-brake-violations-that-trigger-an-immediate-oos-order.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-07-07T15:10:44.856507+00:00",
+          "file": "2026-03-09-pre-trip-inspection-the-15-items-most-drivers-skip.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-07-07T15:10:49.876859+00:00",
+          "file": "2026-03-09-why-small-fleets-fail-dot-audits-the-6-most-common-dqf-defic.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-07-07T15:10:57.176547+00:00",
+          "file": "2026-03-10-the-14-hour-on-duty-window-what-counts-and-what-doesnt.md",
+          "status": "no_change",
+          "reasoning": "The sole Federal Register document provided (doc #2026-12448, effective 2026-07-22) amends the ELD regulations to rescind the requirement that a copy of the ELD operator's manual be kept in the CMV. The published post does not make any claim about the ELD operator's manual in-cab requirement — it references ELD compliance generally (via an internal link) and discusses ELD configuration and record-keeping in passing, but none of those statements are rendered inaccurate or incomplete by the removal of the manual-retention requirement. The post's specific regulatory citations (§395.3(a)(2), §395.3(a)(1), §395.2, §395.1(g)(1), §395.1(e), 49 USC §521(b)(2)(B), §383.51) are unaffected by doc #2026-12448, which addresses a separate ELD paperwork requirement outside the scope of any claim made in the post. The eCFR fetch was unavailable, so no additional textual changes to Part 395 or §383.51 can be confirmed; however, per the audit instructions, absence of confirmable source data requires a NO_CHANGE finding rather than speculative inference."
+        }
+      ]
     }
   ]
 }
