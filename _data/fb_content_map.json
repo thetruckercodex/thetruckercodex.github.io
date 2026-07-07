@@ -45,9 +45,9 @@
       "icon_notes": "Plan bu kategori için örnek vermemişti — dosya dolabı önerisi, teyit gerekir"
     }
   },
-  "next_slot_index": 1,
+  "next_slot_index": 2,
   "next_educational_index": 11,
-  "next_product_index": 10,
+  "next_product_index": 11,
   "educational": [
     {
       "id": "E001",
@@ -1361,7 +1361,7 @@
       "title": "FMCSA New Authority Startup Compliance Kit, DOT Safety Audit and DQ File System",
       "category": "fmcsa-basics",
       "price": "$59.00",
-      "used": false
+      "used": true
     },
     {
       "id": "P12",
