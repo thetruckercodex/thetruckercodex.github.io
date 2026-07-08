@@ -45,8 +45,8 @@
       "icon_notes": "Plan bu kategori için örnek vermemişti — dosya dolabı önerisi, teyit gerekir"
     }
   },
-  "next_slot_index": 4,
-  "next_educational_index": 12,
+  "next_slot_index": 1,
+  "next_educational_index": 13,
   "next_product_index": 12,
   "educational": [
     {
@@ -151,7 +151,7 @@
       "title": "The Green Paper Revolution: 2026 CVSA Out-of-Service Criteria Updates",
       "category": "audits-violations",
       "date": "2026-02-18",
-      "used": false
+      "used": true
     },
     {
       "id": "E014",
