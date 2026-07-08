@@ -1,5 +1,5 @@
 {
-  "cursor": 30,
+  "cursor": 35,
   "cycle": 1,
   "posts": {
     "2026-02-08-common-dot-violations-how-to-avoid.md": {
@@ -131,7 +131,27 @@
     "2026-03-10-the-14-hour-on-duty-window-what-counts-and-what-doesnt.md": {
       "last_checked_date": "2026-07-07",
       "last_result": "no_change"
+    },
+    "2026-03-10-the-5-cargo-securement-failures-that-generate-the-most-citat.md": {
+      "last_checked_date": "2026-07-08",
+      "last_result": "no_change"
+    },
+    "2026-03-10-what-officers-look-for-in-the-first-60-seconds-of-a-level-i.md": {
+      "last_checked_date": "2026-07-08",
+      "last_result": "no_change"
+    },
+    "2026-03-11-the-30-minute-break-requirement-exemptions-most-drivers-dont.md": {
+      "last_checked_date": "2026-07-08",
+      "last_result": "no_change"
+    },
+    "2026-03-11-tire-violations-the-exact-measurements-officers-use-to-write.md": {
+      "last_checked_date": "2026-07-08",
+      "last_result": "no_change"
+    },
+    "2026-03-12-post-accident-protocol-the-first-4-hours-determine-your-comp.md": {
+      "last_checked_date": "2026-07-08",
+      "last_result": "no_change"
     }
   },
-  "updated_at": "2026-07-07T15:10:57.176583+00:00"
+  "updated_at": "2026-07-08T14:36:00.869414+00:00"
 }

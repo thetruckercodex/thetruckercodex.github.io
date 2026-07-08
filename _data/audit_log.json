@@ -252,6 +252,41 @@
           "reasoning": "The sole Federal Register document provided (doc #2026-12448, effective 2026-07-22) amends the ELD regulations to rescind the requirement that a copy of the ELD operator's manual be kept in the CMV. The published post does not make any claim about the ELD operator's manual in-cab requirement — it references ELD compliance generally (via an internal link) and discusses ELD configuration and record-keeping in passing, but none of those statements are rendered inaccurate or incomplete by the removal of the manual-retention requirement. The post's specific regulatory citations (§395.3(a)(2), §395.3(a)(1), §395.2, §395.1(g)(1), §395.1(e), 49 USC §521(b)(2)(B), §383.51) are unaffected by doc #2026-12448, which addresses a separate ELD paperwork requirement outside the scope of any claim made in the post. The eCFR fetch was unavailable, so no additional textual changes to Part 395 or §383.51 can be confirmed; however, per the audit instructions, absence of confirmable source data requires a NO_CHANGE finding rather than speculative inference."
         }
       ]
+    },
+    {
+      "run_date": "2026-07-08T14:36:00.870006+00:00",
+      "entries": [
+        {
+          "timestamp": "2026-07-08T14:35:42.226293+00:00",
+          "file": "2026-03-10-the-5-cargo-securement-failures-that-generate-the-most-citat.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-07-08T14:35:42.436172+00:00",
+          "file": "2026-03-10-what-officers-look-for-in-the-first-60-seconds-of-a-level-i.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-07-08T14:35:54.475193+00:00",
+          "file": "2026-03-11-the-30-minute-break-requirement-exemptions-most-drivers-dont.md",
+          "status": "no_change",
+          "reasoning": "The Federal Register document cited (doc #2026-12448, effective 2026-07-22) amends the ELD operator's manual requirement — specifically rescinding the rule that a physical copy of the ELD operator's manual must be kept in the CMV. This change touches ELD equipment/documentation rules (49 CFR Part 395 subpart relating to ELD hardware/documentation requirements), but the published post makes no claim about the operator's manual requirement whatsoever. The post's regulatory claims concern §395.3(a)(3)(ii) (the 30-minute break mandate), §395.1(e) (short-haul exemption), §395.1(b) (adverse driving conditions), §395.1(d) (oilfield exception), and §395.2 (definitions) — none of which are affected by the operator's manual rescission. No numeric thresholds, exemption criteria, break requirements, penalty figures, or any other factual claim in the post is altered by this amendment. The eCFR fetch was unavailable, so no additional changes can be confirmed from that source, and the conservative standard requires NO_CHANGE absent concrete evidence of a relevant amendment."
+        },
+        {
+          "timestamp": "2026-07-08T14:35:54.645370+00:00",
+          "file": "2026-03-11-tire-violations-the-exact-measurements-officers-use-to-write.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-07-08T14:36:00.869384+00:00",
+          "file": "2026-03-12-post-accident-protocol-the-first-4-hours-determine-your-comp.md",
+          "status": "no_change",
+          "reasoning": "The only Federal Register document provided (doc #2026-08438, published 2026-04-30) is a correction to a prior final rule that removed obsolete references to \"water carriers\" from the FMCSRs. This correction addresses a drafting error in amendatory instructions from a February 19, 2026 final rule — it has no bearing on the substantive regulatory provisions discussed in the post: the accident register requirements of 49 CFR 390.15, the post-accident drug and alcohol testing timelines and procedures under 49 CFR Part 382 Subpart C, the definition of \"recordable accident\" under 49 CFR 390.5, or any of the violation codes, retention periods, or compliance thresholds cited in the article. No numeric threshold, deadline, section designation, or compliance obligation relevant to the post's content has been altered by this document. The eCFR fetch was unavailable, but the Federal Register source data alone provides no basis for a material update. Accordingly, no change to the published post is warranted."
+        }
+      ]
     }
   ]
 }
