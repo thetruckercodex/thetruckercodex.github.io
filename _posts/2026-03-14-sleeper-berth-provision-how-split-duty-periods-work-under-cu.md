@@ -2,6 +2,7 @@
 layout: post
 title: "Sleeper Berth Provision: How Split-Duty Periods Work Under Current Rules"
 date: 2026-03-14
+last_modified_at: 2026-07-09
 categories: hos-eld
 description: "Comprehensive analysis of Sleeper Berth Provision: How Split-Duty Periods Work Under Current Rules under 49 CFR Part 395. Regulatory requirements, enforcement consequences, and compliance guidance for motor carriers."
 ---
@@ -43,6 +44,8 @@ To apply this correctly, a driver must:
 
 Drivers and carriers who fail to execute this recalculation correctly routinely generate Hours of Service violations that would not otherwise exist—and ELD systems, while capable of automating this math, are only as accurate as the duty-status entries driving them. For a complete overview of ELD compliance obligations, see our analysis of [electronic logging device compliance](https://blog.thetruckercodex.com/electronic-logging-device-eld-compliance/).
 
+> **Note (effective July 22, 2026):** FMCSA final rule 2026-12448 amended 49 CFR Part 395 Subpart B to rescind the requirement that a copy of the ELD operator's manual be kept in the commercial motor vehicle. Drivers remain required to understand ELD operation and to present accurate electronic records of duty status during inspections; only the physical manual retention requirement has been eliminated.
+
 ### The "Bookend" Requirement
 
 A frequently misunderstood constraint under §395.1(g) is the requirement that the two rest segments together encompass at least 10 hours and that neither standalone period be used to satisfy both the driving rest requirement and a separate regulatory obligation. The longer segment (8 or 7 hours, as applicable) must occur in the sleeper berth. The shorter complementary segment may be spent in the berth or off duty. Both periods must be completed before the driver's available driving and on-duty hours are recalculated.
@@ -80,10 +83,12 @@ Carriers should ensure that both dispatch protocols and driver training programs
 **Agency:** [Federal Motor Carrier Safety Administration (FMCSA)](https://www.fmcsa.dot.gov/)  
 **eCFR Source:** [49 CFR §395.1(g)](https://www.ecfr.gov/current/title-49/part-395/section-395.1(g))  
 **Last Rule Action Cited:** FMCSA HOS Final Rule, 85 FR 33396 (June 1, 2020), effective September 29, 2020  
-**Recent Amendments:** No amendments within the last 7 days as of publication date.
+**Recent Amendments:** FMCSA final rule (FR doc. 2026-12448, published June 22, 2026, effective July 22, 2026) amended 49 CFR Part 395 Subpart B to rescind the requirement that a copy of the ELD operator's manual be kept in the CMV. No other amendments to 49 CFR Part 395 or Part 393 affecting the sleeper berth provision have been identified as of the verification date below.
 
 For drivers preparing for out-of-service risk scenarios, the <a href="https://www.etsy.com/listing/4460991248/dot-roadside-inspection-checklist-oos" target="_blank">DOT Roadside Inspection Checklist</a> provides a structured OOS risk-control and repair log.
 
 ---
 
 *Regulatory references verified against current eCFR and FMCSA official sources. Verify applicability for your specific operation. This post does not constitute legal advice.*
+
+*Last verified against the Federal Register on 2026-07-09; updated to reflect FR doc. 2026-12448 (effective July 22, 2026), which rescinds the ELD operator's manual in-vehicle retention requirement under 49 CFR Part 395 Subpart B.*
