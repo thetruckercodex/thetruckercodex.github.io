@@ -330,6 +330,45 @@
           "reasoning": "The only Federal Register document provided (doc #2026-06013, published 2026-03-27) is a Notice of Data Availability (NODA) related to railroad grade crossing stopping exceptions under 49 CFR Part 392. It is not a final rule, interim final rule, or amendment — it is a preliminary procedural notice soliciting public comment on data that *may* inform future rulemaking. It does not amend 49 CFR 392.9, 49 CFR 391.41, or any other section cited in the post, and it has no effective date. The eCFR fetch was also unavailable, providing no additional source data to evaluate. There is no concrete, specific regulatory change evidenced in the supplied materials that is not already reflected in the published post."
         }
       ]
+    },
+    {
+      "run_date": "2026-07-10T14:49:17.027600+00:00",
+      "entries": [
+        {
+          "timestamp": "2026-07-10T14:48:13.007348+00:00",
+          "file": "2026-03-14-hazmat-documentation-control-why-shipping-papers-placard-references-and-training-records-must-function-as-one-compliance-system.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-07-10T14:48:13.164925+00:00",
+          "file": "2026-03-15-how-to-read-your-csa-scorecard-and-identify-your-biggest-ris.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-07-10T14:49:11.863448+00:00",
+          "file": "2026-03-15-short-haul-exemption-who-qualifies-and-what-records-are-requ.md",
+          "status": "updated",
+          "pr_url": "https://github.com/thetruckercodex/thetruckercodex.github.io/pull/13",
+          "change_summary": "FR doc 2026-12448 (eff. 2026-07-22) rescinds the requirement to keep an ELD operator's manual in the CMV; post updated to note this amendment in the ELD compliance discussion and recordkeeping section.",
+          "sources": [
+            "https://www.federalregister.gov/documents/2026/06/22/2026-12448/rescinding-the-requirement-for-electronic-logging-device-operators-manual-located-in-commercial"
+          ]
+        },
+        {
+          "timestamp": "2026-07-10T14:49:12.011623+00:00",
+          "file": "2026-03-16-drug-test-refusal-what-it-means-for-a-cdl-and-how-carriers-m.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-07-10T14:49:17.026870+00:00",
+          "file": "2026-03-16-lighting-violations-after-dark-why-night-inspections-produce.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        }
+      ]
     }
   ]
 }
