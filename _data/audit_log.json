@@ -369,6 +369,45 @@
           "reasoning": "No source signal found since last check."
         }
       ]
+    },
+    {
+      "run_date": "2026-07-11T13:49:12.616546+00:00",
+      "entries": [
+        {
+          "timestamp": "2026-07-11T13:49:00.468452+00:00",
+          "file": "2026-03-17-adverse-driving-conditions-exemption-when-and-how-to-apply-i.md",
+          "status": "updated",
+          "pr_url": "https://github.com/thetruckercodex/thetruckercodex.github.io/pull/14",
+          "change_summary": "FR doc #2026-12448 (eff. 2026-07-22) rescinds the requirement to keep an ELD operator's manual in the CMV under 49 CFR Part 395 Subpart B; post updated to reflect this amendment in the ELD documentation section and regulatory reference table.",
+          "sources": [
+            "https://www.federalregister.gov/documents/2026/06/22/2026-12448/rescinding-the-requirement-for-electronic-logging-device-operators-manual-located-in-commercial"
+          ]
+        },
+        {
+          "timestamp": "2026-07-11T13:49:01.102465+00:00",
+          "file": "2026-03-17-the-clearinghouse-query-carriers-most-often-forget-to-run.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-07-11T13:49:06.957993+00:00",
+          "file": "2026-03-18-how-fmcsa-selects-carriers-for-compliance-reviews-the-data-b.md",
+          "status": "no_change",
+          "reasoning": "The only Federal Register document provided (doc #2026-08438, published 2026-04-30) is a correction to a final rule that removed obsolete references to \"water carriers\" from FMCSA regulations — it addresses a ministerial error in amendatory instructions and has no bearing on the substantive regulatory claims in the post. The post's references to 49 CFR 390.5 (definition of \"reportable crash\"), 49 CFR 395.3 (maximum driving time), and the broader SMS/BASIC scoring framework are entirely unrelated to water carrier terminology cleanup. No change to numeric thresholds, compliance deadlines, section designations, or enforcement criteria affecting the post's content is evidenced by the supplied source data. The eCFR fetch was unavailable, so no live section text can be compared, but the conservative standard requires concrete evidence of a material change — which is absent here."
+        },
+        {
+          "timestamp": "2026-07-11T13:49:07.643336+00:00",
+          "file": "2026-03-18-what-a-conditional-safety-rating-actually-means-and-how-to-f.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-07-11T13:49:12.615841+00:00",
+          "file": "2026-03-19-the-6-recordkeeping-failures-fmcsa-auditors-find-in-every-sm.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        }
+      ]
     }
   ]
 }
