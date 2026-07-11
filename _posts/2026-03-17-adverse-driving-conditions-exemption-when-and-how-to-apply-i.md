@@ -2,6 +2,7 @@
 layout: post
 title: "Adverse Driving Conditions Exemption: When and How to Apply It"
 date: 2026-03-17
+last_modified_at: 2026-07-11
 categories: hos-eld
 description: "Comprehensive analysis of Adverse Driving Conditions Exemption: When and How to Apply It under 49 CFR Part 395. Regulatory requirements, enforcement consequences, and compliance guidance for motor carriers."
 ---
@@ -53,6 +54,8 @@ Under the ELD mandate (49 CFR Part 395, Subpart B), drivers are not required to 
 - Any **communication logs** between driver and dispatch during the event.
 - The driver's **Record of Duty Status (RODS)** showing the pre-extension compliance baseline.
 
+> **Regulatory note (effective 2026-07-22):** FMCSA has rescinded the requirement for a copy of the ELD operator's manual to be kept in the commercial motor vehicle (FR doc #2026-12448, published 2026-06-22). Drivers remain required to understand the operation of the ELD on their vehicle to ensure accuracy of electronic records of duty status and to present this information during roadside inspections — only the physical in-cab manual retention requirement has been eliminated. This change does not affect any of the documentation practices listed above.
+
 Drivers operating under the short-haul exemption and who are not required to maintain RODS under §395.1(e) are still subject to the driving hour limits — meaning the adverse driving conditions exemption is available to them, but they forfeit short-haul protections if the extension causes them to exceed the 100/150 air-mile radius or 14-hour window. The full qualification framework for the [short-haul exemption](https://blog.thetruckercodex.com/short-haul-exemption-who-qualifies-and-what-records-are-requ/) makes clear that these provisions are mutually constraining.
 
 ### Relationship to Sleeper Berth Splits
@@ -84,10 +87,12 @@ The carrier bears independent liability when dispatch practices contribute to or
 | 49 CFR §395.3(b) | 60/70-hour weekly on-duty limits |
 | 49 CFR §395.1(g) | Sleeper berth exception |
 | 49 CFR §395.1(e) | Short-haul exemption from RODS requirement |
-| 49 CFR Part 395 Subpart B | ELD technical requirements |
+| 49 CFR Part 395 Subpart B | ELD technical requirements (amended eff. 2026-07-22: in-cab operator's manual retention requirement rescinded per FR doc #2026-12448) |
 | 49 U.S.C. §521(b) | Civil penalty authority |
 | 49 CFR §390.11 | Motor carrier duty to require compliance |
 
 ---
 
 *Regulatory references verified against current eCFR and FMCSA official sources. Verify applicability for your specific operation. This post does not constitute legal advice.*
+
+*Last verified against eCFR/Federal Register on 2026-07-11; updated to reflect FR document #2026-12448 (published 2026-06-22, effective 2026-07-22), which rescinds the in-cab ELD operator's manual retention requirement under 49 CFR Part 395 Subpart B.*
