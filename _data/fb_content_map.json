@@ -45,9 +45,9 @@
       "icon_notes": "Plan bu kategori için örnek vermemişti — dosya dolabı önerisi, teyit gerekir"
     }
   },
-  "next_slot_index": 1,
+  "next_slot_index": 2,
   "next_educational_index": 13,
-  "next_product_index": 12,
+  "next_product_index": 13,
   "educational": [
     {
       "id": "E001",
@@ -1289,7 +1289,7 @@
       "title": "ELD Revoked Emergency Kit, 2026 Paper Logbook and Malfunction Form",
       "category": "hos-eld",
       "price": "$9.90",
-      "used": true
+      "used": false
     },
     {
       "id": "P03",
@@ -1297,7 +1297,7 @@
       "title": "DOT Drug and Alcohol Compliance System, Clearinghouse and Random Testing Log",
       "category": "dqf",
       "price": "$99.00",
-      "used": true
+      "used": false
     },
     {
       "id": "P04",
@@ -1305,7 +1305,7 @@
       "title": "DOT Driver Qualification File System 2026, FMCSA Compliance Forms and Logs",
       "category": "dqf",
       "price": "$39.00",
-      "used": true
+      "used": false
     },
     {
       "id": "P05",
@@ -1313,7 +1313,7 @@
       "title": "DOT Safety Audit Compliance System, Logs, SOPs and Checklists",
       "category": "audits-violations",
       "price": "$49.00",
-      "used": true
+      "used": false
     },
     {
       "id": "P06",
@@ -1321,7 +1321,7 @@
       "title": "DOT Compliance Binder and FMCSA Audit-Ready System, 2026 Complete Kit",
       "category": "fmcsa-basics",
       "price": "$249.00",
-      "used": true
+      "used": false
     },
     {
       "id": "P07",
@@ -1329,7 +1329,7 @@
       "title": "Truck Pre-Trip Inspection and DVIR Form, DOT Safety Log",
       "category": "maintenance",
       "price": "$5.94",
-      "used": true
+      "used": false
     },
     {
       "id": "P08",
@@ -1337,7 +1337,7 @@
       "title": "Hazmat Trucking Forms System, DOT Shipping Paper and Placard Guide",
       "category": "recordkeeping",
       "price": "$129.00",
-      "used": true
+      "used": false
     },
     {
       "id": "P09",
@@ -1345,7 +1345,7 @@
       "title": "DOT Pre-Trip and Post-Trip Inspection System, DVIR and FMCSA Compliance Kit",
       "category": "maintenance",
       "price": "$29.90",
-      "used": true
+      "used": false
     },
     {
       "id": "P10",
@@ -1353,7 +1353,7 @@
       "title": "DOT Roadside Inspection Checklist, OOS Risk Control and Repair Log",
       "category": "audits-violations",
       "price": "$9.90",
-      "used": true
+      "used": false
     },
     {
       "id": "P11",
@@ -1361,7 +1361,7 @@
       "title": "FMCSA New Authority Startup Compliance Kit, DOT Safety Audit and DQ File System",
       "category": "fmcsa-basics",
       "price": "$59.00",
-      "used": true
+      "used": false
     },
     {
       "id": "P12",
@@ -1369,7 +1369,7 @@
       "title": "Easy All-in-One Trucking Load and Expense Tracker for Owner Operators",
       "category": "fmcsa-basics",
       "price": "$19.90",
-      "used": true
+      "used": false
     }
   ]
 }
