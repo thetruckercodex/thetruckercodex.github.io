@@ -1,13 +1,13 @@
 name: Facebook Automation
 
 # Faz 5 — Orkestrasyon. Faz 2 (metin) -> Faz 3 (görsel) -> Faz 4 (yayın)
-# zincirini 6 saatte bir (günde 4 kez) çalıştırır. fb_content_map.json'daki
+# zincirini günde 2 kez (02:00 ve 14:00 UTC) çalıştırır. fb_content_map.json'daki
 # slot_pattern (educational/product, 2+2) sırayı otomatik belirler.
 
 on:
   schedule:
-    # Her 6 saatte bir: 00:00, 06:00, 12:00, 18:00 UTC
-    - cron: '0 */6 * * *'
+    # Günde 2 kez (1 haftalık yoğun lansman sonrası düşürüldü): 02:00, 14:00 UTC
+    - cron: '0 2,14 * * *'
   workflow_dispatch:
     inputs:
       dry_run:
