@@ -408,6 +408,57 @@
           "reasoning": "No source signal found since last check."
         }
       ]
+    },
+    {
+      "run_date": "2026-07-12T13:53:52.086675+00:00",
+      "entries": [
+        {
+          "timestamp": "2026-07-12T13:49:59.951024+00:00",
+          "file": "2026-03-19-violation-severity-weights-why-some-tickets-cost-you-more-cs.md",
+          "status": "no_change",
+          "reasoning": "The only Federal Register document provided (doc #2026-06013, published 2026-03-27) is a Notification of Data Availability (NODA) related to railroad grade crossings — specifically an exception for grade crossings equipped with active warning devices not in an activated state. This document is not a final rule, not an interim final rule, and not an amendment to any provision cited in the post. It has no bearing on 49 CFR §392.6 (speeding/unsafe driving enforcement as used in the SMS severity weight context), 49 CFR §395.8 (HOS records of duty status), or any of the other regulatory provisions discussed in the post. The eCFR fetch was unavailable, so no live section text could be compared, but the absence of that data — combined with the instruction to return NO_CHANGE when source data is missing or ambiguous — precludes any inference of a material change. Nothing in the supplied source data constitutes a concrete, specific amendment to the regulatory claims made in the published post."
+        },
+        {
+          "timestamp": "2026-07-12T13:51:00.065192+00:00",
+          "file": "2026-03-20-cvsa-roadcheck-week-how-to-prepare-your-fleet-before-the-ann.md",
+          "status": "updated",
+          "pr_url": "https://github.com/thetruckercodex/thetruckercodex.github.io/pull/15",
+          "change_summary": "FMCSA final rule 2026-12448 (eff. 2026-07-22) rescinds the 49 CFR Part 395 requirement to keep an ELD operator's manual in the CMV; the post's ELD/HOS preparation guidance and inspection checklist should reflect that this document is no longer required to be present during roadside inspections.",
+          "sources": [
+            "https://www.federalregister.gov/documents/2026/06/22/2026-12448/rescinding-the-requirement-for-electronic-logging-device-operators-manual-located-in-commercial"
+          ]
+        },
+        {
+          "timestamp": "2026-07-12T13:51:58.020749+00:00",
+          "file": "2026-03-20-personal-conveyance-what-fmcsa-actually-permits.md",
+          "status": "updated",
+          "pr_url": "https://github.com/thetruckercodex/thetruckercodex.github.io/pull/16",
+          "change_summary": "FMCSA final rule (FR doc #2026-12448, effective 2026-07-22) rescinds the 49 CFR Part 395, Subpart B requirement to keep a copy of the ELD operator's manual in the CMV; the post's regulatory reference table and ELD compliance discussion should be updated to reflect this rescission.",
+          "sources": [
+            "https://www.federalregister.gov/documents/2026/06/22/2026-12448/rescinding-the-requirement-for-electronic-logging-device-operators-manual-located-in-commercial"
+          ]
+        },
+        {
+          "timestamp": "2026-07-12T13:52:42.885535+00:00",
+          "file": "2026-03-21-the-scale-house-decision-what-happens-when-youre-pulled-in.md",
+          "status": "updated",
+          "pr_url": "https://github.com/thetruckercodex/thetruckercodex.github.io/pull/17",
+          "change_summary": "FMCSA final rule (FR doc #2026-12448, effective 2026-07-22) rescinds the requirement to keep an ELD operator's manual in the CMV; the post's ELD compliance and roadside documentation sections have been updated to reflect that this is no longer a citable in-cab document requirement.",
+          "sources": [
+            "https://www.federalregister.gov/documents/2026/06/22/2026-12448/rescinding-the-requirement-for-electronic-logging-device-operators-manual-located-in-commercial"
+          ]
+        },
+        {
+          "timestamp": "2026-07-12T13:53:52.085955+00:00",
+          "file": "2026-03-21-yard-moves-definition-proper-annotation-and-audit-risk.md",
+          "status": "updated",
+          "pr_url": "https://github.com/thetruckercodex/thetruckercodex.github.io/pull/18",
+          "change_summary": "FMCSA final rule (FR doc #2026-12448, effective 2026-07-22) rescinds the requirement to keep a copy of the ELD operator's manual in the CMV; post updated to reflect that this requirement no longer applies while noting that drivers must still demonstrate operational understanding of the ELD during inspections.",
+          "sources": [
+            "https://www.federalregister.gov/documents/2026/06/22/2026-12448/rescinding-the-requirement-for-electronic-logging-device-operators-manual-located-in-commercial"
+          ]
+        }
+      ]
     }
   ]
 }

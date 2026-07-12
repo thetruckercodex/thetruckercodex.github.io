@@ -1,5 +1,5 @@
 {
-  "cursor": 50,
+  "cursor": 55,
   "cycle": 1,
   "posts": {
     "2026-02-08-common-dot-violations-how-to-avoid.md": {
@@ -215,7 +215,31 @@
     "2026-03-19-the-6-recordkeeping-failures-fmcsa-auditors-find-in-every-sm.md": {
       "last_checked_date": "2026-07-11",
       "last_result": "no_change"
+    },
+    "2026-03-19-violation-severity-weights-why-some-tickets-cost-you-more-cs.md": {
+      "last_checked_date": "2026-07-12",
+      "last_result": "no_change"
+    },
+    "2026-03-20-cvsa-roadcheck-week-how-to-prepare-your-fleet-before-the-ann.md": {
+      "open_pr_number": 15,
+      "last_checked_date": "2026-07-12",
+      "last_result": "updated"
+    },
+    "2026-03-20-personal-conveyance-what-fmcsa-actually-permits.md": {
+      "open_pr_number": 16,
+      "last_checked_date": "2026-07-12",
+      "last_result": "updated"
+    },
+    "2026-03-21-the-scale-house-decision-what-happens-when-youre-pulled-in.md": {
+      "open_pr_number": 17,
+      "last_checked_date": "2026-07-12",
+      "last_result": "updated"
+    },
+    "2026-03-21-yard-moves-definition-proper-annotation-and-audit-risk.md": {
+      "open_pr_number": 18,
+      "last_checked_date": "2026-07-12",
+      "last_result": "updated"
     }
   },
-  "updated_at": "2026-07-11T13:49:12.615869+00:00"
+  "updated_at": "2026-07-12T13:53:52.085987+00:00"
 }
