@@ -1,0 +1,33 @@
+name: FB Automation Health Check
+
+# Faz 6 - gunluk saglik kontrolu. Facebook Automation workflow'unun son
+# calismalarini gh CLI ile denetler; ardisik basarisizlik tespit ederse
+# bir GitHub Issue acar, boylece pipeline sessizce kilitlenip gunlerce
+# fark edilmeden kalamaz (bkz. run #34-#41, 2026-07-10 - 2026-07-12).
+
+on:
+  schedule:
+    - cron: '0 15 * * *'
+    workflow_dispatch:
+
+permissions:
+  actions: read
+  issues: write
+
+jobs:
+  healthcheck:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Son calismalari denetle
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          REPO="${{ github.repository }}"
+          STATUSES=$(gh run list --repo "$REPO" --workflow facebook-automation.yml --limit 5 --json conclusion,status --jq '[.[]|select(.status=="completed")][0:3][].conclusion')
+          echo "Son 3 tamamlanmis calisma: $STATUSES"
+          FAILS=$(echo "$STATUSES" | grep -c failure || true)
+          TITLE="Facebook Automation: ardisik basarisizlik tespit edildi"
+          if [ "$FAILS" -lt 2 ]; then echo "Saglikli."; exit 0; fi
+          BODY="Son 3 calismadan en az 2'si basarisiz oldu ($STATUSES). Kontrol et: _data/fb_content_map.json havuzlari ve scripts/generate_fb_post.py cikisi."
+          EXISTING=$(gh issue list --repo "$REPO" --state open --search "in:title $TITLE" --json number --jq '.[0].number')
+          if [ -z "$EXISTING" ]; then gh issue create --repo "$REPO" --title "$TITLE" --body "$BODY"; else gh issue comment "$EXISTING" --repo "$REPO" --body "Tekrar: $BODY"; fi
