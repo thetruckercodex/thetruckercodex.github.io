@@ -12,8 +12,7 @@ on:
 
 permissions:
   actions: read
-  issues: write
-
+  
 jobs:
   healthcheck:
     runs-on: ubuntu-latest
@@ -26,8 +25,5 @@ jobs:
           STATUSES=$(gh run list --repo "$REPO" --workflow facebook-automation.yml --limit 5 --json conclusion,status --jq '[.[]|select(.status=="completed")][0:3][].conclusion')
           echo "Son 3 tamamlanmis calisma: $STATUSES"
           FAILS=$(echo "$STATUSES" | grep -c failure || true)
-          TITLE="Facebook Automation: ardisik basarisizlik tespit edildi"
-          if [ "$FAILS" -lt 2 ]; then echo "Saglikli."; exit 0; fi
-          BODY="Son 3 calismadan en az 2'si basarisiz oldu ($STATUSES). Kontrol et: _data/fb_content_map.json havuzlari ve scripts/generate_fb_post.py cikisi."
-          EXISTING=$(gh issue list --repo "$REPO" --state open --search "in:title $TITLE" --json number --jq '.[0].number')
-          if [ -z "$EXISTING" ]; then gh issue create --repo "$REPO" --title "$TITLE" --body "$BODY"; else gh issue comment "$EXISTING" --repo "$REPO" --body "Tekrar: $BODY"; fi
+          if [ "$FAILS" -ge 2 ]; then echo "::error::Facebook Automation son 3 calismadan en az 2'sinde basarisiz oldu ($STATUSES). _data/fb_content_map.json havuzlarini ve scripts/generate_fb_post.py cikisini kontrol et."; exit 1; fi
+          echo "Saglikli."
