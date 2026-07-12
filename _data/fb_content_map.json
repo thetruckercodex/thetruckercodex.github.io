@@ -45,8 +45,8 @@
       "icon_notes": "Plan bu kategori için örnek vermemişti — dosya dolabı önerisi, teyit gerekir"
     }
   },
-  "next_slot_index": 2,
-  "next_educational_index": 13,
+  "next_slot_index": 3,
+  "next_educational_index": 14,
   "next_product_index": 13,
   "educational": [
     {
@@ -159,7 +159,7 @@
       "title": "DOT Pre-Employment Requirements: Navigating the Critical Pre-Dispatch Compliance Window",
       "category": "audits-violations",
       "date": "2026-02-18",
-      "used": false
+      "used": true
     },
     {
       "id": "E015",
