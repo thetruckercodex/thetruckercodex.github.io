@@ -128,18 +128,30 @@ def save_content_map(data):
         json.dump(data, f, indent=2, ensure_ascii=False)
 
 
+def reset_pool(data, pool_name):
+    for item in data[pool_name]:
+        item["used"] = False
+    print(f"UYARI: {pool_name} havuzu tam tur tamamladi, tum ogeler otomatik resetlendi.", file=sys.stderr)
+
+
 def pick_next_educational(data):
     for item in data["educational"]:
         if not item["used"]:
             return item
-    return None  # havuz tükendi — Faz 5'te döngü/uyarı gerekir
+    if not data["educational"]:
+        return None
+    reset_pool(data, "educational")
+    return data["educational"][0]
 
 
 def pick_next_product(data):
     for item in data["product"]:
         if not item["used"]:
             return item
-    return None
+    if not data["product"]:
+        return None
+    reset_pool(data, "product")
+    return data["product"][0]
 
 
 def validate_no_bare_url(caption: str):
