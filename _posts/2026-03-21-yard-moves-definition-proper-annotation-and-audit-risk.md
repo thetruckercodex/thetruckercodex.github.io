@@ -2,6 +2,7 @@
 layout: post
 title: "Yard Moves: Definition, Proper Annotation, and Audit Risk"
 date: 2026-03-21
+last_modified_at: 2026-07-12
 categories: hos-eld
 description: "Comprehensive analysis of Yard Moves: Definition, Proper Annotation, and Audit Risk under 49 CFR Part 395. Regulatory requirements, enforcement consequences, and compliance guidance for motor carriers."
 ---
@@ -47,6 +48,8 @@ Carriers should also be aware that the editing and annotation provisions of § 3
 
 Under § 395.8(k), carriers must retain ELD records—including all yard move annotations and edit histories—for a minimum of six months. Carriers operating terminals with high daily yard move volumes should implement a written yard move authorization policy that documents which facilities are approved for yard move status, which drivers are authorized to use it, and what annotation standards apply. This policy document becomes a primary reference artifact during an FMCSA investigation.
 
+> **Regulatory Update — Effective July 22, 2026:** FMCSA has rescinded the requirement that a copy of the ELD operator's manual be kept physically in the CMV (FR doc #2026-12448, 91 FR [2026-06-22], effective 2026-07-22). Carriers are no longer obligated to maintain a paper or electronic copy of the manual in the cab. However, the underlying operational requirement is unchanged: drivers must understand how to operate the ELD on their vehicle and must be able to demonstrate that understanding during a roadside inspection. Carriers should update their driver training acknowledgment documentation accordingly and ensure that the absence of an in-cab manual does not create gaps in driver operational knowledge.
+
 ---
 
 ## Audit Risk: Where Yard Move Compliance Breaks Down
@@ -75,7 +78,7 @@ Carriers who want to use yard moves as the legitimate operational tool they are 
 2. **Establish annotation templates** that drivers can select or populate quickly, ensuring location-specific content without relying on free-form text that varies by driver.
 3. **Conduct quarterly ELD data audits** that specifically filter and review all yard move events for annotation completeness, GPS location consistency, and duration reasonableness.
 4. **Train dispatchers** to recognize that assigning a driver to move a vehicle on a public road—even briefly—does not qualify for yard move status, regardless of proximity to a terminal entrance.
-5. **Document the training** in the driver qualification file with a signed acknowledgment that covers yard move procedures specifically.
+5. **Document the training** in the driver qualification file with a signed acknowledgment that covers yard move procedures specifically. Note that as of July 22, 2026, carriers are no longer required to keep an ELD operator's manual in the vehicle (FR doc #2026-12448), but drivers must still be able to demonstrate operational proficiency with the ELD during inspections. Training documentation should reflect how drivers are equipped with that knowledge in the absence of an in-cab manual.
 
 The [FMCSA's regulatory framework](https://www.fmcsa.dot.gov/) for ELD special driving categories was designed with the operational realities of large terminal operations in mind. Yard move status is a legitimate and necessary tool. The compliance risk is not in using it—it is in using it without the annotation discipline that makes it defensible under audit.
 
@@ -92,7 +95,10 @@ The [FMCSA's regulatory framework](https://www.fmcsa.dot.gov/) for ELD special d
 | 49 CFR § 395.28 | ELD data editing and annotation requirements |
 | 49 CFR Part 385 | Safety fitness procedures — compliance review standards |
 | Appendix to Subpart B, Part 395 | ELD technical specifications — data capture requirements |
+| FR doc #2026-12448 (eff. 2026-07-22) | Rescinds in-cab ELD operator's manual requirement |
 
 ---
 
 *Regulatory references verified against current eCFR and FMCSA official sources. Verify applicability for your specific operation. This post does not constitute legal advice.*
+
+*Last verified against Federal Register on 2026-07-12; updated to reflect FR document #2026-12448 (effective 2026-07-22), which rescinds the requirement to keep a copy of the ELD operator's manual in the commercial motor vehicle.*
