@@ -45,8 +45,8 @@
       "icon_notes": "Plan bu kategori için örnek vermemişti — dosya dolabı önerisi, teyit gerekir"
     }
   },
-  "next_slot_index": 4,
-  "next_educational_index": 14,
+  "next_slot_index": 1,
+  "next_educational_index": 15,
   "next_product_index": 14,
   "educational": [
     {
@@ -167,7 +167,7 @@
       "title": "The Jurisprudence of English Language Proficiency: Analytical Standards and Enforcement Nuances",
       "category": "audits-violations",
       "date": "2026-02-18",
-      "used": false
+      "used": true
     },
     {
       "id": "E016",
