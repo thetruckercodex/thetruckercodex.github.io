@@ -1,5 +1,5 @@
 {
-  "cursor": 55,
+  "cursor": 60,
   "cycle": 1,
   "posts": {
     "2026-02-08-common-dot-violations-how-to-avoid.md": {
@@ -239,7 +239,28 @@
       "open_pr_number": 18,
       "last_checked_date": "2026-07-12",
       "last_result": "updated"
+    },
+    "2026-03-22-eld-malfunction-protocol-what-drivers-and-carriers-must-do.md": {
+      "open_pr_number": 19,
+      "last_checked_date": "2026-07-13",
+      "last_result": "updated"
+    },
+    "2026-03-22-how-to-dispute-a-roadside-inspection-finding-through-dataqs.md": {
+      "last_checked_date": "2026-07-13",
+      "last_result": "no_change"
+    },
+    "2026-03-23-medical-certificate-expiration-the-cascade-of-consequences-w.md": {
+      "last_checked_date": "2026-07-13",
+      "last_result": "no_change"
+    },
+    "2026-03-24-cdl-medical-certificate-requirements-timing-forms-and-filing.md": {
+      "last_checked_date": "2026-07-13",
+      "last_result": "no_change"
+    },
+    "2026-03-24-what-owner-operators-get-wrong-about-their-own-operating-aut.md": {
+      "last_checked_date": "2026-07-13",
+      "last_result": "no_change"
     }
   },
-  "updated_at": "2026-07-12T13:53:52.085987+00:00"
+  "updated_at": "2026-07-13T14:56:08.608870+00:00"
 }
