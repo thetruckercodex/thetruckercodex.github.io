@@ -2,6 +2,7 @@
 layout: post
 title: "Annual Vehicle Inspection Stickers: What's Accepted and What Isn't"
 date: 2026-03-27
+last_modified_at: 2026-07-14
 categories: maintenance
 description: "Enforcement intelligence analysis: Annual Vehicle Inspection Stickers: What's Accepted and What Isn't. Data-driven insights from FMCSA and CVSA records for motor carriers and compliance professionals."
 ---
@@ -29,6 +30,12 @@ Any sticker that omits required fields, has been altered, or is affixed to a veh
 ### Inspector Qualification Requirements Under §396.19
 
 Officers will ask about inspector credentials during contested inspections. Under §396.19, a qualified inspector must understand the inspection criteria in Appendix G and be able to identify defective components. Carriers using in-house inspection programs must document inspector qualifications and retain those records. Using an unqualified inspector — even if the vehicle is mechanically sound — produces a §396.17 violation on the inspection report.
+
+## Completed Roadside Inspection Report Disposition: 2026 Rule Change
+
+Effective **July 22, 2026**, FMCSA amended the regulations governing what motor carriers and intermodal equipment providers must do with completed roadside inspection forms (FR doc #2026-12450, published June 22, 2026). Previously, the regulatory framework contemplated that motor carriers sign and return completed roadside inspection reports to the issuing State agency. The amended rule recognizes that not all State agencies require the return of these reports, and removes the obligation to submit them to States that do not require it.
+
+**Practical compliance impact:** Motor carriers should confirm the current submission requirements of each State in which they operate. Where a State agency does require return of the completed inspection form, that obligation remains in force. Where a State does not require return, carriers are no longer required to submit the form to that agency — though retention obligations under §396.21(a) remain unchanged. Carriers should update their internal post-inspection workflows and driver training to reflect this State-specific approach rather than applying a uniform return-to-State procedure across all operations.
 
 ## How CVSA OOS Criteria Treat Inspection Violations
 
@@ -76,3 +83,5 @@ For drivers preparing for out-of-service risk scenarios, the <a href="https://ww
 
 ---
 *Data sourced from CVSA OOS Criteria and FMCSA public records. Verify current enforcement thresholds at fmcsa.dot.gov.*
+
+*Last verified against the Federal Register on 2026-07-14; updated to reflect FR doc #2026-12450 (Completed Inspection Report Disposition, effective 2026-07-22), which amends the requirement for motor carriers and intermodal equipment providers to sign and return completed roadside inspection forms to issuing State agencies.*
