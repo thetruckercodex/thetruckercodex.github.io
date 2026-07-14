@@ -1,5 +1,5 @@
 {
-  "cursor": 60,
+  "cursor": 65,
   "cycle": 1,
   "posts": {
     "2026-02-08-common-dot-violations-how-to-avoid.md": {
@@ -260,7 +260,31 @@
     "2026-03-24-what-owner-operators-get-wrong-about-their-own-operating-aut.md": {
       "last_checked_date": "2026-07-13",
       "last_result": "no_change"
+    },
+    "2026-03-25-sap-process-what-happens-after-a-positive-drug-test-step-by.md": {
+      "open_pr_number": 20,
+      "last_checked_date": "2026-07-14",
+      "last_result": "updated"
+    },
+    "2026-03-25-the-true-cost-of-an-oos-violation-fines-delays-and-csa-impac.md": {
+      "open_pr_number": 21,
+      "last_checked_date": "2026-07-14",
+      "last_result": "updated"
+    },
+    "2026-03-26-how-hos-violations-become-crash-liability-what-plaintiff-att.md": {
+      "open_pr_number": 22,
+      "last_checked_date": "2026-07-14",
+      "last_result": "updated"
+    },
+    "2026-03-27-annual-vehicle-inspection-stickers-whats-accepted-and-what-i.md": {
+      "open_pr_number": 23,
+      "last_checked_date": "2026-07-14",
+      "last_result": "updated"
+    },
+    "2026-03-28-dot-physical-examination-disqualifying-conditions-and-exempt.md": {
+      "last_checked_date": "2026-07-14",
+      "last_result": "no_change"
     }
   },
-  "updated_at": "2026-07-13T14:56:08.608870+00:00"
+  "updated_at": "2026-07-14T14:11:46.207982+00:00"
 }

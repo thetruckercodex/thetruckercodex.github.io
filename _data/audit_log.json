@@ -498,6 +498,57 @@
           "reasoning": "No source signal found since last check."
         }
       ]
+    },
+    {
+      "run_date": "2026-07-14T14:11:46.208827+00:00",
+      "entries": [
+        {
+          "timestamp": "2026-07-14T14:09:05.383942+00:00",
+          "file": "2026-03-25-sap-process-what-happens-after-a-positive-drug-test-step-by.md",
+          "status": "updated",
+          "pr_url": "https://github.com/thetruckercodex/thetruckercodex.github.io/pull/20",
+          "change_summary": "FR doc 2026-09290 (eff. 2026-06-10) amends 49 CFR Part 40 to require directly observed urine collection when oral fluid testing is required but unavailable, and updates Part 40 terminology per EO 14168; the post's Phase 4 directly-observed testing discussion should reflect this procedural clarification.",
+          "sources": [
+            "https://www.federalregister.gov/documents/2026/05/11/2026-09290/procedures-for-transportation-workplace-drug-and-alcohol-testing-programs"
+          ]
+        },
+        {
+          "timestamp": "2026-07-14T14:09:51.916688+00:00",
+          "file": "2026-03-25-the-true-cost-of-an-oos-violation-fines-delays-and-csa-impac.md",
+          "status": "updated",
+          "pr_url": "https://github.com/thetruckercodex/thetruckercodex.github.io/pull/21",
+          "change_summary": "FR doc #2026-12450 (eff. 2026-07-22) amends 49 CFR § 396.9 to eliminate the blanket requirement that carriers sign and return completed roadside inspection forms to the issuing State agency, making that obligation conditional on whether the State agency requires it. Post updated to reflect this change in the OOS inspection report disposition discussion.",
+          "sources": [
+            "https://www.federalregister.gov/documents/2026/06/22/2026-12450/completed-inspection-report-disposition"
+          ]
+        },
+        {
+          "timestamp": "2026-07-14T14:10:48.517721+00:00",
+          "file": "2026-03-26-how-hos-violations-become-crash-liability-what-plaintiff-att.md",
+          "status": "updated",
+          "pr_url": "https://github.com/thetruckercodex/thetruckercodex.github.io/pull/22",
+          "change_summary": "FMCSA final rule (doc #2026-12448, eff. 2026-07-22) rescinds the requirement to keep a physical ELD operator's manual in the CMV under 49 CFR Part 395; drivers still must understand ELD operation and present operational information at inspections. Post updated to reflect this change in the ELD compliance and 395.22 discussion.",
+          "sources": [
+            "https://www.federalregister.gov/documents/2026/06/22/2026-12448/rescinding-the-requirement-for-electronic-logging-device-operators-manual-located-in-commercial"
+          ]
+        },
+        {
+          "timestamp": "2026-07-14T14:11:45.555332+00:00",
+          "file": "2026-03-27-annual-vehicle-inspection-stickers-whats-accepted-and-what-i.md",
+          "status": "updated",
+          "pr_url": "https://github.com/thetruckercodex/thetruckercodex.github.io/pull/23",
+          "change_summary": "FMCSA's final rule (FR doc #2026-12450, effective 2026-07-22) amends the completed roadside inspection report disposition requirement, removing the obligation for motor carriers and intermodal equipment providers to sign and return inspection forms to State agencies that do not require their return. The post's discussion of inspection report obligations has been updated to reflect this change.",
+          "sources": [
+            "https://www.federalregister.gov/documents/2026/06/22/2026-12450/completed-inspection-report-disposition"
+          ]
+        },
+        {
+          "timestamp": "2026-07-14T14:11:46.207950+00:00",
+          "file": "2026-03-28-dot-physical-examination-disqualifying-conditions-and-exempt.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        }
+      ]
     }
   ]
 }
