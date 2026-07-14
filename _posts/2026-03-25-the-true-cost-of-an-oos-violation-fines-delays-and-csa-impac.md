@@ -2,6 +2,7 @@
 layout: post
 title: "The True Cost of an OOS Violation: Fines, Delays, and CSA Impact"
 date: 2026-03-25
+last_modified_at: 2026-07-14
 categories: audits-violations
 description: "Enforcement intelligence analysis: The True Cost of an OOS Violation: Fines, Delays, and CSA Impact. Data-driven insights from FMCSA and CVSA records for motor carriers and compliance professionals."
 ---
@@ -35,6 +36,12 @@ The civil penalty is the line item you can see. The operational bleed is harder 
 - **Load rescheduling or reconsignment:** For time-sensitive freight, this can mean penalty clauses with the shipper or outright load rejection
 
 If the OOS order originates from a [brake system defect](https://blog.thetruckercodex.com/brake-system-violations-out-of-service/) — the single most common OOS condition by CVSA data, accounting for roughly 38% of vehicle OOS orders during recent Roadcheck cycles — repairs cannot be performed roadside on most defects. The vehicle must be towed or driven under limited authority to a certified repair facility, which adds repair cost on top of tow cost on top of delay.
+
+### Inspection Report Disposition After an OOS Event
+
+When a roadside inspection results in an OOS order, the inspector issues a completed inspection report to the motor carrier or driver. Under 49 CFR § 396.9, motor carriers and intermodal equipment providers were previously required to sign and return that completed report to the issuing State agency. **Effective July 22, 2026, this requirement has been amended.** FMCSA's final rule (FR doc #2026-12450, 91 Fed. Reg., June 22, 2026) revised § 396.9 to eliminate the blanket return obligation — carriers are now only required to submit the signed inspection report back to the issuing State agency if that State agency actually requires its return. Because not all State agencies have consistently enforced or even requested the return of these reports, FMCSA aligned the federal rule with actual State practice.
+
+**Practical implication for carriers:** You should verify the current return policy of the State in which the inspection occurred before assuming a submission obligation exists. However, this change does **not** affect your obligation to retain the inspection report onboard the vehicle for the required period, nor does it alter FMCSA's ability to use the inspection record in SMS calculations or compliance reviews. The inspection data is uploaded directly by the inspecting State agency to FMCSA's Motor Carrier Management Information System (MCMIS) regardless of whether the carrier returns the form.
 
 ### What Happens When You're Pulled Into the Scale House
 
@@ -71,3 +78,5 @@ The arithmetic is not ambiguous. An OOS violation is not a cost of doing busines
 
 ---
 *Data sourced from FMCSA Civil Penalty Data and FMCSA public records. Verify current enforcement thresholds at fmcsa.dot.gov.*
+
+*Last verified against the Federal Register on 2026-07-22; updated to reflect FR doc #2026-12450 (eff. 2026-07-22), which amends 49 CFR § 396.9 to revise the completed roadside inspection report return requirement for motor carriers and intermodal equipment providers.*
