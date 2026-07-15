@@ -45,8 +45,8 @@
       "icon_notes": "Plan bu kategori için örnek vermemişti — dosya dolabı önerisi, teyit gerekir"
     }
   },
-  "next_slot_index": 4,
-  "next_educational_index": 16,
+  "next_slot_index": 1,
+  "next_educational_index": 17,
   "next_product_index": 16,
   "educational": [
     {
@@ -183,7 +183,7 @@
       "title": "Speed Limiter NPRM Withdrawal: Deconstructing Federal Mandates vs. Fleet Safety Policies",
       "category": "audits-violations",
       "date": "2026-02-18",
-      "used": false
+      "used": true
     },
     {
       "id": "E018",
