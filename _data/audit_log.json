@@ -549,6 +549,45 @@
           "reasoning": "No source signal found since last check."
         }
       ]
+    },
+    {
+      "run_date": "2026-07-15T14:05:24.640612+00:00",
+      "entries": [
+        {
+          "timestamp": "2026-07-15T14:05:10.530997+00:00",
+          "file": "2026-03-28-eld-vendors-and-technical-non-compliance-what-the-2025-2026.md",
+          "status": "updated",
+          "pr_url": "https://github.com/thetruckercodex/thetruckercodex.github.io/pull/24",
+          "change_summary": "FMCSA final rule 2026-12448 (effective 2026-07-22) rescinds the requirement to keep an ELD operator's manual in the CMV; the post should note this change so carriers do not treat the in-cab manual as a mandatory compliance document. A new brief note under the operational/documentation guidance section reflects this amendment.",
+          "sources": [
+            "https://www.federalregister.gov/documents/2026/06/22/2026-12448/rescinding-the-requirement-for-electronic-logging-device-operators-manual-located-in-commercial"
+          ]
+        },
+        {
+          "timestamp": "2026-07-15T14:05:10.810589+00:00",
+          "file": "2026-03-29-vision-and-hearing-standards-for-cdl-holders.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-07-15T14:05:23.884061+00:00",
+          "file": "2026-03-29-why-new-entrants-fail-their-safety-audit-analysis-of-common.md",
+          "status": "no_change",
+          "reasoning": "The Federal Register document 2026-12450 (published 2026-06-22, effective 2026-07-22) amends regulations concerning the disposition of completed roadside inspection reports — specifically, it revises the requirement that motor carriers and intermodal equipment providers sign and return a completed roadside inspection form to the issuing State agency. This is a procedural change to the inspection report return/submission workflow between carriers and State agencies, and it does not alter any of the specific regulatory claims made in the post. The post's references to 49 CFR Part 396 concern § 396.3 (systematic inspection, repair, and maintenance obligations), § 396.11 (Driver Vehicle Inspection Reports/DVIRs), and general recordkeeping requirements — none of which are amended by doc #2026-12450. The post does not make any claim about the requirement to return completed roadside inspection forms to State agencies, so there is no factual statement in the post that the new rule contradicts or supersedes. No numeric thresholds, compliance deadlines, retention periods, or audit scoring criteria addressed in the post are affected by this amendment."
+        },
+        {
+          "timestamp": "2026-07-15T14:05:24.277698+00:00",
+          "file": "2026-03-30-ifta-audit-triggers-how-fuel-tax-discrepancies-escalate-to-d.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-07-15T14:05:24.639639+00:00",
+          "file": "2026-03-31-overweight-violations-permit-requirements-fines-and-carrier.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        }
+      ]
     }
   ]
 }
