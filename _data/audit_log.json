@@ -588,6 +588,41 @@
           "reasoning": "No source signal found since last check."
         }
       ]
+    },
+    {
+      "run_date": "2026-07-16T14:16:11.157392+00:00",
+      "entries": [
+        {
+          "timestamp": "2026-07-16T14:16:05.101573+00:00",
+          "file": "2026-04-01-english-proficiency-enforcement-at-the-roadside-what-actuall.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-07-16T14:16:05.483351+00:00",
+          "file": "2026-04-02-insurance-lapses-what-fmcsa-does-when-coverage-drops-below-m.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-07-16T14:16:10.485207+00:00",
+          "file": "2026-04-03-the-anatomy-of-a-dot-compliance-review-what-an-auditor-exami.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-07-16T14:16:10.912143+00:00",
+          "file": "2026-04-04-diabetes-exemption-program-how-cdl-drivers-with-itdm-qualify.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-07-16T14:16:11.156584+00:00",
+          "file": "2026-04-04-how-roadside-inspection-data-is-uploaded-to-mcmis-and-how-lo.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        }
+      ]
     }
   ]
 }

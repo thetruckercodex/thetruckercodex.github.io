@@ -1,5 +1,5 @@
 {
-  "cursor": 70,
+  "cursor": 75,
   "cycle": 1,
   "posts": {
     "2026-02-08-common-dot-violations-how-to-avoid.md": {
@@ -305,7 +305,27 @@
     "2026-03-31-overweight-violations-permit-requirements-fines-and-carrier.md": {
       "last_checked_date": "2026-07-15",
       "last_result": "no_change"
+    },
+    "2026-04-01-english-proficiency-enforcement-at-the-roadside-what-actuall.md": {
+      "last_checked_date": "2026-07-16",
+      "last_result": "no_change"
+    },
+    "2026-04-02-insurance-lapses-what-fmcsa-does-when-coverage-drops-below-m.md": {
+      "last_checked_date": "2026-07-16",
+      "last_result": "no_change"
+    },
+    "2026-04-03-the-anatomy-of-a-dot-compliance-review-what-an-auditor-exami.md": {
+      "last_checked_date": "2026-07-16",
+      "last_result": "no_change"
+    },
+    "2026-04-04-diabetes-exemption-program-how-cdl-drivers-with-itdm-qualify.md": {
+      "last_checked_date": "2026-07-16",
+      "last_result": "no_change"
+    },
+    "2026-04-04-how-roadside-inspection-data-is-uploaded-to-mcmis-and-how-lo.md": {
+      "last_checked_date": "2026-07-16",
+      "last_result": "no_change"
     }
   },
-  "updated_at": "2026-07-15T14:05:24.639660+00:00"
+  "updated_at": "2026-07-16T14:16:11.156620+00:00"
 }
