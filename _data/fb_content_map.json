@@ -45,8 +45,8 @@
       "icon_notes": "Plan bu kategori için örnek vermemişti — dosya dolabı önerisi, teyit gerekir"
     }
   },
-  "next_slot_index": 2,
-  "next_educational_index": 17,
+  "next_slot_index": 3,
+  "next_educational_index": 18,
   "next_product_index": 17,
   "educational": [
     {
@@ -191,7 +191,7 @@
       "title": "DOT Roadside Inspection Communication: Structured Preparedness vs. Improvised Stops",
       "category": "recordkeeping",
       "date": "2026-02-24",
-      "used": false
+      "used": true
     },
     {
       "id": "E019",
