@@ -45,8 +45,8 @@
       "icon_notes": "Plan bu kategori için örnek vermemişti — dosya dolabı önerisi, teyit gerekir"
     }
   },
-  "next_slot_index": 4,
-  "next_educational_index": 18,
+  "next_slot_index": 1,
+  "next_educational_index": 19,
   "next_product_index": 18,
   "educational": [
     {
@@ -199,7 +199,7 @@
       "title": "Electronic Logging Device (ELD) Compliance: 2026 Regulatory Deep Dive",
       "category": "hos-eld",
       "date": "2026-02-27",
-      "used": false
+      "used": true
     },
     {
       "id": "E020",
