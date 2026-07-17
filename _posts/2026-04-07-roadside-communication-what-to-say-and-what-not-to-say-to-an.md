@@ -2,6 +2,7 @@
 layout: post
 title: "Roadside Communication: What to Say and What Not to Say to an Inspector"
 date: 2026-04-07
+last_modified_at: 2026-07-17
 categories: audits-violations
 description: "Enforcement intelligence analysis: Roadside Communication: What to Say and What Not to Say to an Inspector. Data-driven insights from FMCSA and CVSA records for motor carriers and compliance professionals."
 ---
@@ -71,6 +72,16 @@ Standard pre-trip staging should place the following in an immediately accessibl
 
 This staging reduces the inspection contact window and communicates organizational discipline — a factor that influences whether an inspector uses discretion on marginal violations.
 
+## Completed Inspection Report Disposition: Updated Requirements (Effective July 22, 2026)
+
+A regulatory change that directly affects post-inspection obligations took effect on July 22, 2026. FMCSA's final rule on Completed Inspection Report Disposition (FR doc #2026-12450, published June 22, 2026) revised the prior requirement that motor carriers and intermodal equipment providers sign and return a completed roadside inspection form to the issuing State agency.
+
+Under the prior rule, carriers faced a blanket obligation to sign and return the completed inspection form to the issuing State. FMCSA revised this requirement after determining that not all issuing State agencies require the return of these reports. As a result, the uniform return mandate no longer applies across all jurisdictions. Carriers should verify the specific disposition requirements of the State in which the inspection occurred, as return obligations now depend on whether the issuing State agency requires submission.
+
+This change does not affect the upload of inspection data to the Motor Carrier Management Information System (MCMIS), nor does it alter the FMCSA Safety Measurement System scoring timeline. The record still enters the federal enforcement data infrastructure; what changed is the State-level form-return requirement for carriers and intermodal equipment providers.
+
+Carriers operating across multiple States should update their post-inspection administrative procedures to reflect this jurisdiction-specific compliance framework rather than assuming a uniform return obligation.
+
 ## The Long-Tail Compliance Consequence
 
 Every roadside interaction generates a record. A Satisfactory safety rating does not provide insulation from the cumulative effect of inspection violations — a point that is frequently misunderstood and directly addressed at [What a Satisfactory Safety Rating Means and Why It's Not a Guarantee](https://blog.thetruckercodex.com/what-satisfactory-safety-rating-means-and-why-its-not-a-guar/). Individual inspection records feed the SMS BASIC scoring system on a rolling 24-month basis, and violation severity weights under the current methodology mean that a single avoidable out-of-service condition under 49 CFR § 393.45 (brake systems) can shift a carrier's percentile ranking significantly.
@@ -86,3 +97,5 @@ For drivers preparing for out-of-service risk scenarios, the <a href="https://ww
 ---
 
 *Data sourced from CVSA Protocol and FMCSA public records. Verify current enforcement thresholds at fmcsa.dot.gov.*
+
+*Last verified against Federal Register on 2026-07-22; updated to reflect FMCSA final rule on Completed Inspection Report Disposition (FR doc #2026-12450, effective 2026-07-22), which revised the requirement for motor carriers and intermodal equipment providers to sign and return completed roadside inspection forms to issuing State agencies.*
