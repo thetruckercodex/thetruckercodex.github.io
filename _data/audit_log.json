@@ -623,6 +623,45 @@
           "reasoning": "No source signal found since last check."
         }
       ]
+    },
+    {
+      "run_date": "2026-07-17T13:59:46.823673+00:00",
+      "entries": [
+        {
+          "timestamp": "2026-07-17T13:58:36.245179+00:00",
+          "file": "2026-04-05-annual-mvr-review-what-carriers-must-check-and-document.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-07-17T13:58:36.446964+00:00",
+          "file": "2026-04-05-what-satisfactory-safety-rating-means-and-why-its-not-a-guar.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-07-17T13:58:41.228645+00:00",
+          "file": "2026-04-06-road-test-requirements-when-a-certificate-of-violations-is-n.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-07-17T13:58:41.432393+00:00",
+          "file": "2026-04-06-speed-limiter-enforcement-in-practice-what-states-are-actual.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-07-17T13:59:46.822691+00:00",
+          "file": "2026-04-07-roadside-communication-what-to-say-and-what-not-to-say-to-an.md",
+          "status": "updated",
+          "pr_url": "https://github.com/thetruckercodex/thetruckercodex.github.io/pull/25",
+          "change_summary": "FMCSA's final rule (FR doc #2026-12450, effective 2026-07-22) revised the requirement for motor carriers and intermodal equipment providers to sign and return completed roadside inspection forms to issuing State agencies, eliminating a blanket return obligation that not all States enforced. The post should reflect that the post-inspection report disposition requirement is no longer a uniform return mandate.",
+          "sources": [
+            "https://www.federalregister.gov/documents/2026/06/22/2026-12450/completed-inspection-report-disposition"
+          ]
+        }
+      ]
     }
   ]
 }
