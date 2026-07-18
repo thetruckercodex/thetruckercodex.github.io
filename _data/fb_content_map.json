@@ -45,8 +45,8 @@
       "icon_notes": "Plan bu kategori için örnek vermemişti — dosya dolabı önerisi, teyit gerekir"
     }
   },
-  "next_slot_index": 2,
-  "next_educational_index": 19,
+  "next_slot_index": 3,
+  "next_educational_index": 20,
   "next_product_index": 19,
   "educational": [
     {
@@ -207,7 +207,7 @@
       "title": "New Entrant Safety Audit: FMCSA's Scoring Methodology and the 16 Automatic Failure Regulations",
       "category": "audits-violations",
       "date": "2026-02-27",
-      "used": false
+      "used": true
     },
     {
       "id": "E021",
