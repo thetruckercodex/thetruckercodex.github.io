@@ -45,9 +45,9 @@
       "icon_notes": "Plan bu kategori için örnek vermemişti — dosya dolabı önerisi, teyit gerekir"
     }
   },
-  "next_slot_index": 1,
+  "next_slot_index": 2,
   "next_educational_index": 19,
-  "next_product_index": 18,
+  "next_product_index": 19,
   "educational": [
     {
       "id": "E001",
@@ -1329,7 +1329,7 @@
       "title": "Truck Pre-Trip Inspection and DVIR Form, DOT Safety Log",
       "category": "maintenance",
       "price": "$5.94",
-      "used": false
+      "used": true
     },
     {
       "id": "P08",
