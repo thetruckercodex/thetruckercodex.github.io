@@ -2,11 +2,14 @@
 layout: post
 title: "Drug Testing: Pre-Employment Requirements Under 49 CFR Part 40"
 date: 2026-04-10
+last_modified_at: 2026-07-18
 categories: dqf
 description: "Comprehensive analysis of Drug Testing: Pre-Employment Requirements Under 49 CFR Part 40 under 49 CFR Part 40. Regulatory requirements, enforcement consequences, and compliance guidance for motor carriers."
 ---
 
 Pre-employment drug testing is among the most procedurally exacting obligations a motor carrier faces during the driver qualification process. A single procedural misstep — failing to query the FMCSA Clearinghouse, skipping a prior employer inquiry, or placing a driver in a safety-sensitive function before results are received — exposes the carrier to substantial civil penalties and, more critically, places an unqualified driver behind the wheel of a commercial motor vehicle. This analysis focuses specifically on the pre-employment drug testing framework under [49 CFR Part 40, §40.25](https://www.ecfr.gov/current/title-49/part-40/section-40.25), with operational guidance for carriers building or auditing their driver qualification processes.
+
+> **Regulatory Notice:** 49 CFR Part 40 was amended by a final rule published May 11, 2026 (FR doc #2026-09290, effective June 10, 2026). That rule requires a directly observed urine collection in situations where oral fluid testing is currently required but cannot be conducted because oral fluid collection is not yet available at the collection site. It also updates terminology throughout Part 40 consistent with Executive Order 14168. Carriers should ensure their collection site procedures and service agent agreements reflect this change as of June 10, 2026. See the [Federal Register notice](https://www.federalregister.gov/documents/2026/05/11/2026-09290/procedures-for-transportation-workplace-drug-and-alcohol-testing-programs) for the full regulatory text.
 
 ---
 
@@ -59,7 +62,7 @@ Carriers frequently encounter DQ file deficiencies precisely because the pre-emp
 1. **Collect the application** and employment history covering the prior three years (§391.21)
 2. **Conduct the Clearinghouse pre-employment full query** and receive consent from the applicant
 3. **Issue §40.25 prior employer inquiries** to all DOT-regulated employers in the preceding two years
-4. **Order the pre-employment DOT urine collection** at a certified collection site using a federal chain-of-custody form
+4. **Order the pre-employment DOT urine collection** at a certified collection site using a federal chain-of-custody form. **Effective June 10, 2026**, if the collection site is required to offer oral fluid testing but oral fluid collection is not yet available at that site, the collector must conduct a directly observed urine collection instead. Carriers should confirm their collection sites and C/TPAs are operating under updated procedures consistent with FR doc #2026-09290.
 5. **Receive a verified negative result** from a certified Medical Review Officer (MRO) before authorizing any safety-sensitive function
 
 The [broader DOT pre-employment requirements](https://blog.thetruckercodex.com/dot-pre-employment-requirements/) — including road testing, MVR review, and the certificate of violations — must also be completed within their respective regulatory timeframes, but the drug test result is the single hardstop that cannot be waived or deferred. For carriers who have encountered the question of [what happens when a driver quits mid-route](https://blog.thetruckercodex.com/when-a-driver-quits-mid-route-carrier-obligations-under-fmcs/), the same principle applies in reverse: regulatory obligations do not pause because of operational urgency.
@@ -87,9 +90,10 @@ Verified negative pre-employment drug test results must be maintained in a confi
 **Primary Authority:** 49 CFR Part 40, §40.25 — Prior Employer Investigations  
 **Supporting Authority:** 49 CFR Part 382, §§382.301, 382.401, 382.701  
 **Enforcement Authority:** 49 USC §521(b); 49 CFR Part 385  
-**Official Sources:** [eCFR §40.25](https://www.ecfr.gov/current/title-49/part-40/section-40.25) | [FMCSA Official Site](https://www.fmcsa.dot.gov/)
+**Official Sources:** [eCFR §40.25](https://www.ecfr.gov/current/title-49/part-40/section-40.25) | [FMCSA Official Site](https://www.fmcsa.dot.gov/)  
+**Recent Amendment:** FR doc #2026-09290 (published 2026-05-11, effective 2026-06-10) — [Federal Register](https://www.federalregister.gov/documents/2026/05/11/2026-09290/procedures-for-transportation-workplace-drug-and-alcohol-testing-programs)
 
 For carriers managing clearinghouse and testing obligations, the <a href="https://www.etsy.com/listing/4457324370/drug-alcohol-compliance-system-audit" target="_blank">DOT Drug and Alcohol Compliance System</a> provides structured logs designed to help organize clearinghouse queries and random testing records.
 
 ---
-*Regulatory references verified against current eCFR and FMCSA official sources. Verify applicability for your specific operation. This post does not constitute legal advice.*
+*Regulatory references verified against current eCFR and Federal Register sources. Last verified 2026-07-14; updated to reflect FR doc #2026-09290 (eff. 2026-06-10), which amends 49 CFR Part 40 to require directly observed urine collection when oral fluid testing is unavailable and updates Part 40 terminology per E.O. 14168. Verify applicability for your specific operation. This post does not constitute legal advice.*
