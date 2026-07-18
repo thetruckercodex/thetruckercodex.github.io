@@ -662,6 +662,45 @@
           ]
         }
       ]
+    },
+    {
+      "run_date": "2026-07-18T13:43:47.866908+00:00",
+      "entries": [
+        {
+          "timestamp": "2026-07-18T13:42:48.236312+00:00",
+          "file": "2026-04-07-when-a-driver-quits-mid-route-carrier-obligations-under-fmcs.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-07-18T13:42:48.446026+00:00",
+          "file": "2026-04-08-how-carriers-with-clean-records-still-get-audited-the-trigge.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-07-18T13:42:55.243548+00:00",
+          "file": "2026-04-08-the-paper-trail-after-an-accident-every-document-you-need-an.md",
+          "status": "no_change",
+          "reasoning": "The only Federal Register document provided (doc #2026-08438, published 2026-04-30) is a correction to a prior final rule that removed obsolete references to \"water carriers\" from FMCSA regulations — a clerical/amendatory instruction correction with no bearing on 49 CFR 390.15 (accident registers) or 49 CFR 382.303 (post-accident drug and alcohol testing). The post makes no claims about water carriers, and neither the original February 19, 2026 final rule nor this correction alters any of the specific regulatory requirements discussed in the post: the accident register mandate, the three-year retention period, the required data elements, or the post-accident testing triggers. The eCFR fetch was unavailable, but the Federal Register document does not provide any basis for inferring a change to the sections at issue. No concrete, specific amendment to 390.15 or 382.303 is evidenced in the supplied source data."
+        },
+        {
+          "timestamp": "2026-07-18T13:43:00.875640+00:00",
+          "file": "2026-04-09-building-a-dot-compliance-calendar-weekly-monthly-and-annual.md",
+          "status": "no_change",
+          "reasoning": "The Federal Register document (doc #2026-12448, effective 2026-07-22) rescinds the requirement that a copy of the ELD operator's manual be kept in the CMV — an amendment to 49 CFR Part 395. However, the published post does not reference, discuss, or rely upon the ELD operator's manual in-vehicle retention requirement anywhere in its text. The post's weekly ELD/HOS section covers log auditing, supporting document reconciliation under §395.8, and specific HOS numeric limits under §395.3, but makes no claim that an operator's manual must be present in the vehicle. Because the post contains no statement that the rescinded requirement amended by doc #2026-12448 either exists or must be complied with, there is no factual assertion in the post that is rendered incorrect or incomplete by this regulatory change. No material update is warranted."
+        },
+        {
+          "timestamp": "2026-07-18T13:43:47.865873+00:00",
+          "file": "2026-04-10-drug-testing-pre-employment-requirements-under-49-cfr-part-4.md",
+          "status": "updated",
+          "pr_url": "https://github.com/thetruckercodex/thetruckercodex.github.io/pull/26",
+          "change_summary": "FR doc #2026-09290 (eff. 2026-06-10) amends 49 CFR Part 40 to require directly observed urine collection when oral fluid testing is unavailable, and updates Part 40 terminology per E.O. 14168; the post's collection procedure description and regulatory references require a disclosure of this amendment.",
+          "sources": [
+            "https://www.federalregister.gov/documents/2026/05/11/2026-09290/procedures-for-transportation-workplace-drug-and-alcohol-testing-programs"
+          ]
+        }
+      ]
     }
   ]
 }

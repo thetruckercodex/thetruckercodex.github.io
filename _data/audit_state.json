@@ -1,5 +1,5 @@
 {
-  "cursor": 80,
+  "cursor": 85,
   "cycle": 1,
   "posts": {
     "2026-02-08-common-dot-violations-how-to-avoid.md": {
@@ -346,7 +346,28 @@
       "open_pr_number": 25,
       "last_checked_date": "2026-07-17",
       "last_result": "updated"
+    },
+    "2026-04-07-when-a-driver-quits-mid-route-carrier-obligations-under-fmcs.md": {
+      "last_checked_date": "2026-07-18",
+      "last_result": "no_change"
+    },
+    "2026-04-08-how-carriers-with-clean-records-still-get-audited-the-trigge.md": {
+      "last_checked_date": "2026-07-18",
+      "last_result": "no_change"
+    },
+    "2026-04-08-the-paper-trail-after-an-accident-every-document-you-need-an.md": {
+      "last_checked_date": "2026-07-18",
+      "last_result": "no_change"
+    },
+    "2026-04-09-building-a-dot-compliance-calendar-weekly-monthly-and-annual.md": {
+      "last_checked_date": "2026-07-18",
+      "last_result": "no_change"
+    },
+    "2026-04-10-drug-testing-pre-employment-requirements-under-49-cfr-part-4.md": {
+      "open_pr_number": 26,
+      "last_checked_date": "2026-07-18",
+      "last_result": "updated"
     }
   },
-  "updated_at": "2026-07-17T13:59:46.822723+00:00"
+  "updated_at": "2026-07-18T13:43:47.865916+00:00"
 }
