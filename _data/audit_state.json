@@ -1,5 +1,5 @@
 {
-  "cursor": 85,
+  "cursor": 90,
   "cycle": 1,
   "posts": {
     "2026-02-08-common-dot-violations-how-to-avoid.md": {
@@ -367,7 +367,27 @@
       "open_pr_number": 26,
       "last_checked_date": "2026-07-18",
       "last_result": "updated"
+    },
+    "2026-04-11-random-drug-and-alcohol-testing-rates-pools-and-carrier-obli.md": {
+      "last_checked_date": "2026-07-19",
+      "last_result": "no_change"
+    },
+    "2026-04-16-how-brake-adjustment-violations-dominate-national-oos-statis.md": {
+      "last_checked_date": "2026-07-19",
+      "last_result": "no_change"
+    },
+    "2026-04-17-cvsa-operation-safe-driver-week-what-officers-target-and-how.md": {
+      "last_checked_date": "2026-07-19",
+      "last_result": "no_change"
+    },
+    "2026-04-17-post-accident-testing-the-decision-tree-carriers-get-wrong.md": {
+      "last_checked_date": "2026-07-19",
+      "last_result": "no_change"
+    },
+    "2026-04-18-level-vi-inspection-the-radioactive-materials-protocol-most.md": {
+      "last_checked_date": "2026-07-19",
+      "last_result": "no_change"
     }
   },
-  "updated_at": "2026-07-18T13:43:47.865916+00:00"
+  "updated_at": "2026-07-19T13:46:28.503913+00:00"
 }

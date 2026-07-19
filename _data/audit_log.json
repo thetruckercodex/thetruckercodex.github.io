@@ -701,6 +701,41 @@
           ]
         }
       ]
+    },
+    {
+      "run_date": "2026-07-19T13:46:28.505022+00:00",
+      "entries": [
+        {
+          "timestamp": "2026-07-19T13:46:17.869444+00:00",
+          "file": "2026-04-11-random-drug-and-alcohol-testing-rates-pools-and-carrier-obli.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-07-19T13:46:18.510786+00:00",
+          "file": "2026-04-16-how-brake-adjustment-violations-dominate-national-oos-statis.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-07-19T13:46:22.869495+00:00",
+          "file": "2026-04-17-cvsa-operation-safe-driver-week-what-officers-target-and-how.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-07-19T13:46:23.510833+00:00",
+          "file": "2026-04-17-post-accident-testing-the-decision-tree-carriers-get-wrong.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-07-19T13:46:28.503858+00:00",
+          "file": "2026-04-18-level-vi-inspection-the-radioactive-materials-protocol-most.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        }
+      ]
     }
   ]
 }
