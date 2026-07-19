@@ -45,8 +45,8 @@
       "icon_notes": "Plan bu kategori için örnek vermemişti — dosya dolabı önerisi, teyit gerekir"
     }
   },
-  "next_slot_index": 4,
-  "next_educational_index": 20,
+  "next_slot_index": 1,
+  "next_educational_index": 21,
   "next_product_index": 20,
   "educational": [
     {
@@ -215,7 +215,7 @@
       "title": "Hours-of-Service (HOS): Rules Every Truck Driver Must Know",
       "category": "hos-eld",
       "date": "2026-02-28",
-      "used": false
+      "used": true
     },
     {
       "id": "E022",
