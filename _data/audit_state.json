@@ -1,5 +1,5 @@
 {
-  "cursor": 90,
+  "cursor": 95,
   "cycle": 1,
   "posts": {
     "2026-02-08-common-dot-violations-how-to-avoid.md": {
@@ -387,7 +387,28 @@
     "2026-04-18-level-vi-inspection-the-radioactive-materials-protocol-most.md": {
       "last_checked_date": "2026-07-19",
       "last_result": "no_change"
+    },
+    "2026-04-18-reasonable-suspicion-testing-documentation-requirements-for.md": {
+      "last_checked_date": "2026-07-20",
+      "last_result": "no_change"
+    },
+    "2026-04-19-fmcsa-clearinghouse-full-query-vs-limited-query-when-each-is.md": {
+      "last_checked_date": "2026-07-20",
+      "last_result": "no_change"
+    },
+    "2026-04-19-how-fmcsas-pre-employment-screening-program-psp-works-for-ca.md": {
+      "last_checked_date": "2026-07-20",
+      "last_result": "no_change"
+    },
+    "2026-04-20-the-3-hos-exemptions-most-commonly-misapplied-at-roadside-in.md": {
+      "open_pr_number": 27,
+      "last_checked_date": "2026-07-20",
+      "last_result": "updated"
+    },
+    "2026-04-20-what-happens-to-operating-authority-after-an-unsatisfactory.md": {
+      "last_checked_date": "2026-07-20",
+      "last_result": "no_change"
     }
   },
-  "updated_at": "2026-07-19T13:46:28.503913+00:00"
+  "updated_at": "2026-07-20T14:32:54.047644+00:00"
 }

@@ -736,6 +736,45 @@
           "reasoning": "No source signal found since last check."
         }
       ]
+    },
+    {
+      "run_date": "2026-07-20T14:32:54.048821+00:00",
+      "entries": [
+        {
+          "timestamp": "2026-07-20T14:29:52.906229+00:00",
+          "file": "2026-04-18-reasonable-suspicion-testing-documentation-requirements-for.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-07-20T14:30:23.221773+00:00",
+          "file": "2026-04-19-fmcsa-clearinghouse-full-query-vs-limited-query-when-each-is.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-07-20T14:30:53.430960+00:00",
+          "file": "2026-04-19-how-fmcsas-pre-employment-screening-program-psp-works-for-ca.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-07-20T14:32:23.853688+00:00",
+          "file": "2026-04-20-the-3-hos-exemptions-most-commonly-misapplied-at-roadside-in.md",
+          "status": "updated",
+          "pr_url": "https://github.com/thetruckercodex/thetruckercodex.github.io/pull/27",
+          "change_summary": "FMCSA rescinded the requirement to keep an ELD operator's manual in the CMV (FR doc #2026-12448, effective 2026-07-22); the post's ELD compliance and inspection-readiness guidance should reflect that physical manual retention is no longer mandated, while the driver's obligation to understand and operate the ELD accurately remains.",
+          "sources": [
+            "https://www.federalregister.gov/documents/2026/06/22/2026-12448/rescinding-the-requirement-for-electronic-logging-device-operators-manual-located-in-commercial"
+          ]
+        },
+        {
+          "timestamp": "2026-07-20T14:32:54.047572+00:00",
+          "file": "2026-04-20-what-happens-to-operating-authority-after-an-unsatisfactory.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        }
+      ]
     }
   ]
 }
