@@ -2,6 +2,7 @@
 layout: post
 title: "The 3 HOS Exemptions Most Commonly Misapplied at Roadside Inspections"
 date: 2026-04-20
+last_modified_at: 2026-07-20
 categories: hos-eld
 description: "Enforcement intelligence analysis: The 3 HOS Exemptions Most Commonly Misapplied at Roadside Inspections. Data-driven insights from FMCSA and CVSA records for motor carriers and compliance professionals."
 ---
@@ -69,6 +70,8 @@ Across all three exemptions, the enforcement data points to a single operational
 
 Carriers should also audit ELD malfunction handling practices alongside exemption documentation. An ELD that goes into malfunction mode during a shift involving an active exemption creates compounded risk — reviewed in the [ELD malfunction protocol guide](https://blog.thetruckercodex.com/eld-malfunction-protocol-what-drivers-and-carriers-must-do/) — because the evidentiary record for the exemption may be lost or unverifiable.
 
+**Note on ELD operator's manual requirements (updated July 2026):** Effective July 22, 2026, FMCSA rescinded the requirement that a copy of the ELD operator's manual be kept in the CMV (FR doc #2026-12448). Carriers and drivers no longer need to maintain a physical or digital copy of the manual in the vehicle for inspection purposes. However, the underlying regulatory obligation remains unchanged: drivers must understand how to operate the ELD on their vehicle and must be able to demonstrate accurate record-keeping and present their records of duty status during inspections. Inspection-readiness checklists and carrier training programs should be updated to remove the manual-retention item while preserving ELD operational competency verification.
+
 Review current violation thresholds and enforcement statistics directly through [FMCSA's public data and statistics portal](https://www.fmcsa.dot.gov/safety/data-and-statistics). Exemption eligibility criteria do not change often, but state-specific agricultural season definitions and SMS weighting formulas are updated on a rolling basis.
 
 For drivers preparing for out-of-service risk scenarios, the <a href="https://www.etsy.com/listing/4460991248/dot-roadside-inspection-checklist-oos" target="_blank">DOT Roadside Inspection Checklist</a> provides a structured OOS risk-control and repair log.
@@ -76,3 +79,5 @@ For drivers preparing for out-of-service risk scenarios, the <a href="https://ww
 ---
 
 *Data sourced from FMCSA Enforcement Data and FMCSA public records. Verify current enforcement thresholds at fmcsa.dot.gov.*
+
+*Last verified against Federal Register on 2026-07-22; updated to reflect FR doc #2026-12448 (effective 2026-07-22), rescinding the requirement for an ELD operator's manual to be kept in the CMV under the FMCSRs.*
