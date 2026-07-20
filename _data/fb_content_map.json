@@ -45,8 +45,8 @@
       "icon_notes": "Plan bu kategori için örnek vermemişti — dosya dolabı önerisi, teyit gerekir"
     }
   },
-  "next_slot_index": 2,
-  "next_educational_index": 21,
+  "next_slot_index": 3,
+  "next_educational_index": 22,
   "next_product_index": 21,
   "educational": [
     {
@@ -223,7 +223,7 @@
       "title": "The 2026 New Entrant Safety Audit: Why New Carriers Fail and How to Build an Audit-Proof Operation",
       "category": "audits-violations",
       "date": "2026-02-28",
-      "used": false
+      "used": true
     },
     {
       "id": "E023",
