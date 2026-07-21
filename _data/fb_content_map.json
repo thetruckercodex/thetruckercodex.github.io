@@ -45,8 +45,8 @@
       "icon_notes": "Plan bu kategori için örnek vermemişti — dosya dolabı önerisi, teyit gerekir"
     }
   },
-  "next_slot_index": 4,
-  "next_educational_index": 22,
+  "next_slot_index": 1,
+  "next_educational_index": 23,
   "next_product_index": 22,
   "educational": [
     {
@@ -231,7 +231,7 @@
       "title": "English Proficiency as an Out-of-Service Condition: 2026 Roadside Enforcement Breakdown",
       "category": "audits-violations",
       "date": "2026-03-02",
-      "used": false
+      "used": true
     },
     {
       "id": "E024",
