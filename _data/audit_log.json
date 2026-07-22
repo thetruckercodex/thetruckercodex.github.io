@@ -818,6 +818,45 @@
           ]
         }
       ]
+    },
+    {
+      "run_date": "2026-07-22T14:20:36.976346+00:00",
+      "entries": [
+        {
+          "timestamp": "2026-07-22T14:18:21.595943+00:00",
+          "file": "2026-04-23-what-triggers-an-out-of-state-compliance-review-interstate-e.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-07-22T14:19:22.303998+00:00",
+          "file": "2026-02-28-technical-standards-for-non-domiciled-cdl-ıssuance-and-save-verification-2026-update.md",
+          "status": "updated",
+          "pr_url": "https://github.com/thetruckercodex/thetruckercodex.github.io/pull/30",
+          "change_summary": "FR doc #2026-12449 (eff. 2026-07-22) removes the 49 CFR Part 383 CDL self-reporting requirement for motor vehicle violations, as EEE now handles inter-SDLA exchange electronically; the post's compliance SOP section must note that self-reporting is no longer a required or operative compliance mechanism under Part 383.",
+          "sources": [
+            "https://www.federalregister.gov/documents/2026/06/22/2026-12449/removal-of-self-reporting-requirement"
+          ]
+        },
+        {
+          "timestamp": "2026-07-22T14:19:59.383854+00:00",
+          "file": "2026-04-24-how-eld-data-functions-as-evidence-in-commercial-truck-crash.md",
+          "status": "no_change",
+          "reasoning": "The Federal Register document (doc #2026-12448, effective 2026-07-22) rescinds the requirement for a physical copy of the ELD operator's manual to be kept in the commercial motor vehicle — an amendment to 49 CFR Part 395 concerning vehicle documentation requirements. The published post does not make any claim about, reference, or rely upon the requirement to carry an ELD operator's manual in the cab. The post's regulatory citations and substantive claims concern ELD data recording requirements (§ 395.26), data transfer methods (§ 395.22(e)), retention obligations (§ 395.22(i)), malfunction/diagnostic records (§ 395.34), HOS driving limits (§ 395.3(a)(1), (a)(2), (a)(3), (b), (c)), short-haul exemptions (§ 395.1(e)(1) and (e)(2)), sleeper berth provisions (§ 395.1(g)), and carrier responsibility (§ 390.11) — none of which are touched by the operator's manual rescission rule. Because the change documented in doc #2026-12448 addresses a provision that is entirely absent from the post's content, no material update to the post is warranted."
+        },
+        {
+          "timestamp": "2026-07-22T14:20:34.693646+00:00",
+          "file": "2026-04-24-how-inspectors-detect-hos-log-manipulation-patterns-theyre-t.md",
+          "status": "no_change",
+          "reasoning": "The Federal Register document 2026-12448 (effective 2026-07-22) rescinds only the requirement that a physical copy of the ELD operator's manual be kept in the commercial motor vehicle — a narrow administrative/paperwork obligation under 49 CFR Part 395. The published post does not mention, rely upon, or implicitly assume the existence of that operator's manual requirement anywhere in its text. The post's regulatory claims concern ELD data integrity, unassigned driving segments, edit histories, personal conveyance annotation, velocity-distance correlation, cross-document verification, and the falsification violation standard under 49 CFR 395.8(e) and 395.15 — none of which are affected by the rescission of the in-cab manual requirement. Because the post contains no assertion that is rendered inaccurate or incomplete by this specific regulatory change, no update is warranted."
+        },
+        {
+          "timestamp": "2026-07-22T14:20:36.975155+00:00",
+          "file": "2026-04-25-the-5-suspension-defects-that-most-often-lead-to-oos-orders.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        }
+      ]
     }
   ]
 }

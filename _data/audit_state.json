@@ -1,5 +1,5 @@
 {
-  "cursor": 100,
+  "cursor": 105,
   "cycle": 1,
   "posts": {
     "2026-02-08-common-dot-violations-how-to-avoid.md": {
@@ -430,7 +430,28 @@
       "open_pr_number": 29,
       "last_checked_date": "2026-07-21",
       "last_result": "updated"
+    },
+    "2026-04-23-what-triggers-an-out-of-state-compliance-review-interstate-e.md": {
+      "last_checked_date": "2026-07-22",
+      "last_result": "no_change"
+    },
+    "2026-02-28-technical-standards-for-non-domiciled-cdl-ıssuance-and-save-verification-2026-update.md": {
+      "open_pr_number": 30,
+      "last_checked_date": "2026-07-22",
+      "last_result": "updated"
+    },
+    "2026-04-24-how-eld-data-functions-as-evidence-in-commercial-truck-crash.md": {
+      "last_checked_date": "2026-07-22",
+      "last_result": "no_change"
+    },
+    "2026-04-24-how-inspectors-detect-hos-log-manipulation-patterns-theyre-t.md": {
+      "last_checked_date": "2026-07-22",
+      "last_result": "no_change"
+    },
+    "2026-04-25-the-5-suspension-defects-that-most-often-lead-to-oos-orders.md": {
+      "last_checked_date": "2026-07-22",
+      "last_result": "no_change"
     }
   },
-  "updated_at": "2026-07-21T14:19:14.266072+00:00"
+  "updated_at": "2026-07-22T14:20:36.975186+00:00"
 }
