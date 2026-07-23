@@ -45,8 +45,8 @@
       "icon_notes": "Plan bu kategori için örnek vermemişti — dosya dolabı önerisi, teyit gerekir"
     }
   },
-  "next_slot_index": 4,
-  "next_educational_index": 24,
+  "next_slot_index": 1,
+  "next_educational_index": 25,
   "next_product_index": 24,
   "educational": [
     {
@@ -247,7 +247,7 @@
       "title": "DOT Audit Checklist: How Trucking Companies Prepare for FMCSA Compliance Reviews",
       "category": "audits-violations",
       "date": "2026-03-03",
-      "used": false
+      "used": true
     },
     {
       "id": "E026",
