@@ -1,5 +1,5 @@
 {
-  "cursor": 105,
+  "cursor": 110,
   "cycle": 1,
   "posts": {
     "2026-02-08-common-dot-violations-how-to-avoid.md": {
@@ -451,7 +451,27 @@
     "2026-04-25-the-5-suspension-defects-that-most-often-lead-to-oos-orders.md": {
       "last_checked_date": "2026-07-22",
       "last_result": "no_change"
+    },
+    "2026-04-26-hours-of-service-recordkeeping-for-non-eld-operations.md": {
+      "last_checked_date": "2026-07-23",
+      "last_result": "no_change"
+    },
+    "2026-04-26-what-happens-during-an-fmcsa-focused-compliance-investigatio.md": {
+      "last_checked_date": "2026-07-23",
+      "last_result": "no_change"
+    },
+    "2026-04-27-how-drug-clearinghouse-violations-affect-a-carriers-safety-r.md": {
+      "last_checked_date": "2026-07-23",
+      "last_result": "no_change"
+    },
+    "2026-02-16-fmcsa-dot-updates-2025-2026.md": {
+      "last_checked_date": "2026-07-23",
+      "last_result": "no_change"
+    },
+    "2026-04-28-driver-oos-vs-vehicle-oos-what-each-order-means-and-how-they.md": {
+      "last_checked_date": "2026-07-23",
+      "last_result": "no_change"
     }
   },
-  "updated_at": "2026-07-22T14:20:36.975186+00:00"
+  "updated_at": "2026-07-23T14:26:36.913305+00:00"
 }
