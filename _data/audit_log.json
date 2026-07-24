@@ -892,6 +892,49 @@
           "reasoning": "The Federal Register document (doc #2026-12448, effective 2026-07-22) rescinds the requirement to keep an ELD operator's manual in the CMV — an amendment to 49 CFR Part 395. While this is a concrete regulatory change, it does not touch any claim made in the published post. The post's references to 49 CFR Part 395 are limited to: (1) citing hours-of-service driving limits (11-hour/10-hour driving, 14-hour on-duty window) under Part 395 as driver OOS triggers, and (2) citing 49 CFR 395.3 as governing the required off-duty rest period to clear a driver HOS OOS order. Neither of those provisions is affected by the operator's manual rescission. The post makes no mention of the ELD manual requirement, so there is nothing in the published text that has become inaccurate or incomplete as a result of this amendment. The 49 CFR 393.52 reference (brake adjustment OOS) is likewise entirely unaffected. No other source data presents a concrete change to any regulatory claim in the post."
         }
       ]
+    },
+    {
+      "run_date": "2026-07-24T14:08:30.378733+00:00",
+      "entries": [
+        {
+          "timestamp": "2026-07-24T14:06:15.273693+00:00",
+          "file": "2026-04-29-level-iii-inspection-decoded-what-officers-examine-in-a-driv.md",
+          "status": "no_change",
+          "reasoning": "The Federal Register document cited (doc #2026-12449, effective 2026-07-22) amends the self-reporting requirement for CDL holders under 49 CFR Part 383 — specifically the obligation for drivers to self-report motor vehicle violations to their State of domicile. The published post does not make any claim about or reference to the CDL self-reporting requirement anywhere in its text. The post's references to 49 CFR 383.91 concern vehicle class licensing requirements, and its reference to 49 CFR 383.23 concerns operating a CMV without a valid CDL. Neither of those provisions is affected by the removal of the self-reporting rule. Similarly, the 49 CFR 392.16 seatbelt requirement is entirely unrelated to this rulemaking. There is no concrete, specific change in the supplied source data that contradicts or renders inaccurate any regulatory claim actually made in the post."
+        },
+        {
+          "timestamp": "2026-07-24T14:07:20.476842+00:00",
+          "file": "2026-04-30-annual-inspection-sticker-fraud-detection-methods-and-legal.md",
+          "status": "updated",
+          "pr_url": "https://github.com/thetruckercodex/thetruckercodex.github.io/pull/31",
+          "change_summary": "FR doc 2026-12450 (eff. 2026-07-22) amends §396.9 to eliminate the mandatory return of completed roadside inspection reports to State agencies that do not require them; the post's description of the inspection cross-referencing and documentation framework must be updated to reflect this conditional — not universal — return obligation.",
+          "sources": [
+            "https://www.federalregister.gov/documents/2026/06/22/2026-12450/completed-inspection-report-disposition"
+          ]
+        },
+        {
+          "timestamp": "2026-07-24T14:07:21.137497+00:00",
+          "file": "2026-04-30-cargo-securement-violations-by-load-type-flatbed-vs-tanker-v.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-07-24T14:07:21.738088+00:00",
+          "file": "2026-05-01-how-mcsap-funding-shapes-roadside-enforcement-priorities-by.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-07-24T14:08:30.377509+00:00",
+          "file": "2026-05-01-vehicle-inspection-reports-daily-dvir-requirements-and-reten.md",
+          "status": "updated",
+          "pr_url": "https://github.com/thetruckercodex/thetruckercodex.github.io/pull/32",
+          "change_summary": "FMCSA's final rule (FR doc #2026-12450, eff. 2026-07-22) revises the requirement that motor carriers return completed roadside inspection forms to issuing State agencies, eliminating that obligation where the State does not require it; the post's carrier acknowledgment and compliance program sections must be updated to reflect this change.",
+          "sources": [
+            "https://www.federalregister.gov/documents/2026/06/22/2026-12450/completed-inspection-report-disposition"
+          ]
+        }
+      ]
     }
   ]
 }

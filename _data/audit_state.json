@@ -1,5 +1,5 @@
 {
-  "cursor": 110,
+  "cursor": 115,
   "cycle": 1,
   "posts": {
     "2026-02-08-common-dot-violations-how-to-avoid.md": {
@@ -471,7 +471,29 @@
     "2026-04-28-driver-oos-vs-vehicle-oos-what-each-order-means-and-how-they.md": {
       "last_checked_date": "2026-07-23",
       "last_result": "no_change"
+    },
+    "2026-04-29-level-iii-inspection-decoded-what-officers-examine-in-a-driv.md": {
+      "last_checked_date": "2026-07-24",
+      "last_result": "no_change"
+    },
+    "2026-04-30-annual-inspection-sticker-fraud-detection-methods-and-legal.md": {
+      "open_pr_number": 31,
+      "last_checked_date": "2026-07-24",
+      "last_result": "updated"
+    },
+    "2026-04-30-cargo-securement-violations-by-load-type-flatbed-vs-tanker-v.md": {
+      "last_checked_date": "2026-07-24",
+      "last_result": "no_change"
+    },
+    "2026-05-01-how-mcsap-funding-shapes-roadside-enforcement-priorities-by.md": {
+      "last_checked_date": "2026-07-24",
+      "last_result": "no_change"
+    },
+    "2026-05-01-vehicle-inspection-reports-daily-dvir-requirements-and-reten.md": {
+      "open_pr_number": 32,
+      "last_checked_date": "2026-07-24",
+      "last_result": "updated"
     }
   },
-  "updated_at": "2026-07-23T14:26:36.913305+00:00"
+  "updated_at": "2026-07-24T14:08:30.377541+00:00"
 }
