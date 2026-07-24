@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   # KRİTİK EKLEME: Yazı botu (Daily Blog Automation) işini bitirdiği an bu workflow'u uyandırır.
   workflow_run:
-    workflows: ["Daily Blog Automation"]
+    workflows: ["Daily Blog Automation", "Business Management Blog Automation"]
     types:
       - completed
 
