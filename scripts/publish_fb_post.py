@@ -39,6 +39,7 @@ GRAPH_BASE = f"https://graph.facebook.com/{GRAPH_API_VERSION}"
 
 INPUT_FILE = os.environ.get("FB_POST_INPUT", "/tmp/fb_post_draft.json")
 LOG_FILE = os.environ.get("FB_PUBLISH_LOG", "/tmp/fb_publish_log.json")
+CONTENT_MAP_FILE = "_data/fb_content_map.json"
 
 FB_PAGE_ID = os.environ["FB_PAGE_ID"]
 FB_PAGE_ACCESS_TOKEN = os.environ["FB_PAGE_ACCESS_TOKEN"]
@@ -90,6 +91,41 @@ def post_comment(object_id: str, message: str) -> dict:
     return body  # {"id": "<comment_id>"}
 
 
+def mark_used_and_advance(post: dict) -> None:
+    """Yayinlanan item'i _data/fb_content_map.json'da used=True isaretler ve
+    ilgili next_*_index sayaçlarini ilerletir. Sadece post_photo() basariyla
+    donduktan SONRA cagrilir -- boylece bu state, gercek bir Facebook yayinini
+    yansitir, sadece metin/gorsel uretiminin basarili olmasini degil."""
+    slot_type = post.get("slot_type")
+    source_id = post.get("source_id")
+    if not slot_type or not source_id:
+        print(f"UYARI: slot_type/source_id eksik (slot_type={slot_type}, source_id={source_id}) "
+              f"-- content-map state'i güncellenemedi.", file=sys.stderr)
+        return
+
+    with open(CONTENT_MAP_FILE, "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    pool = data.get(slot_type, [])
+    item = next((i for i in pool if i.get("id") == source_id), None)
+    if item is None:
+        print(f"UYARI: {slot_type} havuzunda id={source_id} bulunamadi -- state güncellenemedi.",
+              file=sys.stderr)
+        return
+
+    item["used"] = True
+    slot_pattern = data["_meta"]["slot_pattern"]
+    current_slot_index = post.get("slot_index", data.get("next_slot_index", 0))
+    data["next_slot_index"] = (current_slot_index + 1) % len(slot_pattern)
+    index_key = "next_educational_index" if slot_type == "educational" else "next_product_index"
+    data[index_key] = data.get(index_key, 0) + 1
+
+    with open(CONTENT_MAP_FILE, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+
+    print(f"State güncellendi: {slot_type} id={source_id} used=True, next_slot_index={data['next_slot_index']}")
+
+
 def main():
     with open(INPUT_FILE, "r", encoding="utf-8") as f:
         post = json.load(f)
@@ -123,6 +159,14 @@ def main():
 
     with open(LOG_FILE, "w", encoding="utf-8") as f:
         json.dump(log_entry, f, indent=2, ensure_ascii=False)
+
+    # Content-map state'ini SADECE burada, yayin GERCEKTEN basarili olduktan sonra
+    # guncelliyoruz (22-24 Temmuz kesintisinde tespit edilen bug'in duzeltmesi --
+    # eskiden generate_fb_post.py bu state'i sadece metin uretimi basarili
+    # oldugunda, gorsel/yayin adimlari hic calismadan yaziyordu, bu da basarisiz
+    # calistirmalarda icerigin sessizce hic yayinlanmadan "kullanildi" isaretlenip
+    # kaybolmasina yol aciyordu).
+    mark_used_and_advance(post)
 
     print(f"OK: Facebook'a yayınlandı -> photo_id={photo_result['id']} post_id={photo_result.get('post_id')}"
           + (f" comment_id={comment_result['id']}" if comment_result else ""))

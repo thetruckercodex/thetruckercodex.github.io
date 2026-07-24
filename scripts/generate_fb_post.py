@@ -132,6 +132,11 @@ def save_content_map(data):
 def reset_pool(data, pool_name):
     for item in data[pool_name]:
         item["used"] = False
+    # Reset, herhangi bir spesifik item'i "tuketmiyor" -- tum havuzu tekrar
+    # kullanilabilir hale getiriyor, bu yuzden Faz 4'un basarisini beklemeden
+    # hemen persist etmek güvenli (aksine, persist ETMEZSEK her calistirmada
+    # havuz "tukenmis" gorunup surekli reset denemesi yapar).
+    save_content_map(data)
     print(f"UYARI: {pool_name} havuzu tam tur tamamladi, tum ogeler otomatik resetlendi.", file=sys.stderr)
 
 
@@ -220,16 +225,19 @@ def main():
     result["category"] = item["category"]
     result["icon_object"] = CATEGORY_ICON[item["category"]]
     result["generated_at"] = datetime.now(timezone.utc).isoformat()
+    result["slot_type"] = slot_type
+    result["slot_index"] = slot_index
 
-    # state güncelle
-    item["used"] = True
-    data["next_slot_index"] = slot_index + 1
-    if slot_type == "educational":
-        data["next_educational_index"] += 1
-    else:
-        data["next_product_index"] += 1
-
-    save_content_map(data)
+    # ONEMLI: burada "used" isaretlenmiyor ve next_*_index ilerletilmiyor artik.
+    # Once (22-24 Temmuz kesintisinde tespit edildi): bu state Faz 2'de (sadece
+    # metin uretimi basarili oldugunda) yaziliyordu -- Faz 3 (gorsel) veya Faz 4
+    # (gercek Facebook yayini) sonradan basarisiz olsa bile item kalici olarak
+    # "used" kalip bir daha hic denenmiyordu; pipeline sessizce icerik
+    # tuketiyordu ama sayfada hicbir sey yayinlanmiyordu. Artik bu state, SADECE
+    # Faz 4 gercekten basariyla yayinladiktan SONRA publish_fb_post.py tarafindan
+    # yaziliyor (bkz. o script). Faz 2 burada content_map'e HICBIR YAZMA yapmiyor
+    # -- bu da ayni item'in bir sonraki calistirmada guvenle tekrar secilebilmesini
+    # (idempotency) saglıyor.
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(result, f, indent=2, ensure_ascii=False)

@@ -49,7 +49,27 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
 
       - name: Faz 3 — Görsel üretimi (Gemini / Nano Banana Pro)
-        run: python scripts/generate_fb_image.py
+        # 22-24 Temmuz kesintisi: Gemini API 503 UNAVAILABLE ("model şu an yoğun
+        # talep altında, birazdan tekrar deneyin") döndürdü -- google-genai
+        # kütüphanesinin kendi ic tenacity retry'ı bunu tüketip yine de exception
+        # fırlattı, script tek denemede pes edip job'ı FAIL yaptı. Google bu hatayı
+        # "genellikle geçici" olarak tanımlıyor, bu yüzden adım seviyesinde ayrı
+        # bir bekle-ve-tekrar-dene katmanı ekliyoruz (iç retry'dan bağımsız).
+        run: |
+          set -e
+          for attempt in 1 2 3 4; do
+            if python scripts/generate_fb_image.py; then
+              exit 0
+            fi
+            echo "Faz 3 deneme $attempt basarisiz -- Gemini gecici olarak mesgul olabilir."
+            if [ "$attempt" -lt 4 ]; then
+              sleep_secs=$((attempt * 90))
+              echo "${sleep_secs}s bekleyip tekrar denenecek..."
+              sleep "$sleep_secs"
+            fi
+          done
+          echo "::error::Faz 3 (görsel üretimi) 4 denemenin tamamında başarısız oldu."
+          exit 1
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
 
