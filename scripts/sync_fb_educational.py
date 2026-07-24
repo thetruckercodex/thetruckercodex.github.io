@@ -69,7 +69,16 @@ def main():
     next_num = max((int(i[1:]) for i in existing_ids if i[1:].isdigit()), default=0) + 1
     new_id = f"E{next_num:03d}"
 
-    fb_data["educational"].append({
+    # ONEMLI: sona (append) degil, listenin BASINA (insert 0) ekliyoruz.
+    # generate_fb_post.py'deki pick_next_educational() listeyi baştan tarayip ilk
+    # used=false ogeyi seciyor -- next_educational_index alani gorunuse ragmen
+    # SECIMDE KULLANILMIYOR (sadece increment ediliyor, hic okunmuyor). Bu yuzden
+    # sona eklenen bir oge, listenin basindaki tum eski used=false ogeler (su an
+    # 129 tane) tuketilene kadar -- gunde ~2 slotla yaklasik 2 ay -- hic secilmez.
+    # Yeni yayinlanan business yazisi taze ve donusum-kritik oldugu icin (Etsy CTA'ya
+    # dogrudan baglaniyor), bir sonraki FB calismasinda hemen secilebilmesi icin
+    # basa ekliyoruz.
+    fb_data["educational"].insert(0, {
         "id": new_id,
         "url": entry["url"],
         "title": entry["title"],
