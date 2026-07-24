@@ -371,8 +371,16 @@ def call_claude(prompt, post_type="regulatory"):
         # dosyalama son tarihleri, BOI gibi mevzuat durumu değişebilir). Modelin ezberden
         # eski/olası yanlış rakam üretmesini önlemek için web_search tool'unu açıyoruz --
         # tool-use turlarını karşılamak için max_tokens'ı da yükseltiyoruz.
-        kwargs["max_tokens"] = 4096
-        kwargs["tools"] = [{"type": "web_search_20260318", "name": "web_search"}]
+        kwargs["max_tokens"] = 6000
+        kwargs["tools"] = [{
+            "type": "web_search_20260318",
+            "name": "web_search",
+            "max_uses": 6,
+            # Arama sonuçları code execution uzerinden (dynamic filtering) tuketildiginde
+            # bu agir bloklari nihai response'tan dusuruyoruz -- hem token maliyetini
+            # azaltiyor hem de asagidaki metin-cikarma mantigini sadelestiriyor.
+            "response_inclusion": "excluded",
+        }]
         kwargs["system"] = (
             "You are a precision business-management and tax-compliance writer specializing in "
             "trucking LLC formation, bookkeeping, and profitability analysis for US owner-operators. "
@@ -390,14 +398,35 @@ def call_claude(prompt, post_type="regulatory"):
         )
 
     response = client.messages.create(**kwargs)
+    content_blocks = list(response.content)
 
-    # Web search açıkken response.content birden fazla blok içerebilir (server_tool_use,
-    # web_search_tool_result, text...) -- son metin bloklarını birleştirerek gerçek post
-    # içeriğini çıkarıyoruz.
-    text_blocks = [block.text for block in response.content if getattr(block, "type", None) == "text"]
+    # Web search acikken Claude, arama kararlarini/ozetlerini ayri "text" bloklari olarak
+    # yazabiliyor (ör. "I'll search for..." bir arama cagrisindan ONCE gelen bir text
+    # blogu). Tum text bloklarini kor kor birlestirmek bu on-yazi metinlerini nihai posta
+    # karistiriyordu (bkz. business-post.yml run #2 -- front matter dosyanin basinda
+    # cikmadi, kelime sayisi sistigi). Dogru yaklasim: SADECE en son tool-kullanim
+    # blogundan SONRAKI text bloklari nihai cevabi olusturur; arama hic tetiklenmediyse
+    # (regulatory/oi -- tools hic verilmiyor) tum icerik zaten tek bir text blogu olur ve
+    # bu mantik onceki davranisla ayni sonucu verir.
+    last_tool_idx = -1
+    for i, block in enumerate(content_blocks):
+        if getattr(block, "type", None) != "text":
+            last_tool_idx = i
+
+    final_blocks = content_blocks[last_tool_idx + 1:]
+    text_blocks = [b.text for b in final_blocks if getattr(b, "type", None) == "text"]
     if not text_blocks:
         raise RuntimeError("Claude API response contained no text block (post_type={})".format(post_type))
-    return "".join(text_blocks).strip()
+    result = "".join(text_blocks).strip()
+
+    # Ikinci bir guvenlik agi: talimata ragmen model yine de nihai text blogunun icine
+    # bir on-yazi sikistirirsa, Jekyll front matter'in basladigi ilk "---" satirindan
+    # itibaren kirp -- front matter dosyanin ilk karakterinden baslamak zorunda.
+    fm_match = re.search(r'^---\s*$', result, re.MULTILINE)
+    if fm_match and fm_match.start() > 0:
+        result = result[fm_match.start():]
+
+    return result
 
 
 def extract_title_from_content(content, fallback_title):
