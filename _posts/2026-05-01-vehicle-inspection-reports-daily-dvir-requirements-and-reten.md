@@ -2,6 +2,7 @@
 layout: post
 title: "Vehicle Inspection Reports: Daily DVIR Requirements and Retention"
 date: 2026-05-01
+last_modified_at: 2026-07-24
 categories: maintenance
 description: "Comprehensive analysis of Vehicle Inspection Reports: Daily DVIR Requirements and Retention under 49 CFR Part 396. Regulatory requirements, enforcement consequences, and compliance guidance for motor carriers."
 ---
@@ -40,6 +41,10 @@ When a driver finds no defects or deficiencies during the post-trip inspection, 
 ### Pre-Trip Review of the Prior Report
 
 Before operating any vehicle for which a previous driver has submitted a DVIR noting defects, the current driver must review that report under §396.11(c). If defects were noted, the driver must be satisfied that either repairs were made or a carrier determination was documented before operating the vehicle. This creates a mandatory continuity of knowledge requirement — drivers cannot simply ignore the prior shift's DVIR. This pre-trip review obligation integrates directly with the broader framework of [DOT vehicle inspection and maintenance requirements](https://blog.thetruckercodex.com/dot-vehicle-inspection-maintenance-requirements/), which governs systematic maintenance planning beyond the daily DVIR cycle.
+
+### Roadside Inspection Report Disposition (Updated — Effective July 22, 2026)
+
+A separate but related obligation under Part 396 previously required motor carriers and intermodal equipment providers to sign and return completed roadside inspection forms to the issuing State agency. **Effective July 22, 2026**, FMCSA's final rule (FR doc #2026-12450) amends this requirement. Because not all State agencies require or process the return of these reports, FMCSA has revised the regulation to eliminate the return obligation in States that do not require it. Motor carriers should confirm the specific disposition requirements of each State in which they receive roadside inspections, as return obligations may still exist in States that affirmatively require submission. Internal compliance programs that previously treated State form return as a universal obligation must be updated to reflect this State-by-State framework.
 
 ---
 
@@ -86,6 +91,7 @@ A compliant DVIR program requires systematic process controls, not merely the pr
 - **Carrier certification workflows** that require a qualified mechanic or maintenance supervisor to sign off on all defect-noted reports before the vehicle re-enters service
 - **Retention systems** — paper or electronic — that organize DVIRs by vehicle and date for a rolling three-month minimum window
 - **Pre-trip review documentation** confirming the current driver reviewed the prior DVIR where applicable
+- **State-specific roadside inspection return procedures** — as of July 22, 2026, the obligation to return completed roadside inspection forms to the issuing State agency is no longer universal; carriers must verify each State's current requirements and update their post-inspection workflows accordingly (see FR doc #2026-12450)
 
 **Inspection-ready documentation system:** [Vehicle Inspection & Maintenance Records Bundle — The Trucker Codex](https://www.etsy.com/shop/TheTruckerCodex)
 
@@ -97,7 +103,10 @@ A compliant DVIR program requires systematic process controls, not merely the pr
 - **49 CFR Part 396** — Inspection, Repair, and Maintenance
 - **FMCSA Official Guidance:** [www.fmcsa.dot.gov](https://www.fmcsa.dot.gov/)
 - **49 U.S.C. §521(b)(2)(B)** — Civil penalty authority for FMCSR violations
+- **FR doc #2026-12450** — Completed Inspection Report Disposition, 91 Fed. Reg. (June 22, 2026), effective July 22, 2026: [Federal Register](https://www.federalregister.gov/documents/2026/06/22/2026-12450/completed-inspection-report-disposition)
 
 ---
 
 *Regulatory references verified against current eCFR and FMCSA official sources. Verify applicability for your specific operation. This post does not constitute legal advice.*
+
+*Last verified against eCFR/Federal Register on 2026-07-24; updated to reflect FR doc #2026-12450 (Completed Inspection Report Disposition, eff. July 22, 2026), which amends the Part 396 requirement for motor carriers to return completed roadside inspection forms to issuing State agencies.*
