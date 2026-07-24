@@ -146,7 +146,7 @@ PRIMARY AUTHORITY / SOURCE: {primary_authority} ({authority_url})
 TARGET KEYWORD: {keyword}
 CATEGORY: {category}
 
-CRITICAL ACCURACY INSTRUCTION: {time_sensitive_instruction}
+{context_block}
 
 INTERNAL LINKS TO INCLUDE (use ALL of these as markdown links — weave naturally into body):
 {internal_links}
@@ -174,6 +174,7 @@ STYLE RULES:
 - The target keyword "{keyword}" must appear in at least one H2 heading
 - Include at least one bullet list of 4-5 items (steps, criteria, formulas, or common mistakes)
 - Cite specific authorities precisely (IRS Publication/Form number, Internal Revenue Code section, FinCEN/SBA/state filing requirement, ATRI cost data) — never invent a citation
+- For any dollar figure, deadline, or legal status covered in the VERIFIED CURRENT CONTEXT section above, use those exact facts — do not substitute a different remembered figure
 - Where the topic allows, include one worked numeric example (e.g., a cost-per-mile, break-even, or P&L calculation) using realistic illustrative figures clearly labeled as an example
 - Naturally weave ALL internal links into the post body — do not dump them in a list at the end
 - End with a "Professional Disclaimer" footer section
@@ -257,7 +258,7 @@ def build_internal_links_str(static_links, cross_links):
     return "\n".join(f"- {link}" for link in all_links)
 
 
-def build_prompt(topic, post_type, reg_data=None):
+def build_prompt(topic, post_type, reg_data=None, research_context=None):
     date_str = datetime.now().strftime("%Y-%m-%d")
     category = topic.get("category", "fmcsa-basics")
     topic_id = topic.get("id", "")
@@ -313,20 +314,22 @@ def build_prompt(topic, post_type, reg_data=None):
             f"profitability guidance for trucking LLC owners and owner-operators."
         )
         if topic.get("time_sensitive"):
-            ts_instruction = (
-                "This topic involves dollar thresholds, deadlines, or filing requirements that "
-                "change over time or have changed recently (e.g., tax year figures, deadline dates, "
-                "or a regulatory status that has been revised). Before writing, use web search to "
-                "confirm the CURRENT figures/requirements as of the post date below -- do NOT rely on "
-                "memorized figures, and do NOT state a specific number, deadline, or legal requirement "
-                "unless you have verified it via search for the current date. If a fact cannot be "
-                "verified, describe it qualitatively and point the reader to the authoritative source "
-                "instead of guessing a number."
+            context_block = (
+                "VERIFIED CURRENT CONTEXT (gathered via live web research immediately before this "
+                "request -- treat these as the authoritative current facts as of the post date below; "
+                "do NOT substitute a different remembered figure for anything covered here):\n"
+                + (research_context or (
+                    "No research notes were available for this run. Do NOT state a specific dollar "
+                    "figure, deadline, or current legal status from memory -- describe the point "
+                    "qualitatively and direct the reader to the authoritative source below to confirm "
+                    "the current number themselves."
+                ))
             )
         else:
-            ts_instruction = (
-                "This topic is largely structural/evergreen, but still verify via web search any "
-                "specific dollar figure, form number, or deadline you state -- do not guess."
+            context_block = (
+                "CONTEXT: This topic is largely structural/evergreen. Ground claims in the cited "
+                "primary authority. Do not state a specific dollar figure, form number, or deadline "
+                "unless you are confident it is stable and unlikely to have changed."
             )
         return BUSINESS_PROMPT.format(
             title=topic["title"],
@@ -334,7 +337,7 @@ def build_prompt(topic, post_type, reg_data=None):
             category=category,
             primary_authority=topic.get("primary_authority", "IRS Small Business and Self-Employed Tax Center"),
             authority_url=topic.get("authority_url", "https://www.irs.gov/businesses/small-businesses-self-employed"),
-            time_sensitive_instruction=ts_instruction,
+            context_block=context_block,
             internal_links=internal_links_str,
             etsy_cta_block=etsy_block,
             date=date_str,
@@ -358,80 +361,94 @@ def build_prompt(topic, post_type, reg_data=None):
         )
 
 
+def fetch_business_context(topic):
+    """
+    Business/vergi konulari icin AYRI, DUSUK RISKLI bir arastirma turu.
+
+    MIMARI KARAR (run #2 ve #3'teki basarisizliklardan sonra): web_search tool'unu
+    nihai Jekyll-yazma cagrisinda ACIK tutmak, modelin arama-karari/ozet metinlerini
+    (text bloklari) tool_use/tool_result bloklariyla ic ice yazmasina yol aciyordu.
+    Bunu regex ile "temizlemeye" calismak (iki kez denendi, iki kez de farkli bir
+    sekilde kirildi) kirilgan bir yaklasimdi. Bunun yerine arama tamamen AYRI, format
+    serbestligi olan bir on-arastirma turune tasindi: burada hicbir Jekyll/front-matter
+    beklentisi yok, sadece duz metin arastirma notu istiyoruz, o yuzden hangi text
+    blogunun "gercek cevap" oldugu hic onemli degil -- hepsini guvenle birlestirebiliriz.
+
+    Nihai yazi ise call_claude() icinde ARAC KULLANMADAN, tek-blokli, aylardir sorunsuz
+    calisan regulatory/oi yoluyla uretiliyor (bkz. asagisi).
+    """
+    client = anthropic.Anthropic()
+    research_prompt = f"""Research the CURRENT facts (as of {datetime.now().strftime('%Y-%m-%d')}) needed to write an accurate article on this topic:
+
+TOPIC: {topic['title']}
+PRIMARY AUTHORITY TO CHECK: {topic.get('primary_authority', '')} ({topic.get('authority_url', '')})
+
+Find and report, as plain-text research notes (no markdown formatting needed):
+- Any specific dollar figures, thresholds, or rates currently in effect
+- Any specific filing deadlines or dates currently in effect
+- The current legal/regulatory status if it has changed recently or is disputed/evolving
+- Any other fact a writer would need to state precisely and correctly for this specific topic
+
+If a fact cannot be confirmed via search, say so explicitly rather than guessing.
+This is a research brief for an internal writer, not the final article -- concise bullet notes are fine."""
+
+    try:
+        response = client.messages.create(
+            model="claude-sonnet-4-6",
+            max_tokens=2000,
+            tools=[{
+                "type": "web_search_20260318",
+                "name": "web_search",
+                "max_uses": 6,
+                "response_inclusion": "excluded",
+            }],
+            system=(
+                "You are a research assistant gathering current facts for a writer. Use web "
+                "search to verify anything time-sensitive. Output plain-text research notes only "
+                "-- this is not the final deliverable, so formatting is not important."
+            ),
+            messages=[{"role": "user", "content": research_prompt}]
+        )
+    except Exception as e:
+        print(f"  WARNING: research call failed ({e}) -- proceeding without verified context.")
+        return None
+
+    # Format serbest oldugu icin butun text bloklarini guvenle birlestirebiliriz.
+    text_blocks = [b.text for b in response.content if getattr(b, "type", None) == "text"]
+    notes = "".join(text_blocks).strip()
+    return notes or None
+
+
 def call_claude(prompt, post_type="regulatory"):
     client = anthropic.Anthropic()
-    kwargs = dict(
-        model="claude-sonnet-4-6",
-        max_tokens=2500,
-        messages=[{"role": "user", "content": prompt}]
-    )
 
     if post_type == "business":
-        # Business/tax/vergi içeriği zaman duyarlı (vergi yılı rakamları, dolar eşikleri,
-        # dosyalama son tarihleri, BOI gibi mevzuat durumu değişebilir). Modelin ezberden
-        # eski/olası yanlış rakam üretmesini önlemek için web_search tool'unu açıyoruz --
-        # tool-use turlarını karşılamak için max_tokens'ı da yükseltiyoruz.
-        kwargs["max_tokens"] = 6000
-        kwargs["tools"] = [{
-            "type": "web_search_20260318",
-            "name": "web_search",
-            "max_uses": 6,
-            # Arama sonuçları code execution uzerinden (dynamic filtering) tuketildiginde
-            # bu agir bloklari nihai response'tan dusuruyoruz -- hem token maliyetini
-            # azaltiyor hem de asagidaki metin-cikarma mantigini sadelestiriyor.
-            "response_inclusion": "excluded",
-        }]
-        kwargs["system"] = (
+        system = (
             "You are a precision business-management and tax-compliance writer specializing in "
             "trucking LLC formation, bookkeeping, and profitability analysis for US owner-operators. "
-            "You have web search available -- use it to verify any current dollar figure, deadline, "
-            "form number, or legal requirement before stating it. Never state a specific current-year "
-            "figure or deadline from memory alone. Your final output is always publication-ready Jekyll "
-            "markdown. No preamble, no explanation, no description of your search process -- only the "
-            "final post."
+            "Base any time-sensitive figure strictly on the VERIFIED CURRENT CONTEXT provided in the "
+            "prompt -- do not introduce a different remembered figure. Your output is always "
+            "publication-ready Jekyll markdown. No preamble, no explanation — only the post."
         )
+        max_tokens = 3000
     else:
-        kwargs["system"] = (
+        system = (
             "You are a precision technical writer specializing in US federal motor carrier "
             "regulations. Your output is always publication-ready Jekyll markdown. No preamble, "
             "no explanation — only the post."
         )
+        max_tokens = 2500
 
-    response = client.messages.create(**kwargs)
-    content_blocks = list(response.content)
-
-    # Web search acikken Claude, arama kararlarini/ozetlerini ayri "text" bloklari olarak
-    # yazabiliyor (ör. "I'll search for..." bir arama cagrisindan ONCE gelen bir text
-    # blogu). Tum text bloklarini kor kor birlestirmek bu on-yazi metinlerini nihai posta
-    # karistiriyordu (bkz. business-post.yml run #2 -- front matter dosyanin basinda
-    # cikmadi, kelime sayisi sistigi). Dogru yaklasim: SADECE en son tool-kullanim
-    # blogundan SONRAKI text bloklari nihai cevabi olusturur; arama hic tetiklenmediyse
-    # (regulatory/oi -- tools hic verilmiyor) tum icerik zaten tek bir text blogu olur ve
-    # bu mantik onceki davranisla ayni sonucu verir.
-    last_tool_idx = -1
-    for i, block in enumerate(content_blocks):
-        if getattr(block, "type", None) != "text":
-            last_tool_idx = i
-
-    final_blocks = content_blocks[last_tool_idx + 1:]
-    text_blocks = [b.text for b in final_blocks if getattr(b, "type", None) == "text"]
-    if not text_blocks:
-        raise RuntimeError("Claude API response contained no text block (post_type={})".format(post_type))
-    result = "".join(text_blocks).strip()
-
-    # Ikinci bir guvenlik agi: talimata ragmen model yine de nihai text blogunun icine
-    # bir on-yazi/aciklama sikistirirsa, Jekyll front matter'in basladigi noktadan
-    # itibaren kirp. NOT: sadece ilk "---" satirini aramak yetersiz -- run #3'te model,
-    # arama surecinde metnin icine dekoratif bir "---" ayraci koymus, guvenlik agi YANLIS
-    # bu ayraca kilitlenip gercek front matter'i hala kirpamadan birakmisti (butun front
-    # matter alanlari "missing" olarak basarisiz oldu). Bu yuzden "---" satirini TEK
-    # BASINA degil, hemen ardindan "layout:" satiri gelen "---" olarak ariyoruz -- bu,
-    # POST STRUCTURE talimatindaki front matter'in kesin imzasi (ilk alan her zaman layout).
-    fm_match = re.search(r'^---[ \t]*\r?\n[ \t]*layout[ \t]*:', result, re.MULTILINE)
-    if fm_match and fm_match.start() > 0:
-        result = result[fm_match.start():]
-
-    return result
+    # Bilerek tools verilmiyor -- nihai yazma cagrisi HER ZAMAN tek bir text blogu
+    # dondurur (arama artik ayri bir on-turde, fetch_business_context() icinde
+    # yapiliyor), bu yuzden response.content[0].text kadar basit ve guvenilir.
+    response = client.messages.create(
+        model="claude-sonnet-4-6",
+        max_tokens=max_tokens,
+        system=system,
+        messages=[{"role": "user", "content": prompt}]
+    )
+    return response.content[0].text
 
 
 def extract_title_from_content(content, fallback_title):
@@ -494,7 +511,16 @@ def main():
         with open(REG_DATA_FILE) as f:
             reg_data = json.load(f)
 
-    prompt = build_prompt(topic, POST_TYPE, reg_data)
+    research_context = None
+    if POST_TYPE == "business" and topic.get("time_sensitive"):
+        print("Fetching current context via web search (separate research call)...")
+        research_context = fetch_business_context(topic)
+        if research_context:
+            print(f"  Research notes gathered ({len(research_context)} chars).")
+        else:
+            print("  No research notes available -- writer will hedge on time-sensitive figures.")
+
+    prompt = build_prompt(topic, POST_TYPE, reg_data, research_context)
     print("Calling Claude API...")
     content = call_claude(prompt, POST_TYPE)
 
