@@ -3,6 +3,7 @@ layout: category_page
 title: Business Management
 permalink: /topics/business-management/
 description: "Business formation, bookkeeping, tax compliance, and load-level profitability analysis for trucking LLC owners and owner-operators."
+category: business-management
 ---
 
 Running a compliant truck is only half the job. The other half is running a compliant, profitable *business* — and that side of the operation is governed by a different body of authority entirely: the Internal Revenue Code, FinCEN's beneficial-ownership framework, state business-formation statutes, and the arithmetic of cost-per-mile that determines whether a given load is worth running at all.
@@ -14,13 +15,6 @@ This hub consolidates The Trucker Codex's business-management library: how to fo
 - **Formation & Registration** — LLC formation sequence, EIN, BOI/Corporate Transparency Act status, and how these interact with your existing MC/DOT authority.
 - **Bookkeeping & Tax Compliance** — Chart of accounts, quarterly estimated taxes, self-employment tax, per diem, depreciation, and recordkeeping standards that differ from DOT retention rules.
 - **Profitability & Decision-Making** — Cost-per-mile, break-even rate, load-by-load accept/reject analysis, monthly P&L construction, and cash flow management.
-
-### Articles in This Topic
-
-{% assign posts = site.posts | where: "category", "business-management" %}
-{% for post in posts %}
-- [{{ post.title }}]({{ post.url }})
-{% endfor %}
 
 <br>
 [← All Topics](/topics/)

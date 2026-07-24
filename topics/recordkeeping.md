@@ -3,6 +3,7 @@ layout: category_page
 title: Recordkeeping & Retention
 permalink: /topics/recordkeeping/
 description: "Structured compliance framework for FMCSA recordkeeping and retention obligations under 49 CFR Parts 385, 391, 395, and 396."
+category: recordkeeping
 ---
 
 In FMCSA enforcement logic, documentation is not administrative overhead — it is the primary evidentiary basis for compliance determination. A carrier may operate safely in practice yet still fail a compliance review due to incomplete, inconsistent, or improperly retained records.
@@ -24,12 +25,6 @@ Three systemic failure patterns recur during compliance reviews: fragmented stor
 ## Enforcement Logic: Burden of Proof
 
 Under FMCSA enforcement standards, the burden of demonstrating compliance rests on the carrier — absence of documentation is interpreted as absence of compliance, not a clerical error.
-
-{% assign posts = site.posts | where: "category", "recordkeeping" %}
-### Articles in This Topic
-{% for post in posts %}
-- [{{ post.title }}]({{ post.url }})
-{% endfor %}
 
 <br>
 [← All Topics](/topics/)

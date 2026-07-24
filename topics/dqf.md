@@ -3,6 +3,7 @@ layout: category_page
 title: "Driver Qualification File (DQF)"
 permalink: /topics/dqf/
 description: "Complete Driver Qualification File (DQF) compliance framework under 49 CFR Part 391. Structure, required documents, retention rules, and audit-risk exposure."
+category: dqf
 ---
 
 The Driver Qualification File (DQF) is a mandatory compliance structure under **49 CFR Part 391**. Every motor carrier must maintain a properly documented DQF for each CDL driver, and improper or incomplete DQF files remain among the most common audit-trigger findings in FMCSA investigations.
@@ -34,18 +35,6 @@ DQF failures are frequently identified during new entrant safety audits, complia
 Motor carriers should implement centralized DQF file architecture, quarterly internal DQF reviews, retention timeline tracking, and documentation completeness checklists.
 
 ---
-
-### Articles in This Topic
-
-<ul>
-  {% for post in site.posts %}
-    {% if post.category == "dqf" or post.categories contains "dqf" %}
-      <li>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-      </li>
-    {% endif %}
-  {% endfor %}
-</ul>
 
 <br>
 [← All Topics](/topics/)
