@@ -420,9 +420,14 @@ def call_claude(prompt, post_type="regulatory"):
     result = "".join(text_blocks).strip()
 
     # Ikinci bir guvenlik agi: talimata ragmen model yine de nihai text blogunun icine
-    # bir on-yazi sikistirirsa, Jekyll front matter'in basladigi ilk "---" satirindan
-    # itibaren kirp -- front matter dosyanin ilk karakterinden baslamak zorunda.
-    fm_match = re.search(r'^---\s*$', result, re.MULTILINE)
+    # bir on-yazi/aciklama sikistirirsa, Jekyll front matter'in basladigi noktadan
+    # itibaren kirp. NOT: sadece ilk "---" satirini aramak yetersiz -- run #3'te model,
+    # arama surecinde metnin icine dekoratif bir "---" ayraci koymus, guvenlik agi YANLIS
+    # bu ayraca kilitlenip gercek front matter'i hala kirpamadan birakmisti (butun front
+    # matter alanlari "missing" olarak basarisiz oldu). Bu yuzden "---" satirini TEK
+    # BASINA degil, hemen ardindan "layout:" satiri gelen "---" olarak ariyoruz -- bu,
+    # POST STRUCTURE talimatindaki front matter'in kesin imzasi (ilk alan her zaman layout).
+    fm_match = re.search(r'^---[ \t]*\r?\n[ \t]*layout[ \t]*:', result, re.MULTILINE)
     if fm_match and fm_match.start() > 0:
         result = result[fm_match.start():]
 
