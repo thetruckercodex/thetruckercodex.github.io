@@ -50,8 +50,8 @@
       "icon_notes": "Yeni kategori (7.) -- business-management. Icon onerisi, teyit gerekir."
     }
   },
-  "next_slot_index": 2,
-  "next_educational_index": 25,
+  "next_slot_index": 3,
+  "next_educational_index": 26,
   "next_product_index": 25,
   "educational": [
     {
@@ -260,7 +260,7 @@
       "title": "DOT Compliance Checklist (2026)",
       "category": "fmcsa-basics",
       "date": "2026-03-03",
-      "used": false
+      "used": true
     },
     {
       "id": "E027",
