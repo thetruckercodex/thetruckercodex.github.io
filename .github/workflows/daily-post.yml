@@ -2,10 +2,13 @@ name: Daily Blog Automation
 
 on:
   schedule:
-    # Sabah yazısı (Regulatory) - 09:00 EST = 14:00 UTC
-    - cron: '7 14 * * *'
-    # Akşam yazısı (OI) - 18:00 EST = 23:00 UTC
-    - cron: '7 23 * * *'
+    # Haftada 3 yazıya düşürüldü (site zaten 180+ yazıya ulaştı, günlük 2x aşırı yükleme
+    # yaratıyordu). Pazartesi ve Cuma regulatory, Çarşamba oi -- oi havuzu (4 konu kaldı)
+    # regulatory havuzuna (18 konu kaldı) göre çok daha hızlı tükeniyor, bu yüzden oi'ye
+    # haftada sadece 1 slot ayrılıyor.
+    - cron: '7 14 * * 1'   # Pazartesi 09:00 EST -- regulatory
+    - cron: '7 23 * * 3'   # Çarşamba 18:00 EST -- oi
+    - cron: '7 14 * * 5'   # Cuma 09:00 EST -- regulatory
   workflow_dispatch:
     inputs:
       post_type:
@@ -43,17 +46,20 @@ jobs:
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             echo "type=${{ github.event.inputs.post_type }}" >> $GITHUB_OUTPUT
-          elif [ "${{ github.event.schedule }}" = "7 14 * * *" ]; then
+          elif [ "${{ github.event.schedule }}" = "7 14 * * 1" ]; then
             # Hangi cron ifadesinin tetiklediğini DOĞRUDAN GitHub'dan al -- eskiden
             # "su an saat 14 mu" diye çalışma anındaki saate bakılıyordu, ama
             # GitHub Actions'ın zamanlanmış tetikleyicileri dakikalarca/saatlerce
             # gecikebiliyor (resmen bilinen bir davranış); bu gecikme "regulatory"
             # slotunun saat 14'ü kaçırıp sessizce "oi"ye düşmesine, ve OI havuzu
             # tükendiğinde haftalarca hiç yeni regulatory yazı üretilememesine
-            # sebep oluyordu (bkz. Temmuz 2026 kesintisi).
+            # sebep oluyordu (bkz. Temmuz 2026 kesintisi). Artık TAM cron string'i
+            # eşleşiyor (gün dahil), saat penceresine güvenmiyoruz.
             echo "type=regulatory" >> $GITHUB_OUTPUT
-          elif [ "${{ github.event.schedule }}" = "7 23 * * *" ]; then
+          elif [ "${{ github.event.schedule }}" = "7 23 * * 3" ]; then
             echo "type=oi" >> $GITHUB_OUTPUT
+          elif [ "${{ github.event.schedule }}" = "7 14 * * 5" ]; then
+            echo "type=regulatory" >> $GITHUB_OUTPUT
           else
             # Beklenmeyen bir schedule değeri (ör. manuel/başka bir tetikleyici) --
             # eski saat-aralığı mantığına güvenli şekilde düş, ama TAM eşitlik

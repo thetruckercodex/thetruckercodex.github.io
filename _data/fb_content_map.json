@@ -43,6 +43,11 @@
       "label": "Recordkeeping",
       "icon_object": "filing cabinet drawer with a document archive box",
       "icon_notes": "Plan bu kategori için örnek vermemişti — dosya dolabı önerisi, teyit gerekir"
+    },
+    "business-management": {
+      "label": "Business Management",
+      "icon_object": "calculator and ledger book with a small upward profit-line graph",
+      "icon_notes": "Yeni kategori (7.) -- business-management. Icon onerisi, teyit gerekir."
     }
   },
   "next_slot_index": 2,
@@ -1367,7 +1372,7 @@
       "id": "P12",
       "etsy_url": "https://www.etsy.com/listing/4479085412/easy-all-in-one-trucking-load-and",
       "title": "Easy All-in-One Trucking Load and Expense Tracker for Owner Operators",
-      "category": "fmcsa-basics",
+      "category": "business-management",
       "price": "$19.90",
       "used": false
     }

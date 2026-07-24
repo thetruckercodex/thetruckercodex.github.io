@@ -32,7 +32,7 @@
     },
     {
       "id": "R21",
-      "title": "FMCSA Clearinghouse: Full Query vs. Limited Query \u2014 When Each Is Required",
+      "title": "FMCSA Clearinghouse: Full Query vs. Limited Query — When Each Is Required",
       "keyword": "FMCSA Clearinghouse query requirements",
       "cfr_title": 49,
       "cfr_part": 382,
@@ -753,7 +753,7 @@
     },
     {
       "id": "O100",
-      "title": "How a DOT Number Gets Deactivated for Inactivity \u2014 and What Reactivation Requires",
+      "title": "How a DOT Number Gets Deactivated for Inactivity — and What Reactivation Requires",
       "keyword": "DOT number deactivated inactivity reactivation",
       "data_source": "FMCSA MCS-150 / Registration Data",
       "data_url": "https://www.fmcsa.dot.gov/registration",
@@ -920,5 +920,416 @@
       ],
       "etsy_cta": true
     }
-  ]
+  ],
+  "business": [
+    {
+      "id": "B01",
+      "title": "Forming a Trucking LLC: State Selection, Registered Agent, and Filing Sequence",
+      "keyword": "how to form a trucking LLC",
+      "primary_authority": "SBA — Choose a Business Structure",
+      "authority_url": "https://www.sba.gov/business-guide/launch-your-business/choose-business-structure",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/what-owner-operators-get-wrong-about-their-own-operating-aut/",
+        "https://blog.thetruckercodex.com/unified-carrier-registration-what-happens-when-a-carrier-mis/"
+      ],
+      "time_sensitive": false,
+      "etsy_cta": true,
+      "etsy_url": "https://www.etsy.com/listing/4479085412/easy-all-in-one-trucking-load-and",
+      "etsy_anchor": "Once your LLC is running loads, track every dollar from day one:",
+      "etsy_product_name": "Easy All-in-One Trucking Load and Expense Tracker — The Trucker Codex",
+      "category": "business-management"
+    },
+    {
+      "id": "B02",
+      "title": "BOI Reporting and the Corporate Transparency Act: What Trucking LLC Owners Must Verify Before Filing",
+      "keyword": "BOI reporting trucking LLC requirements",
+      "primary_authority": "FinCEN — Beneficial Ownership Information",
+      "authority_url": "https://www.fincen.gov/boi",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/what-owner-operators-get-wrong-about-their-own-operating-aut/",
+        "https://blog.thetruckercodex.com/unified-carrier-registration-what-happens-when-a-carrier-mis/"
+      ],
+      "time_sensitive": true,
+      "etsy_cta": true,
+      "etsy_url": "https://www.etsy.com/listing/4479085412/easy-all-in-one-trucking-load-and",
+      "etsy_anchor": "Track every load's income and expenses automatically:",
+      "etsy_product_name": "Easy All-in-One Trucking Load and Expense Tracker — The Trucker Codex",
+      "category": "business-management"
+    },
+    {
+      "id": "B03",
+      "title": "Chart of Accounts for a One-Truck Operation: Structuring Your Books From Day One",
+      "keyword": "trucking chart of accounts",
+      "primary_authority": "IRS Publication 583 — Starting a Business and Keeping Records",
+      "authority_url": "https://www.irs.gov/publications/p583",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/the-paper-trail-after-an-accident-every-document-you-need-an/",
+        "https://blog.thetruckercodex.com/what-owner-operators-get-wrong-about-their-own-operating-aut/"
+      ],
+      "time_sensitive": false,
+      "etsy_cta": true,
+      "etsy_url": "https://www.etsy.com/listing/4479085412/easy-all-in-one-trucking-load-and",
+      "etsy_anchor": "Track every load's income and expenses automatically:",
+      "etsy_product_name": "Easy All-in-One Trucking Load and Expense Tracker — The Trucker Codex",
+      "category": "business-management"
+    },
+    {
+      "id": "B04",
+      "title": "Quarterly Estimated Taxes for Owner-Operators: Form 1040-ES and the Safe Harbor Rules",
+      "keyword": "quarterly estimated taxes owner operator",
+      "primary_authority": "IRS — Form 1040-ES, Estimated Tax for Individuals",
+      "authority_url": "https://www.irs.gov/forms-pubs/about-form-1040-es",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/what-owner-operators-get-wrong-about-their-own-operating-aut/",
+        "https://blog.thetruckercodex.com/irp-and-ifta-registration-and-fuel-tax-requirements-for-inte/"
+      ],
+      "time_sensitive": true,
+      "etsy_cta": true,
+      "etsy_url": "https://www.etsy.com/listing/4479085412/easy-all-in-one-trucking-load-and",
+      "etsy_anchor": "Know your quarter's real profit before you file:",
+      "etsy_product_name": "Easy All-in-One Trucking Load and Expense Tracker — The Trucker Codex",
+      "category": "business-management"
+    },
+    {
+      "id": "B05",
+      "title": "Self-Employment Tax and the Owner-Operator: Calculating the 15.3% You Can't Avoid",
+      "keyword": "self employment tax owner operator",
+      "primary_authority": "IRS — Self-Employment Tax (Social Security and Medicare Taxes)",
+      "authority_url": "https://www.irs.gov/businesses/small-businesses-self-employed/self-employment-tax-social-security-and-medicare-taxes",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/what-owner-operators-get-wrong-about-their-own-operating-aut/",
+        "https://blog.thetruckercodex.com/unified-carrier-registration-what-happens-when-a-carrier-mis/"
+      ],
+      "time_sensitive": false,
+      "etsy_cta": true,
+      "etsy_url": "https://www.etsy.com/listing/4479085412/easy-all-in-one-trucking-load-and",
+      "etsy_anchor": "Track every load's income and expenses automatically:",
+      "etsy_product_name": "Easy All-in-One Trucking Load and Expense Tracker — The Trucker Codex",
+      "category": "business-management"
+    },
+    {
+      "id": "B06",
+      "title": "Section 179 and Bonus Depreciation: Writing Off Your Truck the Right Way",
+      "keyword": "section 179 depreciation trucking",
+      "primary_authority": "IRS Publication 946 — How To Depreciate Property",
+      "authority_url": "https://www.irs.gov/publications/p946",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/the-paper-trail-after-an-accident-every-document-you-need-an/",
+        "https://blog.thetruckercodex.com/what-owner-operators-get-wrong-about-their-own-operating-aut/"
+      ],
+      "time_sensitive": true,
+      "etsy_cta": true,
+      "etsy_url": "https://www.etsy.com/listing/4479085412/easy-all-in-one-trucking-load-and",
+      "etsy_anchor": "Track every load's income and expenses automatically:",
+      "etsy_product_name": "Easy All-in-One Trucking Load and Expense Tracker — The Trucker Codex",
+      "category": "business-management"
+    },
+    {
+      "id": "B07",
+      "title": "Per Diem Deductions for Truck Drivers: IRS Rules Under 26 U.S.C. §274(n)",
+      "keyword": "per diem deduction truck drivers",
+      "primary_authority": "IRS Publication 463 — Travel, Gift, and Car Expenses",
+      "authority_url": "https://www.irs.gov/publications/p463",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/the-paper-trail-after-an-accident-every-document-you-need-an/",
+        "https://blog.thetruckercodex.com/what-owner-operators-get-wrong-about-their-own-operating-aut/"
+      ],
+      "time_sensitive": true,
+      "etsy_cta": true,
+      "etsy_url": "https://www.etsy.com/listing/4479085412/easy-all-in-one-trucking-load-and",
+      "etsy_anchor": "Track every load's income and expenses automatically:",
+      "etsy_product_name": "Easy All-in-One Trucking Load and Expense Tracker — The Trucker Codex",
+      "category": "business-management"
+    },
+    {
+      "id": "B08",
+      "title": "Heavy Vehicle Use Tax (Form 2290): Filing Deadlines, Calculation, and Penalties",
+      "keyword": "Form 2290 heavy vehicle use tax deadline",
+      "primary_authority": "IRS — Form 2290, Heavy Highway Vehicle Use Tax",
+      "authority_url": "https://www.irs.gov/forms-pubs/about-form-2290",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/irp-and-ifta-registration-and-fuel-tax-requirements-for-inte/",
+        "https://blog.thetruckercodex.com/unified-carrier-registration-what-happens-when-a-carrier-mis/"
+      ],
+      "time_sensitive": true,
+      "etsy_cta": true,
+      "etsy_url": "https://www.etsy.com/listing/4479085412/easy-all-in-one-trucking-load-and",
+      "etsy_anchor": "Don't let a missed filing eat your margin — track deadlines and costs together:",
+      "etsy_product_name": "Easy All-in-One Trucking Load and Expense Tracker — The Trucker Codex",
+      "category": "business-management"
+    },
+    {
+      "id": "B09",
+      "title": "IFTA Fuel Tax Reconciliation as a Bookkeeping Discipline, Not Just Compliance",
+      "keyword": "IFTA fuel tax reconciliation bookkeeping",
+      "primary_authority": "International Fuel Tax Agreement, Inc.",
+      "authority_url": "https://www.iftach.org/",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/irp-and-ifta-registration-and-fuel-tax-requirements-for-inte/",
+        "https://blog.thetruckercodex.com/what-owner-operators-get-wrong-about-their-own-operating-aut/"
+      ],
+      "time_sensitive": false,
+      "etsy_cta": true,
+      "etsy_url": "https://www.etsy.com/listing/4479085412/easy-all-in-one-trucking-load-and",
+      "etsy_anchor": "Track every load's income and expenses automatically:",
+      "etsy_product_name": "Easy All-in-One Trucking Load and Expense Tracker — The Trucker Codex",
+      "category": "business-management"
+    },
+    {
+      "id": "B10",
+      "title": "1099 vs. Employee: Misclassification Risk for Owner-Operators Leased to a Carrier",
+      "keyword": "1099 owner operator misclassification",
+      "primary_authority": "IRS — Independent Contractor (Self-Employed) or Employee?",
+      "authority_url": "https://www.irs.gov/businesses/small-businesses-self-employed/independent-contractor-self-employed-or-employee",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/what-owner-operators-get-wrong-about-their-own-operating-aut/",
+        "https://blog.thetruckercodex.com/why-new-entrants-fail-their-safety-audit-analysis-of-common/"
+      ],
+      "time_sensitive": false,
+      "etsy_cta": true,
+      "etsy_url": "https://www.etsy.com/listing/4479085412/easy-all-in-one-trucking-load-and",
+      "etsy_anchor": "Track every load's income and expenses automatically:",
+      "etsy_product_name": "Easy All-in-One Trucking Load and Expense Tracker — The Trucker Codex",
+      "category": "business-management"
+    },
+    {
+      "id": "B11",
+      "title": "Separating Business and Personal Finances: Why Commingling Sinks Trucking LLCs",
+      "keyword": "business bank account trucking LLC commingling",
+      "primary_authority": "SBA — Open a Business Bank Account",
+      "authority_url": "https://www.sba.gov/business-guide/launch-your-business/open-business-bank-account",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/the-paper-trail-after-an-accident-every-document-you-need-an/",
+        "https://blog.thetruckercodex.com/what-owner-operators-get-wrong-about-their-own-operating-aut/"
+      ],
+      "time_sensitive": false,
+      "etsy_cta": true,
+      "etsy_url": "https://www.etsy.com/listing/4479085412/easy-all-in-one-trucking-load-and",
+      "etsy_anchor": "Track every load's income and expenses automatically:",
+      "etsy_product_name": "Easy All-in-One Trucking Load and Expense Tracker — The Trucker Codex",
+      "category": "business-management"
+    },
+    {
+      "id": "B12",
+      "title": "Cost-Per-Mile Calculation: The Formula Every Owner-Operator Needs Before Accepting a Load",
+      "keyword": "cost per mile calculation trucking",
+      "primary_authority": "ATRI — An Analysis of the Operational Costs of Trucking",
+      "authority_url": "https://truckingresearch.org/atri-research/operational-costs-of-trucking/",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/irp-and-ifta-registration-and-fuel-tax-requirements-for-inte/",
+        "https://blog.thetruckercodex.com/what-owner-operators-get-wrong-about-their-own-operating-aut/"
+      ],
+      "time_sensitive": true,
+      "etsy_cta": true,
+      "etsy_url": "https://www.etsy.com/listing/4479085412/easy-all-in-one-trucking-load-and",
+      "etsy_anchor": "Run this exact calculation automatically, load by load:",
+      "etsy_product_name": "Easy All-in-One Trucking Load and Expense Tracker — The Trucker Codex",
+      "category": "business-management"
+    },
+    {
+      "id": "B13",
+      "title": "Load-by-Load Profitability: Should You Take This Load or Deadhead Home?",
+      "keyword": "load profitability decision owner operator",
+      "primary_authority": "ATRI — An Analysis of the Operational Costs of Trucking",
+      "authority_url": "https://truckingresearch.org/atri-research/operational-costs-of-trucking/",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/fmcsa-intervention-thresholds-when-your-sms-percentile-trigg/",
+        "https://blog.thetruckercodex.com/what-owner-operators-get-wrong-about-their-own-operating-aut/"
+      ],
+      "time_sensitive": false,
+      "etsy_cta": true,
+      "etsy_url": "https://www.etsy.com/listing/4479085412/easy-all-in-one-trucking-load-and",
+      "etsy_anchor": "Get an instant profit-or-loss answer before you accept the next load:",
+      "etsy_product_name": "Easy All-in-One Trucking Load and Expense Tracker — The Trucker Codex",
+      "category": "business-management"
+    },
+    {
+      "id": "B14",
+      "title": "Building a Monthly Profit and Loss Statement for a Trucking Business",
+      "keyword": "monthly profit and loss statement trucking",
+      "primary_authority": "IRS Publication 583 — Starting a Business and Keeping Records",
+      "authority_url": "https://www.irs.gov/publications/p583",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/the-paper-trail-after-an-accident-every-document-you-need-an/",
+        "https://blog.thetruckercodex.com/irp-and-ifta-registration-and-fuel-tax-requirements-for-inte/"
+      ],
+      "time_sensitive": false,
+      "etsy_cta": true,
+      "etsy_url": "https://www.etsy.com/listing/4479085412/easy-all-in-one-trucking-load-and",
+      "etsy_anchor": "Generate your P&L automatically from logged loads and expenses:",
+      "etsy_product_name": "Easy All-in-One Trucking Load and Expense Tracker — The Trucker Codex",
+      "category": "business-management"
+    },
+    {
+      "id": "B15",
+      "title": "Break-Even Rate Per Mile: Where Fixed and Variable Costs Meet",
+      "keyword": "break even rate per mile trucking",
+      "primary_authority": "ATRI — An Analysis of the Operational Costs of Trucking",
+      "authority_url": "https://truckingresearch.org/atri-research/operational-costs-of-trucking/",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/what-owner-operators-get-wrong-about-their-own-operating-aut/",
+        "https://blog.thetruckercodex.com/irp-and-ifta-registration-and-fuel-tax-requirements-for-inte/"
+      ],
+      "time_sensitive": true,
+      "etsy_cta": true,
+      "etsy_url": "https://www.etsy.com/listing/4479085412/easy-all-in-one-trucking-load-and",
+      "etsy_anchor": "Track every load's income and expenses automatically:",
+      "etsy_product_name": "Easy All-in-One Trucking Load and Expense Tracker — The Trucker Codex",
+      "category": "business-management"
+    },
+    {
+      "id": "B16",
+      "title": "Factoring Companies and Their True Cost to Your Bottom Line",
+      "keyword": "freight factoring cost trucking",
+      "primary_authority": "SBA — Small Business Financing Options",
+      "authority_url": "https://www.sba.gov/funding-programs/loans",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/what-owner-operators-get-wrong-about-their-own-operating-aut/",
+        "https://blog.thetruckercodex.com/fmcsa-intervention-thresholds-when-your-sms-percentile-trigg/"
+      ],
+      "time_sensitive": false,
+      "etsy_cta": true,
+      "etsy_url": "https://www.etsy.com/listing/4479085412/easy-all-in-one-trucking-load-and",
+      "etsy_anchor": "Track every load's income and expenses automatically:",
+      "etsy_product_name": "Easy All-in-One Trucking Load and Expense Tracker — The Trucker Codex",
+      "category": "business-management"
+    },
+    {
+      "id": "B17",
+      "title": "S-Corp Election for Owner-Operators: When It Actually Saves Money",
+      "keyword": "S corp election owner operator taxes",
+      "primary_authority": "IRS — S Corporations",
+      "authority_url": "https://www.irs.gov/businesses/small-businesses-self-employed/s-corporations",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/what-owner-operators-get-wrong-about-their-own-operating-aut/",
+        "https://blog.thetruckercodex.com/unified-carrier-registration-what-happens-when-a-carrier-mis/"
+      ],
+      "time_sensitive": true,
+      "etsy_cta": true,
+      "etsy_url": "https://www.etsy.com/listing/4479085412/easy-all-in-one-trucking-load-and",
+      "etsy_anchor": "Track every load's income and expenses automatically:",
+      "etsy_product_name": "Easy All-in-One Trucking Load and Expense Tracker — The Trucker Codex",
+      "category": "business-management"
+    },
+    {
+      "id": "B18",
+      "title": "Tax Recordkeeping vs. DOT Recordkeeping: Two Different Retention Clocks",
+      "keyword": "tax recordkeeping vs DOT recordkeeping",
+      "primary_authority": "IRS — What Kind of Records Should I Keep?",
+      "authority_url": "https://www.irs.gov/businesses/small-businesses-self-employed/what-kind-of-records-should-i-keep",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/the-paper-trail-after-an-accident-every-document-you-need-an/",
+        "https://blog.thetruckercodex.com/why-new-entrants-fail-their-safety-audit-analysis-of-common/"
+      ],
+      "time_sensitive": false,
+      "etsy_cta": true,
+      "etsy_url": "https://www.etsy.com/listing/4479085412/easy-all-in-one-trucking-load-and",
+      "etsy_anchor": "Track every load's income and expenses automatically:",
+      "etsy_product_name": "Easy All-in-One Trucking Load and Expense Tracker — The Trucker Codex",
+      "category": "business-management"
+    },
+    {
+      "id": "B19",
+      "title": "Fuel Card Data as an Accounting Tool: Turning Transaction Logs Into P&L Insight",
+      "keyword": "fuel card data trucking accounting",
+      "primary_authority": "IRS Publication 583 — Starting a Business and Keeping Records",
+      "authority_url": "https://www.irs.gov/publications/p583",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/irp-and-ifta-registration-and-fuel-tax-requirements-for-inte/",
+        "https://blog.thetruckercodex.com/what-owner-operators-get-wrong-about-their-own-operating-aut/"
+      ],
+      "time_sensitive": false,
+      "etsy_cta": true,
+      "etsy_url": "https://www.etsy.com/listing/4479085412/easy-all-in-one-trucking-load-and",
+      "etsy_anchor": "Track every load's income and expenses automatically:",
+      "etsy_product_name": "Easy All-in-One Trucking Load and Expense Tracker — The Trucker Codex",
+      "category": "business-management"
+    },
+    {
+      "id": "B20",
+      "title": "Insurance and Overhead Allocation: Pricing Fixed Costs Into Your Per-Mile Rate",
+      "keyword": "trucking insurance overhead cost per mile",
+      "primary_authority": "SBA — Get Business Insurance",
+      "authority_url": "https://www.sba.gov/business-guide/manage-your-business/get-business-insurance",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/what-owner-operators-get-wrong-about-their-own-operating-aut/",
+        "https://blog.thetruckercodex.com/fmcsa-intervention-thresholds-when-your-sms-percentile-trigg/"
+      ],
+      "time_sensitive": false,
+      "etsy_cta": true,
+      "etsy_url": "https://www.etsy.com/listing/4479085412/easy-all-in-one-trucking-load-and",
+      "etsy_anchor": "Track every load's income and expenses automatically:",
+      "etsy_product_name": "Easy All-in-One Trucking Load and Expense Tracker — The Trucker Codex",
+      "category": "business-management"
+    },
+    {
+      "id": "B21",
+      "title": "Quarterly and Annual KPI Review for Solo Owner-Operators: What to Track and Why",
+      "keyword": "owner operator KPI review",
+      "primary_authority": "ATRI — An Analysis of the Operational Costs of Trucking",
+      "authority_url": "https://truckingresearch.org/atri-research/operational-costs-of-trucking/",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/irp-and-ifta-registration-and-fuel-tax-requirements-for-inte/",
+        "https://blog.thetruckercodex.com/what-owner-operators-get-wrong-about-their-own-operating-aut/"
+      ],
+      "time_sensitive": false,
+      "etsy_cta": true,
+      "etsy_url": "https://www.etsy.com/listing/4479085412/easy-all-in-one-trucking-load-and",
+      "etsy_anchor": "See your quarterly numbers without building a spreadsheet from scratch:",
+      "etsy_product_name": "Easy All-in-One Trucking Load and Expense Tracker — The Trucker Codex",
+      "category": "business-management"
+    },
+    {
+      "id": "B22",
+      "title": "Preparing a Trucking LLC for an IRS Audit: Documentation Standards That Hold Up",
+      "keyword": "IRS audit preparation trucking LLC",
+      "primary_authority": "IRS — Small Business and Self-Employed Tax Center",
+      "authority_url": "https://www.irs.gov/businesses/small-businesses-self-employed/small-business-and-self-employed-tax-center",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/the-paper-trail-after-an-accident-every-document-you-need-an/",
+        "https://blog.thetruckercodex.com/why-new-entrants-fail-their-safety-audit-analysis-of-common/"
+      ],
+      "time_sensitive": false,
+      "etsy_cta": true,
+      "etsy_url": "https://www.etsy.com/listing/4479085412/easy-all-in-one-trucking-load-and",
+      "etsy_anchor": "Track every load's income and expenses automatically:",
+      "etsy_product_name": "Easy All-in-One Trucking Load and Expense Tracker — The Trucker Codex",
+      "category": "business-management"
+    },
+    {
+      "id": "B23",
+      "title": "Cash Flow Management for Trucking LLCs: Surviving the 30-45 Day Payment Cycle",
+      "keyword": "cash flow management trucking LLC",
+      "primary_authority": "SBA — Manage Your Finances",
+      "authority_url": "https://www.sba.gov/business-guide/manage-your-business/manage-your-finances",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/what-owner-operators-get-wrong-about-their-own-operating-aut/",
+        "https://blog.thetruckercodex.com/irp-and-ifta-registration-and-fuel-tax-requirements-for-inte/"
+      ],
+      "time_sensitive": false,
+      "etsy_cta": true,
+      "etsy_url": "https://www.etsy.com/listing/4479085412/easy-all-in-one-trucking-load-and",
+      "etsy_anchor": "Track every load's income and expenses automatically:",
+      "etsy_product_name": "Easy All-in-One Trucking Load and Expense Tracker — The Trucker Codex",
+      "category": "business-management"
+    },
+    {
+      "id": "B24",
+      "title": "Buying vs. Leasing Your Truck: The Full Cost Comparison for a New LLC",
+      "keyword": "buying vs leasing truck cost comparison",
+      "primary_authority": "IRS Publication 946 — How To Depreciate Property",
+      "authority_url": "https://www.irs.gov/publications/p946",
+      "internal_links": [
+        "https://blog.thetruckercodex.com/what-owner-operators-get-wrong-about-their-own-operating-aut/",
+        "https://blog.thetruckercodex.com/irp-and-ifta-registration-and-fuel-tax-requirements-for-inte/"
+      ],
+      "time_sensitive": true,
+      "etsy_cta": true,
+      "etsy_url": "https://www.etsy.com/listing/4479085412/easy-all-in-one-trucking-load-and",
+      "etsy_anchor": "Track every load's income and expenses automatically:",
+      "etsy_product_name": "Easy All-in-One Trucking Load and Expense Tracker — The Trucker Codex",
+      "category": "business-management"
+    }
+  ],
+  "next_business": 0
 }

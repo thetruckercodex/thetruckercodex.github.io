@@ -128,7 +128,7 @@ def get_required_static_links(filepath):
     with open(TOPICS_FILE) as f:
         topics_data = json.load(f)
 
-    for pool in ["regulatory", "oi"]:
+    for pool in ["regulatory", "oi", "business"]:
         for topic in topics_data.get(pool, []):
             if topic.get("id") == topic_id:
                 return topic.get("internal_links", [])
@@ -213,16 +213,20 @@ def main():
         warnings.append("Could not verify required static links (topics lookup failed)")
 
     # ── 5. Authoritative regulatory source linki ─────────────────────────────
-    authoritative = ["ecfr.gov", "federalregister.gov", "fmcsa.dot.gov", "cvsa.org"]
+    authoritative = ["ecfr.gov", "federalregister.gov", "fmcsa.dot.gov", "cvsa.org", "irs.gov", "sba.gov", "fincen.gov", "iftach.org", "truckingresearch.org"]
     if not any(any(src in u for src in authoritative) for u in external_links):
         warnings.append(
             "No authoritative regulatory source linked (ecfr.gov, fmcsa.dot.gov, etc.)"
         )
 
     # ── 6. Disclaimer footer ──────────────────────────────────────────────────
-    if ("does not constitute legal advice" not in content
-            and "regulatory references" not in content.lower()):
-        warnings.append("Regulatory disclaimer footer may be missing")
+    disclaimer_markers = [
+        "does not constitute legal advice",
+        "does not constitute legal, tax, or accounting advice",
+        "regulatory references",
+    ]
+    if not any(m in content.lower() for m in [d.lower() for d in disclaimer_markers]):
+        warnings.append("Disclaimer footer may be missing")
 
     # ── 7. Duplikasyon ────────────────────────────────────────────────────────
     if check_duplicate(filepath):

@@ -27,6 +27,7 @@ collections:
           - "hos-eld"
           - "maintenance"
           - "recordkeeping"
+          - "business-management"
           - "roadside-inspection"
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Image", name: "image", widget: "image", required: false}

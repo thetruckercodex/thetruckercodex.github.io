@@ -52,6 +52,7 @@ CATEGORY_ICON = {
     "audits-violations": "inspection clipboard with a checkmark and a red OOS tag",
     "fmcsa-basics": "open compliance handbook with a shield emblem",
     "recordkeeping": "filing cabinet drawer with a document archive box",
+    "business-management": "calculator and ledger book with a small upward profit-line graph",
 }
 
 EDUCATIONAL_SYSTEM_PROMPT = """You are the social media copywriter for The Trucker Codex, a DOT/FMCSA compliance brand for owner-operators and small carriers. You write ONE Facebook post based on an existing blog article.

@@ -23,9 +23,12 @@ CATEGORY_RELATIONS = {
     "hos-eld": ["hos-eld", "audits-violations", "maintenance"],
     "dqf": ["dqf", "audits-violations", "fmcsa-basics"],
     "maintenance": ["maintenance", "audits-violations", "hos-eld"],
-    "audits-violations": ["audits-violations", "hos-eld", "dqf", "maintenance", "fmcsa-basics"],
-    "fmcsa-basics": ["fmcsa-basics", "audits-violations", "dqf"],
-    "recordkeeping": ["recordkeeping", "audits-violations", "dqf"]
+    "audits-violations": ["audits-violations", "hos-eld", "dqf", "maintenance", "fmcsa-basics", "business-management"],
+    "fmcsa-basics": ["fmcsa-basics", "audits-violations", "dqf", "business-management"],
+    "recordkeeping": ["recordkeeping", "audits-violations", "dqf", "business-management"],
+    # business-management yalnızca konusal olarak en yakın 3 kategoriye link veriyor/alıyor
+    # (hos-eld, maintenance ile bilinçli olarak bağlanmıyor -- konu ilgisi zayıf)
+    "business-management": ["business-management", "recordkeeping", "audits-violations", "fmcsa-basics"]
 }
 
 ETSY_CTAS = {
@@ -34,7 +37,8 @@ ETSY_CTAS = {
     "maintenance": "**Inspection-ready documentation system:** [Vehicle Inspection & Maintenance Records Bundle — The Trucker Codex](https://www.etsy.com/shop/TheTruckerCodex)",
     "audits-violations": "**Prepare for your next compliance review:** [DOT Audit Preparation Bundle — The Trucker Codex](https://www.etsy.com/shop/TheTruckerCodex)",
     "fmcsa-basics": "**Complete compliance documentation system:** [DOT Compliance Starter Kit — The Trucker Codex](https://www.etsy.com/shop/TheTruckerCodex)",
-    "recordkeeping": "**Litigation-grade recordkeeping system:** [DOT Recordkeeping Bundle — The Trucker Codex](https://www.etsy.com/shop/TheTruckerCodex)"
+    "recordkeeping": "**Litigation-grade recordkeeping system:** [DOT Recordkeeping Bundle — The Trucker Codex](https://www.etsy.com/shop/TheTruckerCodex)",
+    "business-management": "**Track load-by-load income, expenses, and profitability automatically:** [Easy All-in-One Trucking Load and Expense Tracker — The Trucker Codex](https://www.etsy.com/listing/4479085412/easy-all-in-one-trucking-load-and)"
 }
 
 REGULATORY_PROMPT = """You are a technical compliance writer for The Trucker Codex (blog.thetruckercodex.com), producing expert-level content on FMCSA and DOT regulations for motor carriers, owner-operators, and compliance professionals.
@@ -132,6 +136,54 @@ FOOTER:
 *Data sourced from {data_source} and FMCSA public records. Verify current enforcement thresholds at fmcsa.dot.gov.*"""
 
 
+BUSINESS_PROMPT = """You are a technical business-management and tax-compliance writer for The Trucker Codex (blog.thetruckercodex.com), producing doctoral-level content on trucking business formation, bookkeeping, tax compliance, and load-level profitability analysis for owner-operators and small motor carriers who run their own LLC.
+
+This is NOT a DOT/FMCSA regulatory post. Do not write about Hours of Service, ELDs, roadside inspections, or vehicle maintenance unless directly relevant to a financial/tax point. This is business-school-for-truckers content: how to legally form and run the company, keep the books, file taxes correctly, and decide whether a load is actually profitable.
+
+Requirements:
+TOPIC: {title}
+PRIMARY AUTHORITY / SOURCE: {primary_authority} ({authority_url})
+TARGET KEYWORD: {keyword}
+CATEGORY: {category}
+
+CRITICAL ACCURACY INSTRUCTION: {time_sensitive_instruction}
+
+INTERNAL LINKS TO INCLUDE (use ALL of these as markdown links — weave naturally into body):
+{internal_links}
+
+EXTERNAL LINKS TO INCLUDE (minimum 2, maximum 3 — do NOT add any other external links beyond these):
+- {authority_url}
+- https://www.irs.gov/businesses/small-businesses-self-employed
+{etsy_cta_block}
+
+POST STRUCTURE:
+---
+layout: post
+title: "{title}"
+date: {date}
+categories: {category}
+description: "{meta_description}"
+---
+
+[POST BODY — 900 to 1200 words]
+
+STYLE RULES:
+- Write at doctoral/professional level — precise, technical, zero fluff, zero generic small-business platitudes
+- Every paragraph must contain actionable financial, tax, or operational specifics — cite dollar figures, percentages, forms, or statute/publication numbers wherever the topic allows
+- Use H2 and H3 headers — every H2 section must have at least one H3 subsection
+- The target keyword "{keyword}" must appear in at least one H2 heading
+- Include at least one bullet list of 4-5 items (steps, criteria, formulas, or common mistakes)
+- Cite specific authorities precisely (IRS Publication/Form number, Internal Revenue Code section, FinCEN/SBA/state filing requirement, ATRI cost data) — never invent a citation
+- Where the topic allows, include one worked numeric example (e.g., a cost-per-mile, break-even, or P&L calculation) using realistic illustrative figures clearly labeled as an example
+- Naturally weave ALL internal links into the post body — do not dump them in a list at the end
+- End with a "Professional Disclaimer" footer section
+- Output ONLY the Jekyll post markdown, nothing else
+
+FOOTER:
+---
+*This content is for educational purposes and does not constitute legal, tax, or accounting advice. Rules, thresholds, and deadlines referenced above are subject to change — verify current requirements with a licensed CPA, tax attorney, or the issuing agency before acting.*"""
+
+
 def load_topics():
     with open(TOPICS_FILE) as f:
         return json.load(f)
@@ -221,7 +273,15 @@ def build_prompt(topic, post_type, reg_data=None):
 
     etsy_block = ""
     if topic.get("etsy_cta", False):
-        cta = ETSY_CTAS.get(category, ETSY_CTAS["fmcsa-basics"])
+        # Konu bazlı spesifik ürün linki varsa (etsy_url) onu kullan -- generic mağaza
+        # linkinden çok daha yüksek dönüşüm sağlıyor çünkü ürün, yazının konusuyla
+        # doğrudan eşleşiyor. Yoksa kategori bazlı genel CTA'ya düş.
+        if topic.get("etsy_url"):
+            anchor = topic.get("etsy_anchor", "Get the tool built for this exact problem:")
+            product_name = topic.get("etsy_product_name", "The Trucker Codex — Etsy Shop")
+            cta = f"**{anchor}** [{product_name}]({topic['etsy_url']})"
+        else:
+            cta = ETSY_CTAS.get(category, ETSY_CTAS["fmcsa-basics"])
         etsy_block = f"ETSY CTA (include near end of post):\n{cta}"
 
     if post_type == "regulatory":
@@ -247,6 +307,39 @@ def build_prompt(topic, post_type, reg_data=None):
             date=date_str,
             meta_description=meta_description
         )
+    elif post_type == "business":
+        meta_description = (
+            f"{topic['title']}. Business formation, bookkeeping, tax compliance, and "
+            f"profitability guidance for trucking LLC owners and owner-operators."
+        )
+        if topic.get("time_sensitive"):
+            ts_instruction = (
+                "This topic involves dollar thresholds, deadlines, or filing requirements that "
+                "change over time or have changed recently (e.g., tax year figures, deadline dates, "
+                "or a regulatory status that has been revised). Before writing, use web search to "
+                "confirm the CURRENT figures/requirements as of the post date below -- do NOT rely on "
+                "memorized figures, and do NOT state a specific number, deadline, or legal requirement "
+                "unless you have verified it via search for the current date. If a fact cannot be "
+                "verified, describe it qualitatively and point the reader to the authoritative source "
+                "instead of guessing a number."
+            )
+        else:
+            ts_instruction = (
+                "This topic is largely structural/evergreen, but still verify via web search any "
+                "specific dollar figure, form number, or deadline you state -- do not guess."
+            )
+        return BUSINESS_PROMPT.format(
+            title=topic["title"],
+            keyword=topic["keyword"],
+            category=category,
+            primary_authority=topic.get("primary_authority", "IRS Small Business and Self-Employed Tax Center"),
+            authority_url=topic.get("authority_url", "https://www.irs.gov/businesses/small-businesses-self-employed"),
+            time_sensitive_instruction=ts_instruction,
+            internal_links=internal_links_str,
+            etsy_cta_block=etsy_block,
+            date=date_str,
+            meta_description=meta_description
+        )
     else:
         meta_description = (
             f"Enforcement intelligence analysis: {topic['title']}. "
@@ -265,15 +358,46 @@ def build_prompt(topic, post_type, reg_data=None):
         )
 
 
-def call_claude(prompt):
+def call_claude(prompt, post_type="regulatory"):
     client = anthropic.Anthropic()
-    response = client.messages.create(
+    kwargs = dict(
         model="claude-sonnet-4-6",
         max_tokens=2500,
-        system="You are a precision technical writer specializing in US federal motor carrier regulations. Your output is always publication-ready Jekyll markdown. No preamble, no explanation — only the post.",
         messages=[{"role": "user", "content": prompt}]
     )
-    return response.content[0].text
+
+    if post_type == "business":
+        # Business/tax/vergi içeriği zaman duyarlı (vergi yılı rakamları, dolar eşikleri,
+        # dosyalama son tarihleri, BOI gibi mevzuat durumu değişebilir). Modelin ezberden
+        # eski/olası yanlış rakam üretmesini önlemek için web_search tool'unu açıyoruz --
+        # tool-use turlarını karşılamak için max_tokens'ı da yükseltiyoruz.
+        kwargs["max_tokens"] = 4096
+        kwargs["tools"] = [{"type": "web_search_20260318", "name": "web_search"}]
+        kwargs["system"] = (
+            "You are a precision business-management and tax-compliance writer specializing in "
+            "trucking LLC formation, bookkeeping, and profitability analysis for US owner-operators. "
+            "You have web search available -- use it to verify any current dollar figure, deadline, "
+            "form number, or legal requirement before stating it. Never state a specific current-year "
+            "figure or deadline from memory alone. Your final output is always publication-ready Jekyll "
+            "markdown. No preamble, no explanation, no description of your search process -- only the "
+            "final post."
+        )
+    else:
+        kwargs["system"] = (
+            "You are a precision technical writer specializing in US federal motor carrier "
+            "regulations. Your output is always publication-ready Jekyll markdown. No preamble, "
+            "no explanation — only the post."
+        )
+
+    response = client.messages.create(**kwargs)
+
+    # Web search açıkken response.content birden fazla blok içerebilir (server_tool_use,
+    # web_search_tool_result, text...) -- son metin bloklarını birleştirerek gerçek post
+    # içeriğini çıkarıyoruz.
+    text_blocks = [block.text for block in response.content if getattr(block, "type", None) == "text"]
+    if not text_blocks:
+        raise RuntimeError("Claude API response contained no text block (post_type={})".format(post_type))
+    return "".join(text_blocks).strip()
 
 
 def extract_title_from_content(content, fallback_title):
@@ -338,7 +462,7 @@ def main():
 
     prompt = build_prompt(topic, POST_TYPE, reg_data)
     print("Calling Claude API...")
-    content = call_claude(prompt)
+    content = call_claude(prompt, POST_TYPE)
 
     filename = build_filename(topic)
     os.makedirs("_posts", exist_ok=True)

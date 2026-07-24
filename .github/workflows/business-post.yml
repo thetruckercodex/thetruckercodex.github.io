@@ -1,0 +1,78 @@
+name: Business Management Blog Automation
+
+# Yeni 7. kategori (business-management): trucking LLC kurulusu, defter tutma, vergi
+# beyanlari, yuk bazli kar-zarar analizi. Ayri bir workflow olarak tutuluyor cunku:
+#   - farkli bir prompt/post_type kullaniyor (generate_post.py -> BUSINESS_PROMPT)
+#   - farkli bir cadence'i var (ilk hafta gunluk, sonra haftada 2 -- bkz. decide_business_run.py)
+#   - fetch_regulations.py'ye ihtiyaci yok (CFR degil, IRS/SBA/state kaynakli)
+#
+# Cadence cron'a degil GERCEK yayinlanmis business post sayisina gore kendini ayarliyor
+# (scripts/decide_business_run.py) -- boylece cron gecikmesi/kaymasi riskine karsi
+# daily-post.yml'de ogrenilen dersle ayni yaklasimi kullaniyor.
+
+on:
+  schedule:
+    # Her gun ayni saatte calisir; gercekten uretim yapip yapmayacagina
+    # decide_business_run.py karar verir (ilk 7 yayin: her gun, sonra: Pzt/Persembe).
+    - cron: '15 15 * * *'   # 15:15 UTC ~ 10:15/11:15 EST -- diger post slotlariyla çakışmıyor
+  workflow_dispatch:
+    inputs:
+      force:
+        description: 'true ise cadence kontrolunu atla, her halukarda uret'
+        required: true
+        default: 'false'
+        type: choice
+        options:
+          - 'false'
+          - 'true'
+
+jobs:
+  generate-business-post:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install anthropic requests python-frontmatter
+
+      - name: Decide whether to run today
+        id: decide
+        env:
+          FORCE_RUN: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.force || 'false' }}
+        run: python scripts/decide_business_run.py
+
+      - name: Generate post
+        if: steps.decide.outputs.should_run == 'true'
+        run: python scripts/generate_post.py
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          POST_TYPE: business
+
+      - name: Quality check
+        if: steps.decide.outputs.should_run == 'true'
+        run: python scripts/quality_check.py
+
+      - name: Sync new post into Facebook content map
+        if: steps.decide.outputs.should_run == 'true'
+        run: python scripts/sync_fb_educational.py
+
+      - name: Commit and push
+        if: steps.decide.outputs.should_run == 'true'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "Trucker Codex Autopilot"
+          git add _posts/ _data/ assets/
+          git diff --staged --quiet || git commit -m "Auto: $(cat /tmp/post_title.txt)"
+          git push
