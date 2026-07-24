@@ -7,7 +7,7 @@ Katmanı, Gemini 3 Pro Image / "Nano Banana Pro").
 
 Faz 2 çıktısını (varsayılan: /tmp/fb_post_draft.json) okur, Faz 3.1-3.2'de
 kilitlenen iki kurala harfiyen uyan bir prompt üretir, Gemini API ile 1080x1080
-PNG üretir ve assets/fb-posts/ altına kaydeder.
+JPEG üretir ve assets/fb-posts/ altına kaydeder.
 
 KİLİTLİ KURALLAR (bu konuşmada n=5 ampirik testle doğrulanmış, Faz 3 notu):
   (a) Her metin alanı (headline, subheadline, bullet'lar, footer_tags) modele
@@ -146,16 +146,26 @@ def main():
     pil_image = Image.open(BytesIO(image.image_bytes))
     final_image = center_crop_resize(pil_image, TARGET_SIZE)
 
+    # PNG yerine JPEG: run #67'de Facebook Graph API "Please reduce the amount of
+    # data you're asking for" (HTTP 500, code 1) hatasi verdi -- 1080x1080 lossless
+    # PNG (AI-uretimi flat-vector infografik icin genelde birkac MB) buna en olasi
+    # sebep. JPEG q=92, gorsel kalitesini feed post icin gozle ayirt edilemez
+    # sekilde korurken dosya boyutunu kucultuyor -- Facebook zaten yuklenen
+    # fotograflari kendi tarafinda yeniden sikistiriyor, bu standart pratik.
+    if final_image.mode != "RGB":
+        final_image = final_image.convert("RGB")
+
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     source_id = post.get("source_id", "unknown")
-    out_path = os.path.join(OUTPUT_DIR, f"{source_id}.png")
-    final_image.save(out_path, "PNG")
+    out_path = os.path.join(OUTPUT_DIR, f"{source_id}.jpg")
+    final_image.save(out_path, "JPEG", quality=92, optimize=True)
 
     post["image_path"] = out_path
     with open(INPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(post, f, indent=2, ensure_ascii=False)
 
-    print(f"OK: görsel üretildi -> {out_path} ({final_image.size[0]}x{final_image.size[1]})")
+    file_size_kb = os.path.getsize(out_path) / 1024
+    print(f"OK: görsel üretildi -> {out_path} ({final_image.size[0]}x{final_image.size[1]}, {file_size_kb:.0f} KB)")
 
 
 if __name__ == "__main__":

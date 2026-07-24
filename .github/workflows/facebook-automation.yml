@@ -97,7 +97,7 @@ jobs:
           path: |
             /tmp/fb_post_draft.json
             /tmp/fb_publish_log.json
-            assets/fb-posts/*.png
+            assets/fb-posts/*.jpg
           retention-days: 90
           if-no-files-found: warn
 

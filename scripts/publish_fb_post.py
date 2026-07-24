@@ -61,11 +61,15 @@ def build_caption(post: dict) -> str:
 
 def post_photo(image_path: str, caption: str) -> dict:
     url = f"{GRAPH_BASE}/{FB_PAGE_ID}/photos"
+    # Dosya adi + mimetype'i acikca belirtiyoruz -- 'source': f seklinde generic
+    # dosya-nesnesi gecmek, requests kutuphanesinin content-type'i tahmin etmesine
+    # (veya generic application/octet-stream'e dusmesine) yol acabiliyordu.
+    mime = "image/jpeg" if image_path.lower().endswith((".jpg", ".jpeg")) else "image/png"
     with open(image_path, "rb") as f:
         resp = requests.post(
             url,
             data={"caption": caption, "access_token": FB_PAGE_ACCESS_TOKEN},
-            files={"source": f},
+            files={"source": (os.path.basename(image_path), f, mime)},
             timeout=60,
         )
     body = resp.json()
