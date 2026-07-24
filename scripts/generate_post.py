@@ -165,19 +165,20 @@ categories: {category}
 description: "{meta_description}"
 ---
 
-[POST BODY — 900 to 1200 words]
+[POST BODY — 800 to 1100 words]
 
 STYLE RULES:
-- Write at doctoral/professional level — precise, technical, zero fluff, zero generic small-business platitudes
+- HARD LENGTH LIMIT: the post body must be 800-1100 words. This is enforced by automated validation and a post over 1300 words WILL BE REJECTED. Track your length as you write; if you are approaching 1000 words, wrap up immediately -- cut detail rather than continue. Brevity is mandatory, not a suggestion.
+- Write at doctoral/professional level — precise, technical, zero fluff, zero generic small-business platitudes. Density over length: say more with fewer words rather than adding more sections.
 - Every paragraph must contain actionable financial, tax, or operational specifics — cite dollar figures, percentages, forms, or statute/publication numbers wherever the topic allows
 - Use H2 and H3 headers — every H2 section must have at least one H3 subsection
 - The target keyword "{keyword}" must appear in at least one H2 heading
-- Include at least one bullet list of 4-5 items (steps, criteria, formulas, or common mistakes)
+- Include exactly one bullet list of 4-5 items (steps, criteria, formulas, or common mistakes) — do not add a second list
 - Cite specific authorities precisely (IRS Publication/Form number, Internal Revenue Code section, FinCEN/SBA/state filing requirement, ATRI cost data) — never invent a citation
 - For any dollar figure, deadline, or legal status covered in the VERIFIED CURRENT CONTEXT section above, use those exact facts — do not substitute a different remembered figure
-- Where the topic allows, include one worked numeric example (e.g., a cost-per-mile, break-even, or P&L calculation) using realistic illustrative figures clearly labeled as an example
+- Where the topic allows, include ONE brief worked numeric example (2-4 sentences, not a standalone section) — e.g., a cost-per-mile, break-even, or P&L calculation, using realistic illustrative figures clearly labeled as an example
 - Naturally weave ALL internal links into the post body — do not dump them in a list at the end
-- End with a "Professional Disclaimer" footer section
+- End with a short "Professional Disclaimer" footer section (1-2 sentences)
 - Output ONLY the Jekyll post markdown, nothing else
 
 FOOTER:
