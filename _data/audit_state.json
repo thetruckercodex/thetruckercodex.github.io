@@ -1,5 +1,5 @@
 {
-  "cursor": 115,
+  "cursor": 120,
   "cycle": 1,
   "posts": {
     "2026-02-08-common-dot-violations-how-to-avoid.md": {
@@ -493,7 +493,28 @@
       "open_pr_number": 32,
       "last_checked_date": "2026-07-24",
       "last_result": "updated"
+    },
+    "2026-05-02-carrier-reincarnation-how-fmcsa-identifies-and-shuts-down-sh.md": {
+      "last_checked_date": "2026-07-25",
+      "last_result": "no_change"
+    },
+    "2026-05-02-periodic-inspection-requirements-what-the-annual-dot-inspect.md": {
+      "last_checked_date": "2026-07-25",
+      "last_result": "no_change"
+    },
+    "2026-05-04-how-csa-scores-affect-commercial-trucking-insurance-premiums.md": {
+      "last_checked_date": "2026-07-25",
+      "last_result": "no_change"
+    },
+    "2026-05-04-why-small-carriers-have-disproportionately-higher-oos-rates.md": {
+      "last_checked_date": "2026-07-25",
+      "last_result": "no_change"
+    },
+    "2026-05-05-passenger-carrier-compliance-reviews-what-differs-from-freig.md": {
+      "open_pr_number": 33,
+      "last_checked_date": "2026-07-25",
+      "last_result": "updated"
     }
   },
-  "updated_at": "2026-07-24T14:08:30.377541+00:00"
+  "updated_at": "2026-07-25T13:59:12.627400+00:00"
 }

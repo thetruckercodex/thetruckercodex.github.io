@@ -935,6 +935,45 @@
           ]
         }
       ]
+    },
+    {
+      "run_date": "2026-07-25T13:59:12.628593+00:00",
+      "entries": [
+        {
+          "timestamp": "2026-07-25T13:57:06.057114+00:00",
+          "file": "2026-05-02-carrier-reincarnation-how-fmcsa-identifies-and-shuts-down-sh.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-07-25T13:57:22.506730+00:00",
+          "file": "2026-05-02-periodic-inspection-requirements-what-the-annual-dot-inspect.md",
+          "status": "no_change",
+          "reasoning": "The Federal Register document 2026-12450 (\"Completed Inspection Report Disposition,\" published 2026-06-22, effective 2026-07-22) amends the requirement that motor carriers and intermodal equipment providers sign and return completed **roadside inspection** forms to the issuing State agency. This is a change to the disposition of roadside (driver/vehicle) inspection reports conducted by enforcement personnel at the roadside — it does not amend any requirement within §396.17 (the periodic/annual inspection mandate), §396.19 (inspector qualifications), §396.21 (periodic inspection recordkeeping and 14-month retention), or Appendix G (minimum periodic inspection standards). The post's regulatory claims — the 12-month inspection interval, Appendix G scope, inspector qualification pathways, 14-month retention under §396.21(a), and civil penalty figures — are unaffected by this rulemaking. No concrete, specific change to any provision actually discussed in the post is evidenced by the supplied source data, and the eCFR fetch is unavailable to confirm any additional amendments; accordingly, no update is warranted."
+        },
+        {
+          "timestamp": "2026-07-25T13:57:22.948638+00:00",
+          "file": "2026-05-04-how-csa-scores-affect-commercial-trucking-insurance-premiums.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-07-25T13:57:34.785624+00:00",
+          "file": "2026-05-04-why-small-carriers-have-disproportionately-higher-oos-rates.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-07-25T13:59:12.627361+00:00",
+          "file": "2026-05-05-passenger-carrier-compliance-reviews-what-differs-from-freig.md",
+          "status": "updated",
+          "pr_url": "https://github.com/thetruckercodex/thetruckercodex.github.io/pull/33",
+          "change_summary": "FMCSA final rule (doc #2026-12448, eff. 2026-07-22) rescinds the requirement to keep a copy of the ELD operator's manual in the CMV; the post's ELD compliance discussion must be updated to reflect that this specific documentation requirement no longer applies.",
+          "sources": [
+            "https://www.federalregister.gov/documents/2026/06/22/2026-12448/rescinding-the-requirement-for-electronic-logging-device-operators-manual-located-in-commercial"
+          ]
+        }
+      ]
     }
   ]
 }
