@@ -2,6 +2,7 @@
 layout: post
 title: "Passenger Carrier Compliance Reviews: What Differs from Freight Operations"
 date: 2026-05-05
+last_modified_at: 2026-07-25
 categories: audits-violations
 description: "Enforcement intelligence analysis: Passenger Carrier Compliance Reviews: What Differs from Freight Operations. Data-driven insights from FMCSA and CVSA records for motor carriers and compliance professionals."
 ---
@@ -32,6 +33,8 @@ Passenger carrier HOS rules are governed under 49 CFR §395.5, not §395.3 which
 - **60/70-hour limits** apply on 7/8 consecutive day cycles, same structure but reset conditions can differ in practice
 
 Auditors reviewing passenger carrier logs will apply §395.5 thresholds, and a driver record that would pass muster under freight rules may constitute a violation under passenger standards. ELD mandate compliance under 49 CFR Part 395 subpart B applies to passenger carriers, though certain charter and tour operations have historically sought exemptions — a status auditors will verify documentation for.
+
+**Important regulatory update (effective 2026-07-22):** FMCSA's final rule (FR doc #2026-12448, published 2026-06-22) rescinds the requirement to keep a physical copy of the ELD operator's manual in the commercial motor vehicle. Carriers are no longer subject to a violation for the absence of an in-vehicle printed manual. However, the underlying driver obligation remains unchanged: drivers must still demonstrate understanding of their ELD's operation and be able to present accurate records of duty status during inspections. Passenger carrier compliance programs should update their vehicle documentation checklists to remove the operator's manual as a required in-vehicle item while ensuring driver training records substantiate ELD operational competency.
 
 ### Driver Qualification: Stricter Baseline Standards
 
@@ -74,6 +77,7 @@ If you're responsible for passenger carrier compliance, the differences from fre
 - Maintain a separate maintenance log category for bus-specific safety systems (emergency exits, aisle lighting, step conditions)
 - Document complaint intake and resolution — FMCSA complaint records can directly initiate a compliance review, and documented response processes mitigate adverse findings
 - Calibrate SMS monitoring against passenger carrier intervention thresholds (50th percentile for Unsafe Driving), not freight carrier defaults
+- Update vehicle documentation checklists to remove the ELD operator's manual as a required in-vehicle item (rescinded effective 2026-07-22 per FR doc #2026-12448), while maintaining driver training records demonstrating ELD operational competency
 
 The passenger carrier compliance review is not a freight audit with different equipment. It operates under distinct regulatory provisions, tighter intervention thresholds, and a pre-authorization gatekeeping process with no freight equivalent. Managing compliance to freight standards in a passenger operation is a structural exposure that auditors are specifically trained to identify.
 
@@ -81,3 +85,5 @@ For carriers preparing for a compliance review, the <a href="https://www.etsy.co
 
 ---
 *Data sourced from FMCSA Passenger Carrier Safety and FMCSA public records. Verify current enforcement thresholds at fmcsa.dot.gov.*
+
+*Last verified against the Federal Register on 2026-07-22; updated to reflect FMCSA final rule FR doc #2026-12448 (effective 2026-07-22), which rescinds the requirement to keep an ELD operator's manual in the commercial motor vehicle.*
