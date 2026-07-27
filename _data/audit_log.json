@@ -1013,6 +1013,45 @@
           "reasoning": "No source signal found since last check."
         }
       ]
+    },
+    {
+      "run_date": "2026-07-27T15:10:36.971780+00:00",
+      "entries": [
+        {
+          "timestamp": "2026-07-27T15:08:58.455758+00:00",
+          "file": "2026-05-08-fmcsas-intervention-escalation-model-from-warning-letter-to.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-07-27T15:08:58.560178+00:00",
+          "file": "2026-05-08-what-owner-operators-must-do-compliance-wise-when-leasing-on.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-07-27T15:09:28.737785+00:00",
+          "file": "2026-05-09-how-electronic-bill-of-lading-affects-document-requirements.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-07-27T15:09:51.200768+00:00",
+          "file": "2026-05-09-out-of-service-criteria-steering-system-defects.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-07-27T15:10:36.970453+00:00",
+          "file": "2026-05-10-fmcsas-most-cited-violations-analysis-of-the-annual-top-viol.md",
+          "status": "updated",
+          "pr_url": "https://github.com/thetruckercodex/thetruckercodex.github.io/pull/35",
+          "change_summary": "FMCSA final rule (FR doc #2026-12448, eff. 2026-07-22) rescinds the requirement for an ELD operator's manual to be kept in the CMV; post updated to note this change within the Part 395 and ELD compliance discussion.",
+          "sources": [
+            "https://www.federalregister.gov/documents/2026/06/22/2026-12448/rescinding-the-requirement-for-electronic-logging-device-operators-manual-located-in-commercial"
+          ]
+        }
+      ]
     }
   ]
 }
