@@ -1052,6 +1052,45 @@
           ]
         }
       ]
+    },
+    {
+      "run_date": "2026-07-28T14:31:15.670754+00:00",
+      "entries": [
+        {
+          "timestamp": "2026-07-28T14:30:23.520997+00:00",
+          "file": "2026-05-10-out-of-service-criteria-lighting-defects-that-ground-a-vehic.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-07-28T14:31:09.116190+00:00",
+          "file": "2026-05-11-drayage-and-intermodal-operations-the-compliance-gaps-port-t.md",
+          "status": "updated",
+          "pr_url": "https://github.com/thetruckercodex/thetruckercodex.github.io/pull/36",
+          "change_summary": "FMCSA's final rule (FR doc #2026-12450, effective 2026-07-22) amends 49 CFR Part 396 to revise the requirement that motor carriers and intermodal equipment providers return completed roadside inspection forms to the issuing State agency, eliminating the return obligation where the State does not require it. The post's discussion of §396.11 compliance in the intermodal/drayage context must reflect this change.",
+          "sources": [
+            "https://www.federalregister.gov/documents/2026/06/22/2026-12450/completed-inspection-report-disposition"
+          ]
+        },
+        {
+          "timestamp": "2026-07-28T14:31:09.880808+00:00",
+          "file": "2026-05-11-what-carriers-must-do-when-a-drivers-cdl-is-downgraded-mid-e.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-07-28T14:31:10.667856+00:00",
+          "file": "2026-05-12-fmcsa-imminent-hazard-orders-when-a-carrier-gets-shut-down-w.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-07-28T14:31:15.669400+00:00",
+          "file": "2026-05-12-how-post-accident-drug-testing-timelines-affect-litigation-o.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        }
+      ]
     }
   ]
 }

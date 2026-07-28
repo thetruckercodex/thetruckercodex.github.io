@@ -1,5 +1,5 @@
 {
-  "cursor": 130,
+  "cursor": 135,
   "cycle": 1,
   "posts": {
     "2026-02-08-common-dot-violations-how-to-avoid.md": {
@@ -556,7 +556,28 @@
       "open_pr_number": 35,
       "last_checked_date": "2026-07-27",
       "last_result": "updated"
+    },
+    "2026-05-10-out-of-service-criteria-lighting-defects-that-ground-a-vehic.md": {
+      "last_checked_date": "2026-07-28",
+      "last_result": "no_change"
+    },
+    "2026-05-11-drayage-and-intermodal-operations-the-compliance-gaps-port-t.md": {
+      "open_pr_number": 36,
+      "last_checked_date": "2026-07-28",
+      "last_result": "updated"
+    },
+    "2026-05-11-what-carriers-must-do-when-a-drivers-cdl-is-downgraded-mid-e.md": {
+      "last_checked_date": "2026-07-28",
+      "last_result": "no_change"
+    },
+    "2026-05-12-fmcsa-imminent-hazard-orders-when-a-carrier-gets-shut-down-w.md": {
+      "last_checked_date": "2026-07-28",
+      "last_result": "no_change"
+    },
+    "2026-05-12-how-post-accident-drug-testing-timelines-affect-litigation-o.md": {
+      "last_checked_date": "2026-07-28",
+      "last_result": "no_change"
     }
   },
-  "updated_at": "2026-07-27T15:10:36.970491+00:00"
+  "updated_at": "2026-07-28T14:31:15.669432+00:00"
 }
