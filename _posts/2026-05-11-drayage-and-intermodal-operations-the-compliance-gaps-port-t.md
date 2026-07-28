@@ -2,6 +2,7 @@
 layout: post
 title: "Drayage and Intermodal Operations: The Compliance Gaps Port Truckers Miss"
 date: 2026-05-11
+last_modified_at: 2026-07-28
 categories: fmcsa-basics
 description: "Enforcement intelligence analysis: Drayage and Intermodal Operations: The Compliance Gaps Port Truckers Miss. Data-driven insights from FMCSA and CVSA records for motor carriers and compliance professionals."
 ---
@@ -48,6 +49,8 @@ Key violation codes that appear most frequently in FMCSA intermodal inspection r
 - **396.11(a)** — Failure to complete or retain driver vehicle inspection report
 - **390.15(b)** — Failure to maintain records of duty status for the required retention period
 
+> **Regulatory update — effective 2026-07-22:** FMCSA's final rule (FR doc #2026-12450) amends 49 CFR Part 396 to revise the requirement that motor carriers and intermodal equipment providers (IEPs) sign and return completed roadside inspection forms to the issuing State agency. Under the revised rule, where the issuing State agency does not require return of these reports, motor carriers and IEPs are no longer obligated to submit them to that State. Carriers and IEPs operating in drayage and intermodal corridors should confirm the specific return requirements of each State in which they operate and update their post-inspection document workflows accordingly. The obligation to complete and retain the inspection report itself remains in force under §396.11(a).
+
 For a full baseline of what your operation needs to have documented and current before any roadside encounter, the [DOT compliance checklist for 2026](https://blog.thetruckercodex.com/dot-compliance-checklist-2026/) covers the vehicle, driver, and carrier-level requirements in detail.
 
 ## Operating Authority and Insurance Exposure at Port Gates
@@ -68,3 +71,5 @@ The compliance gaps that generate the most enforcement exposure in drayage and i
 
 ---
 *Data sourced from FMCSA Enforcement Data and FMCSA public records. Verify current enforcement thresholds at fmcsa.dot.gov.*
+
+*Last verified against Federal Register on 2026-07-22; updated to reflect FR doc #2026-12450 (Completed Inspection Report Disposition, effective 2026-07-22), which amends 49 CFR Part 396 to revise roadside inspection report return requirements for motor carriers and intermodal equipment providers.*
