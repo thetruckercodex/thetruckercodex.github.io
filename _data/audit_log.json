@@ -1091,6 +1091,41 @@
           "reasoning": "No source signal found since last check."
         }
       ]
+    },
+    {
+      "run_date": "2026-07-29T14:28:17.672166+00:00",
+      "entries": [
+        {
+          "timestamp": "2026-07-29T14:28:07.064844+00:00",
+          "file": "2026-05-13-how-fatigue-science-informs-fmcsas-hours-of-service-rule-str.md",
+          "status": "no_change",
+          "reasoning": "The Federal Register document cited (doc #2026-12448, effective 2026-07-22) amends 49 CFR Part 395 by rescinding the requirement to keep an ELD operator's manual in the CMV cab — a change to 49 CFR § 395.22 or a related ELD equipment/documentation provision, not to the driving-time limits, on-duty windows, rest break requirements, or recordkeeping standards addressed in this post. The post focuses exclusively on the fatigue-science basis for HOS time limits (§ 395.3(a)(2), (a)(3), (a)(3)(ii)), their enforcement weight, and their research lineage. None of the post's regulatory claims concern the operator's manual requirement. The new rule does not alter any numeric threshold, OOS criterion, violation code, or scientific rationale discussed in the post, and therefore constitutes no material discrepancy requiring an update."
+        },
+        {
+          "timestamp": "2026-07-29T14:28:07.685920+00:00",
+          "file": "2026-05-13-what-fmcsas-safety-fitness-determination-rulemaking-would-ha.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-07-29T14:28:12.702436+00:00",
+          "file": "2026-05-14-how-seasonal-and-agricultural-operations-affect-fmcsa-regist.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-07-29T14:28:13.335879+00:00",
+          "file": "2026-05-14-the-dataqs-process-success-rates-timelines-and-what-to-expec.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-07-29T14:28:17.670825+00:00",
+          "file": "2026-05-16-out-of-service-criteria-coupling-devices-and-fifth-wheel.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        }
+      ]
     }
   ]
 }
