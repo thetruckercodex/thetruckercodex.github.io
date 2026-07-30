@@ -55,6 +55,14 @@
   "next_product_index": 25,
   "educational": [
     {
+      "id": "E161",
+      "url": "https://blog.thetruckercodex.com/heavy-vehicle-use-tax-form-2290-filing-deadlines-calculation/",
+      "title": "Heavy Vehicle Use Tax (Form 2290): Filing Deadlines, Calculation, and Penalties",
+      "category": "business-management",
+      "date": "2026-07-30",
+      "used": false
+    },
+    {
       "id": "E160",
       "url": "https://blog.thetruckercodex.com/per-diem-deductions-for-truck-drivers-irs-rules-under-26-usc/",
       "title": "Per Diem Deductions for Truck Drivers: IRS Rules Under 26 U.S.C. §274(n)",
