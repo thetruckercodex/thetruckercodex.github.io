@@ -1126,6 +1126,41 @@
           "reasoning": "No source signal found since last check."
         }
       ]
+    },
+    {
+      "run_date": "2026-07-30T14:27:30.895463+00:00",
+      "entries": [
+        {
+          "timestamp": "2026-07-30T14:27:19.392730+00:00",
+          "file": "2026-05-17-cargo-securement-rules-tie-down-requirements-and-blocking.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-07-30T14:27:24.753258+00:00",
+          "file": "2026-05-23-hazardous-materials-shipping-papers-what-must-be-on-the-docu.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-07-30T14:27:25.143817+00:00",
+          "file": "2026-05-24-hazmat-placarding-when-its-required-and-which-placard-to-use.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-07-30T14:27:25.880467+00:00",
+          "file": "2026-07-03-brake-safety-week-and-operation-airbrake-how-the-unannounced.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-07-30T14:27:30.893968+00:00",
+          "file": "2026-07-03-insurance-minimums-what-carriers-must-maintain-by-operation.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        }
+      ]
     }
   ]
 }

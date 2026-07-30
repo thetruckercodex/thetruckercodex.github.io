@@ -1,5 +1,5 @@
 {
-  "cursor": 140,
+  "cursor": 145,
   "cycle": 1,
   "posts": {
     "2026-02-08-common-dot-violations-how-to-avoid.md": {
@@ -597,7 +597,27 @@
     "2026-05-16-out-of-service-criteria-coupling-devices-and-fifth-wheel.md": {
       "last_checked_date": "2026-07-29",
       "last_result": "no_change"
+    },
+    "2026-05-17-cargo-securement-rules-tie-down-requirements-and-blocking.md": {
+      "last_checked_date": "2026-07-30",
+      "last_result": "no_change"
+    },
+    "2026-05-23-hazardous-materials-shipping-papers-what-must-be-on-the-docu.md": {
+      "last_checked_date": "2026-07-30",
+      "last_result": "no_change"
+    },
+    "2026-05-24-hazmat-placarding-when-its-required-and-which-placard-to-use.md": {
+      "last_checked_date": "2026-07-30",
+      "last_result": "no_change"
+    },
+    "2026-07-03-brake-safety-week-and-operation-airbrake-how-the-unannounced.md": {
+      "last_checked_date": "2026-07-30",
+      "last_result": "no_change"
+    },
+    "2026-07-03-insurance-minimums-what-carriers-must-maintain-by-operation.md": {
+      "last_checked_date": "2026-07-30",
+      "last_result": "no_change"
     }
   },
-  "updated_at": "2026-07-29T14:28:17.670845+00:00"
+  "updated_at": "2026-07-30T14:27:30.893999+00:00"
 }
