@@ -1161,6 +1161,41 @@
           "reasoning": "No source signal found since last check."
         }
       ]
+    },
+    {
+      "run_date": "2026-07-31T14:29:33.793631+00:00",
+      "entries": [
+        {
+          "timestamp": "2026-07-31T14:29:15.380331+00:00",
+          "file": "2026-07-05-operating-authority-mc-number-ucr-registration-and-usdot-num.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-07-31T14:29:16.024586+00:00",
+          "file": "2026-07-08-unified-carrier-registration-annual-filing-requirements-and.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-07-31T14:29:21.028303+00:00",
+          "file": "2026-07-09-the-18-month-new-entrant-monitoring-period-what-happens-afte.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-07-31T14:29:21.656768+00:00",
+          "file": "2026-07-10-ifta-and-irp-audits-vs-fmcsa-safety-audits-why-carriers-conf.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-07-31T14:29:33.792103+00:00",
+          "file": "2026-07-11-federal-weight-limits-and-the-bridge-formula-what-carriers-m.md",
+          "status": "no_change",
+          "reasoning": "The Federal Register document cited (doc #2026-14701, published and effective 2026-07-21) describes general technical, organizational, conforming, and correcting amendments to the Federal Motor Carrier Safety Regulations — minor corrections to inadvertent errors, removal of obsolete references, and improvements to clarity and consistency, plus a change to FMCSA's rules of organization, procedures, and practice. The post being audited concerns federal highway weight limits under 23 U.S.C. § 127 and the Bridge Formula, which are statutory provisions under Title 23 of the U.S. Code, not part of the FMCSA's own regulatory text in 49 CFR. The CFR reference being audited (49 CFR Part 0 § 0.23) governs FMCSA's internal rules of organization and delegated authority — not weight thresholds, axle limits, or the Bridge Formula itself. The source document provides no specific detail about what numeric thresholds, section designations, or substantive provisions were actually amended, and the eCFR fetch was unavailable. There is no concrete, specific change evidenced in the supplied source data that contradicts or supersedes any regulatory claim made in the published post. Under these circumstances — ambiguous scope, no enumerated substantive changes, and an unavailable eCFR text — the conservative standard requires NO_CHANGE."
+        }
+      ]
     }
   ]
 }
