@@ -1196,6 +1196,41 @@
           "reasoning": "The Federal Register document cited (doc #2026-14701, published and effective 2026-07-21) describes general technical, organizational, conforming, and correcting amendments to the Federal Motor Carrier Safety Regulations — minor corrections to inadvertent errors, removal of obsolete references, and improvements to clarity and consistency, plus a change to FMCSA's rules of organization, procedures, and practice. The post being audited concerns federal highway weight limits under 23 U.S.C. § 127 and the Bridge Formula, which are statutory provisions under Title 23 of the U.S. Code, not part of the FMCSA's own regulatory text in 49 CFR. The CFR reference being audited (49 CFR Part 0 § 0.23) governs FMCSA's internal rules of organization and delegated authority — not weight thresholds, axle limits, or the Bridge Formula itself. The source document provides no specific detail about what numeric thresholds, section designations, or substantive provisions were actually amended, and the eCFR fetch was unavailable. There is no concrete, specific change evidenced in the supplied source data that contradicts or supersedes any regulatory claim made in the published post. Under these circumstances — ambiguous scope, no enumerated substantive changes, and an unavailable eCFR text — the conservative standard requires NO_CHANGE."
         }
       ]
+    },
+    {
+      "run_date": "2026-08-01T13:47:42.279043+00:00",
+      "entries": [
+        {
+          "timestamp": "2026-08-01T13:47:31.737717+00:00",
+          "file": "2026-07-11-household-goods-carriers-the-consumer-protection-rules-that.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-01T13:47:36.749395+00:00",
+          "file": "2026-07-12-fmcsa-safety-measurement-system-how-your-csa-score-is-calcul.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-01T13:47:37.054645+00:00",
+          "file": "2026-07-12-split-sleeper-berth-data-how-the-2020-hos-flexibility-rule-a.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-01T13:47:42.066925+00:00",
+          "file": "2026-07-13-basics-explained-what-each-safety-measurement-category-actua.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-01T13:47:42.277408+00:00",
+          "file": "2026-07-13-eld-malfunction-codes-vs-data-diagnostic-events-why-carriers.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        }
+      ]
     }
   ]
 }

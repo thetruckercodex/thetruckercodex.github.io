@@ -1,5 +1,5 @@
 {
-  "cursor": 150,
+  "cursor": 155,
   "cycle": 1,
   "posts": {
     "2026-02-08-common-dot-violations-how-to-avoid.md": {
@@ -637,7 +637,27 @@
     "2026-07-11-federal-weight-limits-and-the-bridge-formula-what-carriers-m.md": {
       "last_checked_date": "2026-07-31",
       "last_result": "no_change"
+    },
+    "2026-07-11-household-goods-carriers-the-consumer-protection-rules-that.md": {
+      "last_checked_date": "2026-08-01",
+      "last_result": "no_change"
+    },
+    "2026-07-12-fmcsa-safety-measurement-system-how-your-csa-score-is-calcul.md": {
+      "last_checked_date": "2026-08-01",
+      "last_result": "no_change"
+    },
+    "2026-07-12-split-sleeper-berth-data-how-the-2020-hos-flexibility-rule-a.md": {
+      "last_checked_date": "2026-08-01",
+      "last_result": "no_change"
+    },
+    "2026-07-13-basics-explained-what-each-safety-measurement-category-actua.md": {
+      "last_checked_date": "2026-08-01",
+      "last_result": "no_change"
+    },
+    "2026-07-13-eld-malfunction-codes-vs-data-diagnostic-events-why-carriers.md": {
+      "last_checked_date": "2026-08-01",
+      "last_result": "no_change"
     }
   },
-  "updated_at": "2026-07-31T14:29:33.792136+00:00"
+  "updated_at": "2026-08-01T13:47:42.277436+00:00"
 }
