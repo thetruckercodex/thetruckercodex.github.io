@@ -1,5 +1,5 @@
 {
-  "cursor": 155,
+  "cursor": 160,
   "cycle": 1,
   "posts": {
     "2026-02-08-common-dot-violations-how-to-avoid.md": {
@@ -657,7 +657,27 @@
     "2026-07-13-eld-malfunction-codes-vs-data-diagnostic-events-why-carriers.md": {
       "last_checked_date": "2026-08-01",
       "last_result": "no_change"
+    },
+    "2026-07-14-fmcsa-intervention-thresholds-when-your-sms-percentile-trigg.md": {
+      "last_checked_date": "2026-08-02",
+      "last_result": "no_change"
+    },
+    "2026-07-14-tank-truck-rollover-data-why-liquid-cargo-loads-get-differen.md": {
+      "last_checked_date": "2026-08-02",
+      "last_result": "no_change"
+    },
+    "2026-07-15-longer-combination-vehicles-why-doubles-and-triples-face-str.md": {
+      "last_checked_date": "2026-08-02",
+      "last_result": "no_change"
+    },
+    "2026-07-15-new-entrant-program-the-18-month-monitoring-period-requireme.md": {
+      "last_checked_date": "2026-08-02",
+      "last_result": "no_change"
+    },
+    "2026-07-16-how-a-dot-number-gets-deactivated-for-inactivity-and-what-re.md": {
+      "last_checked_date": "2026-08-02",
+      "last_result": "no_change"
     }
   },
-  "updated_at": "2026-08-01T13:47:42.277436+00:00"
+  "updated_at": "2026-08-02T13:48:13.804009+00:00"
 }

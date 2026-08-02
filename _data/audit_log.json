@@ -1231,6 +1231,41 @@
           "reasoning": "No source signal found since last check."
         }
       ]
+    },
+    {
+      "run_date": "2026-08-02T13:48:13.805542+00:00",
+      "entries": [
+        {
+          "timestamp": "2026-08-02T13:47:58.816013+00:00",
+          "file": "2026-07-14-fmcsa-intervention-thresholds-when-your-sms-percentile-trigg.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-02T13:48:03.814915+00:00",
+          "file": "2026-07-14-tank-truck-rollover-data-why-liquid-cargo-loads-get-differen.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-02T13:48:04.010045+00:00",
+          "file": "2026-07-15-longer-combination-vehicles-why-doubles-and-triples-face-str.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-02T13:48:08.801016+00:00",
+          "file": "2026-07-15-new-entrant-program-the-18-month-monitoring-period-requireme.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-02T13:48:13.803986+00:00",
+          "file": "2026-07-16-how-a-dot-number-gets-deactivated-for-inactivity-and-what-re.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        }
+      ]
     }
   ]
 }
