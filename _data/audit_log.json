@@ -1266,6 +1266,41 @@
           "reasoning": "No source signal found since last check."
         }
       ]
+    },
+    {
+      "run_date": "2026-08-03T15:11:34.974677+00:00",
+      "entries": [
+        {
+          "timestamp": "2026-08-03T15:11:24.566615+00:00",
+          "file": "2026-07-16-leased-driver-regulations-carrier-vs-driver-obligations-unde.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-03T15:11:24.735954+00:00",
+          "file": "2026-07-17-broker-carrier-agreements-the-compliance-clauses-that-create.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-03T15:11:29.740078+00:00",
+          "file": "2026-07-17-team-driver-hos-rules-how-split-driving-periods-apply.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-03T15:11:34.745139+00:00",
+          "file": "2026-07-18-agricultural-exemptions-which-operations-are-exempt-from-hos.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-03T15:11:34.972850+00:00",
+          "file": "2026-07-18-how-csas-basic-percentile-thresholds-differ-by-vehicle-type.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        }
+      ]
     }
   ]
 }

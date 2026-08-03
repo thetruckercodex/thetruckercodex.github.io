@@ -1,5 +1,5 @@
 {
-  "cursor": 160,
+  "cursor": 165,
   "cycle": 1,
   "posts": {
     "2026-02-08-common-dot-violations-how-to-avoid.md": {
@@ -677,7 +677,27 @@
     "2026-07-16-how-a-dot-number-gets-deactivated-for-inactivity-and-what-re.md": {
       "last_checked_date": "2026-08-02",
       "last_result": "no_change"
+    },
+    "2026-07-16-leased-driver-regulations-carrier-vs-driver-obligations-unde.md": {
+      "last_checked_date": "2026-08-03",
+      "last_result": "no_change"
+    },
+    "2026-07-17-broker-carrier-agreements-the-compliance-clauses-that-create.md": {
+      "last_checked_date": "2026-08-03",
+      "last_result": "no_change"
+    },
+    "2026-07-17-team-driver-hos-rules-how-split-driving-periods-apply.md": {
+      "last_checked_date": "2026-08-03",
+      "last_result": "no_change"
+    },
+    "2026-07-18-agricultural-exemptions-which-operations-are-exempt-from-hos.md": {
+      "last_checked_date": "2026-08-03",
+      "last_result": "no_change"
+    },
+    "2026-07-18-how-csas-basic-percentile-thresholds-differ-by-vehicle-type.md": {
+      "last_checked_date": "2026-08-03",
+      "last_result": "no_change"
     }
   },
-  "updated_at": "2026-08-02T13:48:13.804009+00:00"
+  "updated_at": "2026-08-03T15:11:34.972884+00:00"
 }
