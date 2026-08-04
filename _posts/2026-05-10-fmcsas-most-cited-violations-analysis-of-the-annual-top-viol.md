@@ -2,6 +2,7 @@
 layout: post
 title: "FMCSA's Most-Cited Violations: Analysis of the Annual Top Violation Data"
 date: 2026-05-10
+last_modified_at: 2026-07-27
 categories: audits-violations
 description: "Enforcement intelligence analysis: FMCSA's Most-Cited Violations: Analysis of the Annual Top Violation Data. Data-driven insights from FMCSA and CVSA records for motor carriers and compliance professionals."
 ---
@@ -31,6 +32,8 @@ Part 395 violations have occupied the top citation slot in FMCSA annual data for
 - **395.11** — Failure to retain supporting documents for RODS reconciliation
 
 The practical compliance failure behind these numbers is almost always administrative rather than intentional. Drivers miss entries, ELD malfunctions go unreported, and carriers fail to audit logs before an inspection surfaces the gap. A structured review of [common DOT violations and how to avoid them](https://blog.thetruckercodex.com/common-dot-violations-how-to-avoid/) identifies the audit cadence that closes most of these exposures before they reach a roadside interaction.
+
+> **Regulatory Update — Effective July 22, 2026:** FMCSA published a final rule (FR doc #2026-12448, 91 FR [2026-06-22]) rescinding the requirement for a copy of the ELD operator's manual to be kept in the commercial motor vehicle. Prior to this rule, carriers were required to maintain the operator's manual in the cab as part of ELD compliance documentation. That in-cab document requirement is no longer in effect as of July 22, 2026. Drivers are still required to understand the operation of the ELD and to be able to demonstrate accurate recordkeeping during inspections — the change is solely to the physical manual-in-cab requirement. Compliance document production checklists should be updated to remove the ELD operator's manual as a required in-cab item.
 
 ### 49 CFR Part 391 — Driver Qualifications
 
@@ -68,7 +71,7 @@ The annual citation data produces a clear prioritization framework for complianc
 - **Audit HOS records monthly**, not only at roadside or during reviews — ELD data should be reconciled against supporting documents on a rolling basis
 - **Standardize DQF audit checklists** that map every required 391.51 document to a scheduled review date, with version control for medical certificate expiration tracking
 - **Implement DVIR close-loop processes** that require documented carrier acknowledgment of every driver-reported defect, even "no defects noted" entries
-- **Conduct pre-audit document production drills** at least twice annually, simulating the document requests an FMCSA auditor would make in a Compliance Review
+- **Conduct pre-audit document production drills** at least twice annually, simulating the document requests an FMCSA auditor would make in a Compliance Review — note that as of July 22, 2026, the ELD operator's manual is no longer a required in-cab document and should be removed from in-cab document checklists (FR doc #2026-12448)
 - **Map SMS BASIC scores to intervention thresholds quarterly**, not reactively — percentile positions shift as new inspection data enters the 24-month window
 
 **Prepare for your next compliance review:** [DOT Audit Preparation Bundle — The Trucker Codex](https://www.etsy.com/shop/TheTruckerCodex)
@@ -77,3 +80,5 @@ For owner-operators and safety managers maintaining driver files, the <a href="h
 
 ---
 *Data sourced from FMCSA Enforcement Statistics and FMCSA public records. Verify current enforcement thresholds at fmcsa.dot.gov.*
+
+*Last verified against Federal Register on 2026-07-22; updated to reflect FR doc #2026-12448 (effective 2026-07-22), which rescinds the requirement for an ELD operator's manual to be kept in the CMV under 49 CFR Part 395.*
