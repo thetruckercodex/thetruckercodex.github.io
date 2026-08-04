@@ -1301,6 +1301,41 @@
           "reasoning": "No source signal found since last check."
         }
       ]
+    },
+    {
+      "run_date": "2026-08-04T14:35:39.427605+00:00",
+      "entries": [
+        {
+          "timestamp": "2026-08-04T14:35:23.801386+00:00",
+          "file": "2026-07-19-random-drug-and-alcohol-testing-rates-why-fmcsa-raises-or-lo.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-04T14:35:28.837228+00:00",
+          "file": "2026-07-20-consortium-and-third-party-administrator-requirements-for-sm.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-04T14:35:33.811200+00:00",
+          "file": "2026-07-20-eld-technical-specifications-what-makes-a-device-compliant.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-04T14:35:38.798821+00:00",
+          "file": "2026-07-21-how-fmcsas-crash-preventability-determination-program-can-re.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-04T14:35:39.425889+00:00",
+          "file": "2026-07-22-prior-inspection-data-how-roadside-history-follows-a-truck-e.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        }
+      ]
     }
   ]
 }

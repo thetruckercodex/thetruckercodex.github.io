@@ -1,5 +1,5 @@
 {
-  "cursor": 165,
+  "cursor": 170,
   "cycle": 1,
   "posts": {
     "2026-02-08-common-dot-violations-how-to-avoid.md": {
@@ -697,7 +697,27 @@
     "2026-07-18-how-csas-basic-percentile-thresholds-differ-by-vehicle-type.md": {
       "last_checked_date": "2026-08-03",
       "last_result": "no_change"
+    },
+    "2026-07-19-random-drug-and-alcohol-testing-rates-why-fmcsa-raises-or-lo.md": {
+      "last_checked_date": "2026-08-04",
+      "last_result": "no_change"
+    },
+    "2026-07-20-consortium-and-third-party-administrator-requirements-for-sm.md": {
+      "last_checked_date": "2026-08-04",
+      "last_result": "no_change"
+    },
+    "2026-07-20-eld-technical-specifications-what-makes-a-device-compliant.md": {
+      "last_checked_date": "2026-08-04",
+      "last_result": "no_change"
+    },
+    "2026-07-21-how-fmcsas-crash-preventability-determination-program-can-re.md": {
+      "last_checked_date": "2026-08-04",
+      "last_result": "no_change"
+    },
+    "2026-07-22-prior-inspection-data-how-roadside-history-follows-a-truck-e.md": {
+      "last_checked_date": "2026-08-04",
+      "last_result": "no_change"
     }
   },
-  "updated_at": "2026-08-03T15:11:34.972884+00:00"
+  "updated_at": "2026-08-04T14:35:39.425926+00:00"
 }
