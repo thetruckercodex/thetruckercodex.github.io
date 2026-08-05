@@ -1336,6 +1336,41 @@
           "reasoning": "No source signal found since last check."
         }
       ]
+    },
+    {
+      "run_date": "2026-08-05T14:28:39.197098+00:00",
+      "entries": [
+        {
+          "timestamp": "2026-08-05T14:28:27.533258+00:00",
+          "file": "2026-07-23-driver-turnover-and-compliance-risk-why-high-turnover-fleets.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-05T14:28:28.399439+00:00",
+          "file": "2026-07-23-driving-time-limits-for-passenger-carrying-cmvs-hos-differen.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-05T14:28:33.577627+00:00",
+          "file": "2026-07-24-brake-adjustment-oos-criteria-pushrod-stroke-limits-by-brake.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-05T14:28:38.366947+00:00",
+          "file": "2026-07-24-how-passenger-carrier-cdl-endorsements-differ-from-freight-e.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-05T14:28:39.195479+00:00",
+          "file": "2026-07-27-suspension-system-defects-federal-oos-standards-and-inspecti.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        }
+      ]
     }
   ]
 }

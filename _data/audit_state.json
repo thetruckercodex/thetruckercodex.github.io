@@ -1,5 +1,5 @@
 {
-  "cursor": 170,
+  "cursor": 175,
   "cycle": 1,
   "posts": {
     "2026-02-08-common-dot-violations-how-to-avoid.md": {
@@ -717,7 +717,27 @@
     "2026-07-22-prior-inspection-data-how-roadside-history-follows-a-truck-e.md": {
       "last_checked_date": "2026-08-04",
       "last_result": "no_change"
+    },
+    "2026-07-23-driver-turnover-and-compliance-risk-why-high-turnover-fleets.md": {
+      "last_checked_date": "2026-08-05",
+      "last_result": "no_change"
+    },
+    "2026-07-23-driving-time-limits-for-passenger-carrying-cmvs-hos-differen.md": {
+      "last_checked_date": "2026-08-05",
+      "last_result": "no_change"
+    },
+    "2026-07-24-brake-adjustment-oos-criteria-pushrod-stroke-limits-by-brake.md": {
+      "last_checked_date": "2026-08-05",
+      "last_result": "no_change"
+    },
+    "2026-07-24-how-passenger-carrier-cdl-endorsements-differ-from-freight-e.md": {
+      "last_checked_date": "2026-08-05",
+      "last_result": "no_change"
+    },
+    "2026-07-27-suspension-system-defects-federal-oos-standards-and-inspecti.md": {
+      "last_checked_date": "2026-08-05",
+      "last_result": "no_change"
     }
   },
-  "updated_at": "2026-08-04T14:35:39.425926+00:00"
+  "updated_at": "2026-08-05T14:28:39.195512+00:00"
 }
