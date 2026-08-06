@@ -1371,6 +1371,41 @@
           "reasoning": "No source signal found since last check."
         }
       ]
+    },
+    {
+      "run_date": "2026-08-06T14:31:28.836186+00:00",
+      "entries": [
+        {
+          "timestamp": "2026-08-06T14:31:21.736059+00:00",
+          "file": "2026-07-31-emergency-equipment-requirements-fire-extinguisher-warning-d.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-06T14:31:22.512696+00:00",
+          "file": "2026-08-06-hazmat-security-plans-what-49-cfr-172800-actually-requires-b.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-06T14:31:27.524168+00:00",
+          "file": "2026-02-08-common-dot-violations-how-to-avoid.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-06T14:31:28.048328+00:00",
+          "file": "2026-02-08-dot-compliance-audit-triggers.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-06T14:31:28.834519+00:00",
+          "file": "2026-02-08-dot-recordkeeping-document-retention.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        }
+      ]
     }
   ]
 }

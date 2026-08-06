@@ -1,18 +1,18 @@
 {
-  "cursor": 175,
-  "cycle": 1,
+  "cursor": 3,
+  "cycle": 2,
   "posts": {
     "2026-02-08-common-dot-violations-how-to-avoid.md": {
-      "open_pr_number": 1,
-      "last_checked_date": "2026-07-03",
-      "last_result": "updated"
+      "open_pr_number": null,
+      "last_checked_date": "2026-08-06",
+      "last_result": "no_change"
     },
     "2026-02-08-dot-compliance-audit-triggers.md": {
-      "last_checked_date": "2026-07-03",
+      "last_checked_date": "2026-08-06",
       "last_result": "no_change"
     },
     "2026-02-08-dot-recordkeeping-document-retention.md": {
-      "last_checked_date": "2026-07-03",
+      "last_checked_date": "2026-08-06",
       "last_result": "no_change"
     },
     "2026-02-08-dot-vehicle-inspection-maintenance-requirements.md": {
@@ -737,7 +737,15 @@
     "2026-07-27-suspension-system-defects-federal-oos-standards-and-inspecti.md": {
       "last_checked_date": "2026-08-05",
       "last_result": "no_change"
+    },
+    "2026-07-31-emergency-equipment-requirements-fire-extinguisher-warning-d.md": {
+      "last_checked_date": "2026-08-06",
+      "last_result": "no_change"
+    },
+    "2026-08-06-hazmat-security-plans-what-49-cfr-172800-actually-requires-b.md": {
+      "last_checked_date": "2026-08-06",
+      "last_result": "no_change"
     }
   },
-  "updated_at": "2026-08-05T14:28:39.195512+00:00"
+  "updated_at": "2026-08-06T14:31:28.834551+00:00"
 }
