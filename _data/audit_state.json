@@ -1,5 +1,5 @@
 {
-  "cursor": 3,
+  "cursor": 8,
   "cycle": 2,
   "posts": {
     "2026-02-08-common-dot-violations-how-to-avoid.md": {
@@ -16,12 +16,12 @@
       "last_result": "no_change"
     },
     "2026-02-08-dot-vehicle-inspection-maintenance-requirements.md": {
-      "open_pr_number": 2,
-      "last_checked_date": "2026-07-03",
-      "last_result": "updated"
+      "open_pr_number": null,
+      "last_checked_date": "2026-08-07",
+      "last_result": "no_change"
     },
     "2026-02-08-electronic-logging-device-eld-compliance.md": {
-      "last_checked_date": "2026-07-03",
+      "last_checked_date": "2026-08-07",
       "last_result": "no_change"
     },
     "2026-02-09-brake-system-violations-out-of-service.md": {
@@ -747,5 +747,5 @@
       "last_result": "no_change"
     }
   },
-  "updated_at": "2026-08-06T14:31:28.834551+00:00"
+  "updated_at": "2026-08-07T13:26:09.564362+00:00"
 }
