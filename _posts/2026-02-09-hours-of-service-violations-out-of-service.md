@@ -4,6 +4,7 @@ title: "Hours-of-Service Violations: The Most Common Driver Out-of-Service Trigg
 category: hos-eld
 permalink: /hours-of-service-violations-out-of-service/
 description: "Hours-of-Service violations under 49 CFR Part 395 remain one of the most common driver out-of-service triggers. Learn how enforcement works and how to reduce HOS compliance risk."
+last_modified_at: 2026-07-03
 ---
 Hours-of-Service violations are one of the fastest ways to get a driver placed out-of-service during a roadside inspection. This guide breaks down the most common triggers, what officers look for, and the controls that prevent repeat violations.
 
@@ -69,6 +70,9 @@ To reduce HOS-related enforcement exposure:
 3. Verify ELD entries at the end of each duty period.  
 4. Avoid manual log corrections without documentation.  
 5. Plan routes with realistic buffer time.
+6. Ensure drivers are thoroughly trained on the operation of the ELD installed in their vehicle and are able to demonstrate that knowledge during inspections.
+
+> **Regulatory Note — Effective July 22, 2026:** FMCSA's final rule (FR doc #2026-12448) rescinds the requirement under 49 CFR Part 395 to keep a physical copy of the ELD operator's manual inside the CMV. However, the underlying obligation remains: drivers must understand how to operate the ELD and must be able to present accurate electronic records of duty status during roadside inspections. Fleets should update their ELD training programs to ensure driver knowledge is maintained independently of a paper manual in the cab.
 
 Driver compliance should be managed as part of an integrated system alongside documentation requirements such as the [Driver Qualification File Requirements](/driver-qualification-file-requirements/).
 
@@ -79,3 +83,7 @@ Driver compliance should be managed as part of an integrated system alongside do
 - [Brake System Violations and OOS Orders](/brake-system-violations-out-of-service/)  
 - [Driver Qualification File (DQF) Requirements](/driver-qualification-file-requirements/)  
 - [Electronic Logging Device (ELD) Compliance Guide](/electronic-logging-device-eld-compliance/)
+
+---
+
+*Last verified against the Federal Register on 2026-07-03; updated to reflect FR doc #2026-12448 (effective 2026-07-22), which rescinds the 49 CFR Part 395 requirement to keep an ELD operator's manual in the CMV.*
