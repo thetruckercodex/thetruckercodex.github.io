@@ -1441,6 +1441,45 @@
           "pr_number": 5
         }
       ]
+    },
+    {
+      "run_date": "2026-08-08T13:08:16.230547+00:00",
+      "entries": [
+        {
+          "timestamp": "2026-08-08T13:08:10.233873+00:00",
+          "file": "2026-02-16-fmcsa-sfd-overhaul-2026.md",
+          "status": "updated",
+          "pr_url": "https://github.com/thetruckercodex/thetruckercodex.github.io/pull/37",
+          "change_summary": "Correct the post's treatment of English Language Proficiency OOS enforcement from established fact to proposed rulemaking status, citing FR doc #2026-16288 (proposed rule, published 2026-08-10, no effective date yet), and flag that codification into the FMCSRs is pending final rulemaking.",
+          "sources": [
+            "https://www.federalregister.gov/documents/2026/08/10/2026-16288/english-language-proficiency-out-of-service-criteria"
+          ]
+        },
+        {
+          "timestamp": "2026-08-08T13:08:10.660384+00:00",
+          "file": "2026-02-16-The-Ultimate-Guide-to-2026-Driver-Qualification.md",
+          "status": "pending_pr",
+          "pr_number": 6
+        },
+        {
+          "timestamp": "2026-08-08T13:08:11.067769+00:00",
+          "file": "2026-02-17-mcsa-2026-eld-revocations-analysis.md",
+          "status": "pending_pr",
+          "pr_number": 7
+        },
+        {
+          "timestamp": "2026-08-08T13:08:11.237473+00:00",
+          "file": "2026-02-18-2026-CVSA-Out-of-Service-(OOS)-Criteria-Changes.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-08T13:08:16.228747+00:00",
+          "file": "2026-02-18-dot-pre-employment-requirements.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        }
+      ]
     }
   ]
 }
