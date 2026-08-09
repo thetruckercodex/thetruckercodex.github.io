@@ -1,5 +1,5 @@
 {
-  "cursor": 13,
+  "cursor": 18,
   "cycle": 2,
   "posts": {
     "2026-02-08-common-dot-violations-how-to-avoid.md": {
@@ -63,12 +63,14 @@
       "last_result": "no_change"
     },
     "2026-02-18-english-language-proficiency-roadside-assessment.md": {
-      "last_checked_date": "2026-07-04",
-      "last_result": "no_change"
+      "last_checked_date": "2026-08-09",
+      "last_result": "updated",
+      "open_pr_number": 38
     },
     "2026-02-18-phmsa-hazmat-harmonization-2026-nprm.md": {
-      "last_checked_date": "2026-07-04",
-      "last_result": "no_change"
+      "last_checked_date": "2026-08-09",
+      "last_result": "updated",
+      "open_pr_number": 39
     },
     "2026-02-27-2026-eld-compliance-standards-revocation-updates.md": {
       "open_pr_number": 8,
@@ -76,11 +78,11 @@
       "last_result": "updated"
     },
     "2026-02-27-new-entrant-safety-audit-fmcsa-methodology.md": {
-      "last_checked_date": "2026-07-05",
+      "last_checked_date": "2026-08-09",
       "last_result": "no_change"
     },
     "2026-02-08-Hours-of-Service-Rules-Every-Truck-Driver-Must-Know.md": {
-      "last_checked_date": "2026-07-05",
+      "last_checked_date": "2026-08-09",
       "last_result": "no_change"
     },
     "2026-02-27-new-entrant-safety-audit-survival-guide.md": {
@@ -748,5 +750,5 @@
       "last_result": "no_change"
     }
   },
-  "updated_at": "2026-08-08T13:08:16.228780+00:00"
+  "updated_at": "2026-08-09T13:12:42.801211+00:00"
 }

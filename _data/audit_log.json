@@ -1480,6 +1480,50 @@
           "reasoning": "No source signal found since last check."
         }
       ]
+    },
+    {
+      "run_date": "2026-08-09T13:12:42.802710+00:00",
+      "entries": [
+        {
+          "timestamp": "2026-08-09T13:11:50.954743+00:00",
+          "file": "2026-02-18-english-language-proficiency-roadside-assessment.md",
+          "status": "updated",
+          "pr_url": "https://github.com/thetruckercodex/thetruckercodex.github.io/pull/38",
+          "change_summary": "FMCSA published a Proposed Rule (FR doc #2026-16288, 2026-08-10) that would codify ELP as an explicit OOS violation in the FMCSRs, aligning federal regulations with existing CVSA OOS criteria; the post must be updated to disclose this pending rulemaking and revise its characterization of OOS determinations as purely discretionary.",
+          "sources": [
+            "https://www.federalregister.gov/documents/2026/08/10/2026-16288/english-language-proficiency-out-of-service-criteria"
+          ]
+        },
+        {
+          "timestamp": "2026-08-09T13:12:42.107152+00:00",
+          "file": "2026-02-18-phmsa-hazmat-harmonization-2026-nprm.md",
+          "status": "updated",
+          "pr_url": "https://github.com/thetruckercodex/thetruckercodex.github.io/pull/39",
+          "change_summary": "Two August 2026 final rules amend HMR provisions discussed in this post: (1) doc #2026-15814 adjusts the monetary threshold for the farmer training exception under 49 CFR Part 172, and (2) doc #2026-15808 allows electronic (rather than mandatory hard-copy) emergency response information, effective 2026-09-03 — both are unreflected in the current post.",
+          "sources": [
+            "https://www.federalregister.gov/documents/2026/08/04/2026-15814/hazardous-materials-reduce-training-burdens-for-americas-farmers",
+            "https://www.federalregister.gov/documents/2026/08/04/2026-15808/hazardous-materials-reducing-undue-paperwork-burdens-to-domestic-carriers"
+          ]
+        },
+        {
+          "timestamp": "2026-08-09T13:12:42.494254+00:00",
+          "file": "2026-02-27-2026-eld-compliance-standards-revocation-updates.md",
+          "status": "pending_pr",
+          "pr_number": 8
+        },
+        {
+          "timestamp": "2026-08-09T13:12:42.682438+00:00",
+          "file": "2026-02-27-new-entrant-safety-audit-fmcsa-methodology.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-09T13:12:42.801186+00:00",
+          "file": "2026-02-08-Hours-of-Service-Rules-Every-Truck-Driver-Must-Know.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        }
+      ]
     }
   ]
 }
