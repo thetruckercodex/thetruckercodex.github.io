@@ -4,6 +4,7 @@ title: "Electronic Logging Device (ELD) Compliance: 2026 Regulatory Deep Dive"
 category: hos-eld
 permalink: /2026-eld-compliance-standards-revocation-updates/
 description: "A comprehensive 850+ word guide on 2026 ELD compliance, featuring the February 12th FMCSA revocation list, new technical vetting processes, and Level VIII inspection protocols."
+last_modified_at: 2026-07-05
 ---
 
 ELD compliance is no longer a "set-and-forget" hardware installation; it is a dynamic process of data integrity and regulatory vigilance. As of February 2026, the Federal Motor Carrier Safety Administration (FMCSA) has transitioned to a high-pressure enforcement model, utilizing automated vetting and "In-Motion" inspections to identify non-compliant carriers. 
@@ -12,7 +13,7 @@ Log accuracy failures, the use of revoked devices, and improper data transfer pr
 
 ## 1. The February 2026 "Revocation Wave"
 
-The most urgent update for any motor carrier in 2026 is the FMCSA’s aggressive cleanup of the Registered ELD list. The agency has moved away from simple self-certification to a rigorous vetting process that proactively removes non-compliant hardware from the marketplace.
+The most urgent update for any motor carrier in 2026 is the FMCSA's aggressive cleanup of the Registered ELD list. The agency has moved away from simple self-certification to a rigorous vetting process that proactively removes non-compliant hardware from the marketplace.
 
 ### **The February 12, 2026 List**
 On February 12, 2026, the FMCSA officially revoked **nine** ELD devices for failing to meet the functional specifications required under **[49 CFR Part 395, Appendix A](https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395/appendix-Appendix%20A%20to%20Subpart%20B%20of%20Part%20395)**.
@@ -81,7 +82,7 @@ To maintain a clean safety profile for your fleet, implement the following contr
 2.  **Monthly Registry Audit:** Check the **[Official FMCSA Newsroom](https://www.fmcsa.dot.gov/newsroom)** every month for new revocations. 
 3.  **Digital DQ File Integration:** Ensure your ELD data matches the records in your **[Driver Qualification File Requirements](/driver-qualification-file-requirements/)**. Discrepancies between medical card dates and HOS logs are frequent audit targets.
 4.  **8-Day Malfunction Rule:** If an ELD fails, you have 8 days to repair it. If more time is needed, you must file an extension with the FMCSA Division Administrator under **395.34(d)**.
-5.  **Digital Manual Accessibility:** Ensure your drivers know how to access the **digital ELD manual** on their device. As of 2026, physical copies are no longer required, but digital availability is mandatory.
+5.  **ELD Operator's Manual Requirement — Rescinded (Effective July 22, 2026):** FMCSA has eliminated the regulatory requirement to keep an ELD operator's manual in the CMV in any form (physical or digital). Effective **July 22, 2026**, no in-vehicle manual is required under the final rule (FR Doc. #2026-12448). Drivers are still required to understand the operation of the ELD and be able to demonstrate that knowledge during an inspection, but maintaining a copy of the manual in the vehicle is no longer mandated.
 
 ---
 
@@ -103,5 +104,7 @@ Compliance also means knowing when rules are temporarily waived. As of February 
 * [FMCSA Official ELD Registry](https://eld.fmcsa.dot.gov/List)
 * [FMCSA Newsroom: ELD Revocations Feb 12, 2026](https://www.fmcsa.dot.gov/newsroom/fmcsa-removes-nine-devices-list-registered-electronic-logging-devices)
 * [Electronic Code of Federal Regulations (eCFR) - Part 395](https://www.ecfr.gov/current/title-49/subtitle-B/chapter-III/subchapter-B/part-395)
+* [FR Doc. #2026-12448 — Rescinding ELD Operator's Manual Requirement (eff. 2026-07-22)](https://www.federalregister.gov/documents/2026/06/22/2026-12448/rescinding-the-requirement-for-electronic-logging-device-operators-manual-located-in-commercial)
 
-*Last Verified and Updated: February 28, 2026*
+*Original publication last verified and updated: February 28, 2026.*
+*Last verified against Federal Register on 2026-07-22; updated to reflect FR Doc. #2026-12448 (effective 2026-07-22), which rescinds the requirement to keep an ELD operator's manual in the CMV in any form.*
