@@ -1,12 +1,15 @@
 ---
 layout: post
-title: "HM-215R Harmonization: Analyzing PHMSA’s February 2026 Regulatory Shifts"
+title: "HM-215R Harmonization: Analyzing PHMSA's February 2026 Regulatory Shifts"
 category: audits-violations
 permalink: /phmsa-hazmat-harmonization-2026-nprm/
-description: "A comprehensive technical analysis of PHMSA’s HM-215R NPRM (February 2026), examining international standards alignment, lithium battery regulation updates, and strategic training requirements for HazMat carriers."
+description: "A comprehensive technical analysis of PHMSA's HM-215R NPRM (February 2026), examining international standards alignment, lithium battery regulation updates, and strategic training requirements for HazMat carriers."
+last_modified_at: 2026-08-09
 ---
 
 On February 10, 2026, PHMSA published HM-215R (Docket PHMSA-2023-0111), initiating a new harmonization cycle for 49 CFR Parts 171-180. On **February 10, 2026**, the Pipeline and Hazardous Materials Safety Administration (PHMSA) issued a pivotal Notice of Proposed Rulemaking (NPRM), designated as **Docket ID: PHMSA-2023-0111 (HM-215R)**. This rulemaking aims to harmonize the Hazardous Materials Regulations (HMR; 49 CFR Parts 171-180) with contemporary international standards, including the 23rd Revised Edition of the UN Model Regulations, the IATA/ICAO Technical Instructions, and the IMDG Code. For the sophisticated carrier, HM-215R is not merely a paperwork update; it is a fundamental shift in the technical requirements for shipping names, hazard classes, and packaging protocols.
+
+> **⚠️ August 2026 Update:** Since this post was originally published, PHMSA has issued two final rules that amend HMR provisions discussed below, both effective **September 3, 2026**. See the updated sections on Emergency Response Information and Farmer Training Exceptions for details.
 
 The Strategic Objective of HM-215R
 
@@ -38,8 +41,11 @@ Under **49 CFR § 172.704**, hazmat employers are required to provide function-s
 Carriers operating under the "The Trucker Codex" philosophy should not wait for the final rule's effective date to begin their internal audits. A proactive approach includes:
 
 - **Recordkeeping Compliance:** To ensure litigation-grade readiness, hazmat training records must be retained for **at least three years from the most recent training date**, and for former employees, for the **duration of employment plus 90 days** thereafter. These records must be available for inspection during a compliance review at any time.
-- **Emergency Response Accuracy:** Ensuring that emergency response information (ERI) reflects the updated shipping names to avoid delays during incidents.
+- **Emergency Response Accuracy:** Ensuring that emergency response information (ERI) reflects the updated shipping names to avoid delays during incidents. **Note: Effective September 3, 2026**, a PHMSA final rule (doc #2026-15808) now permits domestic carriers and facility operators to maintain **electronic copies** of emergency response information in lieu of the previously required hard-copy paper records. Carriers should update their SOPs to take advantage of this flexibility while ensuring electronic records remain immediately accessible during transport.
 - **Separation of Files:** Ensuring HazMat training records are managed within employer training files, distinct from the [Driver Qualification File (DQF)](/topics/dqf/) requirements, though both should be audited under a unified safety management system to prevent compliance gaps.
+
+### Farmer Training Exception: Adjusted Monetary Threshold (Effective September 3, 2026)
+Carriers and agribusiness operators should be aware that PHMSA issued a final rule on August 4, 2026 (doc #2026-15814, *Hazardous Materials: Reduce Training Burdens for America's Farmers*, effective **September 3, 2026**) making an **inflationary adjustment to the monetary threshold** that determines eligibility for the farmer exception from security plan and in-depth security training requirements under 49 CFR Part 172. Operations that may have previously qualified — or been excluded — from this training exception should re-evaluate their eligibility against the revised threshold. Consult the Federal Register document directly at [https://www.federalregister.gov/documents/2026/08/04/2026-15814/hazardous-materials-reduce-training-burdens-for-americas-farmers](https://www.federalregister.gov/documents/2026/08/04/2026-15814/hazardous-materials-reduce-training-burdens-for-americas-farmers) for the specific updated dollar figure.
 
 The failure to harmonize internal SOPs with the 2026 PHMSA shifts increases the likelihood of a high-weight violation during a Level I or Level III inspection, potentially leading to an Out-of-Service (OOS) order under the [2026 CVSA Criteria Updates](/cvsa-2026-oos-criteria-changes/).
 
@@ -72,3 +78,6 @@ The PHMSA February 2026 Harmonization NPRM is a reminder that the only constant 
 - [The 2026 CVSA Out-of-Service (OOS) Criteria Updates](/cvsa-2026-oos-criteria-changes/)
 - [Understanding Roadside Inspection Survival Protocols](/topics/audits-violations/)
 - [Comprehensive Guide to Recordkeeping and Retention](/topics/recordkeeping/)
+
+---
+*Last verified against the Federal Register on 2026-08-09; updated to reflect FR doc #2026-15808 (electronic ERI, effective 2026-09-03) and FR doc #2026-15814 (farmer training exception monetary threshold adjustment, effective 2026-09-03).*
