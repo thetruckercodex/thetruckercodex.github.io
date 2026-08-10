@@ -1524,6 +1524,48 @@
           "reasoning": "No source signal found since last check."
         }
       ]
+    },
+    {
+      "run_date": "2026-08-10T13:38:17.999687+00:00",
+      "entries": [
+        {
+          "timestamp": "2026-08-10T13:37:12.433548+00:00",
+          "file": "2026-02-27-new-entrant-safety-audit-survival-guide.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-10T13:38:16.371945+00:00",
+          "file": "2026-03-02-english-proficiency-as-an-out-of-service-condition-2026-roadside-enforcement-breakdown.md",
+          "status": "updated",
+          "pr_url": "https://github.com/thetruckercodex/thetruckercodex.github.io/pull/40",
+          "change_summary": "FMCSA published a proposed rule (FR doc #2026-16288, 2026-08-10) to formally codify ELP as an OOS violation in the FMCSRs; the post must be updated to clarify that as of August 2026, codification is proposed but not yet final, and that current OOS enforcement derives from guidance and CVSA criteria alignment rather than a completed rulemaking.",
+          "sources": [
+            "https://www.federalregister.gov/documents/2026/08/10/2026-16288/english-language-proficiency-out-of-service-criteria",
+            "https://www.fmcsa.dot.gov/newsroom/us-transportation-secretary-sean-p-duffy-signs-order-announcing-new-guidance-enforce",
+            "https://cvsa.org/news/elp-oosc/",
+            "https://www.fmcsa.dot.gov/registration/commercial-drivers-license/cvsa-training-committee-meeting-september-2025-faqs-0"
+          ]
+        },
+        {
+          "timestamp": "2026-08-10T13:38:17.020878+00:00",
+          "file": "2026-03-03-fmcsa-2026-update-comprehensive-list-of-revoked-eld-devices-and-compliance-strategies.md",
+          "status": "pending_pr",
+          "pr_number": 9
+        },
+        {
+          "timestamp": "2026-08-10T13:38:17.597589+00:00",
+          "file": "2026-03-05-clearinghouse-phase-ıı-cdl-downgrade-enforcement-—-what-carriers-and-drivers-must-do-right-now.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-10T13:38:17.998684+00:00",
+          "file": "2026-02-11-FMCSA-Drug-Alcohol-Clearinghouse.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        }
+      ]
     }
   ]
 }

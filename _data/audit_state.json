@@ -1,5 +1,5 @@
 {
-  "cursor": 18,
+  "cursor": 23,
   "cycle": 2,
   "posts": {
     "2026-02-08-common-dot-violations-how-to-avoid.md": {
@@ -86,12 +86,13 @@
       "last_result": "no_change"
     },
     "2026-02-27-new-entrant-safety-audit-survival-guide.md": {
-      "last_checked_date": "2026-07-05",
+      "last_checked_date": "2026-08-10",
       "last_result": "no_change"
     },
     "2026-03-02-english-proficiency-as-an-out-of-service-condition-2026-roadside-enforcement-breakdown.md": {
-      "last_checked_date": "2026-07-05",
-      "last_result": "no_change"
+      "last_checked_date": "2026-08-10",
+      "last_result": "updated",
+      "open_pr_number": 40
     },
     "2026-03-03-fmcsa-2026-update-comprehensive-list-of-revoked-eld-devices-and-compliance-strategies.md": {
       "open_pr_number": 9,
@@ -99,11 +100,11 @@
       "last_result": "updated"
     },
     "2026-03-05-clearinghouse-phase-ıı-cdl-downgrade-enforcement-—-what-carriers-and-drivers-must-do-right-now.md": {
-      "last_checked_date": "2026-07-06",
+      "last_checked_date": "2026-08-10",
       "last_result": "no_change"
     },
     "2026-02-11-FMCSA-Drug-Alcohol-Clearinghouse.md": {
-      "last_checked_date": "2026-07-06",
+      "last_checked_date": "2026-08-10",
       "last_result": "no_change"
     },
     "2026-03-08-hours-of-service-the-11-hour-driving-limit-explained.md": {
@@ -750,5 +751,5 @@
       "last_result": "no_change"
     }
   },
-  "updated_at": "2026-08-09T13:12:42.801211+00:00"
+  "updated_at": "2026-08-10T13:38:17.998718+00:00"
 }
