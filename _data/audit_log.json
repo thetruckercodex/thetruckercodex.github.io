@@ -1566,6 +1566,41 @@
           "reasoning": "No source signal found since last check."
         }
       ]
+    },
+    {
+      "run_date": "2026-08-11T13:35:03.007833+00:00",
+      "entries": [
+        {
+          "timestamp": "2026-08-11T13:34:57.719254+00:00",
+          "file": "2026-03-08-hours-of-service-the-11-hour-driving-limit-explained.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-11T13:34:57.981894+00:00",
+          "file": "2026-03-08-the-10-most-common-hos-violations-found-during-roadside-insp.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-11T13:34:58.716149+00:00",
+          "file": "2026-03-08-the-7-eld-errors-officers-check-first-at-the-scale.md",
+          "status": "pending_pr",
+          "pr_number": 10
+        },
+        {
+          "timestamp": "2026-08-11T13:35:02.710842+00:00",
+          "file": "2026-03-08-top-5-brake-violations-that-trigger-an-immediate-oos-order.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-11T13:35:03.006079+00:00",
+          "file": "2026-03-09-pre-trip-inspection-the-15-items-most-drivers-skip.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        }
+      ]
     }
   ]
 }
