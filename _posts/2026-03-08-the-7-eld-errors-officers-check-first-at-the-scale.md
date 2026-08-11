@@ -2,6 +2,7 @@
 layout: post
 title: "The 7 ELD Errors Officers Check First at the Scale"
 date: 2026-03-08 
+last_modified_at: 2026-07-07
 categories: hos-eld
 description: "Enforcement intelligence analysis: The 7 ELD Errors Officers Check First at the Scale. Data-driven insights from FMCSA and CVSA records for motor carriers and compliance professionals."
 ---
@@ -33,6 +34,8 @@ The first thing an officer confirms is whether the ELD in use appears on the FMC
 ### 49 CFR 395.22(d) Transfer Requirements
 
 Officers request a data transfer as a standard step. The ELD must support transfer via either telematics (wireless web services or email) or local transfer (USB 2.0 or Bluetooth). Failure to transfer — whether due to device malfunction, driver unfamiliarity, or software errors — is cited under violation code 395.22. This single failure frequently triggers a deeper inspection and can accelerate a driver toward an out-of-service condition. Drivers who have not practiced the transfer procedure on their specific device are disproportionately cited here.
+
+> **Regulatory note:** Effective July 22, 2026, FMCSA rescinded the requirement under 49 CFR 395.22 for a physical copy of the ELD operator's manual to be kept in the CMV (FR doc #2026-12448). Officers may no longer cite the absence of a printed manual in the vehicle as a standalone 395.22 violation. However, the driver's obligation to understand ELD operation and to accurately present records during inspections remains fully in force. Carriers should ensure drivers receive adequate training and that training records are maintained — the compliance burden shifts from document carriage to demonstrated operational knowledge.
 
 ---
 
@@ -102,3 +105,5 @@ For drivers preparing for out-of-service risk scenarios, the <a href="https://ww
 ---
 
 *Data sourced from FMCSA Enforcement Data and FMCSA public records. Verify current enforcement thresholds at fmcsa.dot.gov.*
+
+*Last verified against Federal Register on 2026-07-07; updated to reflect FR doc #2026-12448 (effective 2026-07-22), which rescinds the 49 CFR 395.22 requirement to keep a physical ELD operator's manual in the CMV.*
