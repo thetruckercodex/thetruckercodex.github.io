@@ -1601,6 +1601,41 @@
           "reasoning": "No source signal found since last check."
         }
       ]
+    },
+    {
+      "run_date": "2026-08-12T13:38:39.327230+00:00",
+      "entries": [
+        {
+          "timestamp": "2026-08-12T13:38:28.735531+00:00",
+          "file": "2026-03-09-why-small-fleets-fail-dot-audits-the-6-most-common-dqf-defic.md",
+          "status": "no_change",
+          "reasoning": "The only Federal Register document provided is doc #2026-16288, a **proposed rule** (not a final or interim final rule) concerning English Language Proficiency out-of-service criteria. It has no effective date, imposes no new compliance deadlines or numeric thresholds, and does not amend any of the specific CFR sections addressed in the post (§391.21, §391.23, §391.25, §391.31, §391.33, §391.41–391.49, or §382.301). The post makes no claims about ELP requirements or OOS criteria that would need to be updated. Because the document is merely a proposal with no final action, it does not constitute a concrete, specific regulatory change that the post fails to reflect. The eCFR fetch was also unavailable, providing no additional evidence of an amendment. Accordingly, no material update is warranted."
+        },
+        {
+          "timestamp": "2026-08-12T13:38:29.054430+00:00",
+          "file": "2026-03-10-the-14-hour-on-duty-window-what-counts-and-what-doesnt.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-12T13:38:34.035096+00:00",
+          "file": "2026-03-10-the-5-cargo-securement-failures-that-generate-the-most-citat.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-12T13:38:34.317581+00:00",
+          "file": "2026-03-10-what-officers-look-for-in-the-first-60-seconds-of-a-level-i.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-12T13:38:39.325740+00:00",
+          "file": "2026-03-11-the-30-minute-break-requirement-exemptions-most-drivers-dont.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        }
+      ]
     }
   ]
 }
