@@ -1636,6 +1636,41 @@
           "reasoning": "No source signal found since last check."
         }
       ]
+    },
+    {
+      "run_date": "2026-08-13T13:38:56.375048+00:00",
+      "entries": [
+        {
+          "timestamp": "2026-08-13T13:38:42.960313+00:00",
+          "file": "2026-03-11-tire-violations-the-exact-measurements-officers-use-to-write.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-13T13:38:49.127853+00:00",
+          "file": "2026-03-12-post-accident-protocol-the-first-4-hours-determine-your-comp.md",
+          "status": "no_change",
+          "reasoning": "The sole Federal Register document provided (doc #2026-16288, published 2026-08-10) is a proposed rule concerning English Language Proficiency out-of-service criteria under FMCSA. It is still in proposed rulemaking status (no final rule, no effective date), and its subject matter — ELP driver qualification as an OOS violation — has no bearing on the post's regulatory claims, which center on 49 CFR 390.15 accident register requirements and 49 CFR Part 382 post-accident drug and alcohol testing timelines. No amendment, revocation, new numeric threshold, changed compliance deadline, or redesignated section affecting 49 CFR 390.15 or 49 CFR Part 382 Subpart C is evidenced in the supplied source data. The eCFR fetch was also unavailable, providing no additional basis for a change determination. Accordingly, no material update to the post is warranted."
+        },
+        {
+          "timestamp": "2026-08-13T13:38:49.721193+00:00",
+          "file": "2026-03-12-what-triggers-a-targeted-roadside-inspection-vs-a-random-sto.md",
+          "status": "pending_pr",
+          "pr_number": 11
+        },
+        {
+          "timestamp": "2026-08-13T13:38:56.153929+00:00",
+          "file": "2026-03-13-owner-operator-dqf-what-you-need-in-your-own-file-on-yoursel.md",
+          "status": "no_change",
+          "reasoning": "The only Federal Register document provided is a **proposed rule** (doc #2026-16288, published 2026-08-10), which proposes to codify English language proficiency (ELP) as an out-of-service violation. A proposed rule is not a final or interim final rule — it has no effective date, no amended CFR text, and carries no legal force. The post's regulatory claims concern 49 CFR Part 391 DQF document requirements (§§391.21, 391.23, 391.25, 391.27, 391.31, 391.33, 391.43, 391.45, 391.51) and Part 382 drug/alcohol records — none of which are touched by the ELP proposed rulemaking even if it were finalized. The eCFR fetch was unavailable, so no live section text could be compared, but the absence of a concrete final rule means there is no evidenced amendment requiring the post to be updated. Consistent with the conservative standard, no material update is warranted."
+        },
+        {
+          "timestamp": "2026-08-13T13:38:56.373293+00:00",
+          "file": "2026-03-13-the-6070-hour-rule-how-to-calculate-your-available-hours.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        }
+      ]
     }
   ]
 }

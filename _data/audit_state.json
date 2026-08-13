@@ -1,5 +1,5 @@
 {
-  "cursor": 33,
+  "cursor": 38,
   "cycle": 2,
   "posts": {
     "2026-02-08-common-dot-violations-how-to-avoid.md": {
@@ -149,11 +149,11 @@
       "last_result": "no_change"
     },
     "2026-03-11-tire-violations-the-exact-measurements-officers-use-to-write.md": {
-      "last_checked_date": "2026-07-08",
+      "last_checked_date": "2026-08-13",
       "last_result": "no_change"
     },
     "2026-03-12-post-accident-protocol-the-first-4-hours-determine-your-comp.md": {
-      "last_checked_date": "2026-07-08",
+      "last_checked_date": "2026-08-13",
       "last_result": "no_change"
     },
     "2026-03-12-what-triggers-a-targeted-roadside-inspection-vs-a-random-sto.md": {
@@ -162,11 +162,11 @@
       "last_result": "updated"
     },
     "2026-03-13-owner-operator-dqf-what-you-need-in-your-own-file-on-yoursel.md": {
-      "last_checked_date": "2026-07-09",
+      "last_checked_date": "2026-08-13",
       "last_result": "no_change"
     },
     "2026-03-13-the-6070-hour-rule-how-to-calculate-your-available-hours.md": {
-      "last_checked_date": "2026-07-09",
+      "last_checked_date": "2026-08-13",
       "last_result": "no_change"
     },
     "2026-03-14-sleeper-berth-provision-how-split-duty-periods-work-under-cu.md": {
@@ -751,5 +751,5 @@
       "last_result": "no_change"
     }
   },
-  "updated_at": "2026-08-12T13:38:39.325770+00:00"
+  "updated_at": "2026-08-13T13:38:56.373325+00:00"
 }
