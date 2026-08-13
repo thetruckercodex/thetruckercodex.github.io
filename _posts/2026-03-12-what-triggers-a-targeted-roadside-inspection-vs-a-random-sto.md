@@ -2,6 +2,7 @@
 layout: post
 title: "What Triggers a Targeted Roadside Inspection vs. a Random Stop"
 date: 2026-03-12
+last_modified_at: 2026-07-09
 categories: audits-violations
 description: "Enforcement intelligence analysis: What Triggers a Targeted Roadside Inspection vs. a Random Stop. Data-driven insights from FMCSA and CVSA records for motor carriers and compliance professionals."
 ---
@@ -59,8 +60,11 @@ Reducing targeted inspection frequency requires direct engagement with the data 
 - Ensure all drivers understand that HOS log violations under 49 CFR Part 395 carry disproportionate BASIC weight relative to their apparent severity
 - Review your DOT compliance audit trigger profile regularly — understanding [what initiates a compliance audit](https://blog.thetruckercodex.com/dot-compliance-audit-triggers/) is directly connected to understanding what escalates your targeted inspection frequency
 - Verify that all vehicle maintenance defect corrections are documented in writing with dates, as officers at targeted inspections will specifically request maintenance records under 49 CFR 396.3
+- Note that effective July 22, 2026, CDL holders are **no longer required to self-report motor vehicle violations** to their State of domicile under 49 CFR Part 383. FMCSA eliminated this requirement (FR doc #2026-12449) because State Driver Licensing Agencies (SDLAs) now exchange violation data exclusively through automated electronic means. However, violations are still captured and reported — the elimination of self-reporting does not reduce Driver Fitness BASIC exposure; it simply means the data pipeline is fully automated. Carriers should verify that drivers do not assume the absence of a self-reporting obligation means violations go unrecorded.
 
 The enforcement data is clear: carriers that appear on SMS prioritization lists face inspection rates three to five times higher than carriers below intervention thresholds. The targeting mechanism is systematic, data-driven, and largely predictable. Treating it as such is the only rational operational response.
 
 ---
 *Data sourced from FMCSA PrePass Data and FMCSA public records. Verify current enforcement thresholds at fmcsa.dot.gov.*
+
+*Last verified against the Federal Register on 2026-07-09; updated to reflect FR document #2026-12449 (eff. 2026-07-22), which removes the CDL self-reporting requirement from 49 CFR Part 383.*
