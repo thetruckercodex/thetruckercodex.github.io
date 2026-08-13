@@ -55,6 +55,14 @@
   "next_product_index": 25,
   "educational": [
     {
+      "id": "E164",
+      "url": "https://blog.thetruckercodex.com/separating-business-and-personal-finances-why-commingling-si/",
+      "title": "Separating Business and Personal Finances: Why Commingling Sinks Trucking LLCs",
+      "category": "business-management",
+      "date": "2026-08-13",
+      "used": false
+    },
+    {
       "id": "E163",
       "url": "https://blog.thetruckercodex.com/1099-vs-employee-misclassification-risk-for-owner-operators/",
       "title": "1099 vs. Employee: Misclassification Risk for Owner-Operators Leased to a Carrier",
