@@ -1,5 +1,5 @@
 {
-  "cursor": 38,
+  "cursor": 43,
   "cycle": 2,
   "posts": {
     "2026-02-08-common-dot-violations-how-to-avoid.md": {
@@ -175,15 +175,15 @@
       "last_result": "updated"
     },
     "2026-03-14-the-8-documents-you-must-have-in-the-cab-during-any-inspecti.md": {
-      "last_checked_date": "2026-07-09",
+      "last_checked_date": "2026-08-14",
       "last_result": "no_change"
     },
     "2026-03-14-hazmat-documentation-control-why-shipping-papers-placard-references-and-training-records-must-function-as-one-compliance-system.md": {
-      "last_checked_date": "2026-07-10",
+      "last_checked_date": "2026-08-14",
       "last_result": "no_change"
     },
     "2026-03-15-how-to-read-your-csa-scorecard-and-identify-your-biggest-ris.md": {
-      "last_checked_date": "2026-07-10",
+      "last_checked_date": "2026-08-14",
       "last_result": "no_change"
     },
     "2026-03-15-short-haul-exemption-who-qualifies-and-what-records-are-requ.md": {
@@ -751,5 +751,5 @@
       "last_result": "no_change"
     }
   },
-  "updated_at": "2026-08-13T13:38:56.373325+00:00"
+  "updated_at": "2026-08-14T13:36:11.519605+00:00"
 }

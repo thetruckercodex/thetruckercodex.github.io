@@ -1671,6 +1671,41 @@
           "reasoning": "No source signal found since last check."
         }
       ]
+    },
+    {
+      "run_date": "2026-08-14T13:36:11.521357+00:00",
+      "entries": [
+        {
+          "timestamp": "2026-08-14T13:34:38.954734+00:00",
+          "file": "2026-03-14-sleeper-berth-provision-how-split-duty-periods-work-under-cu.md",
+          "status": "pending_pr",
+          "pr_number": 12
+        },
+        {
+          "timestamp": "2026-08-14T13:34:39.706819+00:00",
+          "file": "2026-03-14-the-8-documents-you-must-have-in-the-cab-during-any-inspecti.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-14T13:36:10.020047+00:00",
+          "file": "2026-03-14-hazmat-documentation-control-why-shipping-papers-placard-references-and-training-records-must-function-as-one-compliance-system.md",
+          "status": "no_change",
+          "reasoning": "Federal Register document 2026-15808 (published 2026-08-04, effective 2026-09-03) is a final rule that concretely amends the emergency response information requirements the post directly discusses. The rule allows domestic carriers and facility operators to maintain **electronic copies** of emergency response information rather than requiring hard-copy paper documents. The post's section on §172.602 discusses emergency response information accessibility without acknowledging this new regulatory option, which is a materially inaccurate omission for a compliance-oriented post advising carriers on documentation practices. [PARSE_ERROR: updated content block missing, downgraded to NO_CHANGE]"
+        },
+        {
+          "timestamp": "2026-08-14T13:36:10.752071+00:00",
+          "file": "2026-03-15-how-to-read-your-csa-scorecard-and-identify-your-biggest-ris.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-14T13:36:11.519584+00:00",
+          "file": "2026-03-15-short-haul-exemption-who-qualifies-and-what-records-are-requ.md",
+          "status": "pending_pr",
+          "pr_number": 13
+        }
+      ]
     }
   ]
 }
