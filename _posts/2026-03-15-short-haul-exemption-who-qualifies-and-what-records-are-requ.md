@@ -2,6 +2,7 @@
 layout: post
 title: "Short-Haul Exemption: Who Qualifies and What Records Are Required"
 date: 2026-03-15
+last_modified_at: 2026-07-10
 categories: hos-eld
 description: "Comprehensive analysis of Short-Haul Exemption: Who Qualifies and What Records Are Required under 49 CFR Part 395. Regulatory requirements, enforcement consequences, and compliance guidance for motor carriers."
 ---
@@ -59,6 +60,8 @@ These records must be retained for **six months** from the date of creation. Car
 
 This is the most consequential misunderstanding in short-haul compliance. Drivers exempt under §395.1(e) do not complete a graph-grid log or an ELD record, but the employer must independently maintain the time record described above. During a compliance review or roadside inspection, the absence of these time records — even if the driver legitimately qualified for the exemption — constitutes a violation of §395.8, which requires that records be maintained and produced upon demand.
 
+**Note on ELD in-vehicle documentation (effective 2026-07-22):** FMCSA has rescinded the regulatory requirement that a copy of the ELD operator's manual be kept in the CMV (FR doc 2026-12448, 91 FR ___, June 22, 2026, eff. July 22, 2026). This change applies to all CMV operations subject to ELD requirements. Carriers that previously maintained physical operator's manuals in vehicles solely to satisfy this regulatory requirement should update their in-cab documentation checklists accordingly. Note that drivers remain required to understand ELD operation and to be able to demonstrate accurate recordkeeping and produce records during inspections — the rescission eliminates only the requirement to keep the physical manual in the vehicle, not the underlying knowledge and demonstration obligations.
+
 ---
 
 ## Interaction With Other HOS Provisions
@@ -90,6 +93,7 @@ Carriers seeking to operationalize the short-haul exemption without creating sys
 - Conduct monthly audits comparing driver time records against GPS or telematics data to confirm radius compliance
 - Train dispatchers to identify and flag duty periods approaching the 14-hour window before the limit is reached
 - Maintain separate filing protocols for short-haul time records to facilitate rapid retrieval during compliance reviews
+- Update in-cab documentation checklists to remove the ELD operator's manual as a required in-vehicle item (effective 2026-07-22 per FR doc 2026-12448), while confirming that driver ELD knowledge and demonstration obligations remain in force
 
 ---
 
@@ -103,6 +107,7 @@ Carriers seeking to operationalize the short-haul exemption without creating sys
 | 49 CFR §395.3(a)(3)(ii) | 30-minute rest break requirement |
 | 49 CFR §395.8 | Driver record of duty status requirements |
 | 49 CFR Part 386, Appendix B | Civil penalty schedule |
+| FR doc 2026-12448 (eff. 2026-07-22) | Rescinds requirement for ELD operator's manual in CMV |
 
 [Full regulatory text: 49 CFR §395.1(e) via eCFR](https://www.ecfr.gov/current/title-49/part-395/section-395.1(e))
 
@@ -111,3 +116,5 @@ For drivers preparing for out-of-service risk scenarios, the <a href="https://ww
 ---
 
 *Regulatory references verified against current eCFR and FMCSA official sources. Verify applicability for your specific operation. This post does not constitute legal advice.*
+
+*Last verified against Federal Register on 2026-07-10; updated to reflect FR doc 2026-12448 (86 FR, June 22, 2026, eff. July 22, 2026) rescinding the requirement for an ELD operator's manual to be kept in the CMV.*
