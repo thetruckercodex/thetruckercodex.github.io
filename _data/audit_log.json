@@ -1706,6 +1706,41 @@
           "pr_number": 13
         }
       ]
+    },
+    {
+      "run_date": "2026-08-15T12:55:10.329001+00:00",
+      "entries": [
+        {
+          "timestamp": "2026-08-15T12:54:58.128940+00:00",
+          "file": "2026-03-16-drug-test-refusal-what-it-means-for-a-cdl-and-how-carriers-m.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-15T12:54:58.756839+00:00",
+          "file": "2026-03-16-lighting-violations-after-dark-why-night-inspections-produce.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-15T12:54:59.489134+00:00",
+          "file": "2026-03-17-adverse-driving-conditions-exemption-when-and-how-to-apply-i.md",
+          "status": "pending_pr",
+          "pr_number": 14
+        },
+        {
+          "timestamp": "2026-08-15T12:55:03.333460+00:00",
+          "file": "2026-03-17-the-clearinghouse-query-carriers-most-often-forget-to-run.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-15T12:55:10.327071+00:00",
+          "file": "2026-03-18-how-fmcsa-selects-carriers-for-compliance-reviews-the-data-b.md",
+          "status": "no_change",
+          "reasoning": "The only Federal Register document provided is doc #2026-16288, a **proposed rule** (not a final or interim final rule) that would codify English Language Proficiency as an out-of-service violation. Because it is a proposed rule with no effective date, it represents only a potential future change — no concrete amendment to 49 CFR Part 390 § 390.5 or 49 CFR Part 395 § 395.3 has been finalized or made effective. The post does not make any claim about English Language Proficiency OOS criteria, so even if the proposal were final, it would not directly contradict anything in the post. The eCFR fetch was unavailable, providing no additional evidence of a concrete textual change. Under the governing standard — requiring a concrete, specific final or interim rule, amendment, revocation, new numeric threshold, or new compliance deadline — this proposed rule does not meet the bar for a MATERIAL_UPDATE."
+        }
+      ]
     }
   ]
 }

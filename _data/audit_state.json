@@ -1,5 +1,5 @@
 {
-  "cursor": 43,
+  "cursor": 48,
   "cycle": 2,
   "posts": {
     "2026-02-08-common-dot-violations-how-to-avoid.md": {
@@ -192,11 +192,11 @@
       "last_result": "updated"
     },
     "2026-03-16-drug-test-refusal-what-it-means-for-a-cdl-and-how-carriers-m.md": {
-      "last_checked_date": "2026-07-10",
+      "last_checked_date": "2026-08-15",
       "last_result": "no_change"
     },
     "2026-03-16-lighting-violations-after-dark-why-night-inspections-produce.md": {
-      "last_checked_date": "2026-07-10",
+      "last_checked_date": "2026-08-15",
       "last_result": "no_change"
     },
     "2026-03-17-adverse-driving-conditions-exemption-when-and-how-to-apply-i.md": {
@@ -205,11 +205,11 @@
       "last_result": "updated"
     },
     "2026-03-17-the-clearinghouse-query-carriers-most-often-forget-to-run.md": {
-      "last_checked_date": "2026-07-11",
+      "last_checked_date": "2026-08-15",
       "last_result": "no_change"
     },
     "2026-03-18-how-fmcsa-selects-carriers-for-compliance-reviews-the-data-b.md": {
-      "last_checked_date": "2026-07-11",
+      "last_checked_date": "2026-08-15",
       "last_result": "no_change"
     },
     "2026-03-18-what-a-conditional-safety-rating-actually-means-and-how-to-f.md": {
@@ -751,5 +751,5 @@
       "last_result": "no_change"
     }
   },
-  "updated_at": "2026-08-14T13:36:11.519605+00:00"
+  "updated_at": "2026-08-15T12:55:10.327105+00:00"
 }
