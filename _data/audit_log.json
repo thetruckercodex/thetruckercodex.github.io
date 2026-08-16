@@ -1741,6 +1741,41 @@
           "reasoning": "The only Federal Register document provided is doc #2026-16288, a **proposed rule** (not a final or interim final rule) that would codify English Language Proficiency as an out-of-service violation. Because it is a proposed rule with no effective date, it represents only a potential future change — no concrete amendment to 49 CFR Part 390 § 390.5 or 49 CFR Part 395 § 395.3 has been finalized or made effective. The post does not make any claim about English Language Proficiency OOS criteria, so even if the proposal were final, it would not directly contradict anything in the post. The eCFR fetch was unavailable, providing no additional evidence of a concrete textual change. Under the governing standard — requiring a concrete, specific final or interim rule, amendment, revocation, new numeric threshold, or new compliance deadline — this proposed rule does not meet the bar for a MATERIAL_UPDATE."
         }
       ]
+    },
+    {
+      "run_date": "2026-08-16T12:56:44.207332+00:00",
+      "entries": [
+        {
+          "timestamp": "2026-08-16T12:56:37.217158+00:00",
+          "file": "2026-03-18-what-a-conditional-safety-rating-actually-means-and-how-to-f.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-16T12:56:42.268514+00:00",
+          "file": "2026-03-19-the-6-recordkeeping-failures-fmcsa-auditors-find-in-every-sm.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-16T12:56:43.064827+00:00",
+          "file": "2026-03-19-violation-severity-weights-why-some-tickets-cost-you-more-cs.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-16T12:56:43.663638+00:00",
+          "file": "2026-03-20-cvsa-roadcheck-week-how-to-prepare-your-fleet-before-the-ann.md",
+          "status": "pending_pr",
+          "pr_number": 15
+        },
+        {
+          "timestamp": "2026-08-16T12:56:44.205280+00:00",
+          "file": "2026-03-20-personal-conveyance-what-fmcsa-actually-permits.md",
+          "status": "pending_pr",
+          "pr_number": 16
+        }
+      ]
     }
   ]
 }
