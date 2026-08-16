@@ -2,6 +2,7 @@
 layout: post
 title: "Personal Conveyance: What FMCSA Actually Permits"
 date: 2026-03-20
+last_modified_at: 2026-07-12
 categories: hos-eld
 description: "Comprehensive analysis of Personal Conveyance: What FMCSA Actually Permits under 49 CFR Part 395. Regulatory requirements, enforcement consequences, and compliance guidance for motor carriers."
 ---
@@ -44,6 +45,8 @@ Drivers utilizing the [adverse driving conditions exemption](https://blog.thetru
 
 Under the ELD mandate established in [49 CFR Part 395, Subpart B](https://blog.thetruckercodex.com/electronic-logging-device-eld-compliance/), personal conveyance must be annotated on the electronic record of duty status. The ELD will capture the movement as driving if the vehicle is in motion; the driver must manually select the personal conveyance special driving category and enter a remark explaining the nature and purpose of the movement. This annotation is not optional — it constitutes the evidentiary foundation for any enforcement defense.
 
+> **Regulatory Update (effective July 22, 2026):** FMCSA has rescinded the requirement that a copy of the ELD operator's manual be kept in the CMV (FR doc #2026-12448, published June 22, 2026). Drivers remain fully responsible for understanding the operation of the ELD on their vehicle and must be able to demonstrate that understanding during roadside inspections — the rescission eliminates only the physical paper/electronic copy requirement, not the underlying competency obligation.
+
 ### What a Compliant Annotation Must Contain
 
 A defensible personal conveyance annotation should, at minimum, address:
@@ -82,10 +85,13 @@ Carriers should implement written personal conveyance policies that address the 
 | 49 CFR §395.2 | Definitions — personal conveyance, on-duty time, driving time |
 | 49 CFR §395.3 | Maximum driving time for property-carrying vehicles |
 | 49 CFR §395.8 | Driver's record of duty status — falsification prohibition |
-| 49 CFR Part 395, Subpart B | ELD technical standards and annotation requirements |
+| 49 CFR Part 395, Subpart B | ELD technical standards and annotation requirements (note: as of July 22, 2026, the requirement to keep a copy of the ELD operator's manual in the CMV has been rescinded per FR doc #2026-12448) |
 | 49 U.S.C. §521(b)(2)(B) | Civil penalty authority for HOS violations |
 | FMCSA Guidance (July 2018) | Agency interpretive guidance on personal conveyance scenarios |
+| FR doc #2026-12448 (eff. July 22, 2026) | Final rule rescinding the ELD operator's manual in-cab retention requirement |
 
 ---
 
 *Regulatory references verified against current eCFR and FMCSA official sources. Verify applicability for your specific operation. This post does not constitute legal advice.*
+
+*Last verified against eCFR/Federal Register on 2026-07-12; updated to reflect FR document #2026-12448 (effective July 22, 2026), which rescinds the 49 CFR Part 395, Subpart B requirement to retain a copy of the ELD operator's manual in the commercial motor vehicle.*
