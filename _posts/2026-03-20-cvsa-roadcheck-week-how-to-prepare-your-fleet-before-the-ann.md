@@ -2,6 +2,7 @@
 layout: post
 title: "CVSA Roadcheck Week: How to Prepare Your Fleet Before the Annual Blitz"
 date: 2026-03-20
+last_modified_at: 2026-07-12
 categories: audits-violations
 description: "Enforcement intelligence analysis: CVSA Roadcheck Week: How to Prepare Your Fleet Before the Annual Blitz. Data-driven insights from FMCSA and CVSA records for motor carriers and compliance professionals."
 ---
@@ -71,7 +72,7 @@ Execute the following in the 30 days prior to Roadcheck week:
 - Pull your current BASIC scores from the [CVSA Roadcheck program page](https://www.cvsa.org/programs/roadcheck/) and cross-reference against FMCSA's SMS to identify your highest-exposure categories
 - Complete a full brake inspection on every unit in your active fleet — measure pushrod stroke against OOSC limits, not just CFR minimums
 - Audit DQ files for medical certificate currency, CDL endorsement alignment with assigned equipment, and MVR recency under 391.25
-- Verify ELD functionality and HOS log accuracy across your driver pool — data diagnostics and malfunctions must be resolved before inspection exposure
+- Verify ELD functionality and HOS log accuracy across your driver pool — data diagnostics and malfunctions must be resolved before inspection exposure. **Note:** Effective July 22, 2026, FMCSA rescinded the requirement to keep a physical copy of the ELD operator's manual in the CMV (FR doc #2026-12448). Drivers are still required to understand ELD operation and present accurate records during inspections, but the in-cab manual is no longer a required document that inspectors can cite as absent.
 - Confirm annual inspection sticker currency on all trailers, including drop-and-hook assets that may have drifted out of your maintenance cycle
 
 ---
@@ -87,3 +88,5 @@ For drivers preparing for out-of-service risk scenarios, the <a href="https://ww
 ---
 
 *Data sourced from CVSA Annual Report and FMCSA public records. Verify current enforcement thresholds at fmcsa.dot.gov.*
+
+*Last verified against the Federal Register on 2026-07-22; updated to reflect FR doc #2026-12448 (eff. 2026-07-22), which rescinds the 49 CFR Part 395 requirement to keep an ELD operator's manual in the CMV.*
