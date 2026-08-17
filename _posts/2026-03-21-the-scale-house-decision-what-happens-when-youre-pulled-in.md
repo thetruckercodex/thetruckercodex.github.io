@@ -2,6 +2,7 @@
 layout: post
 title: "The Scale House Decision: What Happens When You're Pulled In"
 date: 2026-03-21
+last_modified_at: 2026-07-12
 categories: audits-violations
 description: "Enforcement intelligence analysis: The Scale House Decision: What Happens When You're Pulled In. Data-driven insights from FMCSA and CVSA records for motor carriers and compliance professionals."
 ---
@@ -50,6 +51,8 @@ The [six recordkeeping failures FMCSA auditors find in every small carrier audit
 
 Under 49 CFR 395.22 and 395.24, ELD malfunctions must be documented and drivers must revert to paper logs within specified timeframes. Officers at Level I and Level III inspections routinely query ELD data directly through the device's standardized output. Unresolved ELD diagnostic events, missing driver annotations for exemptions, or mismatched odometer records are all citable under violation code 395.8(e) and related provisions. An ELD that shows clean logs but has unresolved malfunction alerts is not a clean ELD.
 
+**Note on ELD operator's manual (effective 2026-07-22):** FMCSA has rescinded the requirement that a physical copy of the ELD operator's manual be kept in the CMV (FR doc #2026-12448, effective July 22, 2026). Prior to this date, the absence of the manual in the cab was a citable violation; as of the effective date, carriers and drivers are no longer required to carry it. Drivers are still required to understand ELD operation and must be able to demonstrate accurate recordkeeping and present required ELD data during inspections — the manual requirement was administrative, not a substitute for competency. Verify current in-cab ELD documentation requirements at [fmcsa.dot.gov](https://www.fmcsa.dot.gov).
+
 ## Out-of-Service Orders: Criteria and Consequence Asymmetry
 
 An out-of-service (OOS) order under 49 CFR 396.9(c) prohibits further operation until the identified condition is corrected. CVSA publishes the OOS criteria annually, and the thresholds are specific: brake adjustment limits, tire tread depth minimums, lighting requirements, and load securement standards all carry defined cut-points. Exceeding those cut-points — not approaching them — is what generates an OOS.
@@ -66,3 +69,5 @@ For drivers preparing for out-of-service risk scenarios, the <a href="https://ww
 
 ---
 *Data sourced from CVSA Protocol and FMCSA public records. Verify current enforcement thresholds at fmcsa.dot.gov.*
+
+*Last verified against Federal Register on 2026-07-22; updated to reflect FR doc #2026-12448 (effective 2026-07-22), which rescinds the 49 CFR Part 395 requirement to keep an ELD operator's manual in the CMV.*
