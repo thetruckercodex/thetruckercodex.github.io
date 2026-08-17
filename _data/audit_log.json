@@ -1776,6 +1776,41 @@
           "pr_number": 16
         }
       ]
+    },
+    {
+      "run_date": "2026-08-17T13:02:21.732516+00:00",
+      "entries": [
+        {
+          "timestamp": "2026-08-17T13:02:00.293428+00:00",
+          "file": "2026-03-21-the-scale-house-decision-what-happens-when-youre-pulled-in.md",
+          "status": "pending_pr",
+          "pr_number": 17
+        },
+        {
+          "timestamp": "2026-08-17T13:02:00.896752+00:00",
+          "file": "2026-03-21-yard-moves-definition-proper-annotation-and-audit-risk.md",
+          "status": "pending_pr",
+          "pr_number": 18
+        },
+        {
+          "timestamp": "2026-08-17T13:02:01.501689+00:00",
+          "file": "2026-03-22-eld-malfunction-protocol-what-drivers-and-carriers-must-do.md",
+          "status": "pending_pr",
+          "pr_number": 19
+        },
+        {
+          "timestamp": "2026-08-17T13:02:07.977090+00:00",
+          "file": "2026-03-22-how-to-dispute-a-roadside-inspection-finding-through-dataqs.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-17T13:02:21.730603+00:00",
+          "file": "2026-03-23-medical-certificate-expiration-the-cascade-of-consequences-w.md",
+          "status": "no_change",
+          "reasoning": "The only Federal Register document provided (doc #2026-16288, published 2026-08-10) is a **proposed rule** — not a final rule, interim final rule, or amendment — concerning English Language Proficiency out-of-service criteria. It does not amend 49 CFR 391.45, does not change any numeric threshold, expiration period, grace period, CDL downgrade timeline, or CSA/BASIC percentile intervention threshold discussed in the post. The eCFR fetch was unavailable, providing no additional evidence of any amendment to Part 391. Nothing in the supplied source data constitutes a concrete, specific change to the regulatory claims made in the published post, and speculation about the proposed rule's eventual effect would be inappropriate under a conservative audit standard."
+        }
+      ]
     }
   ]
 }

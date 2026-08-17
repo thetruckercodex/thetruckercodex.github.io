@@ -1,5 +1,5 @@
 {
-  "cursor": 53,
+  "cursor": 58,
   "cycle": 2,
   "posts": {
     "2026-02-08-common-dot-violations-how-to-avoid.md": {
@@ -250,11 +250,11 @@
       "last_result": "updated"
     },
     "2026-03-22-how-to-dispute-a-roadside-inspection-finding-through-dataqs.md": {
-      "last_checked_date": "2026-07-13",
+      "last_checked_date": "2026-08-17",
       "last_result": "no_change"
     },
     "2026-03-23-medical-certificate-expiration-the-cascade-of-consequences-w.md": {
-      "last_checked_date": "2026-07-13",
+      "last_checked_date": "2026-08-17",
       "last_result": "no_change"
     },
     "2026-03-24-cdl-medical-certificate-requirements-timing-forms-and-filing.md": {
@@ -751,5 +751,5 @@
       "last_result": "no_change"
     }
   },
-  "updated_at": "2026-08-16T12:56:44.205296+00:00"
+  "updated_at": "2026-08-17T13:02:21.730636+00:00"
 }
