@@ -2,6 +2,7 @@
 layout: post
 title: "ELD Malfunction Protocol: What Drivers and Carriers Must Do"
 date: 2026-03-22
+last_modified_at: 2026-07-13
 categories: hos-eld
 description: "Comprehensive analysis of ELD Malfunction Protocol: What Drivers and Carriers Must Do under 49 CFR Part 395. Regulatory requirements, enforcement consequences, and compliance guidance for motor carriers."
 ---
@@ -51,6 +52,10 @@ Under §395.34(b), the motor carrier must:
 
 The eight-day clock begins on the date the driver discovers and reports the malfunction — not the date the carrier schedules a service appointment. Carriers that allow drivers to continue operating beyond eight days without repair authorization from the Field Administrator are operating in direct violation of §395.34(b)(1). This is a recordable violation under the CSA Safety Measurement System and will accumulate against the carrier's HOS BASIC score.
 
+### ELD Operator's Manual: Requirement Rescinded as of July 22, 2026
+
+Carriers should be aware that FMCSA has rescinded the requirement to keep a copy of the ELD operator's manual in the commercial motor vehicle. Effective **July 22, 2026**, the final rule published at 91 FR [doc #2026-12448] removes this in-cab manual obligation from the FMCSRs. Drivers are still required to understand the operation of the ELD on their vehicle and to be able to present relevant operational information during inspections — but the physical or electronic copy of the operator's manual no longer needs to be carried in the CMV. Carriers should update their driver orientation materials and in-cab document checklists to reflect this change.
+
 ### Documentation the Carrier Must Retain
 
 Carriers should maintain, in the driver's qualification or dispatch file, a written record of: the malfunction notification date and method, the ELD identifier and device serial number, the corrective action taken, and the return-to-service date. Although §395.34 does not prescribe a specific form for this internal documentation, it provides audit evidence when an FMCSA compliance review examines the gap between paper logs and ELD records. Given that [2026 ELD compliance standards include heightened revocation exposure for noncompliant devices](https://blog.thetruckercodex.com/2026-eld-compliance-standards-revocation-updates/), carriers must also verify that replacement units appear on the current FMCSA-registered ELD list before return to service.
@@ -69,6 +74,7 @@ Civil penalties for HOS recordkeeping violations under 49 U.S.C. §521(b) can re
 
 > **Primary Authority:** 49 CFR §395.34 — Malfunction and Data Diagnostic Event Indicators  
 > **Supporting Regulations:** 49 CFR §395.8 (Driver's Record of Duty Status); 49 CFR Part 395, Appendix A, §4.6 (ELD Technical Specifications — Malfunction and Diagnostic Standards)  
+> **Recent Amendment:** FR Doc. #2026-12448 (published 2026-06-22, eff. 2026-07-22) — FMCSA final rule rescinding the requirement for an ELD operator's manual to be kept in the CMV  
 > **Enforcement Authority:** [FMCSA](https://www.fmcsa.dot.gov/)  
 > **CFR Source:** [49 CFR §395.34 via eCFR](https://www.ecfr.gov/current/title-49/part-395/section-395.34)  
 > **Penalty Authority:** 49 U.S.C. §521(b); FMCSA Civil Penalty Adjustment Tables (current year)
@@ -76,3 +82,5 @@ Civil penalties for HOS recordkeeping violations under 49 U.S.C. §521(b) can re
 ---
 
 *Regulatory references verified against current eCFR and FMCSA official sources. Verify applicability for your specific operation. This post does not constitute legal advice.*
+
+*Last verified against Federal Register on 2026-07-22; updated to reflect FR Doc. #2026-12448 (eff. 2026-07-22), rescinding the requirement for an ELD operator's manual to be kept in the commercial motor vehicle.*
