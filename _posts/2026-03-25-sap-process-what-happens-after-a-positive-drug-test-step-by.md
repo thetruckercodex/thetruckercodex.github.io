@@ -2,6 +2,7 @@
 layout: post
 title: "SAP Process: What Happens After a Positive Drug Test, Step by Step"
 date: 2026-03-25
+last_modified_at: 2026-07-14
 categories: dqf
 description: "Enforcement intelligence analysis: SAP Process: What Happens After a Positive Drug Test, Step by Step. Data-driven insights from FMCSA and CVSA records for motor carriers and compliance professionals."
 ---
@@ -40,6 +41,8 @@ After the driver completes the prescribed program, the SAP conducts a second fac
 
 Only after a favorable follow-up SAP evaluation can the employer order a return-to-duty drug test. This test must be directly observed per §40.67. A negative result on a non-observed specimen is not a valid return-to-duty test — a violation that regularly appears in DOT compliance reviews because carriers allow drivers back under standard (non-observed) collections.
 
+> **Regulatory Update — Effective June 10, 2026:** DOT final rule FR doc 2026-09290 (published May 11, 2026) amends 49 CFR Part 40 to address collection modality when oral fluid testing is required but not yet available at a collection site. Under the amended rule, a directly observed **urine** collection must be substituted in those circumstances — preserving the directly observed requirement even when oral fluid is unavailable. Carriers and C/TPAs managing return-to-duty collections should confirm with their collection site which specimen modality is available and ensure a directly observed urine collection is executed if oral fluid cannot be conducted. The rule also updates Part 40 terminology consistent with Executive Order 14168; verify current regulatory text at [eCFR Part 40](https://www.ecfr.gov/current/title-49/subtitle-A/part-40) to ensure your procedures and forms reflect the revised terminology.
+
 ### Phase 5 — Follow-Up Testing Plan (§40.307–40.309)
 
 The SAP issues a follow-up testing plan specifying the minimum number of tests required after return to duty. Under §40.307(c), the plan must include at minimum six tests in the first 12 months following return to duty. The SAP can require testing over a maximum period of 60 months. Critically, the employer — not the SAP — is responsible for executing the plan. The plan itself is confidential and transmitted directly from the SAP to the employer's designated representative.
@@ -72,3 +75,5 @@ For carriers managing clearinghouse and testing obligations, the <a href="https:
 
 ---
 *Data sourced from 49 CFR Part 40 Subpart O and FMCSA public records. Verify current enforcement thresholds at fmcsa.dot.gov.*
+
+*Last verified against the Federal Register on 2026-07-14; updated to reflect FR doc 2026-09290 (published 2026-05-11, effective 2026-06-10), which amends 49 CFR Part 40 to require directly observed urine collection when oral fluid testing is required but unavailable, and updates Part 40 terminology consistent with Executive Order 14168.*
