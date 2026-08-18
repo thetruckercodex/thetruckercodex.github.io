@@ -1811,6 +1811,41 @@
           "reasoning": "The only Federal Register document provided (doc #2026-16288, published 2026-08-10) is a **proposed rule** — not a final rule, interim final rule, or amendment — concerning English Language Proficiency out-of-service criteria. It does not amend 49 CFR 391.45, does not change any numeric threshold, expiration period, grace period, CDL downgrade timeline, or CSA/BASIC percentile intervention threshold discussed in the post. The eCFR fetch was unavailable, providing no additional evidence of any amendment to Part 391. Nothing in the supplied source data constitutes a concrete, specific change to the regulatory claims made in the published post, and speculation about the proposed rule's eventual effect would be inappropriate under a conservative audit standard."
         }
       ]
+    },
+    {
+      "run_date": "2026-08-18T13:03:58.283014+00:00",
+      "entries": [
+        {
+          "timestamp": "2026-08-18T13:03:55.972419+00:00",
+          "file": "2026-03-24-cdl-medical-certificate-requirements-timing-forms-and-filing.md",
+          "status": "no_change",
+          "reasoning": "The only Federal Register document provided is a **proposed rule** (doc #2026-16288, published 2026-08-10) concerning English Language Proficiency out-of-service criteria. It has no effective date, is not a final or interim final rule, and addresses ELP enforcement — not medical examination forms, certification timing, National Registry requirements, CDL self-certification categories, or any other regulatory claim made in the post. The post does not address English language proficiency at all, so even if the proposed rule were final, it would be tangential to the post's subject matter. The eCFR fetch was unavailable, providing no concrete textual evidence of any amendment to 49 CFR §391.43 or 49 CFR Part 383. With no final rule, no amendment, no changed threshold, and no new compliance deadline evidenced in the supplied source data, there is no basis for a material update."
+        },
+        {
+          "timestamp": "2026-08-18T13:03:56.351585+00:00",
+          "file": "2026-03-24-what-owner-operators-get-wrong-about-their-own-operating-aut.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-18T13:03:57.025762+00:00",
+          "file": "2026-03-25-sap-process-what-happens-after-a-positive-drug-test-step-by.md",
+          "status": "pending_pr",
+          "pr_number": 20
+        },
+        {
+          "timestamp": "2026-08-18T13:03:57.667188+00:00",
+          "file": "2026-03-25-the-true-cost-of-an-oos-violation-fines-delays-and-csa-impac.md",
+          "status": "pending_pr",
+          "pr_number": 21
+        },
+        {
+          "timestamp": "2026-08-18T13:03:58.281611+00:00",
+          "file": "2026-03-26-how-hos-violations-become-crash-liability-what-plaintiff-att.md",
+          "status": "pending_pr",
+          "pr_number": 22
+        }
+      ]
     }
   ]
 }

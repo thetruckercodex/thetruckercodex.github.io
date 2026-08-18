@@ -1,5 +1,5 @@
 {
-  "cursor": 58,
+  "cursor": 63,
   "cycle": 2,
   "posts": {
     "2026-02-08-common-dot-violations-how-to-avoid.md": {
@@ -258,11 +258,11 @@
       "last_result": "no_change"
     },
     "2026-03-24-cdl-medical-certificate-requirements-timing-forms-and-filing.md": {
-      "last_checked_date": "2026-07-13",
+      "last_checked_date": "2026-08-18",
       "last_result": "no_change"
     },
     "2026-03-24-what-owner-operators-get-wrong-about-their-own-operating-aut.md": {
-      "last_checked_date": "2026-07-13",
+      "last_checked_date": "2026-08-18",
       "last_result": "no_change"
     },
     "2026-03-25-sap-process-what-happens-after-a-positive-drug-test-step-by.md": {
@@ -751,5 +751,5 @@
       "last_result": "no_change"
     }
   },
-  "updated_at": "2026-08-17T13:02:21.730636+00:00"
+  "updated_at": "2026-08-18T13:03:58.281629+00:00"
 }
