@@ -2,6 +2,7 @@
 layout: post
 title: "ELD Vendors and Technical Non-Compliance: What the 2025-2026 Revocations Tell Us"
 date: 2026-03-28
+last_modified_at: 2026-07-15
 categories: hos-eld
 description: "Enforcement intelligence analysis: ELD Vendors and Technical Non-Compliance: What the 2025-2026 Revocations Tell Us. Data-driven insights from FMCSA and CVSA records for motor carriers and compliance professionals."
 ---
@@ -52,6 +53,10 @@ Passive compliance — buying a device, installing it, and assuming regulatory v
 
 The [2026 ELD compliance standards and revocation updates](https://blog.thetruckercodex.com/2026-eld-compliance-standards-revocation-updates/) outlines the specific compliance standards vendors must maintain and provides a framework for carriers to evaluate whether their current device vendor has outstanding non-conformance notices.
 
+### In-Cab Documentation Requirements: A Recent Regulatory Change
+
+Carriers and compliance managers should note that FMCSA has amended Part 395 to **rescind the requirement that a copy of the ELD operator's manual be kept in the commercial motor vehicle** (Final Rule, 88 FR doc. 2026-12448, effective July 22, 2026). Previously, the in-cab presence of the operator's manual was treated as a component of the ELD compliance package subject to roadside inspection. As of the effective date, drivers are no longer required to carry the manual in the vehicle — though drivers remain required to understand ELD operation and to be able to demonstrate accurate recordkeeping during inspections. Carriers should update their driver orientation materials and pre-trip documentation checklists to reflect this change and avoid flagging a no-longer-required item as a compliance gap during internal audits or driver training.
+
 ### Audit Risk From ELD Configuration Errors
 
 Even on non-revoked devices, carriers face significant audit exposure from improper configuration. Two of the highest-frequency audit triggers in the current cycle involve yard move and personal conveyance annotation errors — specifically, carriers enabling yard move status without meeting the definitional requirements under §395.2, or failing to annotate entries with location data as required under §395 Appendix A, Section 4.6.1.3. The enforcement analysis on [yard moves definition, proper annotation, and audit risk](https://blog.thetruckercodex.com/yard-moves-definition-proper-annotation-and-audit-risk/) addresses how these misconfigurations generate both CSA violations and broader Hours of Service exposure during compliance reviews.
@@ -66,3 +71,5 @@ For drivers preparing for out-of-service risk scenarios, the <a href="https://ww
 
 ---
 *Data sourced from FMCSA ELD Revocation List and FMCSA public records. Verify current enforcement thresholds at fmcsa.dot.gov.*
+
+*Last verified against Federal Register on 2026-07-15; updated to reflect FR doc. 2026-12448 (effective 2026-07-22), which rescinds the requirement for an ELD operator's manual to be kept in the CMV under 49 CFR Part 395.*
