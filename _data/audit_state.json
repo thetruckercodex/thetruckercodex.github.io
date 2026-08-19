@@ -1,5 +1,5 @@
 {
-  "cursor": 63,
+  "cursor": 68,
   "cycle": 2,
   "posts": {
     "2026-02-08-common-dot-violations-how-to-avoid.md": {
@@ -286,7 +286,7 @@
       "last_result": "updated"
     },
     "2026-03-28-dot-physical-examination-disqualifying-conditions-and-exempt.md": {
-      "last_checked_date": "2026-07-14",
+      "last_checked_date": "2026-08-19",
       "last_result": "no_change"
     },
     "2026-03-28-eld-vendors-and-technical-non-compliance-what-the-2025-2026.md": {
@@ -295,11 +295,11 @@
       "last_result": "updated"
     },
     "2026-03-29-vision-and-hearing-standards-for-cdl-holders.md": {
-      "last_checked_date": "2026-07-15",
+      "last_checked_date": "2026-08-19",
       "last_result": "no_change"
     },
     "2026-03-29-why-new-entrants-fail-their-safety-audit-analysis-of-common.md": {
-      "last_checked_date": "2026-07-15",
+      "last_checked_date": "2026-08-19",
       "last_result": "no_change"
     },
     "2026-03-30-ifta-audit-triggers-how-fuel-tax-discrepancies-escalate-to-d.md": {
@@ -751,5 +751,5 @@
       "last_result": "no_change"
     }
   },
-  "updated_at": "2026-08-18T13:03:58.281629+00:00"
+  "updated_at": "2026-08-19T13:04:31.405094+00:00"
 }

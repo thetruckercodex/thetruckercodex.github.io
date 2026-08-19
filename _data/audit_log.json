@@ -1846,6 +1846,41 @@
           "pr_number": 22
         }
       ]
+    },
+    {
+      "run_date": "2026-08-19T13:04:31.406929+00:00",
+      "entries": [
+        {
+          "timestamp": "2026-08-19T13:04:18.033273+00:00",
+          "file": "2026-03-27-annual-vehicle-inspection-stickers-whats-accepted-and-what-i.md",
+          "status": "pending_pr",
+          "pr_number": 23
+        },
+        {
+          "timestamp": "2026-08-19T13:04:24.296907+00:00",
+          "file": "2026-03-28-dot-physical-examination-disqualifying-conditions-and-exempt.md",
+          "status": "no_change",
+          "reasoning": "The only Federal Register document provided is doc #2026-16288, a **proposed rule** (not a final or interim final rule) concerning English Language Proficiency out-of-service criteria. It has no effective date, introduces no amendment to 49 CFR §391.41 or §390.5, and does not alter any numeric threshold, disqualifying condition, exemption program, penalty figure, certificate requirement, or any other regulatory fact stated in the post. The eCFR fetch was unavailable, so no live text comparison can be made, but under the conservative standard that absence of evidence is not evidence of change, this warrants no update. Nothing in the supplied source data constitutes a concrete, specific, finalized change to any claim made in the published post."
+        },
+        {
+          "timestamp": "2026-08-19T13:04:25.342102+00:00",
+          "file": "2026-03-28-eld-vendors-and-technical-non-compliance-what-the-2025-2026.md",
+          "status": "pending_pr",
+          "pr_number": 24
+        },
+        {
+          "timestamp": "2026-08-19T13:04:31.132741+00:00",
+          "file": "2026-03-29-vision-and-hearing-standards-for-cdl-holders.md",
+          "status": "no_change",
+          "reasoning": "The only Federal Register document provided (doc #2026-16288, published 2026-08-10) is a **proposed rule** — not a final or interim final rule — concerning English Language Proficiency out-of-service criteria. It has no effective date, proposes no changes to the vision standard at §391.41(b)(10) or the hearing standard at §391.41(b)(11), and does not amend any of the specific regulatory provisions, thresholds, penalty figures, form numbers, or recordkeeping requirements discussed in the post. The eCFR fetch was also unavailable, providing no additional evidence of any amendment. Because the document is merely a proposal and is entirely unrelated to the vision and hearing subject matter of the post, no material update to the published content is warranted."
+        },
+        {
+          "timestamp": "2026-08-19T13:04:31.405050+00:00",
+          "file": "2026-03-29-why-new-entrants-fail-their-safety-audit-analysis-of-common.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        }
+      ]
     }
   ]
 }
