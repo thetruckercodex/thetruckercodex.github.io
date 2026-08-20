@@ -1881,6 +1881,45 @@
           "reasoning": "No source signal found since last check."
         }
       ]
+    },
+    {
+      "run_date": "2026-08-20T13:07:45.142885+00:00",
+      "entries": [
+        {
+          "timestamp": "2026-08-20T13:06:25.837431+00:00",
+          "file": "2026-03-30-ifta-audit-triggers-how-fuel-tax-discrepancies-escalate-to-d.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-20T13:06:26.344578+00:00",
+          "file": "2026-03-31-overweight-violations-permit-requirements-fines-and-carrier.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-20T13:07:33.314187+00:00",
+          "file": "2026-04-01-english-proficiency-enforcement-at-the-roadside-what-actuall.md",
+          "status": "updated",
+          "pr_url": "https://github.com/thetruckercodex/thetruckercodex.github.io/pull/41",
+          "change_summary": "FMCSA published a proposed rule (FR doc #2026-16288, 2026-08-10) to formally codify English language proficiency as an OOS violation in the FMCSRs; the post must be updated to clarify that the current OOS authority derives from CVSA's NASOC (not yet the FMCSRs themselves) and that codification is proposed but not yet final.",
+          "sources": [
+            "https://www.federalregister.gov/documents/2026/08/10/2026-16288/english-language-proficiency-out-of-service-criteria"
+          ]
+        },
+        {
+          "timestamp": "2026-08-20T13:07:34.122590+00:00",
+          "file": "2026-04-02-insurance-lapses-what-fmcsa-does-when-coverage-drops-below-m.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-20T13:07:45.140860+00:00",
+          "file": "2026-04-03-the-anatomy-of-a-dot-compliance-review-what-an-auditor-exami.md",
+          "status": "no_change",
+          "reasoning": "The only Federal Register document provided is doc #2026-16288, a **proposed rule** published 2026-08-10 with no effective date — it is not a final rule, interim final rule, or amendment. It has not yet amended 49 CFR Part 391 or any other CFR section. The post's existing treatment of English language proficiency under 49 CFR 391.11(b)(2) remains accurate under current law: the post already correctly characterizes ELP as a driver qualification requirement enforced during compliance reviews, and it does not make any claim about OOS criteria that would need correction. Because the proposed rule is only a proposal — not a concrete, enacted change — it does not constitute a material update requiring revision to the published post. Per standing instructions, a proposed rule with no effective date and no finalized amendment is insufficient grounds to return MATERIAL_UPDATE."
+        }
+      ]
     }
   ]
 }

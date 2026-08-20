@@ -1,5 +1,5 @@
 {
-  "cursor": 68,
+  "cursor": 73,
   "cycle": 2,
   "posts": {
     "2026-02-08-common-dot-violations-how-to-avoid.md": {
@@ -303,23 +303,24 @@
       "last_result": "no_change"
     },
     "2026-03-30-ifta-audit-triggers-how-fuel-tax-discrepancies-escalate-to-d.md": {
-      "last_checked_date": "2026-07-15",
+      "last_checked_date": "2026-08-20",
       "last_result": "no_change"
     },
     "2026-03-31-overweight-violations-permit-requirements-fines-and-carrier.md": {
-      "last_checked_date": "2026-07-15",
+      "last_checked_date": "2026-08-20",
       "last_result": "no_change"
     },
     "2026-04-01-english-proficiency-enforcement-at-the-roadside-what-actuall.md": {
-      "last_checked_date": "2026-07-16",
-      "last_result": "no_change"
+      "last_checked_date": "2026-08-20",
+      "last_result": "updated",
+      "open_pr_number": 41
     },
     "2026-04-02-insurance-lapses-what-fmcsa-does-when-coverage-drops-below-m.md": {
-      "last_checked_date": "2026-07-16",
+      "last_checked_date": "2026-08-20",
       "last_result": "no_change"
     },
     "2026-04-03-the-anatomy-of-a-dot-compliance-review-what-an-auditor-exami.md": {
-      "last_checked_date": "2026-07-16",
+      "last_checked_date": "2026-08-20",
       "last_result": "no_change"
     },
     "2026-04-04-diabetes-exemption-program-how-cdl-drivers-with-itdm-qualify.md": {
@@ -751,5 +752,5 @@
       "last_result": "no_change"
     }
   },
-  "updated_at": "2026-08-19T13:04:31.405094+00:00"
+  "updated_at": "2026-08-20T13:07:45.140891+00:00"
 }
