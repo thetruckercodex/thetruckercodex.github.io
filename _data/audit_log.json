@@ -1920,6 +1920,41 @@
           "reasoning": "The only Federal Register document provided is doc #2026-16288, a **proposed rule** published 2026-08-10 with no effective date — it is not a final rule, interim final rule, or amendment. It has not yet amended 49 CFR Part 391 or any other CFR section. The post's existing treatment of English language proficiency under 49 CFR 391.11(b)(2) remains accurate under current law: the post already correctly characterizes ELP as a driver qualification requirement enforced during compliance reviews, and it does not make any claim about OOS criteria that would need correction. Because the proposed rule is only a proposal — not a concrete, enacted change — it does not constitute a material update requiring revision to the published post. Per standing instructions, a proposed rule with no effective date and no finalized amendment is insufficient grounds to return MATERIAL_UPDATE."
         }
       ]
+    },
+    {
+      "run_date": "2026-08-21T13:06:03.887508+00:00",
+      "entries": [
+        {
+          "timestamp": "2026-08-21T13:05:50.719551+00:00",
+          "file": "2026-04-04-diabetes-exemption-program-how-cdl-drivers-with-itdm-qualify.md",
+          "status": "no_change",
+          "reasoning": "The only Federal Register document provided (doc #2026-16288, published 2026-08-10) is a proposed rule concerning English Language Proficiency out-of-service criteria under 49 CFR Part 391. It is a proposed rule only — not a final or interim final rule — and it addresses ELP enforcement alignment with CVSA out-of-service criteria, which is entirely unrelated to the post's subject matter of insulin-treated diabetes mellitus exemptions under § 391.46 or the general exemption authority under Part 381. The eCFR fetch was unavailable, providing no additional evidence of any amendment to § 391.46 or Part 381. There is no concrete, specific change to the diabetes exemption program, its qualification criteria, monitoring requirements, civil penalty thresholds, or any other regulatory fact asserted in the post. No material update is warranted."
+        },
+        {
+          "timestamp": "2026-08-21T13:05:50.826100+00:00",
+          "file": "2026-04-04-how-roadside-inspection-data-is-uploaded-to-mcmis-and-how-lo.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-21T13:05:57.316723+00:00",
+          "file": "2026-04-05-annual-mvr-review-what-carriers-must-check-and-document.md",
+          "status": "no_change",
+          "reasoning": "The only Federal Register document provided (doc #2026-16288, published 2026-08-10) is a **proposed rule** — not a final rule, interim final rule, or amendment — addressing English Language Proficiency out-of-service criteria under the FMCSRs. As a proposed rule, it has no effective date, has not amended any CFR text, and introduces no concrete change to the requirements, thresholds, citations, or documentation standards discussed in the post. The post covers 49 CFR §391.25 annual MVR review obligations, §391.51 retention requirements, and Part 386 civil penalties; none of those provisions are addressed or altered by the ELP proposed rule. The eCFR fetch was unavailable, but absent affirmative evidence of a final amendment, the conservative standard requires NO_CHANGE. No material update to the published post is warranted."
+        },
+        {
+          "timestamp": "2026-08-21T13:05:57.492518+00:00",
+          "file": "2026-04-05-what-satisfactory-safety-rating-means-and-why-its-not-a-guar.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-21T13:06:03.885661+00:00",
+          "file": "2026-04-06-road-test-requirements-when-a-certificate-of-violations-is-n.md",
+          "status": "no_change",
+          "reasoning": "The only Federal Register document provided is doc #2026-16288, a **proposed rule** (not a final or interim final rule) concerning English Language Proficiency out-of-service criteria. This proposal would affect 49 CFR Part 391's ELP enforcement mechanisms, but it has no effective date, has not been finalized, and addresses a topic (ELP/OOS criteria) that is entirely distinct from the post's subject matter — road test administration under §391.31 and the CDL waiver under §391.33. The post makes no claims about English language proficiency requirements, so even if this rulemaking were final, it would not require any modification to the post's regulatory assertions. The eCFR fetch was unavailable, so no live text comparison is possible, but conservative protocol requires returning NO_CHANGE absent concrete evidenced amendments. There is no concrete, specific final change to §391.31, §391.33, §391.51, or Part 383 reflected in the supplied source data that is not already addressed in the published post."
+        }
+      ]
     }
   ]
 }
