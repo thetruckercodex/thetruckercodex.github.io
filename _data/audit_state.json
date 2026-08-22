@@ -1,5 +1,5 @@
 {
-  "cursor": 78,
+  "cursor": 83,
   "cycle": 2,
   "posts": {
     "2026-02-08-common-dot-violations-how-to-avoid.md": {
@@ -344,7 +344,7 @@
       "last_result": "no_change"
     },
     "2026-04-06-speed-limiter-enforcement-in-practice-what-states-are-actual.md": {
-      "last_checked_date": "2026-07-17",
+      "last_checked_date": "2026-08-22",
       "last_result": "no_change"
     },
     "2026-04-07-roadside-communication-what-to-say-and-what-not-to-say-to-an.md": {
@@ -353,15 +353,15 @@
       "last_result": "updated"
     },
     "2026-04-07-when-a-driver-quits-mid-route-carrier-obligations-under-fmcs.md": {
-      "last_checked_date": "2026-07-18",
+      "last_checked_date": "2026-08-22",
       "last_result": "no_change"
     },
     "2026-04-08-how-carriers-with-clean-records-still-get-audited-the-trigge.md": {
-      "last_checked_date": "2026-07-18",
+      "last_checked_date": "2026-08-22",
       "last_result": "no_change"
     },
     "2026-04-08-the-paper-trail-after-an-accident-every-document-you-need-an.md": {
-      "last_checked_date": "2026-07-18",
+      "last_checked_date": "2026-08-22",
       "last_result": "no_change"
     },
     "2026-04-09-building-a-dot-compliance-calendar-weekly-monthly-and-annual.md": {
@@ -752,5 +752,5 @@
       "last_result": "no_change"
     }
   },
-  "updated_at": "2026-08-21T13:06:03.885695+00:00"
+  "updated_at": "2026-08-22T12:56:46.255478+00:00"
 }

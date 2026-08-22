@@ -1955,6 +1955,41 @@
           "reasoning": "The only Federal Register document provided is doc #2026-16288, a **proposed rule** (not a final or interim final rule) concerning English Language Proficiency out-of-service criteria. This proposal would affect 49 CFR Part 391's ELP enforcement mechanisms, but it has no effective date, has not been finalized, and addresses a topic (ELP/OOS criteria) that is entirely distinct from the post's subject matter — road test administration under §391.31 and the CDL waiver under §391.33. The post makes no claims about English language proficiency requirements, so even if this rulemaking were final, it would not require any modification to the post's regulatory assertions. The eCFR fetch was unavailable, so no live text comparison is possible, but conservative protocol requires returning NO_CHANGE absent concrete evidenced amendments. There is no concrete, specific final change to §391.31, §391.33, §391.51, or Part 383 reflected in the supplied source data that is not already addressed in the published post."
         }
       ]
+    },
+    {
+      "run_date": "2026-08-22T12:56:46.257007+00:00",
+      "entries": [
+        {
+          "timestamp": "2026-08-22T12:56:26.520711+00:00",
+          "file": "2026-04-06-speed-limiter-enforcement-in-practice-what-states-are-actual.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-22T12:56:27.037239+00:00",
+          "file": "2026-04-07-roadside-communication-what-to-say-and-what-not-to-say-to-an.md",
+          "status": "pending_pr",
+          "pr_number": 25
+        },
+        {
+          "timestamp": "2026-08-22T12:56:36.900060+00:00",
+          "file": "2026-04-07-when-a-driver-quits-mid-route-carrier-obligations-under-fmcs.md",
+          "status": "no_change",
+          "reasoning": "The only Federal Register document provided is a **proposed rule** (doc #2026-16288, published 2026-08-10) concerning English Language Proficiency out-of-service criteria. As a proposed rule, it has no effective date, has not been finalized, and creates no new regulatory obligations. The post addresses DQF recordkeeping and retention obligations under 49 CFR §391.51 and civil penalty exposure under 49 CFR Part 386 — neither of which is touched by a proposal to codify ELP as an OOS criterion. Furthermore, the eCFR fetch was unavailable, providing no textual evidence of any amendment to §391.51 or Part 386. There is no concrete, finalized change evidenced in the supplied source data that the post fails to reflect."
+        },
+        {
+          "timestamp": "2026-08-22T12:56:37.797829+00:00",
+          "file": "2026-04-08-how-carriers-with-clean-records-still-get-audited-the-trigge.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-22T12:56:46.255446+00:00",
+          "file": "2026-04-08-the-paper-trail-after-an-accident-every-document-you-need-an.md",
+          "status": "no_change",
+          "reasoning": "The only Federal Register document provided is a proposed rule (doc #2026-16288, published 2026-08-10) concerning English Language Proficiency out-of-service criteria — a rulemaking that addresses driver qualification and ELP enforcement, not accident registers, accident recordkeeping, or post-accident drug and alcohol testing. It does not amend, revoke, or modify any provision of 49 CFR 390.15 or 49 CFR 382.303, which are the specific CFR sections audited in this post. Additionally, the document is a proposed rule with no effective date, meaning no final regulatory change has occurred. The eCFR fetch was unavailable, providing no evidence of any amendment to the relevant sections. There is no concrete, specific change to any regulatory claim made in the post."
+        }
+      ]
     }
   ]
 }
