@@ -1,5 +1,5 @@
 {
-  "cursor": 83,
+  "cursor": 88,
   "cycle": 2,
   "posts": {
     "2026-02-08-common-dot-violations-how-to-avoid.md": {
@@ -365,7 +365,7 @@
       "last_result": "no_change"
     },
     "2026-04-09-building-a-dot-compliance-calendar-weekly-monthly-and-annual.md": {
-      "last_checked_date": "2026-07-18",
+      "last_checked_date": "2026-08-23",
       "last_result": "no_change"
     },
     "2026-04-10-drug-testing-pre-employment-requirements-under-49-cfr-part-4.md": {
@@ -374,15 +374,15 @@
       "last_result": "updated"
     },
     "2026-04-11-random-drug-and-alcohol-testing-rates-pools-and-carrier-obli.md": {
-      "last_checked_date": "2026-07-19",
+      "last_checked_date": "2026-08-23",
       "last_result": "no_change"
     },
     "2026-04-16-how-brake-adjustment-violations-dominate-national-oos-statis.md": {
-      "last_checked_date": "2026-07-19",
+      "last_checked_date": "2026-08-23",
       "last_result": "no_change"
     },
     "2026-04-17-cvsa-operation-safe-driver-week-what-officers-target-and-how.md": {
-      "last_checked_date": "2026-07-19",
+      "last_checked_date": "2026-08-23",
       "last_result": "no_change"
     },
     "2026-04-17-post-accident-testing-the-decision-tree-carriers-get-wrong.md": {
@@ -752,5 +752,5 @@
       "last_result": "no_change"
     }
   },
-  "updated_at": "2026-08-22T12:56:46.255478+00:00"
+  "updated_at": "2026-08-23T12:58:01.126618+00:00"
 }

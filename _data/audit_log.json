@@ -1990,6 +1990,41 @@
           "reasoning": "The only Federal Register document provided is a proposed rule (doc #2026-16288, published 2026-08-10) concerning English Language Proficiency out-of-service criteria — a rulemaking that addresses driver qualification and ELP enforcement, not accident registers, accident recordkeeping, or post-accident drug and alcohol testing. It does not amend, revoke, or modify any provision of 49 CFR 390.15 or 49 CFR 382.303, which are the specific CFR sections audited in this post. Additionally, the document is a proposed rule with no effective date, meaning no final regulatory change has occurred. The eCFR fetch was unavailable, providing no evidence of any amendment to the relevant sections. There is no concrete, specific change to any regulatory claim made in the post."
         }
       ]
+    },
+    {
+      "run_date": "2026-08-23T12:58:01.128574+00:00",
+      "entries": [
+        {
+          "timestamp": "2026-08-23T12:57:50.702010+00:00",
+          "file": "2026-04-09-building-a-dot-compliance-calendar-weekly-monthly-and-annual.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-23T12:57:51.246663+00:00",
+          "file": "2026-04-10-drug-testing-pre-employment-requirements-under-49-cfr-part-4.md",
+          "status": "pending_pr",
+          "pr_number": 26
+        },
+        {
+          "timestamp": "2026-08-23T12:57:55.679139+00:00",
+          "file": "2026-04-11-random-drug-and-alcohol-testing-rates-pools-and-carrier-obli.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-23T12:58:00.720995+00:00",
+          "file": "2026-04-16-how-brake-adjustment-violations-dominate-national-oos-statis.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-23T12:58:01.126582+00:00",
+          "file": "2026-04-17-cvsa-operation-safe-driver-week-what-officers-target-and-how.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        }
+      ]
     }
   ]
 }
