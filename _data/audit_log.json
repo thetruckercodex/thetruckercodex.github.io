@@ -2025,6 +2025,41 @@
           "reasoning": "No source signal found since last check."
         }
       ]
+    },
+    {
+      "run_date": "2026-08-24T13:08:57.542569+00:00",
+      "entries": [
+        {
+          "timestamp": "2026-08-24T13:08:30.790341+00:00",
+          "file": "2026-04-17-post-accident-testing-the-decision-tree-carriers-get-wrong.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-24T13:08:41.887036+00:00",
+          "file": "2026-04-18-level-vi-inspection-the-radioactive-materials-protocol-most.md",
+          "status": "no_change",
+          "reasoning": "None of the six Federal Register documents identified in the source data contain a concrete, specific change that materially affects the post's regulatory claims about Level VI inspections, 49 CFR § 172.200 series shipping paper requirements, or 49 CFR § 173.443 external contamination limits. The rules address: fireworks certification agency authority (doc #2026-16111), empty IBC transport without shipping papers (doc #2026-15820), an inflation-adjusted monetary threshold for farmer security plan exceptions (doc #2026-15814), removal of a redundant EPA CERCLA hazardous substances list (doc #2026-15809), an option for electronic emergency response information (doc #2026-15808), and reduced-size markings for limited quantity shipments (doc #2026-15805). None of these amend the TI/CSI documentation requirements under § 172.200, the external contamination limits under § 173.443, HRCQ route compliance under § 397.101, or any other regulatory provision specifically cited and discussed in the post. The doc #2026-15808 rule permitting electronic emergency response information is potentially adjacent to the post's discussion of hard-copy document accessibility, but the post does not make a concrete claim that hard copy is mandatory to the exclusion of electronic copies, and in any event that rule's effect on Level VI driver document readiness protocols is not the kind of concrete numerical or definitional amendment that warrants a MATERIAL_UPDATE flag. The eCFR fetch was unavailable, so no live section text contradicts the post. All other source data is either ambiguous or only tangentially related."
+        },
+        {
+          "timestamp": "2026-08-24T13:08:42.079610+00:00",
+          "file": "2026-04-18-reasonable-suspicion-testing-documentation-requirements-for.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-24T13:08:47.069447+00:00",
+          "file": "2026-04-19-fmcsa-clearinghouse-full-query-vs-limited-query-when-each-is.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-24T13:08:57.540630+00:00",
+          "file": "2026-04-19-how-fmcsas-pre-employment-screening-program-psp-works-for-ca.md",
+          "status": "no_change",
+          "reasoning": "The only Federal Register document provided is doc #2026-16288 (published 2026-08-10), which is a **proposed rule** — not a final rule, interim final rule, or amendment — concerning English Language Proficiency out-of-service criteria. Because it is merely a proposal with no effective date and no codified change to 49 CFR Part 391 or Part 382, it does not constitute a concrete, specific regulatory change that the post fails to reflect. The post does not address ELP at all, so there is nothing to contradict; and a proposed rule that has not been finalized cannot obligate an update to published compliance guidance. The eCFR fetch was unavailable, providing no additional evidence of any amendment. No other documents were supplied. Under the conservative standard required, this is NO_CHANGE."
+        }
+      ]
     }
   ]
 }

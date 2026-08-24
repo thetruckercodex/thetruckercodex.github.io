@@ -1,5 +1,5 @@
 {
-  "cursor": 88,
+  "cursor": 93,
   "cycle": 2,
   "posts": {
     "2026-02-08-common-dot-violations-how-to-avoid.md": {
@@ -386,23 +386,23 @@
       "last_result": "no_change"
     },
     "2026-04-17-post-accident-testing-the-decision-tree-carriers-get-wrong.md": {
-      "last_checked_date": "2026-07-19",
+      "last_checked_date": "2026-08-24",
       "last_result": "no_change"
     },
     "2026-04-18-level-vi-inspection-the-radioactive-materials-protocol-most.md": {
-      "last_checked_date": "2026-07-19",
+      "last_checked_date": "2026-08-24",
       "last_result": "no_change"
     },
     "2026-04-18-reasonable-suspicion-testing-documentation-requirements-for.md": {
-      "last_checked_date": "2026-07-20",
+      "last_checked_date": "2026-08-24",
       "last_result": "no_change"
     },
     "2026-04-19-fmcsa-clearinghouse-full-query-vs-limited-query-when-each-is.md": {
-      "last_checked_date": "2026-07-20",
+      "last_checked_date": "2026-08-24",
       "last_result": "no_change"
     },
     "2026-04-19-how-fmcsas-pre-employment-screening-program-psp-works-for-ca.md": {
-      "last_checked_date": "2026-07-20",
+      "last_checked_date": "2026-08-24",
       "last_result": "no_change"
     },
     "2026-04-20-the-3-hos-exemptions-most-commonly-misapplied-at-roadside-in.md": {
@@ -752,5 +752,5 @@
       "last_result": "no_change"
     }
   },
-  "updated_at": "2026-08-23T12:58:01.126618+00:00"
+  "updated_at": "2026-08-24T13:08:57.540663+00:00"
 }
