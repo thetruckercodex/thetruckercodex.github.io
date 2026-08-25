@@ -2060,6 +2060,41 @@
           "reasoning": "The only Federal Register document provided is doc #2026-16288 (published 2026-08-10), which is a **proposed rule** — not a final rule, interim final rule, or amendment — concerning English Language Proficiency out-of-service criteria. Because it is merely a proposal with no effective date and no codified change to 49 CFR Part 391 or Part 382, it does not constitute a concrete, specific regulatory change that the post fails to reflect. The post does not address ELP at all, so there is nothing to contradict; and a proposed rule that has not been finalized cannot obligate an update to published compliance guidance. The eCFR fetch was unavailable, providing no additional evidence of any amendment. No other documents were supplied. Under the conservative standard required, this is NO_CHANGE."
         }
       ]
+    },
+    {
+      "run_date": "2026-08-25T13:07:40.834324+00:00",
+      "entries": [
+        {
+          "timestamp": "2026-08-25T13:06:01.623884+00:00",
+          "file": "2026-04-20-the-3-hos-exemptions-most-commonly-misapplied-at-roadside-in.md",
+          "status": "pending_pr",
+          "pr_number": 27
+        },
+        {
+          "timestamp": "2026-08-25T13:06:32.001209+00:00",
+          "file": "2026-04-20-what-happens-to-operating-authority-after-an-unsatisfactory.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-25T13:06:32.718828+00:00",
+          "file": "2026-04-21-how-inspectors-verify-cdl-validity-at-the-roadside-the-datab.md",
+          "status": "pending_pr",
+          "pr_number": 28
+        },
+        {
+          "timestamp": "2026-08-25T13:07:03.108789+00:00",
+          "file": "2026-04-21-why-return-to-duty-violations-cost-more-than-the-original-dr.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-25T13:07:40.832680+00:00",
+          "file": "2026-04-22-how-fmcsa-weights-fatal-injury-and-tow-away-crashes-in-sms-s.md",
+          "status": "no_change",
+          "reasoning": "The only Federal Register document provided is a proposed rule (doc #2026-16288, published 2026-08-10) concerning English Language Proficiency out-of-service criteria — a rulemaking that is still in proposed status (no final rule, no effective date), addresses driver qualification OOS enforcement rather than the definition of a reportable accident or crash, and does not amend or alter anything in 49 CFR 390.5 related to the reportability thresholds (fatality, injury requiring immediate medical treatment away from scene, or tow-away due to disabling damage) that the post relies upon. The post's core regulatory claims — the 390.5 reportability criteria, the SMS crash severity weights (3.0/2.0/1.0), the time-decay weights (3.0/2.0/1.0), and the Crash Preventability Determination Program — are not contradicted, amended, or superseded by any concrete final rule or amendment in the provided source data. The eCFR fetch was also unavailable, providing no additional basis for a change finding. Under these circumstances, no material update is warranted."
+        }
+      ]
     }
   ]
 }

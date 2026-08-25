@@ -1,5 +1,5 @@
 {
-  "cursor": 93,
+  "cursor": 98,
   "cycle": 2,
   "posts": {
     "2026-02-08-common-dot-violations-how-to-avoid.md": {
@@ -411,7 +411,7 @@
       "last_result": "updated"
     },
     "2026-04-20-what-happens-to-operating-authority-after-an-unsatisfactory.md": {
-      "last_checked_date": "2026-07-20",
+      "last_checked_date": "2026-08-25",
       "last_result": "no_change"
     },
     "2026-04-21-how-inspectors-verify-cdl-validity-at-the-roadside-the-datab.md": {
@@ -420,11 +420,11 @@
       "last_result": "updated"
     },
     "2026-04-21-why-return-to-duty-violations-cost-more-than-the-original-dr.md": {
-      "last_checked_date": "2026-07-21",
+      "last_checked_date": "2026-08-25",
       "last_result": "no_change"
     },
     "2026-04-22-how-fmcsa-weights-fatal-injury-and-tow-away-crashes-in-sms-s.md": {
-      "last_checked_date": "2026-07-21",
+      "last_checked_date": "2026-08-25",
       "last_result": "no_change"
     },
     "2026-04-22-the-most-common-annual-inspection-deficiencies-found-during.md": {
@@ -752,5 +752,5 @@
       "last_result": "no_change"
     }
   },
-  "updated_at": "2026-08-24T13:08:57.540663+00:00"
+  "updated_at": "2026-08-25T13:07:40.832713+00:00"
 }
