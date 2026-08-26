@@ -2,6 +2,7 @@
 layout: post
 title: "How to Read an FMCSA Inspection Report: Field-by-Field Breakdown"
 date: 2026-04-23
+last_modified_at: 2026-07-21
 categories: audits-violations
 description: "Enforcement intelligence analysis: How to Read an FMCSA Inspection Report: Field-by-Field Breakdown. Data-driven insights from FMCSA and CVSA records for motor carriers and compliance professionals."
 ---
@@ -52,6 +53,8 @@ The officer records the driver's CDL number, issuing state, license class, and e
 
 Hours-of-service fields capture the driver's duty status at time of inspection, the last 8-day log summary, and whether an ELD was in use. Under 49 CFR §395.8, any HOS violation documented here feeds directly into the HOS Compliance BASIC.
 
+**ELD documentation note (updated July 2026):** Effective July 22, 2026, FMCSA rescinded the requirement for a copy of the ELD operator's manual to be kept in the CMV (FR doc. 2026-12448, published June 22, 2026). Prior to that date, absence of the manual in the cab was a citable deficiency that could appear in this section of the inspection report. For inspections conducted on or after July 22, 2026, officers may no longer cite a driver or carrier for failing to have the ELD operator's manual physically present in the vehicle. Drivers are still required to understand ELD operation and to present accurate electronic records of duty status during inspections — that underlying obligation is unchanged. When reviewing historical inspection reports predating July 22, 2026, any citation related to the ELD operator's manual may still appear in MCMIS records; evaluate the inspection date carefully before initiating a DataQs challenge on such a violation.
+
 ---
 
 ## Violation Fields: Codes, Severity Weights, and Out-of-Service Status
@@ -89,3 +92,5 @@ For drivers preparing for out-of-service risk scenarios, the <a href="https://ww
 ---
 
 *Data sourced from FMCSA MCMIS Inspection Data and FMCSA public records. Verify current enforcement thresholds at fmcsa.dot.gov.*
+
+*Last verified against the Federal Register on 2026-07-22; updated to reflect FR doc. 2026-12448 (effective 2026-07-22), which rescinds the requirement for an ELD operator's manual to be kept in the CMV.*
