@@ -1,5 +1,5 @@
 {
-  "cursor": 98,
+  "cursor": 103,
   "cycle": 2,
   "posts": {
     "2026-02-08-common-dot-violations-how-to-avoid.md": {
@@ -428,7 +428,7 @@
       "last_result": "no_change"
     },
     "2026-04-22-the-most-common-annual-inspection-deficiencies-found-during.md": {
-      "last_checked_date": "2026-07-21",
+      "last_checked_date": "2026-08-26",
       "last_result": "no_change"
     },
     "2026-04-23-how-to-read-an-fmcsa-inspection-report-field-by-field-breakd.md": {
@@ -437,7 +437,7 @@
       "last_result": "updated"
     },
     "2026-04-23-what-triggers-an-out-of-state-compliance-review-interstate-e.md": {
-      "last_checked_date": "2026-07-22",
+      "last_checked_date": "2026-08-26",
       "last_result": "no_change"
     },
     "2026-02-28-technical-standards-for-non-domiciled-cdl-ıssuance-and-save-verification-2026-update.md": {
@@ -446,7 +446,7 @@
       "last_result": "updated"
     },
     "2026-04-24-how-eld-data-functions-as-evidence-in-commercial-truck-crash.md": {
-      "last_checked_date": "2026-07-22",
+      "last_checked_date": "2026-08-26",
       "last_result": "no_change"
     },
     "2026-04-24-how-inspectors-detect-hos-log-manipulation-patterns-theyre-t.md": {
@@ -752,5 +752,5 @@
       "last_result": "no_change"
     }
   },
-  "updated_at": "2026-08-25T13:07:40.832713+00:00"
+  "updated_at": "2026-08-26T13:10:55.714890+00:00"
 }

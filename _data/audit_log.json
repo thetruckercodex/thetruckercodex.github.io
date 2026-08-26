@@ -2095,6 +2095,41 @@
           "reasoning": "The only Federal Register document provided is a proposed rule (doc #2026-16288, published 2026-08-10) concerning English Language Proficiency out-of-service criteria — a rulemaking that is still in proposed status (no final rule, no effective date), addresses driver qualification OOS enforcement rather than the definition of a reportable accident or crash, and does not amend or alter anything in 49 CFR 390.5 related to the reportability thresholds (fatality, injury requiring immediate medical treatment away from scene, or tow-away due to disabling damage) that the post relies upon. The post's core regulatory claims — the 390.5 reportability criteria, the SMS crash severity weights (3.0/2.0/1.0), the time-decay weights (3.0/2.0/1.0), and the Crash Preventability Determination Program — are not contradicted, amended, or superseded by any concrete final rule or amendment in the provided source data. The eCFR fetch was also unavailable, providing no additional basis for a change finding. Under these circumstances, no material update is warranted."
         }
       ]
+    },
+    {
+      "run_date": "2026-08-26T13:10:55.716767+00:00",
+      "entries": [
+        {
+          "timestamp": "2026-08-26T13:10:53.308157+00:00",
+          "file": "2026-04-22-the-most-common-annual-inspection-deficiencies-found-during.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-26T13:10:53.957042+00:00",
+          "file": "2026-04-23-how-to-read-an-fmcsa-inspection-report-field-by-field-breakd.md",
+          "status": "pending_pr",
+          "pr_number": 29
+        },
+        {
+          "timestamp": "2026-08-26T13:10:54.390614+00:00",
+          "file": "2026-04-23-what-triggers-an-out-of-state-compliance-review-interstate-e.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-26T13:10:55.081858+00:00",
+          "file": "2026-02-28-technical-standards-for-non-domiciled-cdl-ıssuance-and-save-verification-2026-update.md",
+          "status": "pending_pr",
+          "pr_number": 30
+        },
+        {
+          "timestamp": "2026-08-26T13:10:55.714868+00:00",
+          "file": "2026-04-24-how-eld-data-functions-as-evidence-in-commercial-truck-crash.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        }
+      ]
     }
   ]
 }
