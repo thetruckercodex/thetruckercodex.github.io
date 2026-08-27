@@ -2130,6 +2130,41 @@
           "reasoning": "No source signal found since last check."
         }
       ]
+    },
+    {
+      "run_date": "2026-08-27T22:12:35.757183+00:00",
+      "entries": [
+        {
+          "timestamp": "2026-08-27T22:12:25.564391+00:00",
+          "file": "2026-04-24-how-inspectors-detect-hos-log-manipulation-patterns-theyre-t.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-27T22:12:25.741379+00:00",
+          "file": "2026-04-25-the-5-suspension-defects-that-most-often-lead-to-oos-orders.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-27T22:12:30.763273+00:00",
+          "file": "2026-04-26-hours-of-service-recordkeeping-for-non-eld-operations.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-27T22:12:30.895578+00:00",
+          "file": "2026-04-26-what-happens-during-an-fmcsa-focused-compliance-investigatio.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-27T22:12:35.754942+00:00",
+          "file": "2026-04-27-how-drug-clearinghouse-violations-affect-a-carriers-safety-r.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        }
+      ]
     }
   ]
 }
