@@ -1,5 +1,5 @@
 {
-  "cursor": 108,
+  "cursor": 113,
   "cycle": 2,
   "posts": {
     "2026-02-08-common-dot-violations-how-to-avoid.md": {
@@ -470,15 +470,15 @@
       "last_result": "no_change"
     },
     "2026-02-16-fmcsa-dot-updates-2025-2026.md": {
-      "last_checked_date": "2026-07-23",
+      "last_checked_date": "2026-08-28",
       "last_result": "no_change"
     },
     "2026-04-28-driver-oos-vs-vehicle-oos-what-each-order-means-and-how-they.md": {
-      "last_checked_date": "2026-07-23",
+      "last_checked_date": "2026-08-28",
       "last_result": "no_change"
     },
     "2026-04-29-level-iii-inspection-decoded-what-officers-examine-in-a-driv.md": {
-      "last_checked_date": "2026-07-24",
+      "last_checked_date": "2026-08-28",
       "last_result": "no_change"
     },
     "2026-04-30-annual-inspection-sticker-fraud-detection-methods-and-legal.md": {
@@ -487,7 +487,7 @@
       "last_result": "updated"
     },
     "2026-04-30-cargo-securement-violations-by-load-type-flatbed-vs-tanker-v.md": {
-      "last_checked_date": "2026-07-24",
+      "last_checked_date": "2026-08-28",
       "last_result": "no_change"
     },
     "2026-05-01-how-mcsap-funding-shapes-roadside-enforcement-priorities-by.md": {
@@ -752,5 +752,5 @@
       "last_result": "no_change"
     }
   },
-  "updated_at": "2026-08-27T22:12:35.754979+00:00"
+  "updated_at": "2026-08-28T22:15:21.569565+00:00"
 }

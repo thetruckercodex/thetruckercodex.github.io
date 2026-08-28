@@ -2165,6 +2165,41 @@
           "reasoning": "No source signal found since last check."
         }
       ]
+    },
+    {
+      "run_date": "2026-08-28T22:15:21.571398+00:00",
+      "entries": [
+        {
+          "timestamp": "2026-08-28T22:15:15.295760+00:00",
+          "file": "2026-02-16-fmcsa-dot-updates-2025-2026.md",
+          "status": "no_change",
+          "reasoning": "Federal Register document #2026-16288 (published 2026-08-10) is a Proposed Rule titled \"English Language Proficiency; Out of Service Criteria,\" which proposes to formally codify ELP non-compliance as an OOS violation in the FMCSRs. The post currently states that ELP OOS enforcement was codified into federal statute by the Consolidated Appropriations Act of 2026 (February 3, 2026), and implies the regulatory framework is settled. However, the new proposed rule reveals that the underlying CFR text (49 CFR Part 391) has not yet been formally amended to reflect OOS criteria — FMCSA is still in the notice-and-comment rulemaking stage to align the FMCSRs with current enforcement practice and the CVSA North American Standard Out-of-Service Criteria. This is a concrete, specific development (an active proposed rule with a FR document number and publication date) that is not reflected in the post, and it materially affects the post's characterization of the ELP enforcement framework as fully and finally codified at the regulatory level. The post should note that while statutory codification occurred via the Consolidated Appropriations Act and enforcement is active, the underlying CFR amendment is currently proposed — not yet final. [PARSE_ERROR: updated content block missing, downgraded to NO_CHANGE]"
+        },
+        {
+          "timestamp": "2026-08-28T22:15:15.924061+00:00",
+          "file": "2026-04-28-driver-oos-vs-vehicle-oos-what-each-order-means-and-how-they.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-28T22:15:16.571747+00:00",
+          "file": "2026-04-29-level-iii-inspection-decoded-what-officers-examine-in-a-driv.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-28T22:15:17.144570+00:00",
+          "file": "2026-04-30-annual-inspection-sticker-fraud-detection-methods-and-legal.md",
+          "status": "pending_pr",
+          "pr_number": 31
+        },
+        {
+          "timestamp": "2026-08-28T22:15:21.569533+00:00",
+          "file": "2026-04-30-cargo-securement-violations-by-load-type-flatbed-vs-tanker-v.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        }
+      ]
     }
   ]
 }
