@@ -2200,6 +2200,41 @@
           "reasoning": "No source signal found since last check."
         }
       ]
+    },
+    {
+      "run_date": "2026-08-29T16:40:03.420947+00:00",
+      "entries": [
+        {
+          "timestamp": "2026-08-29T16:40:02.282548+00:00",
+          "file": "2026-05-01-how-mcsap-funding-shapes-roadside-enforcement-priorities-by.md",
+          "status": "no_change",
+          "reasoning": "The Federal Register document cited (doc #2026-16288, published 2026-08-10) is a **proposed rule**, not a final or interim final rule — it carries no effective date and imposes no binding regulatory change. The post's claims about 49 CFR 391.41 and 395.8 remain accurate against current codified regulations. While the proposed rule would codify English language proficiency (ELP) as an OOS violation under 49 CFR 391.11(b)(2), the post does not make any claim about ELP not being an OOS criterion, nor does it enumerate ELP as a non-OOS item in a way that would be rendered materially incorrect by the proposal. Because the rulemaking is still in the proposed stage with no finalized amendment, no concrete change to the CFR has occurred that is unrepresented in the post. Under the conservative standard applied here — requiring a final/interim rule, amendment, revocation, or concrete compliance deadline — this proposed rule does not meet the threshold for a MATERIAL_UPDATE."
+        },
+        {
+          "timestamp": "2026-08-29T16:40:02.823633+00:00",
+          "file": "2026-05-01-vehicle-inspection-reports-daily-dvir-requirements-and-reten.md",
+          "status": "pending_pr",
+          "pr_number": 32
+        },
+        {
+          "timestamp": "2026-08-29T16:40:03.004757+00:00",
+          "file": "2026-05-02-carrier-reincarnation-how-fmcsa-identifies-and-shuts-down-sh.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-29T16:40:03.236860+00:00",
+          "file": "2026-05-02-periodic-inspection-requirements-what-the-annual-dot-inspect.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-29T16:40:03.419030+00:00",
+          "file": "2026-05-04-how-csa-scores-affect-commercial-trucking-insurance-premiums.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        }
+      ]
     }
   ]
 }
