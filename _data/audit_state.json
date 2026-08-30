@@ -1,5 +1,5 @@
 {
-  "cursor": 118,
+  "cursor": 123,
   "cycle": 2,
   "posts": {
     "2026-02-08-common-dot-violations-how-to-avoid.md": {
@@ -512,7 +512,7 @@
       "last_result": "no_change"
     },
     "2026-05-04-why-small-carriers-have-disproportionately-higher-oos-rates.md": {
-      "last_checked_date": "2026-07-25",
+      "last_checked_date": "2026-08-30",
       "last_result": "no_change"
     },
     "2026-05-05-passenger-carrier-compliance-reviews-what-differs-from-freig.md": {
@@ -521,15 +521,15 @@
       "last_result": "updated"
     },
     "2026-05-05-what-the-national-registry-of-certified-medical-examiners-me.md": {
-      "last_checked_date": "2026-07-26",
+      "last_checked_date": "2026-08-30",
       "last_result": "no_change"
     },
     "2026-05-06-the-impact-of-inspection-frequency-on-a-carriers-sms-percent.md": {
-      "last_checked_date": "2026-07-26",
+      "last_checked_date": "2026-08-30",
       "last_result": "no_change"
     },
     "2026-05-06-what-to-expect-during-a-new-entrant-safety-audit-document-ch.md": {
-      "last_checked_date": "2026-07-26",
+      "last_checked_date": "2026-08-30",
       "last_result": "no_change"
     },
     "2026-05-07-how-drug-test-collection-errors-create-carrier-liability-and.md": {
@@ -752,5 +752,5 @@
       "last_result": "no_change"
     }
   },
-  "updated_at": "2026-08-29T16:40:03.419066+00:00"
+  "updated_at": "2026-08-30T16:36:51.514800+00:00"
 }

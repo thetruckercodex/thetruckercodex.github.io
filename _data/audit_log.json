@@ -2235,6 +2235,41 @@
           "reasoning": "No source signal found since last check."
         }
       ]
+    },
+    {
+      "run_date": "2026-08-30T16:36:51.516835+00:00",
+      "entries": [
+        {
+          "timestamp": "2026-08-30T16:36:38.510057+00:00",
+          "file": "2026-05-04-why-small-carriers-have-disproportionately-higher-oos-rates.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-30T16:36:39.182568+00:00",
+          "file": "2026-05-05-passenger-carrier-compliance-reviews-what-differs-from-freig.md",
+          "status": "pending_pr",
+          "pr_number": 33
+        },
+        {
+          "timestamp": "2026-08-30T16:36:46.140207+00:00",
+          "file": "2026-05-05-what-the-national-registry-of-certified-medical-examiners-me.md",
+          "status": "no_change",
+          "reasoning": "The only Federal Register document provided (doc #2026-16288, published 2026-08-10) is a **proposed rule** concerning English Language Proficiency out-of-service criteria — it has no effective date, has not been finalized, and addresses ELP enforcement rather than any aspect of the National Registry of Certified Medical Examiners, 49 CFR 391.41 (medical qualification standards), or 49 CFR 390.103 (National Registry requirements). Nothing in that proposed rule alters any regulatory claim made in the post, including SMS thresholds, verification obligations, OOS criteria for medical certificates, DQF retention requirements, or examiner certification standards. The eCFR fetch was unavailable, so no live text comparison is possible, but per the audit instructions, an unavailable source cannot support a MATERIAL_UPDATE finding. No concrete, specific, finalized change to the audited CFR sections is evidenced by the supplied source data."
+        },
+        {
+          "timestamp": "2026-08-30T16:36:46.516562+00:00",
+          "file": "2026-05-06-the-impact-of-inspection-frequency-on-a-carriers-sms-percent.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-30T16:36:51.514763+00:00",
+          "file": "2026-05-06-what-to-expect-during-a-new-entrant-safety-audit-document-ch.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        }
+      ]
     }
   ]
 }
