@@ -2,6 +2,7 @@
 layout: post
 title: "How Drug Test Collection Errors Create Carrier Liability and Compliance Gaps"
 date: 2026-05-07
+last_modified_at: 2026-07-26
 categories: dqf
 description: "Enforcement intelligence analysis: How Drug Test Collection Errors Create Carrier Liability and Compliance Gaps. Data-driven insights from FMCSA and CVSA records for motor carriers and compliance professionals."
 ---
@@ -27,7 +28,7 @@ FMCSA compliance review data available through [FMCSA's safety data portal](http
 The following collection-level failures recur in enforcement findings and generate direct carrier citations:
 
 - **Specimen temperature outside 90°F–100°F range not flagged**: Under §40.91, a specimen outside this range requires the collector to note the anomaly and collect a second specimen under direct observation. Failure to follow this protocol produces a potentially invalid specimen and exposes the carrier to a canceled result with no corrective collection on record.
-- **Missing or incorrect direct observation notation**: §40.67 mandates direct observation under specific circumstances, including return-to-duty and follow-up testing. An unchecked "direct observation" box on the CCF when observation was required creates an MRO-cancellable defect.
+- **Missing or incorrect direct observation notation**: §40.67 mandates direct observation under specific circumstances, including return-to-duty and follow-up testing. Effective June 10, 2026, Part 40 as amended by FR doc 2026-09290 adds an additional mandatory direct observation scenario: when an oral fluid collection is required but cannot be conducted because oral fluid testing is not yet operationally available at the collection site, the collector must perform a directly observed urine collection instead. An unchecked or incomplete "direct observation" notation on the CCF in any of these required circumstances creates an MRO-cancellable defect.
 - **Single specimen collected when split required**: §40.73 requires a split specimen collection (Bottle A and Bottle B) for all federally mandated tests. A collector who provides only a single bottle has conducted a procedurally invalid collection.
 - **Collector not using approved CCF**: Use of non-federal or outdated forms is a §40.45 violation that renders the collection result uncertifiable.
 - **Insufficient specimen volume without shy bladder protocol**: If a donor cannot provide 45 mL, §40.193 requires a specific shy bladder procedure. Collectors who simply discard the attempt and send the driver away — without documentation and employer notification — leave the carrier with a testing gap and a potential refusal-to-test exposure.
@@ -44,6 +45,8 @@ The downstream Clearinghouse dimension is equally consequential. Collection erro
 
 A recurring misconception in carrier compliance operations is that using a contracted collection site transfers regulatory accountability. It does not. §40.33 requires collectors to be trained on the current collection procedure. §40.35 prohibits certain individuals — including the driver's direct supervisor — from serving as collector. When a carrier uses an unqualified collector or fails to verify that its contracted collection network maintains trained personnel, the deficiency belongs to the carrier in an FMCSA compliance review.
 
+Carriers should also note that the June 2026 amendments to Part 40 updated certain regulatory terminology consistent with Executive Order 14168. Compliance officers reviewing internal forms, policies, and training materials that reference pre-amendment Part 40 language should verify alignment with the current regulatory text to avoid documentation inconsistencies during compliance reviews.
+
 Carriers should also note that physical examination requirements intersect with testing workflows in ways that create combined liability exposure. Drivers who hold Medical Examiner Certificates from practitioners listed on the [National Registry of Certified Medical Examiners](https://blog.thetruckercodex.com/what-the-national-registry-of-certified-medical-examiners-me/) are part of a documentation chain that regulators review holistically. A driver with a current medical certificate but an invalid drug test result — due to a collection error that was never corrected — presents a compliance gap that no certificate can paper over.
 
 ## Corrective Action Requirements and Return-to-Duty Exposure
@@ -54,7 +57,11 @@ When a collection error results in a canceled test in the return-to-duty context
 
 Carriers cannot audit their way out of collection site failures after the fact. Proactive controls include verifying collector training certifications before authorizing a collection site, maintaining a copy of the completed CCF on file against the MRO's reported result, and establishing a written protocol for MRO-reported cancellations that triggers immediate replacement collection scheduling. Any canceled result should generate an internal incident record that documents the corrective action taken and the date the replacement test was completed — documentation that becomes essential during a compliance review.
 
+Collection sites operating in jurisdictions where oral fluid testing is not yet available must also be confirmed as capable of defaulting to a directly observed urine collection when that circumstance applies, per the June 10, 2026 amendments. Carriers that do not verify this capability before designating a collection site may find themselves with procedurally deficient results when the oral-fluid-unavailable scenario arises.
+
 For carriers managing clearinghouse and testing obligations, the <a href="https://www.etsy.com/listing/4457324370/drug-alcohol-compliance-system-audit" target="_blank">DOT Drug and Alcohol Compliance System</a> provides structured logs designed to help organize clearinghouse queries and random testing records.
 
 ---
 *Data sourced from 49 CFR Part 40 Subpart F and FMCSA public records. Verify current enforcement thresholds at fmcsa.dot.gov.*
+
+*Last verified against the Federal Register on 2026-07-10; updated to reflect FR doc 2026-09290 (published 2026-05-11, effective 2026-06-10), which amends 49 CFR Part 40 to require directly observed urine collection when oral fluid testing is unavailable and updates regulatory terminology per Executive Order 14168.*
