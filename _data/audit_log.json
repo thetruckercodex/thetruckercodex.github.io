@@ -2270,6 +2270,41 @@
           "reasoning": "No source signal found since last check."
         }
       ]
+    },
+    {
+      "run_date": "2026-08-31T19:06:36.122261+00:00",
+      "entries": [
+        {
+          "timestamp": "2026-08-31T19:06:23.741477+00:00",
+          "file": "2026-05-07-how-drug-test-collection-errors-create-carrier-liability-and.md",
+          "status": "pending_pr",
+          "pr_number": 34
+        },
+        {
+          "timestamp": "2026-08-31T19:06:24.515045+00:00",
+          "file": "2026-05-07-the-five-basics-with-highest-statistical-correlation-to-cras.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-31T19:06:25.160283+00:00",
+          "file": "2026-05-08-fmcsas-intervention-escalation-model-from-warning-letter-to.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-31T19:06:25.572344+00:00",
+          "file": "2026-05-08-what-owner-operators-must-do-compliance-wise-when-leasing-on.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-08-31T19:06:36.120600+00:00",
+          "file": "2026-05-09-how-electronic-bill-of-lading-affects-document-requirements.md",
+          "status": "no_change",
+          "reasoning": "The Federal Register document cited (doc #2026-15816, published 2026-08-04, effective 2026-09-03) amends the Hazardous Materials Regulations to adopt provisions from DOT Special Permits 12412 and 11646 — addressing specific operational/commodity flexibility under those special permits — and does not amend, redesignate, revoke, or modify 49 CFR § 177.817 (shipping papers requirements) or 49 CFR § 390.5 (definitions/record falsification) in any way that would alter the post's regulatory claims. The post's core assertions about § 177.817's document production obligations, the absence of an explicit eBOL mandate, and the enforcement discretion framework remain accurate and unaffected by this rulemaking. Additionally, the eCFR fetch was unavailable, so no live section text contradicts the post. With no concrete change to the specific CFR sections being audited, no material update is warranted."
+        }
+      ]
     }
   ]
 }

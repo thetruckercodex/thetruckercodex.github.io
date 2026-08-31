@@ -1,5 +1,5 @@
 {
-  "cursor": 123,
+  "cursor": 128,
   "cycle": 2,
   "posts": {
     "2026-02-08-common-dot-violations-how-to-avoid.md": {
@@ -538,19 +538,19 @@
       "last_result": "updated"
     },
     "2026-05-07-the-five-basics-with-highest-statistical-correlation-to-cras.md": {
-      "last_checked_date": "2026-07-26",
+      "last_checked_date": "2026-08-31",
       "last_result": "no_change"
     },
     "2026-05-08-fmcsas-intervention-escalation-model-from-warning-letter-to.md": {
-      "last_checked_date": "2026-07-27",
+      "last_checked_date": "2026-08-31",
       "last_result": "no_change"
     },
     "2026-05-08-what-owner-operators-must-do-compliance-wise-when-leasing-on.md": {
-      "last_checked_date": "2026-07-27",
+      "last_checked_date": "2026-08-31",
       "last_result": "no_change"
     },
     "2026-05-09-how-electronic-bill-of-lading-affects-document-requirements.md": {
-      "last_checked_date": "2026-07-27",
+      "last_checked_date": "2026-08-31",
       "last_result": "no_change"
     },
     "2026-05-09-out-of-service-criteria-steering-system-defects.md": {
@@ -752,5 +752,5 @@
       "last_result": "no_change"
     }
   },
-  "updated_at": "2026-08-30T16:36:51.514800+00:00"
+  "updated_at": "2026-08-31T19:06:36.120634+00:00"
 }
