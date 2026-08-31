@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-08-24T07:41:13.446891Z",
-  "total_urls": 221,
+  "fetched_at": "2026-08-31T14:00:14.011679Z",
+  "total_urls": 224,
   "results": [
     {
       "url": "https://blog.thetruckercodex.com/",
@@ -54,9 +54,7 @@
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/about/",
       "userCanonical": "https://blog.thetruckercodex.com/about/",
-      "sitemap": [
-        "https://blog.thetruckercodex.com/sitemap.xml"
-      ]
+      "sitemap": []
     },
     {
       "url": "https://blog.thetruckercodex.com/adverse-driving-conditions-exemption-when-and-how-to-apply-i/",
@@ -78,7 +76,7 @@
       "coverageState": "Submitted and indexed",
       "robotsTxtState": "ALLOWED",
       "indexingState": "INDEXING_ALLOWED",
-      "lastCrawlTime": "2026-08-17T17:53:25Z",
+      "lastCrawlTime": "2026-08-28T11:53:10Z",
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/agricultural-exemptions-which-operations-are-exempt-from-hos/",
       "userCanonical": "https://blog.thetruckercodex.com/agricultural-exemptions-which-operations-are-exempt-from-hos/",
@@ -106,7 +104,7 @@
       "coverageState": "Submitted and indexed",
       "robotsTxtState": "ALLOWED",
       "indexingState": "INDEXING_ALLOWED",
-      "lastCrawlTime": "2026-08-14T18:06:21Z",
+      "lastCrawlTime": "2026-08-31T02:59:39Z",
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/annual-mvr-review-what-carriers-must-check-and-document/",
       "userCanonical": "https://blog.thetruckercodex.com/annual-mvr-review-what-carriers-must-check-and-document/",
@@ -152,9 +150,7 @@
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/boi-reporting-and-the-corporate-transparency-act-what-trucki/",
       "userCanonical": "https://blog.thetruckercodex.com/boi-reporting-and-the-corporate-transparency-act-what-trucki/",
-      "sitemap": [
-        "https://blog.thetruckercodex.com/sitemap.xml"
-      ]
+      "sitemap": []
     },
     {
       "url": "https://blog.thetruckercodex.com/brake-adjustment-oos-criteria-pushrod-stroke-limits-by-brake/",
@@ -176,7 +172,7 @@
       "coverageState": "Submitted and indexed",
       "robotsTxtState": "ALLOWED",
       "indexingState": "INDEXING_ALLOWED",
-      "lastCrawlTime": "2026-07-04T00:45:38Z",
+      "lastCrawlTime": "2026-08-29T06:54:20Z",
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/brake-safety-week-and-operation-airbrake-how-the-unannounced/",
       "userCanonical": "https://blog.thetruckercodex.com/brake-safety-week-and-operation-airbrake-how-the-unannounced/",
@@ -208,9 +204,7 @@
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/broker-carrier-agreements-the-compliance-clauses-that-create/",
       "userCanonical": "https://blog.thetruckercodex.com/broker-carrier-agreements-the-compliance-clauses-that-create/",
-      "sitemap": [
-        "https://blog.thetruckercodex.com/sitemap.xml"
-      ]
+      "sitemap": []
     },
     {
       "url": "https://blog.thetruckercodex.com/building-a-dot-compliance-calendar-weekly-monthly-and-annual/",
@@ -223,6 +217,20 @@
       "googleCanonical": "https://blog.thetruckercodex.com/building-a-dot-compliance-calendar-weekly-monthly-and-annual/",
       "userCanonical": "https://blog.thetruckercodex.com/building-a-dot-compliance-calendar-weekly-monthly-and-annual/",
       "sitemap": []
+    },
+    {
+      "url": "https://blog.thetruckercodex.com/building-a-monthly-profit-and-loss-statement-for-a-trucking/",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-08-26T01:36:15Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://blog.thetruckercodex.com/building-a-monthly-profit-and-loss-statement-for-a-trucking/",
+      "userCanonical": "https://blog.thetruckercodex.com/building-a-monthly-profit-and-loss-statement-for-a-trucking/",
+      "sitemap": [
+        "https://blog.thetruckercodex.com/sitemap.xml"
+      ]
     },
     {
       "url": "https://blog.thetruckercodex.com/cargo-securement-rules-tie-down-requirements-and-blocking/",
@@ -281,16 +289,32 @@
       ]
     },
     {
+      "url": "https://blog.thetruckercodex.com/certificate-of-violations-driver-reporting-obligations-and-c/",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-08-29T11:44:38Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://blog.thetruckercodex.com/certificate-of-violations-driver-reporting-obligations-and-c/",
+      "userCanonical": "https://blog.thetruckercodex.com/certificate-of-violations-driver-reporting-obligations-and-c/",
+      "sitemap": [
+        "https://blog.thetruckercodex.com/sitemap.xml"
+      ]
+    },
+    {
       "url": "https://blog.thetruckercodex.com/chart-of-accounts-for-a-one-truck-operation-structuring-your/",
       "verdict": "PASS",
       "coverageState": "Submitted and indexed",
       "robotsTxtState": "ALLOWED",
       "indexingState": "INDEXING_ALLOWED",
-      "lastCrawlTime": "2026-07-26T18:31:21Z",
+      "lastCrawlTime": "2026-08-25T03:09:01Z",
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/chart-of-accounts-for-a-one-truck-operation-structuring-your/",
       "userCanonical": "https://blog.thetruckercodex.com/chart-of-accounts-for-a-one-truck-operation-structuring-your/",
-      "sitemap": []
+      "sitemap": [
+        "https://blog.thetruckercodex.com/sitemap.xml"
+      ]
     },
     {
       "url": "https://blog.thetruckercodex.com/clearinghouse-phase-ii-cdl-downgrade-enforcement-what-carriers-and-drivers-must-do-right-now/",
@@ -316,9 +340,7 @@
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/common-dot-violations-how-to-avoid/",
       "userCanonical": "https://blog.thetruckercodex.com/common-dot-violations-how-to-avoid/",
-      "sitemap": [
-        "https://blog.thetruckercodex.com/sitemap.xml"
-      ]
+      "sitemap": []
     },
     {
       "url": "https://blog.thetruckercodex.com/consortium-and-third-party-administrator-requirements-for-sm/",
@@ -368,7 +390,7 @@
       "coverageState": "Submitted and indexed",
       "robotsTxtState": "ALLOWED",
       "indexingState": "INDEXING_ALLOWED",
-      "lastCrawlTime": "2026-08-13T16:29:07Z",
+      "lastCrawlTime": "2026-08-27T08:44:14Z",
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/cvsa-2026-oos-criteria-changes/",
       "userCanonical": "https://blog.thetruckercodex.com/cvsa-2026-oos-criteria-changes/",
@@ -386,9 +408,7 @@
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/cvsa-operation-safe-driver-week-what-officers-target-and-how/",
       "userCanonical": "https://blog.thetruckercodex.com/cvsa-operation-safe-driver-week-what-officers-target-and-how/",
-      "sitemap": [
-        "https://blog.thetruckercodex.com/sitemap.xml"
-      ]
+      "sitemap": []
     },
     {
       "url": "https://blog.thetruckercodex.com/cvsa-roadcheck-week-how-to-prepare-your-fleet-before-the-ann/",
@@ -410,7 +430,7 @@
       "coverageState": "Submitted and indexed",
       "robotsTxtState": "ALLOWED",
       "indexingState": "INDEXING_ALLOWED",
-      "lastCrawlTime": "2026-07-23T20:49:20Z",
+      "lastCrawlTime": "2026-08-30T11:10:38Z",
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/diabetes-exemption-program-how-cdl-drivers-with-itdm-qualify/",
       "userCanonical": "https://blog.thetruckercodex.com/diabetes-exemption-program-how-cdl-drivers-with-itdm-qualify/",
@@ -435,11 +455,11 @@
     {
       "url": "https://blog.thetruckercodex.com/dot-compliance-audit-triggers/",
       "verdict": "NEUTRAL",
-      "coverageState": "Crawled - currently not indexed",
-      "robotsTxtState": "ALLOWED",
+      "coverageState": "Discovered - currently not indexed",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
       "indexingState": "INDEXING_STATE_UNSPECIFIED",
-      "lastCrawlTime": "2026-02-27T01:15:07Z",
-      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
       "googleCanonical": null,
       "userCanonical": null,
       "sitemap": [
@@ -470,7 +490,9 @@
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/dot-compliance-documents-the-complete-list-truck-drivers-must-maintain/",
       "userCanonical": "https://blog.thetruckercodex.com/dot-compliance-documents-the-complete-list-truck-drivers-must-maintain/",
-      "sitemap": []
+      "sitemap": [
+        "https://blog.thetruckercodex.com/sitemap.xml"
+      ]
     },
     {
       "url": "https://blog.thetruckercodex.com/dot-physical-examination-disqualifying-conditions-and-exempt/",
@@ -478,13 +500,11 @@
       "coverageState": "Submitted and indexed",
       "robotsTxtState": "ALLOWED",
       "indexingState": "INDEXING_ALLOWED",
-      "lastCrawlTime": "2026-07-23T10:59:56Z",
+      "lastCrawlTime": "2026-08-29T21:54:20Z",
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/dot-physical-examination-disqualifying-conditions-and-exempt/",
       "userCanonical": "https://blog.thetruckercodex.com/dot-physical-examination-disqualifying-conditions-and-exempt/",
-      "sitemap": [
-        "https://blog.thetruckercodex.com/sitemap.xml"
-      ]
+      "sitemap": []
     },
     {
       "url": "https://blog.thetruckercodex.com/dot-pre-employment-requirements/",
@@ -524,9 +544,7 @@
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/dot-roadside-communication-structure/",
       "userCanonical": "https://blog.thetruckercodex.com/dot-roadside-communication-structure/",
-      "sitemap": [
-        "https://blog.thetruckercodex.com/sitemap.xml"
-      ]
+      "sitemap": []
     },
     {
       "url": "https://blog.thetruckercodex.com/dot-roadside-inspections-levels/",
@@ -534,7 +552,7 @@
       "coverageState": "Submitted and indexed",
       "robotsTxtState": "ALLOWED",
       "indexingState": "INDEXING_ALLOWED",
-      "lastCrawlTime": "2026-07-29T19:36:23Z",
+      "lastCrawlTime": "2026-08-29T05:00:56Z",
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/dot-roadside-inspections-levels/",
       "userCanonical": "https://blog.thetruckercodex.com/dot-roadside-inspections-levels/",
@@ -552,9 +570,7 @@
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/dot-vehicle-inspection-maintenance-requirements/",
       "userCanonical": "https://blog.thetruckercodex.com/dot-vehicle-inspection-maintenance-requirements/",
-      "sitemap": [
-        "https://blog.thetruckercodex.com/sitemap.xml"
-      ]
+      "sitemap": []
     },
     {
       "url": "https://blog.thetruckercodex.com/drayage-and-intermodal-operations-the-compliance-gaps-port-t/",
@@ -571,12 +587,24 @@
       ]
     },
     {
+      "url": "https://blog.thetruckercodex.com/driver-disqualification-automatic-grounds-and-the-path-back/",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-08-26T01:37:54Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://blog.thetruckercodex.com/driver-disqualification-automatic-grounds-and-the-path-back/",
+      "userCanonical": "https://blog.thetruckercodex.com/driver-disqualification-automatic-grounds-and-the-path-back/",
+      "sitemap": []
+    },
+    {
       "url": "https://blog.thetruckercodex.com/driver-oos-vs-vehicle-oos-what-each-order-means-and-how-they/",
       "verdict": "PASS",
       "coverageState": "Submitted and indexed",
       "robotsTxtState": "ALLOWED",
       "indexingState": "INDEXING_ALLOWED",
-      "lastCrawlTime": "2026-07-20T04:00:22Z",
+      "lastCrawlTime": "2026-08-24T22:49:12Z",
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/driver-oos-vs-vehicle-oos-what-each-order-means-and-how-they/",
       "userCanonical": "https://blog.thetruckercodex.com/driver-oos-vs-vehicle-oos-what-each-order-means-and-how-they/",
@@ -590,13 +618,11 @@
       "coverageState": "Submitted and indexed",
       "robotsTxtState": "ALLOWED",
       "indexingState": "INDEXING_ALLOWED",
-      "lastCrawlTime": "2026-07-22T06:26:14Z",
+      "lastCrawlTime": "2026-08-30T21:32:37Z",
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/driver-qualification-file-requirements/",
       "userCanonical": "https://blog.thetruckercodex.com/driver-qualification-file-requirements/",
-      "sitemap": [
-        "https://blog.thetruckercodex.com/sitemap.xml"
-      ]
+      "sitemap": []
     },
     {
       "url": "https://blog.thetruckercodex.com/driver-turnover-and-compliance-risk-why-high-turnover-fleets/",
@@ -608,7 +634,9 @@
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/driver-turnover-and-compliance-risk-why-high-turnover-fleets/",
       "userCanonical": "https://blog.thetruckercodex.com/driver-turnover-and-compliance-risk-why-high-turnover-fleets/",
-      "sitemap": []
+      "sitemap": [
+        "https://blog.thetruckercodex.com/sitemap.xml"
+      ]
     },
     {
       "url": "https://blog.thetruckercodex.com/driving-time-limits-for-passenger-carrying-cmvs-hos-differen/",
@@ -634,9 +662,7 @@
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/drug-test-refusal-what-it-means-for-a-cdl-and-how-carriers-m/",
       "userCanonical": "https://blog.thetruckercodex.com/drug-test-refusal-what-it-means-for-a-cdl-and-how-carriers-m/",
-      "sitemap": [
-        "https://blog.thetruckercodex.com/sitemap.xml"
-      ]
+      "sitemap": []
     },
     {
       "url": "https://blog.thetruckercodex.com/drug-testing-pre-employment-requirements-under-49-cfr-part-4/",
@@ -644,13 +670,11 @@
       "coverageState": "Submitted and indexed",
       "robotsTxtState": "ALLOWED",
       "indexingState": "INDEXING_ALLOWED",
-      "lastCrawlTime": "2026-07-24T10:38:20Z",
+      "lastCrawlTime": "2026-08-30T10:35:19Z",
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/drug-testing-pre-employment-requirements-under-49-cfr-part-4/",
       "userCanonical": "https://blog.thetruckercodex.com/drug-testing-pre-employment-requirements-under-49-cfr-part-4/",
-      "sitemap": [
-        "https://blog.thetruckercodex.com/sitemap.xml"
-      ]
+      "sitemap": []
     },
     {
       "url": "https://blog.thetruckercodex.com/eld-malfunction-codes-vs-data-diagnostic-events-why-carriers/",
@@ -732,9 +756,7 @@
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/emergency-equipment-requirements-fire-extinguisher-warning-d/",
       "userCanonical": "https://blog.thetruckercodex.com/emergency-equipment-requirements-fire-extinguisher-warning-d/",
-      "sitemap": [
-        "https://blog.thetruckercodex.com/sitemap.xml"
-      ]
+      "sitemap": []
     },
     {
       "url": "https://blog.thetruckercodex.com/english-language-proficiency-roadside-assessment/",
@@ -758,7 +780,9 @@
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/english-proficiency-as-an-out-of-service-condition-2026-roadside-enforcement-breakdown/",
       "userCanonical": "https://blog.thetruckercodex.com/english-proficiency-as-an-out-of-service-condition-2026-roadside-enforcement-breakdown/",
-      "sitemap": []
+      "sitemap": [
+        "https://blog.thetruckercodex.com/sitemap.xml"
+      ]
     },
     {
       "url": "https://blog.thetruckercodex.com/english-proficiency-enforcement-at-the-roadside-what-actuall/",
@@ -796,7 +820,9 @@
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/fmcsa-2026-eld-revocations-analysis/",
       "userCanonical": "https://blog.thetruckercodex.com/fmcsa-2026-eld-revocations-analysis/",
-      "sitemap": []
+      "sitemap": [
+        "https://blog.thetruckercodex.com/sitemap.xml"
+      ]
     },
     {
       "url": "https://blog.thetruckercodex.com/fmcsa-2026-update-comprehensive-list-of-revoked-eld-devices-and-compliance-strategies/",
@@ -864,9 +890,7 @@
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/fmcsa-imminent-hazard-orders-when-a-carrier-gets-shut-down-w/",
       "userCanonical": "https://blog.thetruckercodex.com/fmcsa-imminent-hazard-orders-when-a-carrier-gets-shut-down-w/",
-      "sitemap": [
-        "https://blog.thetruckercodex.com/sitemap.xml"
-      ]
+      "sitemap": []
     },
     {
       "url": "https://blog.thetruckercodex.com/fmcsa-intervention-thresholds-when-your-sms-percentile-trigg/",
@@ -888,7 +912,7 @@
       "coverageState": "Submitted and indexed",
       "robotsTxtState": "ALLOWED",
       "indexingState": "INDEXING_ALLOWED",
-      "lastCrawlTime": "2026-07-13T13:46:07Z",
+      "lastCrawlTime": "2026-08-29T22:28:02Z",
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/fmcsa-safety-measurement-system-how-your-csa-score-is-calcul/",
       "userCanonical": "https://blog.thetruckercodex.com/fmcsa-safety-measurement-system-how-your-csa-score-is-calcul/",
@@ -906,9 +930,7 @@
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/fmcsa-sfd-overhaul-2026/",
       "userCanonical": "https://blog.thetruckercodex.com/fmcsa-sfd-overhaul-2026/",
-      "sitemap": [
-        "https://blog.thetruckercodex.com/sitemap.xml"
-      ]
+      "sitemap": []
     },
     {
       "url": "https://blog.thetruckercodex.com/fmcsas-intervention-escalation-model-from-warning-letter-to/",
@@ -948,7 +970,9 @@
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/forming-a-trucking-llc-state-selection-registered-agent-and/",
       "userCanonical": "https://blog.thetruckercodex.com/forming-a-trucking-llc-state-selection-registered-agent-and/",
-      "sitemap": []
+      "sitemap": [
+        "https://blog.thetruckercodex.com/sitemap.xml"
+      ]
     },
     {
       "url": "https://blog.thetruckercodex.com/free/dot-roadside-inspection-kit/",
@@ -972,9 +996,7 @@
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/fuel-system-requirements-leak-prevention-cap-security-and-in/",
       "userCanonical": "https://blog.thetruckercodex.com/fuel-system-requirements-leak-prevention-cap-security-and-in/",
-      "sitemap": [
-        "https://blog.thetruckercodex.com/sitemap.xml"
-      ]
+      "sitemap": []
     },
     {
       "url": "https://blog.thetruckercodex.com/hazardous-materials-shipping-papers-what-must-be-on-the-docu/",
@@ -1000,9 +1022,7 @@
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/hazmat-documentation-control-why-shipping-papers-placard-references-and-training-records-must-function-as-one-compliance-system/",
       "userCanonical": "https://blog.thetruckercodex.com/hazmat-documentation-control-why-shipping-papers-placard-references-and-training-records-must-function-as-one-compliance-system/",
-      "sitemap": [
-        "https://blog.thetruckercodex.com/sitemap.xml"
-      ]
+      "sitemap": []
     },
     {
       "url": "https://blog.thetruckercodex.com/hazmat-placarding-when-its-required-and-which-placard-to-use/",
@@ -1010,7 +1030,7 @@
       "coverageState": "Submitted and indexed",
       "robotsTxtState": "ALLOWED",
       "indexingState": "INDEXING_ALLOWED",
-      "lastCrawlTime": "2026-08-20T00:37:06Z",
+      "lastCrawlTime": "2026-08-30T03:34:22Z",
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/hazmat-placarding-when-its-required-and-which-placard-to-use/",
       "userCanonical": "https://blog.thetruckercodex.com/hazmat-placarding-when-its-required-and-which-placard-to-use/",
@@ -1136,7 +1156,7 @@
       "coverageState": "Submitted and indexed",
       "robotsTxtState": "ALLOWED",
       "indexingState": "INDEXING_ALLOWED",
-      "lastCrawlTime": "2026-08-21T19:14:35Z",
+      "lastCrawlTime": "2026-08-30T01:54:42Z",
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/how-a-dot-number-gets-deactivated-for-inactivity-and-what-re/",
       "userCanonical": "https://blog.thetruckercodex.com/how-a-dot-number-gets-deactivated-for-inactivity-and-what-re/",
@@ -1182,9 +1202,7 @@
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/how-csa-points-accumulate-real-examples-that-sink-small-carr/",
       "userCanonical": "https://blog.thetruckercodex.com/how-csa-points-accumulate-real-examples-that-sink-small-carr/",
-      "sitemap": [
-        "https://blog.thetruckercodex.com/sitemap.xml"
-      ]
+      "sitemap": []
     },
     {
       "url": "https://blog.thetruckercodex.com/how-csa-scores-affect-commercial-trucking-insurance-premiums/",
@@ -1196,9 +1214,7 @@
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/how-csa-scores-affect-commercial-trucking-insurance-premiums/",
       "userCanonical": "https://blog.thetruckercodex.com/how-csa-scores-affect-commercial-trucking-insurance-premiums/",
-      "sitemap": [
-        "https://blog.thetruckercodex.com/sitemap.xml"
-      ]
+      "sitemap": []
     },
     {
       "url": "https://blog.thetruckercodex.com/how-csas-basic-percentile-thresholds-differ-by-vehicle-type/",
@@ -1224,9 +1240,7 @@
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/how-drug-clearinghouse-violations-affect-a-carriers-safety-r/",
       "userCanonical": "https://blog.thetruckercodex.com/how-drug-clearinghouse-violations-affect-a-carriers-safety-r/",
-      "sitemap": [
-        "https://blog.thetruckercodex.com/sitemap.xml"
-      ]
+      "sitemap": []
     },
     {
       "url": "https://blog.thetruckercodex.com/how-drug-test-collection-errors-create-carrier-liability-and/",
@@ -1262,7 +1276,7 @@
       "coverageState": "Submitted and indexed",
       "robotsTxtState": "ALLOWED",
       "indexingState": "INDEXING_ALLOWED",
-      "lastCrawlTime": "2026-08-18T02:20:50Z",
+      "lastCrawlTime": "2026-08-26T15:20:14Z",
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/how-electronic-bill-of-lading-affects-document-requirements/",
       "userCanonical": "https://blog.thetruckercodex.com/how-electronic-bill-of-lading-affects-document-requirements/",
@@ -1280,7 +1294,9 @@
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/how-fatigue-science-informs-fmcsas-hours-of-service-rule-str/",
       "userCanonical": "https://blog.thetruckercodex.com/how-fatigue-science-informs-fmcsas-hours-of-service-rule-str/",
-      "sitemap": []
+      "sitemap": [
+        "https://blog.thetruckercodex.com/sitemap.xml"
+      ]
     },
     {
       "url": "https://blog.thetruckercodex.com/how-fmcsa-selects-carriers-for-compliance-reviews-the-data-b/",
@@ -1302,13 +1318,11 @@
       "coverageState": "Submitted and indexed",
       "robotsTxtState": "ALLOWED",
       "indexingState": "INDEXING_ALLOWED",
-      "lastCrawlTime": "2026-08-22T22:17:37Z",
+      "lastCrawlTime": "2026-08-26T14:52:06Z",
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/how-fmcsa-time-weights-violations-in-sms-why-recent-violatio/",
       "userCanonical": "https://blog.thetruckercodex.com/how-fmcsa-time-weights-violations-in-sms-why-recent-violatio/",
-      "sitemap": [
-        "https://blog.thetruckercodex.com/sitemap.xml"
-      ]
+      "sitemap": []
     },
     {
       "url": "https://blog.thetruckercodex.com/how-fmcsa-weights-fatal-injury-and-tow-away-crashes-in-sms-s/",
@@ -1344,7 +1358,7 @@
       "coverageState": "Submitted and indexed",
       "robotsTxtState": "ALLOWED",
       "indexingState": "INDEXING_ALLOWED",
-      "lastCrawlTime": "2026-07-20T22:47:43Z",
+      "lastCrawlTime": "2026-08-29T04:59:44Z",
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/how-fmcsas-pre-employment-screening-program-psp-works-for-ca/",
       "userCanonical": "https://blog.thetruckercodex.com/how-fmcsas-pre-employment-screening-program-psp-works-for-ca/",
@@ -1362,7 +1376,9 @@
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/how-hos-violations-become-crash-liability-what-plaintiff-att/",
       "userCanonical": "https://blog.thetruckercodex.com/how-hos-violations-become-crash-liability-what-plaintiff-att/",
-      "sitemap": []
+      "sitemap": [
+        "https://blog.thetruckercodex.com/sitemap.xml"
+      ]
     },
     {
       "url": "https://blog.thetruckercodex.com/how-inspectors-detect-hos-log-manipulation-patterns-theyre-t/",
@@ -1370,7 +1386,7 @@
       "coverageState": "Submitted and indexed",
       "robotsTxtState": "ALLOWED",
       "indexingState": "INDEXING_ALLOWED",
-      "lastCrawlTime": "2026-08-14T14:29:24Z",
+      "lastCrawlTime": "2026-08-30T00:33:27Z",
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/how-inspectors-detect-hos-log-manipulation-patterns-theyre-t/",
       "userCanonical": "https://blog.thetruckercodex.com/how-inspectors-detect-hos-log-manipulation-patterns-theyre-t/",
@@ -1388,7 +1404,9 @@
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/how-inspectors-verify-cdl-validity-at-the-roadside-the-datab/",
       "userCanonical": "https://blog.thetruckercodex.com/how-inspectors-verify-cdl-validity-at-the-roadside-the-datab/",
-      "sitemap": []
+      "sitemap": [
+        "https://blog.thetruckercodex.com/sitemap.xml"
+      ]
     },
     {
       "url": "https://blog.thetruckercodex.com/how-mcsap-funding-shapes-roadside-enforcement-priorities-by/",
@@ -1400,7 +1418,9 @@
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/how-mcsap-funding-shapes-roadside-enforcement-priorities-by/",
       "userCanonical": "https://blog.thetruckercodex.com/how-mcsap-funding-shapes-roadside-enforcement-priorities-by/",
-      "sitemap": []
+      "sitemap": [
+        "https://blog.thetruckercodex.com/sitemap.xml"
+      ]
     },
     {
       "url": "https://blog.thetruckercodex.com/how-passenger-carrier-cdl-endorsements-differ-from-freight-e/",
@@ -1412,9 +1432,7 @@
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/how-passenger-carrier-cdl-endorsements-differ-from-freight-e/",
       "userCanonical": "https://blog.thetruckercodex.com/how-passenger-carrier-cdl-endorsements-differ-from-freight-e/",
-      "sitemap": [
-        "https://blog.thetruckercodex.com/sitemap.xml"
-      ]
+      "sitemap": []
     },
     {
       "url": "https://blog.thetruckercodex.com/how-post-accident-drug-testing-timelines-affect-litigation-o/",
@@ -1454,7 +1472,9 @@
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/how-seasonal-and-agricultural-operations-affect-fmcsa-regist/",
       "userCanonical": "https://blog.thetruckercodex.com/how-seasonal-and-agricultural-operations-affect-fmcsa-regist/",
-      "sitemap": []
+      "sitemap": [
+        "https://blog.thetruckercodex.com/sitemap.xml"
+      ]
     },
     {
       "url": "https://blog.thetruckercodex.com/how-the-cdl-drug-and-alcohol-clearinghouses-prohibited-statu/",
@@ -1466,7 +1486,9 @@
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/how-the-cdl-drug-and-alcohol-clearinghouses-prohibited-statu/",
       "userCanonical": "https://blog.thetruckercodex.com/how-the-cdl-drug-and-alcohol-clearinghouses-prohibited-statu/",
-      "sitemap": []
+      "sitemap": [
+        "https://blog.thetruckercodex.com/sitemap.xml"
+      ]
     },
     {
       "url": "https://blog.thetruckercodex.com/how-to-dispute-a-roadside-inspection-finding-through-dataqs/",
@@ -1492,7 +1514,9 @@
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/how-to-read-an-fmcsa-inspection-report-field-by-field-breakd/",
       "userCanonical": "https://blog.thetruckercodex.com/how-to-read-an-fmcsa-inspection-report-field-by-field-breakd/",
-      "sitemap": []
+      "sitemap": [
+        "https://blog.thetruckercodex.com/sitemap.xml"
+      ]
     },
     {
       "url": "https://blog.thetruckercodex.com/how-to-read-your-csa-scorecard-and-identify-your-biggest-ris/",
@@ -1514,7 +1538,7 @@
       "coverageState": "Submitted and indexed",
       "robotsTxtState": "ALLOWED",
       "indexingState": "INDEXING_ALLOWED",
-      "lastCrawlTime": "2026-08-22T09:46:17Z",
+      "lastCrawlTime": "2026-08-28T22:25:19Z",
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/how-weigh-in-motion-technology-is-used-to-pre-screen-trucks/",
       "userCanonical": "https://blog.thetruckercodex.com/how-weigh-in-motion-technology-is-used-to-pre-screen-trucks/",
@@ -1546,7 +1570,9 @@
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/ifta-audit-triggers-how-fuel-tax-discrepancies-escalate-to-d/",
       "userCanonical": "https://blog.thetruckercodex.com/ifta-audit-triggers-how-fuel-tax-discrepancies-escalate-to-d/",
-      "sitemap": []
+      "sitemap": [
+        "https://blog.thetruckercodex.com/sitemap.xml"
+      ]
     },
     {
       "url": "https://blog.thetruckercodex.com/ifta-fuel-tax-reconciliation-as-a-bookkeeping-discipline-not/",
@@ -1582,7 +1608,7 @@
       "coverageState": "Submitted and indexed",
       "robotsTxtState": "ALLOWED",
       "indexingState": "INDEXING_ALLOWED",
-      "lastCrawlTime": "2026-07-04T00:51:18Z",
+      "lastCrawlTime": "2026-08-30T01:00:41Z",
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/insurance-minimums-what-carriers-must-maintain-by-operation/",
       "userCanonical": "https://blog.thetruckercodex.com/insurance-minimums-what-carriers-must-maintain-by-operation/",
@@ -1670,7 +1696,9 @@
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/lighting-violations-after-dark-why-night-inspections-produce/",
       "userCanonical": "https://blog.thetruckercodex.com/lighting-violations-after-dark-why-night-inspections-produce/",
-      "sitemap": []
+      "sitemap": [
+        "https://blog.thetruckercodex.com/sitemap.xml"
+      ]
     },
     {
       "url": "https://blog.thetruckercodex.com/load-by-load-profitability-should-you-take-this-load-or-dead/",
@@ -1682,9 +1710,7 @@
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/load-by-load-profitability-should-you-take-this-load-or-dead/",
       "userCanonical": "https://blog.thetruckercodex.com/load-by-load-profitability-should-you-take-this-load-or-dead/",
-      "sitemap": [
-        "https://blog.thetruckercodex.com/sitemap.xml"
-      ]
+      "sitemap": []
     },
     {
       "url": "https://blog.thetruckercodex.com/longer-combination-vehicles-why-doubles-and-triples-face-str/",
@@ -1696,9 +1722,7 @@
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/longer-combination-vehicles-why-doubles-and-triples-face-str/",
       "userCanonical": "https://blog.thetruckercodex.com/longer-combination-vehicles-why-doubles-and-triples-face-str/",
-      "sitemap": [
-        "https://blog.thetruckercodex.com/sitemap.xml"
-      ]
+      "sitemap": []
     },
     {
       "url": "https://blog.thetruckercodex.com/medical-certificate-expiration-the-cascade-of-consequences-w/",
@@ -1738,7 +1762,9 @@
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/new-entrant-safety-audit-fmcsa-methodology/",
       "userCanonical": "https://blog.thetruckercodex.com/new-entrant-safety-audit-fmcsa-methodology/",
-      "sitemap": []
+      "sitemap": [
+        "https://blog.thetruckercodex.com/sitemap.xml"
+      ]
     },
     {
       "url": "https://blog.thetruckercodex.com/new-entrant-safety-audit-survival-guide/",
@@ -1760,7 +1786,7 @@
       "coverageState": "Submitted and indexed",
       "robotsTxtState": "ALLOWED",
       "indexingState": "INDEXING_ALLOWED",
-      "lastCrawlTime": "2026-07-07T22:41:31Z",
+      "lastCrawlTime": "2026-08-24T14:31:06Z",
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/operating-authority-mc-number-ucr-registration-and-usdot-num/",
       "userCanonical": "https://blog.thetruckercodex.com/operating-authority-mc-number-ucr-registration-and-usdot-num/",
@@ -1774,13 +1800,11 @@
       "coverageState": "Submitted and indexed",
       "robotsTxtState": "ALLOWED",
       "indexingState": "INDEXING_ALLOWED",
-      "lastCrawlTime": "2026-08-18T11:38:36Z",
+      "lastCrawlTime": "2026-08-30T02:19:50Z",
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/out-of-service-criteria-coupling-devices-and-fifth-wheel/",
       "userCanonical": "https://blog.thetruckercodex.com/out-of-service-criteria-coupling-devices-and-fifth-wheel/",
-      "sitemap": [
-        "https://blog.thetruckercodex.com/sitemap.xml"
-      ]
+      "sitemap": []
     },
     {
       "url": "https://blog.thetruckercodex.com/out-of-service-criteria-lighting-defects-that-ground-a-vehic/",
@@ -1802,7 +1826,7 @@
       "coverageState": "Submitted and indexed",
       "robotsTxtState": "ALLOWED",
       "indexingState": "INDEXING_ALLOWED",
-      "lastCrawlTime": "2026-08-23T16:39:46Z",
+      "lastCrawlTime": "2026-08-27T02:55:29Z",
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/out-of-service-criteria-steering-system-defects/",
       "userCanonical": "https://blog.thetruckercodex.com/out-of-service-criteria-steering-system-defects/",
@@ -1848,9 +1872,7 @@
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/passenger-carrier-compliance-reviews-what-differs-from-freig/",
       "userCanonical": "https://blog.thetruckercodex.com/passenger-carrier-compliance-reviews-what-differs-from-freig/",
-      "sitemap": [
-        "https://blog.thetruckercodex.com/sitemap.xml"
-      ]
+      "sitemap": []
     },
     {
       "url": "https://blog.thetruckercodex.com/per-diem-deductions-for-truck-drivers-irs-rules-under-26-usc/",
@@ -1890,7 +1912,9 @@
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/personal-conveyance-what-fmcsa-actually-permits/",
       "userCanonical": "https://blog.thetruckercodex.com/personal-conveyance-what-fmcsa-actually-permits/",
-      "sitemap": []
+      "sitemap": [
+        "https://blog.thetruckercodex.com/sitemap.xml"
+      ]
     },
     {
       "url": "https://blog.thetruckercodex.com/phmsa-hazmat-harmonization-2026-nprm/",
@@ -1926,7 +1950,7 @@
       "coverageState": "Submitted and indexed",
       "robotsTxtState": "ALLOWED",
       "indexingState": "INDEXING_ALLOWED",
-      "lastCrawlTime": "2026-07-21T00:27:02Z",
+      "lastCrawlTime": "2026-08-25T20:27:57Z",
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/post-accident-testing-the-decision-tree-carriers-get-wrong/",
       "userCanonical": "https://blog.thetruckercodex.com/post-accident-testing-the-decision-tree-carriers-get-wrong/",
@@ -1944,9 +1968,7 @@
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/pre-trip-inspection-the-15-items-most-drivers-skip/",
       "userCanonical": "https://blog.thetruckercodex.com/pre-trip-inspection-the-15-items-most-drivers-skip/",
-      "sitemap": [
-        "https://blog.thetruckercodex.com/sitemap.xml"
-      ]
+      "sitemap": []
     },
     {
       "url": "https://blog.thetruckercodex.com/prior-inspection-data-how-roadside-history-follows-a-truck-e/",
@@ -1972,9 +1994,7 @@
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/quarterly-estimated-taxes-for-owner-operators-form-1040-es-a/",
       "userCanonical": "https://blog.thetruckercodex.com/quarterly-estimated-taxes-for-owner-operators-form-1040-es-a/",
-      "sitemap": [
-        "https://blog.thetruckercodex.com/sitemap.xml"
-      ]
+      "sitemap": []
     },
     {
       "url": "https://blog.thetruckercodex.com/random-drug-and-alcohol-testing-rates-pools-and-carrier-obli/",
@@ -1982,7 +2002,7 @@
       "coverageState": "Submitted and indexed",
       "robotsTxtState": "ALLOWED",
       "indexingState": "INDEXING_ALLOWED",
-      "lastCrawlTime": "2026-07-09T08:10:27Z",
+      "lastCrawlTime": "2026-08-29T21:12:45Z",
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/random-drug-and-alcohol-testing-rates-pools-and-carrier-obli/",
       "userCanonical": "https://blog.thetruckercodex.com/random-drug-and-alcohol-testing-rates-pools-and-carrier-obli/",
@@ -1996,7 +2016,7 @@
       "coverageState": "Submitted and indexed",
       "robotsTxtState": "ALLOWED",
       "indexingState": "INDEXING_ALLOWED",
-      "lastCrawlTime": "2026-07-19T06:26:13Z",
+      "lastCrawlTime": "2026-08-24T14:23:51Z",
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/random-drug-and-alcohol-testing-rates-why-fmcsa-raises-or-lo/",
       "userCanonical": "https://blog.thetruckercodex.com/random-drug-and-alcohol-testing-rates-why-fmcsa-raises-or-lo/",
@@ -2024,7 +2044,7 @@
       "coverageState": "Submitted and indexed",
       "robotsTxtState": "ALLOWED",
       "indexingState": "INDEXING_ALLOWED",
-      "lastCrawlTime": "2026-08-14T14:15:30Z",
+      "lastCrawlTime": "2026-08-26T02:49:13Z",
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/road-test-requirements-when-a-certificate-of-violations-is-n/",
       "userCanonical": "https://blog.thetruckercodex.com/road-test-requirements-when-a-certificate-of-violations-is-n/",
@@ -2040,9 +2060,7 @@
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/roadside-communication-what-to-say-and-what-not-to-say-to-an/",
       "userCanonical": "https://blog.thetruckercodex.com/roadside-communication-what-to-say-and-what-not-to-say-to-an/",
-      "sitemap": [
-        "https://blog.thetruckercodex.com/sitemap.xml"
-      ]
+      "sitemap": []
     },
     {
       "url": "https://blog.thetruckercodex.com/roadside-inspection-survival-guide/",
@@ -2236,7 +2254,9 @@
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/technical-standards-for-non-domiciled-cdl-issuance-and-save-verification-2026-update/",
       "userCanonical": "https://blog.thetruckercodex.com/technical-standards-for-non-domiciled-cdl-issuance-and-save-verification-2026-update/",
-      "sitemap": []
+      "sitemap": [
+        "https://blog.thetruckercodex.com/sitemap.xml"
+      ]
     },
     {
       "url": "https://blog.thetruckercodex.com/the-10-most-common-hos-violations-found-during-roadside-insp/",
@@ -2262,9 +2282,7 @@
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/the-14-hour-on-duty-window-what-counts-and-what-doesnt/",
       "userCanonical": "https://blog.thetruckercodex.com/the-14-hour-on-duty-window-what-counts-and-what-doesnt/",
-      "sitemap": [
-        "https://blog.thetruckercodex.com/sitemap.xml"
-      ]
+      "sitemap": []
     },
     {
       "url": "https://blog.thetruckercodex.com/the-18-month-new-entrant-monitoring-period-what-happens-afte/",
@@ -2304,7 +2322,9 @@
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/the-30-minute-break-requirement-exemptions-most-drivers-dont/",
       "userCanonical": "https://blog.thetruckercodex.com/the-30-minute-break-requirement-exemptions-most-drivers-dont/",
-      "sitemap": []
+      "sitemap": [
+        "https://blog.thetruckercodex.com/sitemap.xml"
+      ]
     },
     {
       "url": "https://blog.thetruckercodex.com/the-5-cargo-securement-failures-that-generate-the-most-citat/",
@@ -2326,7 +2346,7 @@
       "coverageState": "Submitted and indexed",
       "robotsTxtState": "ALLOWED",
       "indexingState": "INDEXING_ALLOWED",
-      "lastCrawlTime": "2026-08-17T01:07:48Z",
+      "lastCrawlTime": "2026-08-30T03:08:36Z",
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/the-5-suspension-defects-that-most-often-lead-to-oos-orders/",
       "userCanonical": "https://blog.thetruckercodex.com/the-5-suspension-defects-that-most-often-lead-to-oos-orders/",
@@ -2414,7 +2434,9 @@
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/the-clearinghouse-query-carriers-most-often-forget-to-run/",
       "userCanonical": "https://blog.thetruckercodex.com/the-clearinghouse-query-carriers-most-often-forget-to-run/",
-      "sitemap": []
+      "sitemap": [
+        "https://blog.thetruckercodex.com/sitemap.xml"
+      ]
     },
     {
       "url": "https://blog.thetruckercodex.com/the-compliance-safety-accountability-programs-public-vs-non/",
@@ -2426,9 +2448,7 @@
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/the-compliance-safety-accountability-programs-public-vs-non/",
       "userCanonical": "https://blog.thetruckercodex.com/the-compliance-safety-accountability-programs-public-vs-non/",
-      "sitemap": [
-        "https://blog.thetruckercodex.com/sitemap.xml"
-      ]
+      "sitemap": []
     },
     {
       "url": "https://blog.thetruckercodex.com/the-dataqs-process-success-rates-timelines-and-what-to-expec/",
@@ -2440,7 +2460,9 @@
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/the-dataqs-process-success-rates-timelines-and-what-to-expec/",
       "userCanonical": "https://blog.thetruckercodex.com/the-dataqs-process-success-rates-timelines-and-what-to-expec/",
-      "sitemap": []
+      "sitemap": [
+        "https://blog.thetruckercodex.com/sitemap.xml"
+      ]
     },
     {
       "url": "https://blog.thetruckercodex.com/the-five-basics-with-highest-statistical-correlation-to-cras/",
@@ -2522,21 +2544,21 @@
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/the-true-cost-of-an-oos-violation-fines-delays-and-csa-impac/",
       "userCanonical": "https://blog.thetruckercodex.com/the-true-cost-of-an-oos-violation-fines-delays-and-csa-impac/",
-      "sitemap": [
-        "https://blog.thetruckercodex.com/sitemap.xml"
-      ]
+      "sitemap": []
     },
     {
       "url": "https://blog.thetruckercodex.com/tire-defects-out-of-service-criteria/",
       "verdict": "NEUTRAL",
-      "coverageState": "URL is unknown to Google",
+      "coverageState": "Discovered - currently not indexed",
       "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
       "indexingState": "INDEXING_STATE_UNSPECIFIED",
       "lastCrawlTime": null,
       "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
       "googleCanonical": null,
       "userCanonical": null,
-      "sitemap": []
+      "sitemap": [
+        "https://blog.thetruckercodex.com/sitemap.xml"
+      ]
     },
     {
       "url": "https://blog.thetruckercodex.com/tire-violations-the-exact-measurements-officers-use-to-write/",
@@ -2558,7 +2580,7 @@
       "coverageState": "Submitted and indexed",
       "robotsTxtState": "ALLOWED",
       "indexingState": "INDEXING_ALLOWED",
-      "lastCrawlTime": "2026-07-21T15:25:43Z",
+      "lastCrawlTime": "2026-08-24T15:58:22Z",
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/top-5-brake-violations-that-trigger-an-immediate-oos-order/",
       "userCanonical": "https://blog.thetruckercodex.com/top-5-brake-violations-that-trigger-an-immediate-oos-order/",
@@ -2632,21 +2654,21 @@
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": null,
       "userCanonical": "https://blog.thetruckercodex.com/topics/fmcsa-basics/",
-      "sitemap": [
-        "https://blog.thetruckercodex.com/sitemap.xml"
-      ]
+      "sitemap": []
     },
     {
       "url": "https://blog.thetruckercodex.com/topics/hos-eld/",
       "verdict": "NEUTRAL",
-      "coverageState": "URL is unknown to Google",
+      "coverageState": "Discovered - currently not indexed",
       "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
       "indexingState": "INDEXING_STATE_UNSPECIFIED",
       "lastCrawlTime": null,
       "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
       "googleCanonical": null,
       "userCanonical": null,
-      "sitemap": []
+      "sitemap": [
+        "https://blog.thetruckercodex.com/sitemap.xml"
+      ]
     },
     {
       "url": "https://blog.thetruckercodex.com/topics/maintenance/",
@@ -2750,7 +2772,7 @@
       "coverageState": "Submitted and indexed",
       "robotsTxtState": "ALLOWED",
       "indexingState": "INDEXING_ALLOWED",
-      "lastCrawlTime": "2026-08-19T23:53:54Z",
+      "lastCrawlTime": "2026-08-29T05:16:59Z",
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/what-a-conditional-safety-rating-actually-means-and-how-to-f/",
       "userCanonical": "https://blog.thetruckercodex.com/what-a-conditional-safety-rating-actually-means-and-how-to-f/",
@@ -2764,13 +2786,11 @@
       "coverageState": "Submitted and indexed",
       "robotsTxtState": "ALLOWED",
       "indexingState": "INDEXING_ALLOWED",
-      "lastCrawlTime": "2026-08-22T22:38:31Z",
+      "lastCrawlTime": "2026-08-30T05:49:12Z",
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/what-carriers-must-do-when-a-drivers-cdl-is-downgraded-mid-e/",
       "userCanonical": "https://blog.thetruckercodex.com/what-carriers-must-do-when-a-drivers-cdl-is-downgraded-mid-e/",
-      "sitemap": [
-        "https://blog.thetruckercodex.com/sitemap.xml"
-      ]
+      "sitemap": []
     },
     {
       "url": "https://blog.thetruckercodex.com/what-fmcsas-safety-fitness-determination-rulemaking-would-ha/",
@@ -2782,7 +2802,9 @@
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/what-fmcsas-safety-fitness-determination-rulemaking-would-ha/",
       "userCanonical": "https://blog.thetruckercodex.com/what-fmcsas-safety-fitness-determination-rulemaking-would-ha/",
-      "sitemap": []
+      "sitemap": [
+        "https://blog.thetruckercodex.com/sitemap.xml"
+      ]
     },
     {
       "url": "https://blog.thetruckercodex.com/what-happens-during-an-fmcsa-focused-compliance-investigatio/",
@@ -2790,7 +2812,7 @@
       "coverageState": "Submitted and indexed",
       "robotsTxtState": "ALLOWED",
       "indexingState": "INDEXING_ALLOWED",
-      "lastCrawlTime": "2026-07-18T12:03:57Z",
+      "lastCrawlTime": "2026-08-29T17:57:55Z",
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/what-happens-during-an-fmcsa-focused-compliance-investigatio/",
       "userCanonical": "https://blog.thetruckercodex.com/what-happens-during-an-fmcsa-focused-compliance-investigatio/",
@@ -2808,7 +2830,9 @@
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/what-happens-to-operating-authority-after-an-unsatisfactory/",
       "userCanonical": "https://blog.thetruckercodex.com/what-happens-to-operating-authority-after-an-unsatisfactory/",
-      "sitemap": []
+      "sitemap": [
+        "https://blog.thetruckercodex.com/sitemap.xml"
+      ]
     },
     {
       "url": "https://blog.thetruckercodex.com/what-is-dot-compliance/",
@@ -2820,7 +2844,9 @@
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/what-is-dot-compliance/",
       "userCanonical": "https://blog.thetruckercodex.com/what-is-dot-compliance/",
-      "sitemap": []
+      "sitemap": [
+        "https://blog.thetruckercodex.com/sitemap.xml"
+      ]
     },
     {
       "url": "https://blog.thetruckercodex.com/what-is-fmcsa/",
@@ -2832,9 +2858,7 @@
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/what-is-fmcsa/",
       "userCanonical": "https://blog.thetruckercodex.com/what-is-fmcsa/",
-      "sitemap": [
-        "https://blog.thetruckercodex.com/sitemap.xml"
-      ]
+      "sitemap": []
     },
     {
       "url": "https://blog.thetruckercodex.com/what-officers-look-for-in-the-first-60-seconds-of-a-level-i/",
@@ -2846,7 +2870,9 @@
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/what-officers-look-for-in-the-first-60-seconds-of-a-level-i/",
       "userCanonical": "https://blog.thetruckercodex.com/what-officers-look-for-in-the-first-60-seconds-of-a-level-i/",
-      "sitemap": []
+      "sitemap": [
+        "https://blog.thetruckercodex.com/sitemap.xml"
+      ]
     },
     {
       "url": "https://blog.thetruckercodex.com/what-owner-operators-get-wrong-about-their-own-operating-aut/",
@@ -2928,7 +2954,9 @@
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/what-triggers-a-targeted-roadside-inspection-vs-a-random-sto/",
       "userCanonical": "https://blog.thetruckercodex.com/what-triggers-a-targeted-roadside-inspection-vs-a-random-sto/",
-      "sitemap": []
+      "sitemap": [
+        "https://blog.thetruckercodex.com/sitemap.xml"
+      ]
     },
     {
       "url": "https://blog.thetruckercodex.com/what-triggers-an-out-of-state-compliance-review-interstate-e/",
@@ -2950,7 +2978,7 @@
       "coverageState": "Submitted and indexed",
       "robotsTxtState": "ALLOWED",
       "indexingState": "INDEXING_ALLOWED",
-      "lastCrawlTime": "2026-07-24T02:53:19Z",
+      "lastCrawlTime": "2026-08-30T01:16:02Z",
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/when-a-driver-quits-mid-route-carrier-obligations-under-fmcs/",
       "userCanonical": "https://blog.thetruckercodex.com/when-a-driver-quits-mid-route-carrier-obligations-under-fmcs/",
@@ -2982,9 +3010,7 @@
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/why-return-to-duty-violations-cost-more-than-the-original-dr/",
       "userCanonical": "https://blog.thetruckercodex.com/why-return-to-duty-violations-cost-more-than-the-original-dr/",
-      "sitemap": [
-        "https://blog.thetruckercodex.com/sitemap.xml"
-      ]
+      "sitemap": []
     },
     {
       "url": "https://blog.thetruckercodex.com/why-small-carriers-have-disproportionately-higher-oos-rates/",
@@ -3010,7 +3036,9 @@
       "pageFetchState": "SUCCESSFUL",
       "googleCanonical": "https://blog.thetruckercodex.com/why-small-fleets-fail-dot-audits-the-6-most-common-dqf-defic/",
       "userCanonical": "https://blog.thetruckercodex.com/why-small-fleets-fail-dot-audits-the-6-most-common-dqf-defic/",
-      "sitemap": []
+      "sitemap": [
+        "https://blog.thetruckercodex.com/sitemap.xml"
+      ]
     },
     {
       "url": "https://blog.thetruckercodex.com/yard-moves-definition-proper-annotation-and-audit-risk/",
