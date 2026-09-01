@@ -1,5 +1,5 @@
 {
-  "cursor": 128,
+  "cursor": 133,
   "cycle": 2,
   "posts": {
     "2026-02-08-common-dot-violations-how-to-avoid.md": {
@@ -554,7 +554,7 @@
       "last_result": "no_change"
     },
     "2026-05-09-out-of-service-criteria-steering-system-defects.md": {
-      "last_checked_date": "2026-07-27",
+      "last_checked_date": "2026-09-01",
       "last_result": "no_change"
     },
     "2026-05-10-fmcsas-most-cited-violations-analysis-of-the-annual-top-viol.md": {
@@ -563,7 +563,7 @@
       "last_result": "updated"
     },
     "2026-05-10-out-of-service-criteria-lighting-defects-that-ground-a-vehic.md": {
-      "last_checked_date": "2026-07-28",
+      "last_checked_date": "2026-09-01",
       "last_result": "no_change"
     },
     "2026-05-11-drayage-and-intermodal-operations-the-compliance-gaps-port-t.md": {
@@ -572,7 +572,7 @@
       "last_result": "updated"
     },
     "2026-05-11-what-carriers-must-do-when-a-drivers-cdl-is-downgraded-mid-e.md": {
-      "last_checked_date": "2026-07-28",
+      "last_checked_date": "2026-09-01",
       "last_result": "no_change"
     },
     "2026-05-12-fmcsa-imminent-hazard-orders-when-a-carrier-gets-shut-down-w.md": {
@@ -752,5 +752,5 @@
       "last_result": "no_change"
     }
   },
-  "updated_at": "2026-08-31T19:06:36.120634+00:00"
+  "updated_at": "2026-09-01T16:33:31.106330+00:00"
 }

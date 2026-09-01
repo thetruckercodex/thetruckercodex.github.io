@@ -2305,6 +2305,41 @@
           "reasoning": "The Federal Register document cited (doc #2026-15816, published 2026-08-04, effective 2026-09-03) amends the Hazardous Materials Regulations to adopt provisions from DOT Special Permits 12412 and 11646 — addressing specific operational/commodity flexibility under those special permits — and does not amend, redesignate, revoke, or modify 49 CFR § 177.817 (shipping papers requirements) or 49 CFR § 390.5 (definitions/record falsification) in any way that would alter the post's regulatory claims. The post's core assertions about § 177.817's document production obligations, the absence of an explicit eBOL mandate, and the enforcement discretion framework remain accurate and unaffected by this rulemaking. Additionally, the eCFR fetch was unavailable, so no live section text contradicts the post. With no concrete change to the specific CFR sections being audited, no material update is warranted."
         }
       ]
+    },
+    {
+      "run_date": "2026-09-01T16:33:31.108273+00:00",
+      "entries": [
+        {
+          "timestamp": "2026-09-01T16:32:56.157211+00:00",
+          "file": "2026-05-09-out-of-service-criteria-steering-system-defects.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-09-01T16:32:56.784519+00:00",
+          "file": "2026-05-10-fmcsas-most-cited-violations-analysis-of-the-annual-top-viol.md",
+          "status": "pending_pr",
+          "pr_number": 35
+        },
+        {
+          "timestamp": "2026-09-01T16:33:01.158469+00:00",
+          "file": "2026-05-10-out-of-service-criteria-lighting-defects-that-ground-a-vehic.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-09-01T16:33:01.804151+00:00",
+          "file": "2026-05-11-drayage-and-intermodal-operations-the-compliance-gaps-port-t.md",
+          "status": "pending_pr",
+          "pr_number": 36
+        },
+        {
+          "timestamp": "2026-09-01T16:33:31.106299+00:00",
+          "file": "2026-05-11-what-carriers-must-do-when-a-drivers-cdl-is-downgraded-mid-e.md",
+          "status": "no_change",
+          "reasoning": "The only Federal Register document provided is a **proposed rule** (doc #2026-16288, published 2026-08-10) that would codify English language proficiency as an out-of-service criterion. This is a notice-and-comment proposed rulemaking with no effective date — it is not a final rule, interim final rule, or any other binding amendment. It does not touch 49 CFR §391.11(b)(5), §391.51, §391.25, §382.701, or any other specific provision cited in the post. Even if it were final, ELP is a distinct driver qualification criterion unrelated to the CDL downgrade, Clearinghouse Phase II, medical certification, or DQF maintenance topics the post addresses. The eCFR fetch was unavailable, so no live section text could be compared, but the absence of any concrete final amendment means there is no evidenced change requiring the post to be updated. The civil penalty figure of $16,000 per violation per day and all cited CFR sections remain uncontradicted by the supplied source data."
+        }
+      ]
     }
   ]
 }
