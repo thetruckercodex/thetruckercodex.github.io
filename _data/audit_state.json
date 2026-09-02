@@ -1,5 +1,5 @@
 {
-  "cursor": 133,
+  "cursor": 138,
   "cycle": 2,
   "posts": {
     "2026-02-08-common-dot-violations-how-to-avoid.md": {
@@ -576,23 +576,23 @@
       "last_result": "no_change"
     },
     "2026-05-12-fmcsa-imminent-hazard-orders-when-a-carrier-gets-shut-down-w.md": {
-      "last_checked_date": "2026-07-28",
+      "last_checked_date": "2026-09-02",
       "last_result": "no_change"
     },
     "2026-05-12-how-post-accident-drug-testing-timelines-affect-litigation-o.md": {
-      "last_checked_date": "2026-07-28",
+      "last_checked_date": "2026-09-02",
       "last_result": "no_change"
     },
     "2026-05-13-how-fatigue-science-informs-fmcsas-hours-of-service-rule-str.md": {
-      "last_checked_date": "2026-07-29",
+      "last_checked_date": "2026-09-02",
       "last_result": "no_change"
     },
     "2026-05-13-what-fmcsas-safety-fitness-determination-rulemaking-would-ha.md": {
-      "last_checked_date": "2026-07-29",
+      "last_checked_date": "2026-09-02",
       "last_result": "no_change"
     },
     "2026-05-14-how-seasonal-and-agricultural-operations-affect-fmcsa-regist.md": {
-      "last_checked_date": "2026-07-29",
+      "last_checked_date": "2026-09-02",
       "last_result": "no_change"
     },
     "2026-05-14-the-dataqs-process-success-rates-timelines-and-what-to-expec.md": {
@@ -752,5 +752,5 @@
       "last_result": "no_change"
     }
   },
-  "updated_at": "2026-09-01T16:33:31.106330+00:00"
+  "updated_at": "2026-09-02T16:31:03.747114+00:00"
 }
