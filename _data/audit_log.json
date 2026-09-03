@@ -2375,6 +2375,46 @@
           "reasoning": "No source signal found since last check."
         }
       ]
+    },
+    {
+      "run_date": "2026-09-03T16:22:22.042993+00:00",
+      "entries": [
+        {
+          "timestamp": "2026-09-03T16:20:33.874553+00:00",
+          "file": "2026-05-14-the-dataqs-process-success-rates-timelines-and-what-to-expec.md",
+          "status": "no_change",
+          "reasoning": "The Federal Register document cited (doc #2026-16288, published 2026-08-10) is a **proposed rule**, not a final or interim final rule — it carries no effective date and has not amended any CFR text. It proposes to codify English Language Proficiency as an out-of-service violation under 49 CFR Part 390, but the post does not make any claims about ELP requirements, OOS criteria, or the specific contents of § 390.3 that would be contradicted or rendered incomplete by this proposal. The post's one reference to 49 CFR Part 390.3 is a parenthetical example illustrating regulatory applicability errors as a DataQs challenge ground (\"intrastate exemptions, weight thresholds under 49 CFR Part 390.3\"), which is a general procedural/scope point unaffected by the proposed ELP rulemaking. Because the document is merely a proposed rule with no concrete amendment to existing CFR text, and because its subject matter (ELP/OOS criteria) does not intersect with any specific factual claim made in the post, no material update is warranted."
+        },
+        {
+          "timestamp": "2026-09-03T16:20:34.649491+00:00",
+          "file": "2026-05-16-out-of-service-criteria-coupling-devices-and-fifth-wheel.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-09-03T16:20:39.658048+00:00",
+          "file": "2026-05-17-cargo-securement-rules-tie-down-requirements-and-blocking.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-09-03T16:22:02.044201+00:00",
+          "file": "2026-05-23-hazardous-materials-shipping-papers-what-must-be-on-the-docu.md",
+          "status": "updated",
+          "pr_url": "https://github.com/thetruckercodex/thetruckercodex.github.io/pull/42",
+          "change_summary": "Two final PHMSA rules effective 2026-09-03 materially affect the post: (1) doc #2026-15820 creates a new exception from shipping paper requirements for empty IBCs containing only hazardous material residue, and (2) doc #2026-15808 allows electronic copies of emergency response information in lieu of hard-copy paper, updating the accessibility/retention discussion.",
+          "sources": [
+            "https://www.federalregister.gov/documents/2026/08/04/2026-15820/hazardous-materials-adoption-of-department-of-transportation-special-permit-21478",
+            "https://www.federalregister.gov/documents/2026/08/04/2026-15808/hazardous-materials-reducing-undue-paperwork-burdens-to-domestic-carriers"
+          ]
+        },
+        {
+          "timestamp": "2026-09-03T16:22:22.037455+00:00",
+          "file": "2026-05-24-hazmat-placarding-when-its-required-and-which-placard-to-use.md",
+          "status": "no_change",
+          "reasoning": "Of the six Federal Register final rules published since 2026-07-30 that amend 49 CFR Part 172 or related hazmat parts, none alters any regulatory claim made in the post. Doc #2026-15820 creates a new exception allowing empty IBCs with hazmat residue to move without placards, but the post makes no assertion that such containers require placards, so nothing in the post is rendered inaccurate. Doc #2026-15805 addresses reduced-size *markings* for limited quantities, which is distinct from the *placarding* requirements the post covers. Docs #2026-15814 and #2026-15809 address farmer training thresholds and the CERCLA hazardous substances list, respectively — neither touches placarding tables, thresholds, or applicability rules. Doc #2026-15808 concerns electronic emergency response information, and doc #2026-16111 concerns fireworks certification — both are wholly outside the scope of the post's claims. The eCFR fetch was unavailable, and under the conservative standard, absence of confirmatory text is not grounds to infer a change. No concrete amendment to §172.500, §172.504, §172.516, §171.8, or the penalty figures cited is evidenced in the supplied source data."
+        }
+      ]
     }
   ]
 }

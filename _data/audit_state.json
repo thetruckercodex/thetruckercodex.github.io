@@ -1,5 +1,5 @@
 {
-  "cursor": 138,
+  "cursor": 143,
   "cycle": 2,
   "posts": {
     "2026-02-08-common-dot-violations-how-to-avoid.md": {
@@ -596,23 +596,24 @@
       "last_result": "no_change"
     },
     "2026-05-14-the-dataqs-process-success-rates-timelines-and-what-to-expec.md": {
-      "last_checked_date": "2026-07-29",
+      "last_checked_date": "2026-09-03",
       "last_result": "no_change"
     },
     "2026-05-16-out-of-service-criteria-coupling-devices-and-fifth-wheel.md": {
-      "last_checked_date": "2026-07-29",
+      "last_checked_date": "2026-09-03",
       "last_result": "no_change"
     },
     "2026-05-17-cargo-securement-rules-tie-down-requirements-and-blocking.md": {
-      "last_checked_date": "2026-07-30",
+      "last_checked_date": "2026-09-03",
       "last_result": "no_change"
     },
     "2026-05-23-hazardous-materials-shipping-papers-what-must-be-on-the-docu.md": {
-      "last_checked_date": "2026-07-30",
-      "last_result": "no_change"
+      "last_checked_date": "2026-09-03",
+      "last_result": "updated",
+      "open_pr_number": 42
     },
     "2026-05-24-hazmat-placarding-when-its-required-and-which-placard-to-use.md": {
-      "last_checked_date": "2026-07-30",
+      "last_checked_date": "2026-09-03",
       "last_result": "no_change"
     },
     "2026-07-03-brake-safety-week-and-operation-airbrake-how-the-unannounced.md": {
@@ -752,5 +753,5 @@
       "last_result": "no_change"
     }
   },
-  "updated_at": "2026-09-02T16:31:03.747114+00:00"
+  "updated_at": "2026-09-03T16:22:22.037486+00:00"
 }
