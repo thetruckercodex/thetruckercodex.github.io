@@ -2,6 +2,7 @@
 layout: post
 title: "Hazardous Materials Shipping Papers: What Must Be on the Document"
 date: 2026-05-23
+last_modified_at: 2026-09-03
 categories: fmcsa-basics
 description: "Comprehensive analysis of Hazardous Materials Shipping Papers: What Must Be on the Document under 49 CFR Part 172. Regulatory requirements, enforcement consequences, and compliance guidance for motor carriers."
 ---
@@ -17,6 +18,8 @@ The regulation applies to all modes but carries particular enforcement weight in
 ### Exceptions That Do Not Eliminate the Paper Trail
 
 §172.200(b) carves out limited exceptions, including materials in limited quantities under §173.13 and certain agricultural materials. However, the exception does not eliminate documentation obligations wholesale — it shifts them. Carriers relying on quantity-based exceptions must still ensure that the underlying quantity determinations are accurate and defensible under inspection. Misapplying an exception is itself a violation.
+
+**New exception effective September 3, 2026 — empty IBCs with residue only:** A final PHMSA rule (FR doc #2026-15820, effective 2026-09-03) adopts the provisions of DOT Special Permit 21478, allowing empty intermediate bulk containers (IBCs) that contain only the residue of a hazardous material to be transported **without** shipping papers, placards, and UN identification numbers. Carriers and shippers moving empty IBCs in this condition should confirm they qualify under the adopted special permit provisions before relying on this exception, as any IBC that does not meet the qualifying criteria remains subject to full Subpart C requirements.
 
 ## Core Hazmat Shipping Papers Requirements Under §172.202 and §172.203
 
@@ -55,6 +58,10 @@ While §172.200 governs content, the companion regulation at 49 CFR §177.817 go
 
 This placement rule is independently enforceable. A technically complete shipping paper stored in a sleeper berth or behind a seat during transport is still a violation. Inspectors routinely cite carriers under §177.817 even when the content of the document itself is compliant.
 
+### Electronic Emergency Response Information Now Permitted
+
+A final PHMSA rule (FR doc #2026-15808, effective 2026-09-03) amends the HMR to provide domestic carriers and facility operators the **option to maintain electronic copies of emergency response information** rather than requiring a hard copy printed on paper. This is a meaningful operational change: carriers who previously maintained binder-based emergency response packages may now satisfy that obligation through approved electronic means. Note that this rule addresses emergency response *information* records — it does not eliminate or modify the §177.817 shipping paper placement requirements for the shipping paper itself during transport. Carriers adopting electronic emergency response records should confirm that the electronic format is accessible and functional at all times consistent with HMR requirements.
+
 ### Retention After Delivery
 
 §172.201(e) requires carriers to retain a copy or electronic image of the shipping paper for 375 days after the date the hazardous material is accepted. Shippers must retain their copy for the same period. This retention obligation intersects with broader recordkeeping compliance frameworks — building systematic retention practices into a compliance calendar is the most defensible approach, as detailed in our post on [building a DOT compliance calendar for weekly, monthly, and annual tasks](https://blog.thetruckercodex.com/building-a-dot-compliance-calendar-weekly-monthly-and-annual/).
@@ -84,8 +91,12 @@ Proactive compliance professionals will update their shipping paper templates be
 | 49 CFR §172.204 | Shipper's certification |
 | 49 CFR §177.817 | Shipping papers — accessibility and placement during transport |
 | 49 U.S.C. §5123 | Civil penalties for HMR violations |
+| FR doc #2026-15820 (eff. 2026-09-03) | Exception from shipping papers for empty IBCs with hazmat residue only |
+| FR doc #2026-15808 (eff. 2026-09-03) | Electronic copies of emergency response information now permitted |
 
 For carriers organizing hazmat paperwork, the <a href="https://www.etsy.com/listing/4472088821/hazmat-trucking-forms-system-dot" target="_blank">Hazmat Trucking Forms System</a> provides structured templates for shipping papers, placard references, and training records.
 
 ---
 *Regulatory references verified against current eCFR and FMCSA official sources. Verify applicability for your specific operation. This post does not constitute legal advice.*
+
+*Last verified against Federal Register on 2026-09-03; updated to reflect FR doc #2026-15820 (empty IBC residue shipping paper exception, effective 2026-09-03) and FR doc #2026-15808 (electronic emergency response information option, effective 2026-09-03).*
