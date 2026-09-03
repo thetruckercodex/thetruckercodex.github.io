@@ -55,6 +55,14 @@
   "next_product_index": 25,
   "educational": [
     {
+      "id": "E169",
+      "url": "https://blog.thetruckercodex.com/factoring-companies-and-their-true-cost-to-your-bottom-line/",
+      "title": "Factoring Companies and Their True Cost to Your Bottom Line",
+      "category": "business-management",
+      "date": "2026-09-03",
+      "used": false
+    },
+    {
       "id": "E168",
       "url": "https://blog.thetruckercodex.com/break-even-rate-per-mile-where-fixed-and-variable-costs-meet/",
       "title": "Break-Even Rate Per Mile: Where Fixed and Variable Costs Meet",
