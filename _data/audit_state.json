@@ -1,5 +1,5 @@
 {
-  "cursor": 143,
+  "cursor": 148,
   "cycle": 2,
   "posts": {
     "2026-02-08-common-dot-violations-how-to-avoid.md": {
@@ -617,23 +617,24 @@
       "last_result": "no_change"
     },
     "2026-07-03-brake-safety-week-and-operation-airbrake-how-the-unannounced.md": {
-      "last_checked_date": "2026-07-30",
+      "last_checked_date": "2026-09-04",
       "last_result": "no_change"
     },
     "2026-07-03-insurance-minimums-what-carriers-must-maintain-by-operation.md": {
-      "last_checked_date": "2026-07-30",
+      "last_checked_date": "2026-09-04",
       "last_result": "no_change"
     },
     "2026-07-05-operating-authority-mc-number-ucr-registration-and-usdot-num.md": {
-      "last_checked_date": "2026-07-31",
+      "last_checked_date": "2026-09-04",
       "last_result": "no_change"
     },
     "2026-07-08-unified-carrier-registration-annual-filing-requirements-and.md": {
-      "last_checked_date": "2026-07-31",
-      "last_result": "no_change"
+      "last_checked_date": "2026-09-04",
+      "last_result": "updated",
+      "open_pr_number": 43
     },
     "2026-07-09-the-18-month-new-entrant-monitoring-period-what-happens-afte.md": {
-      "last_checked_date": "2026-07-31",
+      "last_checked_date": "2026-09-04",
       "last_result": "no_change"
     },
     "2026-07-10-ifta-and-irp-audits-vs-fmcsa-safety-audits-why-carriers-conf.md": {
@@ -753,5 +754,5 @@
       "last_result": "no_change"
     }
   },
-  "updated_at": "2026-09-03T16:22:22.037486+00:00"
+  "updated_at": "2026-09-04T16:17:26.101900+00:00"
 }

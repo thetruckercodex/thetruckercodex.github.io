@@ -2415,6 +2415,45 @@
           "reasoning": "Of the six Federal Register final rules published since 2026-07-30 that amend 49 CFR Part 172 or related hazmat parts, none alters any regulatory claim made in the post. Doc #2026-15820 creates a new exception allowing empty IBCs with hazmat residue to move without placards, but the post makes no assertion that such containers require placards, so nothing in the post is rendered inaccurate. Doc #2026-15805 addresses reduced-size *markings* for limited quantities, which is distinct from the *placarding* requirements the post covers. Docs #2026-15814 and #2026-15809 address farmer training thresholds and the CERCLA hazardous substances list, respectively — neither touches placarding tables, thresholds, or applicability rules. Doc #2026-15808 concerns electronic emergency response information, and doc #2026-16111 concerns fireworks certification — both are wholly outside the scope of the post's claims. The eCFR fetch was unavailable, and under the conservative standard, absence of confirmatory text is not grounds to infer a change. No concrete amendment to §172.500, §172.504, §172.516, §171.8, or the penalty figures cited is evidenced in the supplied source data."
         }
       ]
+    },
+    {
+      "run_date": "2026-09-04T16:17:26.103719+00:00",
+      "entries": [
+        {
+          "timestamp": "2026-09-04T16:16:14.628545+00:00",
+          "file": "2026-07-03-brake-safety-week-and-operation-airbrake-how-the-unannounced.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-09-04T16:16:15.355355+00:00",
+          "file": "2026-07-03-insurance-minimums-what-carriers-must-maintain-by-operation.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-09-04T16:16:19.642408+00:00",
+          "file": "2026-07-05-operating-authority-mc-number-ucr-registration-and-usdot-num.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-09-04T16:17:25.358463+00:00",
+          "file": "2026-07-08-unified-carrier-registration-annual-filing-requirements-and.md",
+          "status": "updated",
+          "pr_url": "https://github.com/thetruckercodex/thetruckercodex.github.io/pull/43",
+          "change_summary": "Adds notice of FMCSA final rule (FR doc #2026-17893, effective 2026-10-01) amending 49 CFR Part 367 to increase UCR registration fees for the 2027 registration year and subsequent years, as recommended by the UCR Board on September 18, 2025. Updates the Regulatory Reference table and compliance guidance accordingly.",
+          "sources": [
+            "https://www.federalregister.gov/documents/2026/09/01/2026-17893/fees-for-the-unified-carrier-registration-plan-and-agreement"
+          ]
+        },
+        {
+          "timestamp": "2026-09-04T16:17:26.101869+00:00",
+          "file": "2026-07-09-the-18-month-new-entrant-monitoring-period-what-happens-afte.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        }
+      ]
     }
   ]
 }
