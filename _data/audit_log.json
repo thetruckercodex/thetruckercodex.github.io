@@ -2454,6 +2454,41 @@
           "reasoning": "No source signal found since last check."
         }
       ]
+    },
+    {
+      "run_date": "2026-09-05T15:06:08.221660+00:00",
+      "entries": [
+        {
+          "timestamp": "2026-09-05T15:05:53.048577+00:00",
+          "file": "2026-07-10-ifta-and-irp-audits-vs-fmcsa-safety-audits-why-carriers-conf.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-09-05T15:05:58.041001+00:00",
+          "file": "2026-07-11-federal-weight-limits-and-the-bridge-formula-what-carriers-m.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-09-05T15:05:58.236731+00:00",
+          "file": "2026-07-11-household-goods-carriers-the-consumer-protection-rules-that.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-09-05T15:06:03.207217+00:00",
+          "file": "2026-07-12-fmcsa-safety-measurement-system-how-your-csa-score-is-calcul.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-09-05T15:06:08.219591+00:00",
+          "file": "2026-07-12-split-sleeper-berth-data-how-the-2020-hos-flexibility-rule-a.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        }
+      ]
     }
   ]
 }

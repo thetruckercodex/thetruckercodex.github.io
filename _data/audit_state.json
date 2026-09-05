@@ -1,5 +1,5 @@
 {
-  "cursor": 148,
+  "cursor": 153,
   "cycle": 2,
   "posts": {
     "2026-02-08-common-dot-violations-how-to-avoid.md": {
@@ -638,23 +638,23 @@
       "last_result": "no_change"
     },
     "2026-07-10-ifta-and-irp-audits-vs-fmcsa-safety-audits-why-carriers-conf.md": {
-      "last_checked_date": "2026-07-31",
+      "last_checked_date": "2026-09-05",
       "last_result": "no_change"
     },
     "2026-07-11-federal-weight-limits-and-the-bridge-formula-what-carriers-m.md": {
-      "last_checked_date": "2026-07-31",
+      "last_checked_date": "2026-09-05",
       "last_result": "no_change"
     },
     "2026-07-11-household-goods-carriers-the-consumer-protection-rules-that.md": {
-      "last_checked_date": "2026-08-01",
+      "last_checked_date": "2026-09-05",
       "last_result": "no_change"
     },
     "2026-07-12-fmcsa-safety-measurement-system-how-your-csa-score-is-calcul.md": {
-      "last_checked_date": "2026-08-01",
+      "last_checked_date": "2026-09-05",
       "last_result": "no_change"
     },
     "2026-07-12-split-sleeper-berth-data-how-the-2020-hos-flexibility-rule-a.md": {
-      "last_checked_date": "2026-08-01",
+      "last_checked_date": "2026-09-05",
       "last_result": "no_change"
     },
     "2026-07-13-basics-explained-what-each-safety-measurement-category-actua.md": {
@@ -754,5 +754,5 @@
       "last_result": "no_change"
     }
   },
-  "updated_at": "2026-09-04T16:17:26.101900+00:00"
+  "updated_at": "2026-09-05T15:06:08.219611+00:00"
 }
