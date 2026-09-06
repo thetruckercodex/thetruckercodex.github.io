@@ -2489,6 +2489,41 @@
           "reasoning": "No source signal found since last check."
         }
       ]
+    },
+    {
+      "run_date": "2026-09-06T15:23:38.765545+00:00",
+      "entries": [
+        {
+          "timestamp": "2026-09-06T15:23:28.028429+00:00",
+          "file": "2026-07-13-basics-explained-what-each-safety-measurement-category-actua.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-09-06T15:23:28.378803+00:00",
+          "file": "2026-07-13-eld-malfunction-codes-vs-data-diagnostic-events-why-carriers.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-09-06T15:23:33.408790+00:00",
+          "file": "2026-07-14-fmcsa-intervention-thresholds-when-your-sms-percentile-trigg.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-09-06T15:23:33.766113+00:00",
+          "file": "2026-07-14-tank-truck-rollover-data-why-liquid-cargo-loads-get-differen.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-09-06T15:23:38.763928+00:00",
+          "file": "2026-07-15-longer-combination-vehicles-why-doubles-and-triples-face-str.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        }
+      ]
     }
   ]
 }
