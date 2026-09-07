@@ -2524,6 +2524,41 @@
           "reasoning": "No source signal found since last check."
         }
       ]
+    },
+    {
+      "run_date": "2026-09-07T17:43:30.032231+00:00",
+      "entries": [
+        {
+          "timestamp": "2026-09-07T17:43:17.498390+00:00",
+          "file": "2026-07-15-new-entrant-program-the-18-month-monitoring-period-requireme.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-09-07T17:43:23.785903+00:00",
+          "file": "2026-07-16-how-a-dot-number-gets-deactivated-for-inactivity-and-what-re.md",
+          "status": "no_change",
+          "reasoning": "The only Federal Register document provided (doc #2026-16288, published 2026-08-10) is a proposed rule concerning English Language Proficiency out-of-service criteria under the FMCSR — it is not a final or interim final rule, it carries no effective date, and its subject matter (ELP driver qualification as an OOS violation) is entirely unrelated to the post's regulatory claims about MCS-150 biennial filing requirements under 49 CFR § 390.19, USDOT number deactivation mechanics, or the operating authority reinstatement procedures under 49 CFR Part 365. The eCFR fetch is also unavailable, providing no additional source data to evaluate. There is no concrete, specific amendment to any regulation discussed in the post evidenced by the supplied source materials."
+        },
+        {
+          "timestamp": "2026-09-07T17:43:24.419248+00:00",
+          "file": "2026-07-16-leased-driver-regulations-carrier-vs-driver-obligations-unde.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-09-07T17:43:25.038133+00:00",
+          "file": "2026-07-17-broker-carrier-agreements-the-compliance-clauses-that-create.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        },
+        {
+          "timestamp": "2026-09-07T17:43:30.030282+00:00",
+          "file": "2026-07-17-team-driver-hos-rules-how-split-driving-periods-apply.md",
+          "status": "no_change",
+          "reasoning": "No source signal found since last check."
+        }
+      ]
     }
   ]
 }

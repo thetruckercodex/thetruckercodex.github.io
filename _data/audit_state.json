@@ -1,5 +1,5 @@
 {
-  "cursor": 158,
+  "cursor": 163,
   "cycle": 2,
   "posts": {
     "2026-02-08-common-dot-violations-how-to-avoid.md": {
@@ -678,23 +678,23 @@
       "last_result": "no_change"
     },
     "2026-07-15-new-entrant-program-the-18-month-monitoring-period-requireme.md": {
-      "last_checked_date": "2026-08-02",
+      "last_checked_date": "2026-09-07",
       "last_result": "no_change"
     },
     "2026-07-16-how-a-dot-number-gets-deactivated-for-inactivity-and-what-re.md": {
-      "last_checked_date": "2026-08-02",
+      "last_checked_date": "2026-09-07",
       "last_result": "no_change"
     },
     "2026-07-16-leased-driver-regulations-carrier-vs-driver-obligations-unde.md": {
-      "last_checked_date": "2026-08-03",
+      "last_checked_date": "2026-09-07",
       "last_result": "no_change"
     },
     "2026-07-17-broker-carrier-agreements-the-compliance-clauses-that-create.md": {
-      "last_checked_date": "2026-08-03",
+      "last_checked_date": "2026-09-07",
       "last_result": "no_change"
     },
     "2026-07-17-team-driver-hos-rules-how-split-driving-periods-apply.md": {
-      "last_checked_date": "2026-08-03",
+      "last_checked_date": "2026-09-07",
       "last_result": "no_change"
     },
     "2026-07-18-agricultural-exemptions-which-operations-are-exempt-from-hos.md": {
@@ -754,5 +754,5 @@
       "last_result": "no_change"
     }
   },
-  "updated_at": "2026-09-06T15:23:38.763951+00:00"
+  "updated_at": "2026-09-07T17:43:30.030304+00:00"
 }
