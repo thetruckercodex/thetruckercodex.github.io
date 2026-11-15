@@ -2559,6 +2559,91 @@
           "reasoning": "No source signal found since last check."
         }
       ]
+    },
+    {
+      "run_date": "2026-11-15T18:45:27.134707+00:00",
+      "entries": [
+        {
+          "timestamp": "2026-11-15T18:45:26.868587+00:00",
+          "file": "2026-07-18-agricultural-exemptions-which-operations-are-exempt-from-hos.md",
+          "status": "insufficient_data",
+          "cfr_refs": [
+            {
+              "cfr_title": "49",
+              "cfr_part": "395",
+              "cfr_section": "1"
+            },
+            {
+              "cfr_title": "49",
+              "cfr_part": "386",
+              "cfr_section": null
+            }
+          ]
+        },
+        {
+          "timestamp": "2026-11-15T18:45:26.914598+00:00",
+          "file": "2026-07-18-how-csas-basic-percentile-thresholds-differ-by-vehicle-type.md",
+          "status": "insufficient_data",
+          "cfr_refs": [
+            {
+              "cfr_title": "49",
+              "cfr_part": "172",
+              "cfr_section": null
+            },
+            {
+              "cfr_title": "49",
+              "cfr_part": "173",
+              "cfr_section": null
+            }
+          ]
+        },
+        {
+          "timestamp": "2026-11-15T18:45:26.978012+00:00",
+          "file": "2026-07-19-random-drug-and-alcohol-testing-rates-why-fmcsa-raises-or-lo.md",
+          "status": "insufficient_data",
+          "cfr_refs": [
+            {
+              "cfr_title": "49",
+              "cfr_part": "382",
+              "cfr_section": "305"
+            },
+            {
+              "cfr_title": "49",
+              "cfr_part": "40",
+              "cfr_section": "261"
+            }
+          ]
+        },
+        {
+          "timestamp": "2026-11-15T18:45:27.050873+00:00",
+          "file": "2026-07-20-consortium-and-third-party-administrator-requirements-for-sm.md",
+          "status": "insufficient_data",
+          "cfr_refs": [
+            {
+              "cfr_title": "49",
+              "cfr_part": "382",
+              "cfr_section": "305"
+            },
+            {
+              "cfr_title": "49",
+              "cfr_part": "376",
+              "cfr_section": null
+            }
+          ]
+        },
+        {
+          "timestamp": "2026-11-15T18:45:27.132974+00:00",
+          "file": "2026-07-20-eld-technical-specifications-what-makes-a-device-compliant.md",
+          "status": "insufficient_data",
+          "cfr_refs": [
+            {
+              "cfr_title": "49",
+              "cfr_part": "395",
+              "cfr_section": "20"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
